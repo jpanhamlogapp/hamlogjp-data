@@ -1,13 +1,388 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
+  {
+   "code": "18001",
+   "kind": "JCG",
+   "city": "安倍郡",
+   "pref": "静岡県",
+   "yomi": "abe",
+   "validUntil": "1968-12-31"
+  },
+  {
+   "code": "18002",
+   "kind": "JCG",
+   "city": "引佐郡",
+   "pref": "静岡県",
+   "yomi": "inasa",
+   "validUntil": "2005-06-30"
+  },
+  {
+   "code": "18003",
+   "kind": "JCG",
+   "city": "庵原郡",
+   "pref": "静岡県",
+   "yomi": "ihara",
+   "validUntil": "2008-10-31"
+  },
+  {
+   "code": "18004",
+   "kind": "JCG",
+   "city": "磐田郡",
+   "pref": "静岡県",
+   "yomi": "iwata",
+   "validUntil": "2005-06-30"
+  },
+  {
+   "code": "18005",
+   "kind": "JCG",
+   "city": "小笠郡",
+   "pref": "静岡県",
+   "yomi": "ogasa",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "18006",
+   "kind": "JCG",
+   "city": "賀茂郡",
+   "pref": "静岡県",
+   "yomi": "kamo"
+  },
+  {
+   "code": "18007",
+   "kind": "JCG",
+   "city": "志太郡",
+   "pref": "静岡県",
+   "yomi": "shida",
+   "validUntil": "2008-12-31"
+  },
+  {
+   "code": "18008",
+   "kind": "JCG",
+   "city": "周智郡",
+   "pref": "静岡県",
+   "yomi": "shuchi"
+  },
+  {
+   "code": "18009",
+   "kind": "JCG",
+   "city": "駿東郡",
+   "pref": "静岡県",
+   "yomi": "sunto"
+  },
   {
    "code": "1801",
    "kind": "JCC",
    "city": "静岡市",
    "pref": "静岡県",
-   "yomi": "しずおか"
+   "yomi": "shizuoka"
+  },
+  {
+   "code": "18010",
+   "kind": "JCG",
+   "city": "田方郡",
+   "pref": "静岡県",
+   "yomi": "tagata"
+  },
+  {
+   "code": "180101",
+   "kind": "JCC",
+   "city": "葵区",
+   "pref": "静岡県",
+   "yomi": "aoi"
+  },
+  {
+   "code": "180102",
+   "kind": "JCC",
+   "city": "駿河区",
+   "pref": "静岡県",
+   "yomi": "suruga"
+  },
+  {
+   "code": "180103",
+   "kind": "JCC",
+   "city": "清水区",
+   "pref": "静岡県",
+   "yomi": "shimizu"
+  },
+  {
+   "code": "18011",
+   "kind": "JCG",
+   "city": "榛原郡",
+   "pref": "静岡県",
+   "yomi": "haibara"
+  },
+  {
+   "code": "18012",
+   "kind": "JCG",
+   "city": "浜名郡",
+   "pref": "静岡県",
+   "yomi": "hamana",
+   "validUntil": "2010-03-22"
+  },
+  {
+   "code": "18013",
+   "kind": "JCG",
+   "city": "富士郡",
+   "pref": "静岡県",
+   "yomi": "fuji",
+   "validUntil": "2010-03-22"
+  },
+  {
+   "code": "1802",
+   "kind": "JCC",
+   "city": "浜松市",
+   "pref": "静岡県",
+   "yomi": "hamamatsu"
+  },
+  {
+   "code": "180201",
+   "kind": "JCC",
+   "city": "中区",
+   "pref": "静岡県",
+   "yomi": "naka",
+   "validUntil": "2023-12-31"
+  },
+  {
+   "code": "180202",
+   "kind": "JCC",
+   "city": "東区",
+   "pref": "静岡県",
+   "yomi": "higashi",
+   "validUntil": "2023-12-31"
+  },
+  {
+   "code": "180203",
+   "kind": "JCC",
+   "city": "西区",
+   "pref": "静岡県",
+   "yomi": "nishi",
+   "validUntil": "2023-12-31"
+  },
+  {
+   "code": "180204",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "静岡県",
+   "yomi": "minami",
+   "validUntil": "2023-12-31"
+  },
+  {
+   "code": "180205",
+   "kind": "JCC",
+   "city": "北区",
+   "pref": "静岡県",
+   "yomi": "kita",
+   "validUntil": "2023-12-31"
+  },
+  {
+   "code": "180206",
+   "kind": "JCC",
+   "city": "浜北区",
+   "pref": "静岡県",
+   "yomi": "hamakita",
+   "validUntil": "2023-12-31"
+  },
+  {
+   "code": "180207",
+   "kind": "JCC",
+   "city": "天竜区",
+   "pref": "静岡県",
+   "yomi": "tenryu"
+  },
+  {
+   "code": "180208",
+   "kind": "JCC",
+   "city": "中央区",
+   "pref": "静岡県",
+   "yomi": "chuo"
+  },
+  {
+   "code": "180209",
+   "kind": "JCC",
+   "city": "浜名区",
+   "pref": "静岡県",
+   "yomi": "hamana"
+  },
+  {
+   "code": "1803",
+   "kind": "JCC",
+   "city": "沼津市",
+   "pref": "静岡県",
+   "yomi": "numazu"
+  },
+  {
+   "code": "1804",
+   "kind": "JCC",
+   "city": "清水市",
+   "pref": "静岡県",
+   "yomi": "shimizu",
+   "validUntil": "2003-03-31"
+  },
+  {
+   "code": "1805",
+   "kind": "JCC",
+   "city": "熱海市",
+   "pref": "静岡県",
+   "yomi": "atami"
+  },
+  {
+   "code": "1806",
+   "kind": "JCC",
+   "city": "三島市",
+   "pref": "静岡県",
+   "yomi": "mishima"
+  },
+  {
+   "code": "1807",
+   "kind": "JCC",
+   "city": "富士宮市",
+   "pref": "静岡県",
+   "yomi": "fujinomiya"
+  },
+  {
+   "code": "1808",
+   "kind": "JCC",
+   "city": "伊東市",
+   "pref": "静岡県",
+   "yomi": "ito"
+  },
+  {
+   "code": "1809",
+   "kind": "JCC",
+   "city": "島田市",
+   "pref": "静岡県",
+   "yomi": "shimada"
+  },
+  {
+   "code": "1810",
+   "kind": "JCC",
+   "city": "吉原市",
+   "pref": "静岡県",
+   "yomi": "yoshiwara",
+   "validUntil": "1966-10-31"
+  },
+  {
+   "code": "1811",
+   "kind": "JCC",
+   "city": "磐田市",
+   "pref": "静岡県",
+   "yomi": "iwata"
+  },
+  {
+   "code": "1812",
+   "kind": "JCC",
+   "city": "焼津市",
+   "pref": "静岡県",
+   "yomi": "yaizu"
+  },
+  {
+   "code": "1813",
+   "kind": "JCC",
+   "city": "富士市",
+   "pref": "静岡県",
+   "yomi": "fuji"
+  },
+  {
+   "code": "1814",
+   "kind": "JCC",
+   "city": "掛川市",
+   "pref": "静岡県",
+   "yomi": "kakegawa"
+  },
+  {
+   "code": "1815",
+   "kind": "JCC",
+   "city": "藤枝市",
+   "pref": "静岡県",
+   "yomi": "fujieda"
+  },
+  {
+   "code": "1816",
+   "kind": "JCC",
+   "city": "御殿場市",
+   "pref": "静岡県",
+   "yomi": "gotemba"
+  },
+  {
+   "code": "1817",
+   "kind": "JCC",
+   "city": "袋井市",
+   "pref": "静岡県",
+   "yomi": "fukuroi"
+  },
+  {
+   "code": "1818",
+   "kind": "JCC",
+   "city": "天竜市",
+   "pref": "静岡県",
+   "yomi": "tenryu",
+   "validUntil": "2005-06-30"
+  },
+  {
+   "code": "1819",
+   "kind": "JCC",
+   "city": "浜北市",
+   "pref": "静岡県",
+   "yomi": "hamakita",
+   "validUntil": "2005-06-30"
+  },
+  {
+   "code": "1820",
+   "kind": "JCC",
+   "city": "下田市",
+   "pref": "静岡県",
+   "yomi": "shimoda"
+  },
+  {
+   "code": "1821",
+   "kind": "JCC",
+   "city": "裾野市",
+   "pref": "静岡県",
+   "yomi": "susono"
+  },
+  {
+   "code": "1822",
+   "kind": "JCC",
+   "city": "湖西市",
+   "pref": "静岡県",
+   "yomi": "kosai"
+  },
+  {
+   "code": "1823",
+   "kind": "JCC",
+   "city": "伊豆市",
+   "pref": "静岡県",
+   "yomi": "izu"
+  },
+  {
+   "code": "1824",
+   "kind": "JCC",
+   "city": "御前崎市",
+   "pref": "静岡県",
+   "yomi": "omaezaki"
+  },
+  {
+   "code": "1825",
+   "kind": "JCC",
+   "city": "菊川市",
+   "pref": "静岡県",
+   "yomi": "kikugawa"
+  },
+  {
+   "code": "1826",
+   "kind": "JCC",
+   "city": "伊豆の国市",
+   "pref": "静岡県",
+   "yomi": "izunokuni"
+  },
+  {
+   "code": "1827",
+   "kind": "JCC",
+   "city": "牧之原市",
+   "pref": "静岡県",
+   "yomi": "makinohara"
   }
  ]
 }

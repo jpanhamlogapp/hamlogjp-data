@@ -1,13 +1,242 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
   {
+   "code": "43001",
+   "kind": "JCG",
+   "city": "葦北郡",
+   "pref": "熊本県",
+   "yomi": "ashikita"
+  },
+  {
+   "code": "43002",
+   "kind": "JCG",
+   "city": "阿蘇郡",
+   "pref": "熊本県",
+   "yomi": "aso"
+  },
+  {
+   "code": "43003",
+   "kind": "JCG",
+   "city": "天草郡",
+   "pref": "熊本県",
+   "yomi": "amakusa"
+  },
+  {
+   "code": "43004",
+   "kind": "JCG",
+   "city": "宇土郡",
+   "pref": "熊本県",
+   "yomi": "uto",
+   "validUntil": "2005-01-14"
+  },
+  {
+   "code": "43005",
+   "kind": "JCG",
+   "city": "上益城郡",
+   "pref": "熊本県",
+   "yomi": "kamimashiki"
+  },
+  {
+   "code": "43006",
+   "kind": "JCG",
+   "city": "鹿本郡",
+   "pref": "熊本県",
+   "yomi": "kamoto",
+   "validUntil": "2010-03-22"
+  },
+  {
+   "code": "43007",
+   "kind": "JCG",
+   "city": "菊池郡",
+   "pref": "熊本県",
+   "yomi": "kikuchi"
+  },
+  {
+   "code": "43008",
+   "kind": "JCG",
+   "city": "球磨郡",
+   "pref": "熊本県",
+   "yomi": "kuma"
+  },
+  {
+   "code": "43009",
+   "kind": "JCG",
+   "city": "下益城郡",
+   "pref": "熊本県",
+   "yomi": "shimomashiki"
+  },
+  {
    "code": "4301",
    "kind": "JCC",
-   "city": "那覇市",
-   "pref": "沖縄県",
-   "yomi": "なは"
+   "city": "熊本市",
+   "pref": "熊本県",
+   "yomi": "kumamoto"
+  },
+  {
+   "code": "43010",
+   "kind": "JCG",
+   "city": "玉名郡",
+   "pref": "熊本県",
+   "yomi": "tamana"
+  },
+  {
+   "code": "430101",
+   "kind": "JCC",
+   "city": "中央区",
+   "pref": "熊本県",
+   "yomi": "chuo"
+  },
+  {
+   "code": "430102",
+   "kind": "JCC",
+   "city": "東区",
+   "pref": "熊本県",
+   "yomi": "higashi"
+  },
+  {
+   "code": "430103",
+   "kind": "JCC",
+   "city": "西区",
+   "pref": "熊本県",
+   "yomi": "nishi"
+  },
+  {
+   "code": "430104",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "熊本県",
+   "yomi": "minami"
+  },
+  {
+   "code": "430105",
+   "kind": "JCC",
+   "city": "北区",
+   "pref": "熊本県",
+   "yomi": "kita"
+  },
+  {
+   "code": "43011",
+   "kind": "JCG",
+   "city": "飽託郡",
+   "pref": "熊本県",
+   "yomi": "hotaku",
+   "validUntil": "1991-01-31"
+  },
+  {
+   "code": "43012",
+   "kind": "JCG",
+   "city": "八代郡",
+   "pref": "熊本県",
+   "yomi": "yatsushiro"
+  },
+  {
+   "code": "4302",
+   "kind": "JCC",
+   "city": "八代市",
+   "pref": "熊本県",
+   "yomi": "yatsushiro"
+  },
+  {
+   "code": "4303",
+   "kind": "JCC",
+   "city": "人吉市",
+   "pref": "熊本県",
+   "yomi": "hitoyoshi"
+  },
+  {
+   "code": "4304",
+   "kind": "JCC",
+   "city": "荒尾市",
+   "pref": "熊本県",
+   "yomi": "arao"
+  },
+  {
+   "code": "4305",
+   "kind": "JCC",
+   "city": "水俣市",
+   "pref": "熊本県",
+   "yomi": "minamata"
+  },
+  {
+   "code": "4306",
+   "kind": "JCC",
+   "city": "玉名市",
+   "pref": "熊本県",
+   "yomi": "tamana"
+  },
+  {
+   "code": "4307",
+   "kind": "JCC",
+   "city": "本渡市",
+   "pref": "熊本県",
+   "yomi": "hondo",
+   "validUntil": "2006-03-26"
+  },
+  {
+   "code": "4308",
+   "kind": "JCC",
+   "city": "山鹿市",
+   "pref": "熊本県",
+   "yomi": "yamaga"
+  },
+  {
+   "code": "4309",
+   "kind": "JCC",
+   "city": "牛深市",
+   "pref": "熊本県",
+   "yomi": "ushibuka",
+   "validUntil": "2006-03-26"
+  },
+  {
+   "code": "4310",
+   "kind": "JCC",
+   "city": "菊池市",
+   "pref": "熊本県",
+   "yomi": "kikuchi"
+  },
+  {
+   "code": "4311",
+   "kind": "JCC",
+   "city": "宇土市",
+   "pref": "熊本県",
+   "yomi": "uto"
+  },
+  {
+   "code": "4312",
+   "kind": "JCC",
+   "city": "上天草市",
+   "pref": "熊本県",
+   "yomi": "kamiamakusa"
+  },
+  {
+   "code": "4313",
+   "kind": "JCC",
+   "city": "宇城市",
+   "pref": "熊本県",
+   "yomi": "uki"
+  },
+  {
+   "code": "4314",
+   "kind": "JCC",
+   "city": "阿蘇市",
+   "pref": "熊本県",
+   "yomi": "aso"
+  },
+  {
+   "code": "4315",
+   "kind": "JCC",
+   "city": "天草市",
+   "pref": "熊本県",
+   "yomi": "amakusa"
+  },
+  {
+   "code": "4316",
+   "kind": "JCC",
+   "city": "合志市",
+   "pref": "熊本県",
+   "yomi": "koshi"
   }
  ]
 }

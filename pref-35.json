@@ -1,13 +1,299 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
+  {
+   "code": "35001",
+   "kind": "JCG",
+   "city": "安芸郡",
+   "pref": "広島県",
+   "yomi": "aki"
+  },
+  {
+   "code": "35002",
+   "kind": "JCG",
+   "city": "安佐郡",
+   "pref": "広島県",
+   "yomi": "asa",
+   "validUntil": "1973-03-19"
+  },
+  {
+   "code": "35003",
+   "kind": "JCG",
+   "city": "芦品郡",
+   "pref": "広島県",
+   "yomi": "ashina",
+   "validUntil": "2003-02-02"
+  },
+  {
+   "code": "35004",
+   "kind": "JCG",
+   "city": "賀茂郡",
+   "pref": "広島県",
+   "yomi": "kamo",
+   "validUntil": "2005-03-21"
+  },
+  {
+   "code": "35005",
+   "kind": "JCG",
+   "city": "甲奴郡",
+   "pref": "広島県",
+   "yomi": "konu",
+   "validUntil": "2005-03-30"
+  },
+  {
+   "code": "35006",
+   "kind": "JCG",
+   "city": "佐伯郡",
+   "pref": "広島県",
+   "yomi": "saeki",
+   "validUntil": "2005-11-02"
+  },
+  {
+   "code": "35007",
+   "kind": "JCG",
+   "city": "神石郡",
+   "pref": "広島県",
+   "yomi": "jinseki"
+  },
+  {
+   "code": "35008",
+   "kind": "JCG",
+   "city": "世羅郡",
+   "pref": "広島県",
+   "yomi": "sera"
+  },
+  {
+   "code": "35009",
+   "kind": "JCG",
+   "city": "高田郡",
+   "pref": "広島県",
+   "yomi": "takata",
+   "validUntil": "2004-02-29"
+  },
   {
    "code": "3501",
    "kind": "JCC",
    "city": "広島市",
    "pref": "広島県",
-   "yomi": "ひろしま"
+   "yomi": "hiroshima"
+  },
+  {
+   "code": "35010",
+   "kind": "JCG",
+   "city": "豊田郡",
+   "pref": "広島県",
+   "yomi": "toyota"
+  },
+  {
+   "code": "350101",
+   "kind": "JCC",
+   "city": "中区",
+   "pref": "広島県",
+   "yomi": "naka"
+  },
+  {
+   "code": "350102",
+   "kind": "JCC",
+   "city": "東区",
+   "pref": "広島県",
+   "yomi": "higashi"
+  },
+  {
+   "code": "350103",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "広島県",
+   "yomi": "minami"
+  },
+  {
+   "code": "350104",
+   "kind": "JCC",
+   "city": "西区",
+   "pref": "広島県",
+   "yomi": "nishi"
+  },
+  {
+   "code": "350105",
+   "kind": "JCC",
+   "city": "安佐南区",
+   "pref": "広島県",
+   "yomi": "asaminami"
+  },
+  {
+   "code": "350106",
+   "kind": "JCC",
+   "city": "安佐北区",
+   "pref": "広島県",
+   "yomi": "asakita"
+  },
+  {
+   "code": "350107",
+   "kind": "JCC",
+   "city": "安芸区",
+   "pref": "広島県",
+   "yomi": "aki"
+  },
+  {
+   "code": "350108",
+   "kind": "JCC",
+   "city": "佐伯区",
+   "pref": "広島県",
+   "yomi": "saeki"
+  },
+  {
+   "code": "35011",
+   "kind": "JCG",
+   "city": "沼隈郡",
+   "pref": "広島県",
+   "yomi": "numakuma",
+   "validUntil": "2005-01-31"
+  },
+  {
+   "code": "35012",
+   "kind": "JCG",
+   "city": "比婆郡",
+   "pref": "広島県",
+   "yomi": "hiba",
+   "validUntil": "2005-03-30"
+  },
+  {
+   "code": "35013",
+   "kind": "JCG",
+   "city": "深安郡",
+   "pref": "広島県",
+   "yomi": "fukayasu",
+   "validUntil": "2006-02-28"
+  },
+  {
+   "code": "35014",
+   "kind": "JCG",
+   "city": "双三郡",
+   "pref": "広島県",
+   "yomi": "futami",
+   "validUntil": "2004-03-31"
+  },
+  {
+   "code": "35015",
+   "kind": "JCG",
+   "city": "御調郡",
+   "pref": "広島県",
+   "yomi": "mitsugi",
+   "validUntil": "2005-03-27"
+  },
+  {
+   "code": "35016",
+   "kind": "JCG",
+   "city": "山県郡",
+   "pref": "広島県",
+   "yomi": "yamagata"
+  },
+  {
+   "code": "3502",
+   "kind": "JCC",
+   "city": "呉市",
+   "pref": "広島県",
+   "yomi": "kure"
+  },
+  {
+   "code": "3503",
+   "kind": "JCC",
+   "city": "竹原市",
+   "pref": "広島県",
+   "yomi": "takehara"
+  },
+  {
+   "code": "3504",
+   "kind": "JCC",
+   "city": "三原市",
+   "pref": "広島県",
+   "yomi": "mihara"
+  },
+  {
+   "code": "3505",
+   "kind": "JCC",
+   "city": "尾道市",
+   "pref": "広島県",
+   "yomi": "onomichi"
+  },
+  {
+   "code": "3506",
+   "kind": "JCC",
+   "city": "因島市",
+   "pref": "広島県",
+   "yomi": "innoshima",
+   "validUntil": "2006-01-09"
+  },
+  {
+   "code": "3507",
+   "kind": "JCC",
+   "city": "松永市",
+   "pref": "広島県",
+   "yomi": "matsunaga",
+   "validUntil": "1966-04-30"
+  },
+  {
+   "code": "3508",
+   "kind": "JCC",
+   "city": "福山市",
+   "pref": "広島県",
+   "yomi": "fukuyama"
+  },
+  {
+   "code": "3509",
+   "kind": "JCC",
+   "city": "府中市",
+   "pref": "広島県",
+   "yomi": "fuchu"
+  },
+  {
+   "code": "3510",
+   "kind": "JCC",
+   "city": "三次市",
+   "pref": "広島県",
+   "yomi": "miyoshi"
+  },
+  {
+   "code": "3511",
+   "kind": "JCC",
+   "city": "庄原市",
+   "pref": "広島県",
+   "yomi": "syoubara"
+  },
+  {
+   "code": "3512",
+   "kind": "JCC",
+   "city": "大竹市",
+   "pref": "広島県",
+   "yomi": "otake"
+  },
+  {
+   "code": "3513",
+   "kind": "JCC",
+   "city": "東広島市",
+   "pref": "広島県",
+   "yomi": "higashihiroshima"
+  },
+  {
+   "code": "3514",
+   "kind": "JCC",
+   "city": "廿日市",
+   "pref": "広島県",
+   "yomi": "hatsukaichi"
+  },
+  {
+   "code": "3515",
+   "kind": "JCC",
+   "city": "安芸高田市",
+   "pref": "広島県",
+   "yomi": "akitakata"
+  },
+  {
+   "code": "3516",
+   "kind": "JCC",
+   "city": "江田島市",
+   "pref": "広島県",
+   "yomi": "etajima"
   }
  ]
 }

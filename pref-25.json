@@ -1,13 +1,553 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
+  {
+   "code": "25001",
+   "kind": "JCG",
+   "city": "北河内郡",
+   "pref": "大阪府",
+   "yomi": "kitakawachi",
+   "validUntil": "1971-11-02"
+  },
+  {
+   "code": "25002",
+   "kind": "JCG",
+   "city": "泉南郡",
+   "pref": "大阪府",
+   "yomi": "sennan"
+  },
+  {
+   "code": "25003",
+   "kind": "JCG",
+   "city": "泉北郡",
+   "pref": "大阪府",
+   "yomi": "senboku"
+  },
+  {
+   "code": "25004",
+   "kind": "JCG",
+   "city": "豊能郡",
+   "pref": "大阪府",
+   "yomi": "toyono"
+  },
+  {
+   "code": "25005",
+   "kind": "JCG",
+   "city": "中河内郡",
+   "pref": "大阪府",
+   "yomi": "nakakawachi",
+   "validUntil": "1965-04-02"
+  },
+  {
+   "code": "25006",
+   "kind": "JCG",
+   "city": "三島郡",
+   "pref": "大阪府",
+   "yomi": "mishima"
+  },
+  {
+   "code": "25007",
+   "kind": "JCG",
+   "city": "南河内郡",
+   "pref": "大阪府",
+   "yomi": "minamikawachi"
+  },
   {
    "code": "2501",
    "kind": "JCC",
    "city": "大阪市",
    "pref": "大阪府",
-   "yomi": "おおさか"
+   "yomi": "osaka"
+  },
+  {
+   "code": "250101",
+   "kind": "JCC",
+   "city": "北区",
+   "pref": "大阪府",
+   "yomi": "kita"
+  },
+  {
+   "code": "250102",
+   "kind": "JCC",
+   "city": "都島区",
+   "pref": "大阪府",
+   "yomi": "miyakojima"
+  },
+  {
+   "code": "250103",
+   "kind": "JCC",
+   "city": "福島区",
+   "pref": "大阪府",
+   "yomi": "fukushima"
+  },
+  {
+   "code": "250104",
+   "kind": "JCC",
+   "city": "此花区",
+   "pref": "大阪府",
+   "yomi": "konohana"
+  },
+  {
+   "code": "250105",
+   "kind": "JCC",
+   "city": "東区",
+   "pref": "大阪府",
+   "yomi": "higashi",
+   "validUntil": "1989-02-13"
+  },
+  {
+   "code": "250106",
+   "kind": "JCC",
+   "city": "西区",
+   "pref": "大阪府",
+   "yomi": "nishi"
+  },
+  {
+   "code": "250107",
+   "kind": "JCC",
+   "city": "港区",
+   "pref": "大阪府",
+   "yomi": "minato"
+  },
+  {
+   "code": "250108",
+   "kind": "JCC",
+   "city": "大正区",
+   "pref": "大阪府",
+   "yomi": "taisho"
+  },
+  {
+   "code": "250109",
+   "kind": "JCC",
+   "city": "天王寺区",
+   "pref": "大阪府",
+   "yomi": "tennoji"
+  },
+  {
+   "code": "250110",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "大阪府",
+   "yomi": "minami",
+   "validUntil": "1989-02-13"
+  },
+  {
+   "code": "250111",
+   "kind": "JCC",
+   "city": "浪速区",
+   "pref": "大阪府",
+   "yomi": "naniwa"
+  },
+  {
+   "code": "250112",
+   "kind": "JCC",
+   "city": "大淀区",
+   "pref": "大阪府",
+   "yomi": "oyodo",
+   "validUntil": "1989-02-13"
+  },
+  {
+   "code": "250113",
+   "kind": "JCC",
+   "city": "西淀川区",
+   "pref": "大阪府",
+   "yomi": "nishiyodogawa"
+  },
+  {
+   "code": "250114",
+   "kind": "JCC",
+   "city": "東淀川区",
+   "pref": "大阪府",
+   "yomi": "higashiyodogawa"
+  },
+  {
+   "code": "250115",
+   "kind": "JCC",
+   "city": "東成区",
+   "pref": "大阪府",
+   "yomi": "higashinari"
+  },
+  {
+   "code": "250116",
+   "kind": "JCC",
+   "city": "生野区",
+   "pref": "大阪府",
+   "yomi": "ikuno"
+  },
+  {
+   "code": "250117",
+   "kind": "JCC",
+   "city": "旭区",
+   "pref": "大阪府",
+   "yomi": "asahi"
+  },
+  {
+   "code": "250118",
+   "kind": "JCC",
+   "city": "城東区",
+   "pref": "大阪府",
+   "yomi": "joto"
+  },
+  {
+   "code": "250119",
+   "kind": "JCC",
+   "city": "阿倍野区",
+   "pref": "大阪府",
+   "yomi": "abeno"
+  },
+  {
+   "code": "250120",
+   "kind": "JCC",
+   "city": "住吉区",
+   "pref": "大阪府",
+   "yomi": "sumiyoshi"
+  },
+  {
+   "code": "250121",
+   "kind": "JCC",
+   "city": "東住吉区",
+   "pref": "大阪府",
+   "yomi": "higashisumiyoshi"
+  },
+  {
+   "code": "250122",
+   "kind": "JCC",
+   "city": "西成区",
+   "pref": "大阪府",
+   "yomi": "nishinari"
+  },
+  {
+   "code": "250123",
+   "kind": "JCC",
+   "city": "淀川区",
+   "pref": "大阪府",
+   "yomi": "yodogawa"
+  },
+  {
+   "code": "250124",
+   "kind": "JCC",
+   "city": "鶴見区",
+   "pref": "大阪府",
+   "yomi": "tsurumi"
+  },
+  {
+   "code": "250125",
+   "kind": "JCC",
+   "city": "住之江区",
+   "pref": "大阪府",
+   "yomi": "suminoe"
+  },
+  {
+   "code": "250126",
+   "kind": "JCC",
+   "city": "平野区",
+   "pref": "大阪府",
+   "yomi": "hirano"
+  },
+  {
+   "code": "250127",
+   "kind": "JCC",
+   "city": "中央区",
+   "pref": "大阪府",
+   "yomi": "chuo"
+  },
+  {
+   "code": "2502",
+   "kind": "JCC",
+   "city": "堺市",
+   "pref": "大阪府",
+   "yomi": "sakai"
+  },
+  {
+   "code": "250201",
+   "kind": "JCC",
+   "city": "堺区",
+   "pref": "大阪府",
+   "yomi": "sakai"
+  },
+  {
+   "code": "250202",
+   "kind": "JCC",
+   "city": "中区",
+   "pref": "大阪府",
+   "yomi": "naka"
+  },
+  {
+   "code": "250203",
+   "kind": "JCC",
+   "city": "東区",
+   "pref": "大阪府",
+   "yomi": "higashi"
+  },
+  {
+   "code": "250204",
+   "kind": "JCC",
+   "city": "西区",
+   "pref": "大阪府",
+   "yomi": "nishi"
+  },
+  {
+   "code": "250205",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "大阪府",
+   "yomi": "minami"
+  },
+  {
+   "code": "250206",
+   "kind": "JCC",
+   "city": "北区",
+   "pref": "大阪府",
+   "yomi": "kita"
+  },
+  {
+   "code": "250207",
+   "kind": "JCC",
+   "city": "美原区",
+   "pref": "大阪府",
+   "yomi": "mihara"
+  },
+  {
+   "code": "2503",
+   "kind": "JCC",
+   "city": "岸和田市",
+   "pref": "大阪府",
+   "yomi": "kishiwada"
+  },
+  {
+   "code": "2504",
+   "kind": "JCC",
+   "city": "豊中市",
+   "pref": "大阪府",
+   "yomi": "toyonaka"
+  },
+  {
+   "code": "2505",
+   "kind": "JCC",
+   "city": "布施市",
+   "pref": "大阪府",
+   "yomi": "fuse",
+   "validUntil": "1900-01-01"
+  },
+  {
+   "code": "2506",
+   "kind": "JCC",
+   "city": "池田市",
+   "pref": "大阪府",
+   "yomi": "ikeda"
+  },
+  {
+   "code": "2507",
+   "kind": "JCC",
+   "city": "吹田市",
+   "pref": "大阪府",
+   "yomi": "suita"
+  },
+  {
+   "code": "2508",
+   "kind": "JCC",
+   "city": "泉大津市",
+   "pref": "大阪府",
+   "yomi": "izumiotsu"
+  },
+  {
+   "code": "2509",
+   "kind": "JCC",
+   "city": "高槻市",
+   "pref": "大阪府",
+   "yomi": "takatsuki"
+  },
+  {
+   "code": "2510",
+   "kind": "JCC",
+   "city": "貝塚市",
+   "pref": "大阪府",
+   "yomi": "kaizuka"
+  },
+  {
+   "code": "2511",
+   "kind": "JCC",
+   "city": "守口市",
+   "pref": "大阪府",
+   "yomi": "moriguchi"
+  },
+  {
+   "code": "2512",
+   "kind": "JCC",
+   "city": "枚方市",
+   "pref": "大阪府",
+   "yomi": "hirakata"
+  },
+  {
+   "code": "2513",
+   "kind": "JCC",
+   "city": "茨木市",
+   "pref": "大阪府",
+   "yomi": "ibaraki"
+  },
+  {
+   "code": "2514",
+   "kind": "JCC",
+   "city": "八尾市",
+   "pref": "大阪府",
+   "yomi": "yao"
+  },
+  {
+   "code": "2515",
+   "kind": "JCC",
+   "city": "泉佐野市",
+   "pref": "大阪府",
+   "yomi": "izumisano"
+  },
+  {
+   "code": "2516",
+   "kind": "JCC",
+   "city": "富田林市",
+   "pref": "大阪府",
+   "yomi": "tondabayashi"
+  },
+  {
+   "code": "2517",
+   "kind": "JCC",
+   "city": "寝屋川市",
+   "pref": "大阪府",
+   "yomi": "neyagawa"
+  },
+  {
+   "code": "2518",
+   "kind": "JCC",
+   "city": "河内長野市",
+   "pref": "大阪府",
+   "yomi": "kawachinagano"
+  },
+  {
+   "code": "2519",
+   "kind": "JCC",
+   "city": "枚岡市",
+   "pref": "大阪府",
+   "yomi": "hiraoka",
+   "validUntil": "1967-01-31"
+  },
+  {
+   "code": "2520",
+   "kind": "JCC",
+   "city": "河内市",
+   "pref": "大阪府",
+   "yomi": "kawachi",
+   "validUntil": "1967-01-31"
+  },
+  {
+   "code": "2521",
+   "kind": "JCC",
+   "city": "松原市",
+   "pref": "大阪府",
+   "yomi": "matsubara"
+  },
+  {
+   "code": "2522",
+   "kind": "JCC",
+   "city": "大東市",
+   "pref": "大阪府",
+   "yomi": "daito"
+  },
+  {
+   "code": "2523",
+   "kind": "JCC",
+   "city": "和泉市",
+   "pref": "大阪府",
+   "yomi": "izumi"
+  },
+  {
+   "code": "2524",
+   "kind": "JCC",
+   "city": "箕面市",
+   "pref": "大阪府",
+   "yomi": "mino"
+  },
+  {
+   "code": "2525",
+   "kind": "JCC",
+   "city": "柏原市",
+   "pref": "大阪府",
+   "yomi": "kashiwara"
+  },
+  {
+   "code": "2526",
+   "kind": "JCC",
+   "city": "羽曳野市",
+   "pref": "大阪府",
+   "yomi": "habikino"
+  },
+  {
+   "code": "2527",
+   "kind": "JCC",
+   "city": "門真市",
+   "pref": "大阪府",
+   "yomi": "kadoma"
+  },
+  {
+   "code": "2528",
+   "kind": "JCC",
+   "city": "摂津市",
+   "pref": "大阪府",
+   "yomi": "settsu"
+  },
+  {
+   "code": "2529",
+   "kind": "JCC",
+   "city": "藤井寺市",
+   "pref": "大阪府",
+   "yomi": "fujiidera"
+  },
+  {
+   "code": "2530",
+   "kind": "JCC",
+   "city": "高石市",
+   "pref": "大阪府",
+   "yomi": "takaishi"
+  },
+  {
+   "code": "2531",
+   "kind": "JCC",
+   "city": "東大阪市",
+   "pref": "大阪府",
+   "yomi": "higashiosaka"
+  },
+  {
+   "code": "2532",
+   "kind": "JCC",
+   "city": "泉南市",
+   "pref": "大阪府",
+   "yomi": "sennan"
+  },
+  {
+   "code": "2533",
+   "kind": "JCC",
+   "city": "四條畷市",
+   "pref": "大阪府",
+   "yomi": "shijonawate"
+  },
+  {
+   "code": "2534",
+   "kind": "JCC",
+   "city": "交野市",
+   "pref": "大阪府",
+   "yomi": "katano"
+  },
+  {
+   "code": "2535",
+   "kind": "JCC",
+   "city": "大阪狭山市",
+   "pref": "大阪府",
+   "yomi": "osakasayama"
+  },
+  {
+   "code": "2536",
+   "kind": "JCC",
+   "city": "阪南市",
+   "pref": "大阪府",
+   "yomi": "hannan"
   }
  ]
 }

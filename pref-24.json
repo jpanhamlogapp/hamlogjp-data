@@ -1,0 +1,163 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "24001",
+   "kind": "JCG",
+   "city": "生駒郡",
+   "pref": "奈良県",
+   "yomi": "ikoma"
+  },
+  {
+   "code": "24002",
+   "kind": "JCG",
+   "city": "宇陀郡",
+   "pref": "奈良県",
+   "yomi": "uda"
+  },
+  {
+   "code": "24003",
+   "kind": "JCG",
+   "city": "宇智郡",
+   "pref": "奈良県",
+   "yomi": "uchi",
+   "validUntil": "1958-12-31"
+  },
+  {
+   "code": "24004",
+   "kind": "JCG",
+   "city": "北葛城郡",
+   "pref": "奈良県",
+   "yomi": "kitakatsuragi"
+  },
+  {
+   "code": "24005",
+   "kind": "JCG",
+   "city": "磯城郡",
+   "pref": "奈良県",
+   "yomi": "shiki"
+  },
+  {
+   "code": "24006",
+   "kind": "JCG",
+   "city": "添上郡",
+   "pref": "奈良県",
+   "yomi": "soekami",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "24007",
+   "kind": "JCG",
+   "city": "高市郡",
+   "pref": "奈良県",
+   "yomi": "takaichi"
+  },
+  {
+   "code": "24008",
+   "kind": "JCG",
+   "city": "南葛城郡",
+   "pref": "奈良県",
+   "yomi": "minamikatsuragi",
+   "validUntil": "1958-03-30"
+  },
+  {
+   "code": "24009",
+   "kind": "JCG",
+   "city": "山辺郡",
+   "pref": "奈良県",
+   "yomi": "yamabe"
+  },
+  {
+   "code": "2401",
+   "kind": "JCC",
+   "city": "奈良市",
+   "pref": "奈良県",
+   "yomi": "nara"
+  },
+  {
+   "code": "24010",
+   "kind": "JCG",
+   "city": "吉野郡",
+   "pref": "奈良県",
+   "yomi": "yoshino"
+  },
+  {
+   "code": "2402",
+   "kind": "JCC",
+   "city": "大和高田市",
+   "pref": "奈良県",
+   "yomi": "yamatotakada"
+  },
+  {
+   "code": "2403",
+   "kind": "JCC",
+   "city": "大和郡山市",
+   "pref": "奈良県",
+   "yomi": "yamatokoriyama"
+  },
+  {
+   "code": "2404",
+   "kind": "JCC",
+   "city": "天理市",
+   "pref": "奈良県",
+   "yomi": "tenri"
+  },
+  {
+   "code": "2405",
+   "kind": "JCC",
+   "city": "橿原市",
+   "pref": "奈良県",
+   "yomi": "kashihara"
+  },
+  {
+   "code": "2406",
+   "kind": "JCC",
+   "city": "桜井市",
+   "pref": "奈良県",
+   "yomi": "sakurai"
+  },
+  {
+   "code": "2407",
+   "kind": "JCC",
+   "city": "五條市",
+   "pref": "奈良県",
+   "yomi": "gojo"
+  },
+  {
+   "code": "2408",
+   "kind": "JCC",
+   "city": "御所市",
+   "pref": "奈良県",
+   "yomi": "gose"
+  },
+  {
+   "code": "2409",
+   "kind": "JCC",
+   "city": "生駒市",
+   "pref": "奈良県",
+   "yomi": "ikoma"
+  },
+  {
+   "code": "2410",
+   "kind": "JCC",
+   "city": "香芝市",
+   "pref": "奈良県",
+   "yomi": "kashiba"
+  },
+  {
+   "code": "2411",
+   "kind": "JCC",
+   "city": "葛城市",
+   "pref": "奈良県",
+   "yomi": "katsuragi"
+  },
+  {
+   "code": "2412",
+   "kind": "JCC",
+   "city": "宇陀市",
+   "pref": "奈良県",
+   "yomi": "uda"
+  }
+ ]
+}

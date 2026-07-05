@@ -1,0 +1,198 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "23001",
+   "kind": "JCG",
+   "city": "伊香郡",
+   "pref": "滋賀県",
+   "yomi": "ika",
+   "validUntil": "2009-12-31"
+  },
+  {
+   "code": "23002",
+   "kind": "JCG",
+   "city": "犬上郡",
+   "pref": "滋賀県",
+   "yomi": "inukami"
+  },
+  {
+   "code": "23003",
+   "kind": "JCG",
+   "city": "愛知郡",
+   "pref": "滋賀県",
+   "yomi": "echi"
+  },
+  {
+   "code": "23004",
+   "kind": "JCG",
+   "city": "蒲生郡",
+   "pref": "滋賀県",
+   "yomi": "gamo"
+  },
+  {
+   "code": "23005",
+   "kind": "JCG",
+   "city": "神崎郡",
+   "pref": "滋賀県",
+   "yomi": "kanzaki",
+   "validUntil": "2005-12-31"
+  },
+  {
+   "code": "23006",
+   "kind": "JCG",
+   "city": "栗太郡",
+   "pref": "滋賀県",
+   "yomi": "kurita",
+   "validUntil": "2001-09-30"
+  },
+  {
+   "code": "23007",
+   "kind": "JCG",
+   "city": "甲賀郡",
+   "pref": "滋賀県",
+   "yomi": "koka",
+   "validUntil": "2004-09-30"
+  },
+  {
+   "code": "23008",
+   "kind": "JCG",
+   "city": "坂田郡",
+   "pref": "滋賀県",
+   "yomi": "sakata",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "23009",
+   "kind": "JCG",
+   "city": "滋賀郡",
+   "pref": "滋賀県",
+   "yomi": "shiga",
+   "validUntil": "2006-03-19"
+  },
+  {
+   "code": "2301",
+   "kind": "JCC",
+   "city": "大津市",
+   "pref": "滋賀県",
+   "yomi": "otsu"
+  },
+  {
+   "code": "23010",
+   "kind": "JCG",
+   "city": "高島郡",
+   "pref": "滋賀県",
+   "yomi": "takashima",
+   "validUntil": "2004-12-31"
+  },
+  {
+   "code": "23011",
+   "kind": "JCG",
+   "city": "東浅井郡",
+   "pref": "滋賀県",
+   "yomi": "higashiazai",
+   "validUntil": "2009-12-31"
+  },
+  {
+   "code": "23012",
+   "kind": "JCG",
+   "city": "野洲郡",
+   "pref": "滋賀県",
+   "yomi": "yasu",
+   "validUntil": "2004-09-30"
+  },
+  {
+   "code": "2302",
+   "kind": "JCC",
+   "city": "彦根市",
+   "pref": "滋賀県",
+   "yomi": "hikone"
+  },
+  {
+   "code": "2303",
+   "kind": "JCC",
+   "city": "長浜市",
+   "pref": "滋賀県",
+   "yomi": "nagahama"
+  },
+  {
+   "code": "2304",
+   "kind": "JCC",
+   "city": "近江八幡市",
+   "pref": "滋賀県",
+   "yomi": "omihachiman"
+  },
+  {
+   "code": "2305",
+   "kind": "JCC",
+   "city": "八日市",
+   "pref": "滋賀県",
+   "yomi": "yokaichi",
+   "validUntil": "2005-02-10"
+  },
+  {
+   "code": "2306",
+   "kind": "JCC",
+   "city": "草津市",
+   "pref": "滋賀県",
+   "yomi": "kusatsu"
+  },
+  {
+   "code": "2307",
+   "kind": "JCC",
+   "city": "守山市",
+   "pref": "滋賀県",
+   "yomi": "moriyama"
+  },
+  {
+   "code": "2308",
+   "kind": "JCC",
+   "city": "栗東市",
+   "pref": "滋賀県",
+   "yomi": "ritto"
+  },
+  {
+   "code": "2309",
+   "kind": "JCC",
+   "city": "甲賀市",
+   "pref": "滋賀県",
+   "yomi": "koka"
+  },
+  {
+   "code": "2310",
+   "kind": "JCC",
+   "city": "野洲市",
+   "pref": "滋賀県",
+   "yomi": "yasu"
+  },
+  {
+   "code": "2311",
+   "kind": "JCC",
+   "city": "湖南市",
+   "pref": "滋賀県",
+   "yomi": "konan"
+  },
+  {
+   "code": "2312",
+   "kind": "JCC",
+   "city": "高島市",
+   "pref": "滋賀県",
+   "yomi": "takashima"
+  },
+  {
+   "code": "2313",
+   "kind": "JCC",
+   "city": "東近江市",
+   "pref": "滋賀県",
+   "yomi": "higashioumi"
+  },
+  {
+   "code": "2314",
+   "kind": "JCC",
+   "city": "米原市",
+   "pref": "滋賀県",
+   "yomi": "maibara"
+  }
+ ]
+}

@@ -1,0 +1,288 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "19001",
+   "kind": "JCG",
+   "city": "安八郡",
+   "pref": "岐阜県",
+   "yomi": "anpachi"
+  },
+  {
+   "code": "19002",
+   "kind": "JCG",
+   "city": "稲葉郡",
+   "pref": "岐阜県",
+   "yomi": "inaba",
+   "validUntil": "1963-03-31"
+  },
+  {
+   "code": "19003",
+   "kind": "JCG",
+   "city": "揖斐郡",
+   "pref": "岐阜県",
+   "yomi": "ibi"
+  },
+  {
+   "code": "19004",
+   "kind": "JCG",
+   "city": "恵那郡",
+   "pref": "岐阜県",
+   "yomi": "ena",
+   "validUntil": "2005-02-12"
+  },
+  {
+   "code": "19005",
+   "kind": "JCG",
+   "city": "大野郡",
+   "pref": "岐阜県",
+   "yomi": "ono"
+  },
+  {
+   "code": "19006",
+   "kind": "JCG",
+   "city": "海津郡",
+   "pref": "岐阜県",
+   "yomi": "kaizu",
+   "validUntil": "2005-03-27"
+  },
+  {
+   "code": "19007",
+   "kind": "JCG",
+   "city": "可児郡",
+   "pref": "岐阜県",
+   "yomi": "kani"
+  },
+  {
+   "code": "19008",
+   "kind": "JCG",
+   "city": "加茂郡",
+   "pref": "岐阜県",
+   "yomi": "kamo"
+  },
+  {
+   "code": "19009",
+   "kind": "JCG",
+   "city": "郡上郡",
+   "pref": "岐阜県",
+   "yomi": "gujo",
+   "validUntil": "2004-02-29"
+  },
+  {
+   "code": "1901",
+   "kind": "JCC",
+   "city": "岐阜市",
+   "pref": "岐阜県",
+   "yomi": "gifu"
+  },
+  {
+   "code": "19010",
+   "kind": "JCG",
+   "city": "土岐郡",
+   "pref": "岐阜県",
+   "yomi": "toki",
+   "validUntil": "2006-01-22"
+  },
+  {
+   "code": "19011",
+   "kind": "JCG",
+   "city": "羽島郡",
+   "pref": "岐阜県",
+   "yomi": "hashima"
+  },
+  {
+   "code": "19012",
+   "kind": "JCG",
+   "city": "不破郡",
+   "pref": "岐阜県",
+   "yomi": "fuwa"
+  },
+  {
+   "code": "19013",
+   "kind": "JCG",
+   "city": "益田郡",
+   "pref": "岐阜県",
+   "yomi": "mashita",
+   "validUntil": "2004-02-29"
+  },
+  {
+   "code": "19014",
+   "kind": "JCG",
+   "city": "武儀郡",
+   "pref": "岐阜県",
+   "yomi": "mugi",
+   "validUntil": "2005-02-06"
+  },
+  {
+   "code": "19015",
+   "kind": "JCG",
+   "city": "本巣郡",
+   "pref": "岐阜県",
+   "yomi": "motosu"
+  },
+  {
+   "code": "19016",
+   "kind": "JCG",
+   "city": "山県郡",
+   "pref": "岐阜県",
+   "yomi": "yamagata",
+   "validUntil": "2003-03-31"
+  },
+  {
+   "code": "19017",
+   "kind": "JCG",
+   "city": "養老郡",
+   "pref": "岐阜県",
+   "yomi": "yoro"
+  },
+  {
+   "code": "19018",
+   "kind": "JCG",
+   "city": "吉城郡",
+   "pref": "岐阜県",
+   "yomi": "yoshiki",
+   "validUntil": "2005-01-31"
+  },
+  {
+   "code": "1902",
+   "kind": "JCC",
+   "city": "大垣市",
+   "pref": "岐阜県",
+   "yomi": "ogaki"
+  },
+  {
+   "code": "1903",
+   "kind": "JCC",
+   "city": "高山市",
+   "pref": "岐阜県",
+   "yomi": "takayama"
+  },
+  {
+   "code": "1904",
+   "kind": "JCC",
+   "city": "多治見市",
+   "pref": "岐阜県",
+   "yomi": "tajimi"
+  },
+  {
+   "code": "1905",
+   "kind": "JCC",
+   "city": "関市",
+   "pref": "岐阜県",
+   "yomi": "seki"
+  },
+  {
+   "code": "1906",
+   "kind": "JCC",
+   "city": "中津川市",
+   "pref": "岐阜県",
+   "yomi": "nakatsugawa"
+  },
+  {
+   "code": "1907",
+   "kind": "JCC",
+   "city": "美濃市",
+   "pref": "岐阜県",
+   "yomi": "mino"
+  },
+  {
+   "code": "1908",
+   "kind": "JCC",
+   "city": "瑞浪市",
+   "pref": "岐阜県",
+   "yomi": "mizunami"
+  },
+  {
+   "code": "1909",
+   "kind": "JCC",
+   "city": "羽島市",
+   "pref": "岐阜県",
+   "yomi": "hashima"
+  },
+  {
+   "code": "1910",
+   "kind": "JCC",
+   "city": "恵那市",
+   "pref": "岐阜県",
+   "yomi": "ena"
+  },
+  {
+   "code": "1911",
+   "kind": "JCC",
+   "city": "美濃加茂市",
+   "pref": "岐阜県",
+   "yomi": "minokamo"
+  },
+  {
+   "code": "1912",
+   "kind": "JCC",
+   "city": "土岐市",
+   "pref": "岐阜県",
+   "yomi": "toki"
+  },
+  {
+   "code": "1913",
+   "kind": "JCC",
+   "city": "各務原市",
+   "pref": "岐阜県",
+   "yomi": "kakamigahara"
+  },
+  {
+   "code": "1914",
+   "kind": "JCC",
+   "city": "可児市",
+   "pref": "岐阜県",
+   "yomi": "kani"
+  },
+  {
+   "code": "1915",
+   "kind": "JCC",
+   "city": "山県市",
+   "pref": "岐阜県",
+   "yomi": "yamagata"
+  },
+  {
+   "code": "1916",
+   "kind": "JCC",
+   "city": "瑞穂市",
+   "pref": "岐阜県",
+   "yomi": "mizuho"
+  },
+  {
+   "code": "1917",
+   "kind": "JCC",
+   "city": "飛騨市",
+   "pref": "岐阜県",
+   "yomi": "hida"
+  },
+  {
+   "code": "1918",
+   "kind": "JCC",
+   "city": "本巣市",
+   "pref": "岐阜県",
+   "yomi": "motosu"
+  },
+  {
+   "code": "1919",
+   "kind": "JCC",
+   "city": "郡上市",
+   "pref": "岐阜県",
+   "yomi": "gujo"
+  },
+  {
+   "code": "1920",
+   "kind": "JCC",
+   "city": "下呂市",
+   "pref": "岐阜県",
+   "yomi": "gero"
+  },
+  {
+   "code": "1921",
+   "kind": "JCC",
+   "city": "海津市",
+   "pref": "岐阜県",
+   "yomi": "kaizu"
+  }
+ ]
+}

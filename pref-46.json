@@ -1,0 +1,283 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "46001",
+   "kind": "JCG",
+   "city": "姶良郡",
+   "pref": "鹿児島県",
+   "yomi": "aira"
+  },
+  {
+   "code": "46002",
+   "kind": "JCG",
+   "city": "伊佐郡",
+   "pref": "鹿児島県",
+   "yomi": "isa",
+   "validUntil": "2008-10-31"
+  },
+  {
+   "code": "46003",
+   "kind": "JCG",
+   "city": "出水郡",
+   "pref": "鹿児島県",
+   "yomi": "izumi"
+  },
+  {
+   "code": "46004",
+   "kind": "JCG",
+   "city": "揖宿郡",
+   "pref": "鹿児島県",
+   "yomi": "ibusuki",
+   "validUntil": "2007-11-30"
+  },
+  {
+   "code": "46005",
+   "kind": "JCG",
+   "city": "大島郡",
+   "pref": "鹿児島県",
+   "yomi": "oshima"
+  },
+  {
+   "code": "46006",
+   "kind": "JCG",
+   "city": "鹿児島郡",
+   "pref": "鹿児島県",
+   "yomi": "kagoshima"
+  },
+  {
+   "code": "46007",
+   "kind": "JCG",
+   "city": "川辺郡",
+   "pref": "鹿児島県",
+   "yomi": "kawanabe",
+   "validUntil": "2007-11-30"
+  },
+  {
+   "code": "46008",
+   "kind": "JCG",
+   "city": "肝属郡",
+   "pref": "鹿児島県",
+   "yomi": "kimotsuki"
+  },
+  {
+   "code": "46009",
+   "kind": "JCG",
+   "city": "熊毛郡",
+   "pref": "鹿児島県",
+   "yomi": "kumage"
+  },
+  {
+   "code": "4601",
+   "kind": "JCC",
+   "city": "鹿児島市",
+   "pref": "鹿児島県",
+   "yomi": "kagoshima"
+  },
+  {
+   "code": "46010",
+   "kind": "JCG",
+   "city": "薩摩郡",
+   "pref": "鹿児島県",
+   "yomi": "satsuma"
+  },
+  {
+   "code": "46011",
+   "kind": "JCG",
+   "city": "曽於郡",
+   "pref": "鹿児島県",
+   "yomi": "soo"
+  },
+  {
+   "code": "46012",
+   "kind": "JCG",
+   "city": "日置郡",
+   "pref": "鹿児島県",
+   "yomi": "hioki",
+   "validUntil": "2005-11-06"
+  },
+  {
+   "code": "4602",
+   "kind": "JCC",
+   "city": "川内市",
+   "pref": "鹿児島県",
+   "yomi": "sendai",
+   "validUntil": "2004-10-11"
+  },
+  {
+   "code": "4603",
+   "kind": "JCC",
+   "city": "鹿屋市",
+   "pref": "鹿児島県",
+   "yomi": "kanoya"
+  },
+  {
+   "code": "4604",
+   "kind": "JCC",
+   "city": "枕崎市",
+   "pref": "鹿児島県",
+   "yomi": "makurazaki"
+  },
+  {
+   "code": "4605",
+   "kind": "JCC",
+   "city": "串木野市",
+   "pref": "鹿児島県",
+   "yomi": "kushikino",
+   "validUntil": "2005-10-10"
+  },
+  {
+   "code": "4606",
+   "kind": "JCC",
+   "city": "阿久根市",
+   "pref": "鹿児島県",
+   "yomi": "akune"
+  },
+  {
+   "code": "4607",
+   "kind": "JCC",
+   "city": "出水市",
+   "pref": "鹿児島県",
+   "yomi": "izumi"
+  },
+  {
+   "code": "4608",
+   "kind": "JCC",
+   "city": "名瀬市",
+   "pref": "鹿児島県",
+   "yomi": "naze",
+   "validUntil": "2006-03-19"
+  },
+  {
+   "code": "4609",
+   "kind": "JCC",
+   "city": "大口市",
+   "pref": "鹿児島県",
+   "yomi": "okuchi",
+   "validUntil": "2008-10-31"
+  },
+  {
+   "code": "4610",
+   "kind": "JCC",
+   "city": "指宿市",
+   "pref": "鹿児島県",
+   "yomi": "ibusuki"
+  },
+  {
+   "code": "4611",
+   "kind": "JCC",
+   "city": "加世田市",
+   "pref": "鹿児島県",
+   "yomi": "kaseda",
+   "validUntil": "2005-11-06"
+  },
+  {
+   "code": "4612",
+   "kind": "JCC",
+   "city": "国分市",
+   "pref": "鹿児島県",
+   "yomi": "kokubu",
+   "validUntil": "2005-11-06"
+  },
+  {
+   "code": "4613",
+   "kind": "JCC",
+   "city": "谷山市",
+   "pref": "鹿児島県",
+   "yomi": "taniyama",
+   "validUntil": "1967-04-28"
+  },
+  {
+   "code": "4614",
+   "kind": "JCC",
+   "city": "西之表市",
+   "pref": "鹿児島県",
+   "yomi": "nishinoomote"
+  },
+  {
+   "code": "4615",
+   "kind": "JCC",
+   "city": "垂水市",
+   "pref": "鹿児島県",
+   "yomi": "tarumizu"
+  },
+  {
+   "code": "4616",
+   "kind": "JCC",
+   "city": "薩摩川内市",
+   "pref": "鹿児島県",
+   "yomi": "satsumasendai"
+  },
+  {
+   "code": "4617",
+   "kind": "JCC",
+   "city": "日置市",
+   "pref": "鹿児島県",
+   "yomi": "hioki"
+  },
+  {
+   "code": "4618",
+   "kind": "JCC",
+   "city": "曽於市",
+   "pref": "鹿児島県",
+   "yomi": "soo"
+  },
+  {
+   "code": "4619",
+   "kind": "JCC",
+   "city": "霧島市",
+   "pref": "鹿児島県",
+   "yomi": "kirishima"
+  },
+  {
+   "code": "4620",
+   "kind": "JCC",
+   "city": "いちき串木野市",
+   "pref": "鹿児島県",
+   "yomi": "ichikikushikino"
+  },
+  {
+   "code": "4621",
+   "kind": "JCC",
+   "city": "南さつま市",
+   "pref": "鹿児島県",
+   "yomi": "minamisatsuma"
+  },
+  {
+   "code": "4622",
+   "kind": "JCC",
+   "city": "志布志市",
+   "pref": "鹿児島県",
+   "yomi": "shibushi"
+  },
+  {
+   "code": "4623",
+   "kind": "JCC",
+   "city": "奄美市",
+   "pref": "鹿児島県",
+   "yomi": "amami"
+  },
+  {
+   "code": "4624",
+   "kind": "JCC",
+   "city": "南九州市",
+   "pref": "鹿児島県",
+   "yomi": "minamikyushu"
+  },
+  {
+   "code": "4625",
+   "kind": "JCC",
+   "city": "伊佐市",
+   "pref": "鹿児島県",
+   "yomi": "isa"
+  },
+  {
+   "code": "4626",
+   "kind": "JCC",
+   "city": "姶良市",
+   "pref": "鹿児島県",
+   "yomi": "aira"
+  }
+ ]
+}

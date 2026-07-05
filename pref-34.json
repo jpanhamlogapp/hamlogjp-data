@@ -1,0 +1,77 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "34001",
+   "kind": "JCG",
+   "city": "岩美郡",
+   "pref": "鳥取県",
+   "yomi": "iwami"
+  },
+  {
+   "code": "34002",
+   "kind": "JCG",
+   "city": "気高郡",
+   "pref": "鳥取県",
+   "yomi": "ketaka",
+   "validUntil": "2004-10-31"
+  },
+  {
+   "code": "34003",
+   "kind": "JCG",
+   "city": "西伯郡",
+   "pref": "鳥取県",
+   "yomi": "saihaku"
+  },
+  {
+   "code": "34004",
+   "kind": "JCG",
+   "city": "東伯郡",
+   "pref": "鳥取県",
+   "yomi": "tohaku"
+  },
+  {
+   "code": "34005",
+   "kind": "JCG",
+   "city": "日野郡",
+   "pref": "鳥取県",
+   "yomi": "hino"
+  },
+  {
+   "code": "34006",
+   "kind": "JCG",
+   "city": "八頭郡",
+   "pref": "鳥取県",
+   "yomi": "yazu"
+  },
+  {
+   "code": "3401",
+   "kind": "JCC",
+   "city": "鳥取市",
+   "pref": "鳥取県",
+   "yomi": "tottori"
+  },
+  {
+   "code": "3402",
+   "kind": "JCC",
+   "city": "倉吉市",
+   "pref": "鳥取県",
+   "yomi": "kurayoshi"
+  },
+  {
+   "code": "3403",
+   "kind": "JCC",
+   "city": "米子市",
+   "pref": "鳥取県",
+   "yomi": "yonago"
+  },
+  {
+   "code": "3404",
+   "kind": "JCC",
+   "city": "境港市",
+   "pref": "鳥取県",
+   "yomi": "sakaiminato"
+  }
+ ]
+}

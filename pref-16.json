@@ -1,0 +1,179 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "16001",
+   "kind": "JCG",
+   "city": "吾妻郡",
+   "pref": "群馬県",
+   "yomi": "agatsuma"
+  },
+  {
+   "code": "16002",
+   "kind": "JCG",
+   "city": "碓氷郡",
+   "pref": "群馬県",
+   "yomi": "usui",
+   "validUntil": "2006-03-17"
+  },
+  {
+   "code": "16003",
+   "kind": "JCG",
+   "city": "邑楽郡",
+   "pref": "群馬県",
+   "yomi": "ora"
+  },
+  {
+   "code": "16004",
+   "kind": "JCG",
+   "city": "甘楽郡",
+   "pref": "群馬県",
+   "yomi": "kanra"
+  },
+  {
+   "code": "16005",
+   "kind": "JCG",
+   "city": "北群馬郡",
+   "pref": "群馬県",
+   "yomi": "kitagunma"
+  },
+  {
+   "code": "16006",
+   "kind": "JCG",
+   "city": "群馬郡",
+   "pref": "群馬県",
+   "yomi": "gunma",
+   "validUntil": "2006-09-30"
+  },
+  {
+   "code": "16007",
+   "kind": "JCG",
+   "city": "佐波郡",
+   "pref": "群馬県",
+   "yomi": "sawa"
+  },
+  {
+   "code": "16008",
+   "kind": "JCG",
+   "city": "勢多郡",
+   "pref": "群馬県",
+   "yomi": "seta",
+   "validUntil": "2009-05-04"
+  },
+  {
+   "code": "16009",
+   "kind": "JCG",
+   "city": "多野郡",
+   "pref": "群馬県",
+   "yomi": "tano"
+  },
+  {
+   "code": "1601",
+   "kind": "JCC",
+   "city": "前橋市",
+   "pref": "群馬県",
+   "yomi": "maebashi"
+  },
+  {
+   "code": "16010",
+   "kind": "JCG",
+   "city": "利根郡",
+   "pref": "群馬県",
+   "yomi": "tone"
+  },
+  {
+   "code": "16011",
+   "kind": "JCG",
+   "city": "新田郡",
+   "pref": "群馬県",
+   "yomi": "nitta",
+   "validUntil": "1900-01-01"
+  },
+  {
+   "code": "16012",
+   "kind": "JCG",
+   "city": "山田郡",
+   "pref": "群馬県",
+   "yomi": "yamada",
+   "validUntil": "2006-03-26"
+  },
+  {
+   "code": "1602",
+   "kind": "JCC",
+   "city": "高崎市",
+   "pref": "群馬県",
+   "yomi": "takasaki"
+  },
+  {
+   "code": "1603",
+   "kind": "JCC",
+   "city": "桐生市",
+   "pref": "群馬県",
+   "yomi": "kiryu"
+  },
+  {
+   "code": "1604",
+   "kind": "JCC",
+   "city": "伊勢崎市",
+   "pref": "群馬県",
+   "yomi": "isesaki"
+  },
+  {
+   "code": "1605",
+   "kind": "JCC",
+   "city": "太田市",
+   "pref": "群馬県",
+   "yomi": "ota"
+  },
+  {
+   "code": "1606",
+   "kind": "JCC",
+   "city": "沼田市",
+   "pref": "群馬県",
+   "yomi": "numata"
+  },
+  {
+   "code": "1607",
+   "kind": "JCC",
+   "city": "館林市",
+   "pref": "群馬県",
+   "yomi": "tatebayashi"
+  },
+  {
+   "code": "1608",
+   "kind": "JCC",
+   "city": "渋川市",
+   "pref": "群馬県",
+   "yomi": "shibukawa"
+  },
+  {
+   "code": "1609",
+   "kind": "JCC",
+   "city": "藤岡市",
+   "pref": "群馬県",
+   "yomi": "fujioka"
+  },
+  {
+   "code": "1610",
+   "kind": "JCC",
+   "city": "富岡市",
+   "pref": "群馬県",
+   "yomi": "tomioka"
+  },
+  {
+   "code": "1611",
+   "kind": "JCC",
+   "city": "安中市",
+   "pref": "群馬県",
+   "yomi": "annaka"
+  },
+  {
+   "code": "1612",
+   "kind": "JCC",
+   "city": "みどり市",
+   "pref": "群馬県",
+   "yomi": "midori"
+  }
+ ]
+}

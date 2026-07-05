@@ -1,0 +1,385 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "08001",
+   "kind": "JCG",
+   "city": "岩船郡",
+   "pref": "新潟県",
+   "yomi": "iwafune"
+  },
+  {
+   "code": "08002",
+   "kind": "JCG",
+   "city": "刈羽郡",
+   "pref": "新潟県",
+   "yomi": "kariwa"
+  },
+  {
+   "code": "08003",
+   "kind": "JCG",
+   "city": "北魚沼郡",
+   "pref": "新潟県",
+   "yomi": "kitauonuma",
+   "validUntil": "2010-03-30"
+  },
+  {
+   "code": "08004",
+   "kind": "JCG",
+   "city": "北蒲原郡",
+   "pref": "新潟県",
+   "yomi": "kitakanbara"
+  },
+  {
+   "code": "08005",
+   "kind": "JCG",
+   "city": "古志郡",
+   "pref": "新潟県",
+   "yomi": "koshi",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "08006",
+   "kind": "JCG",
+   "city": "佐渡郡",
+   "pref": "新潟県",
+   "yomi": "sado",
+   "validUntil": "2004-02-29"
+  },
+  {
+   "code": "08007",
+   "kind": "JCG",
+   "city": "三島郡",
+   "pref": "新潟県",
+   "yomi": "santo"
+  },
+  {
+   "code": "08008",
+   "kind": "JCG",
+   "city": "中魚沼郡",
+   "pref": "新潟県",
+   "yomi": "nakauonuma"
+  },
+  {
+   "code": "08009",
+   "kind": "JCG",
+   "city": "中蒲原郡",
+   "pref": "新潟県",
+   "yomi": "nakakanbara",
+   "validUntil": "2005-12-31"
+  },
+  {
+   "code": "0801",
+   "kind": "JCC",
+   "city": "新潟市",
+   "pref": "新潟県",
+   "yomi": "niigata"
+  },
+  {
+   "code": "08010",
+   "kind": "JCG",
+   "city": "中頸城郡",
+   "pref": "新潟県",
+   "yomi": "nakakubiki",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "080101",
+   "kind": "JCC",
+   "city": "北区",
+   "pref": "新潟県",
+   "yomi": "kita"
+  },
+  {
+   "code": "080102",
+   "kind": "JCC",
+   "city": "東区",
+   "pref": "新潟県",
+   "yomi": "higashi"
+  },
+  {
+   "code": "080103",
+   "kind": "JCC",
+   "city": "中央区",
+   "pref": "新潟県",
+   "yomi": "chuo"
+  },
+  {
+   "code": "080104",
+   "kind": "JCC",
+   "city": "江南区",
+   "pref": "新潟県",
+   "yomi": "konan"
+  },
+  {
+   "code": "080105",
+   "kind": "JCC",
+   "city": "秋葉区",
+   "pref": "新潟県",
+   "yomi": "akiha"
+  },
+  {
+   "code": "080106",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "新潟県",
+   "yomi": "minami"
+  },
+  {
+   "code": "080107",
+   "kind": "JCC",
+   "city": "西区",
+   "pref": "新潟県",
+   "yomi": "nishi"
+  },
+  {
+   "code": "080108",
+   "kind": "JCC",
+   "city": "西蒲区",
+   "pref": "新潟県",
+   "yomi": "nishikan"
+  },
+  {
+   "code": "08011",
+   "kind": "JCG",
+   "city": "西蒲原郡",
+   "pref": "新潟県",
+   "yomi": "nishikanbara"
+  },
+  {
+   "code": "08012",
+   "kind": "JCG",
+   "city": "西頸城郡",
+   "pref": "新潟県",
+   "yomi": "nishikubiki",
+   "validUntil": "2005-03-18"
+  },
+  {
+   "code": "08013",
+   "kind": "JCG",
+   "city": "東蒲原郡",
+   "pref": "新潟県",
+   "yomi": "higashikanbara"
+  },
+  {
+   "code": "08014",
+   "kind": "JCG",
+   "city": "東頸城郡",
+   "pref": "新潟県",
+   "yomi": "higashikubiki",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "08015",
+   "kind": "JCG",
+   "city": "南魚沼郡",
+   "pref": "新潟県",
+   "yomi": "minamiuonuma"
+  },
+  {
+   "code": "08016",
+   "kind": "JCG",
+   "city": "南蒲原郡",
+   "pref": "新潟県",
+   "yomi": "minamikanbara"
+  },
+  {
+   "code": "0802",
+   "kind": "JCC",
+   "city": "長岡市",
+   "pref": "新潟県",
+   "yomi": "nagaoka"
+  },
+  {
+   "code": "0803",
+   "kind": "JCC",
+   "city": "高田市",
+   "pref": "新潟県",
+   "yomi": "takada",
+   "validUntil": "1971-04-28"
+  },
+  {
+   "code": "0804",
+   "kind": "JCC",
+   "city": "三条市",
+   "pref": "新潟県",
+   "yomi": "sanjo"
+  },
+  {
+   "code": "0805",
+   "kind": "JCC",
+   "city": "柏崎市",
+   "pref": "新潟県",
+   "yomi": "kashiwazaki"
+  },
+  {
+   "code": "0806",
+   "kind": "JCC",
+   "city": "新発田市",
+   "pref": "新潟県",
+   "yomi": "shibata"
+  },
+  {
+   "code": "0807",
+   "kind": "JCC",
+   "city": "新津市",
+   "pref": "新潟県",
+   "yomi": "niitsu",
+   "validUntil": "2005-03-20"
+  },
+  {
+   "code": "0808",
+   "kind": "JCC",
+   "city": "小千谷市",
+   "pref": "新潟県",
+   "yomi": "ojiya"
+  },
+  {
+   "code": "0809",
+   "kind": "JCC",
+   "city": "加茂市",
+   "pref": "新潟県",
+   "yomi": "kamo"
+  },
+  {
+   "code": "0810",
+   "kind": "JCC",
+   "city": "十日町市",
+   "pref": "新潟県",
+   "yomi": "tokamachi"
+  },
+  {
+   "code": "0811",
+   "kind": "JCC",
+   "city": "見附市",
+   "pref": "新潟県",
+   "yomi": "mitsuke"
+  },
+  {
+   "code": "0812",
+   "kind": "JCC",
+   "city": "村上市",
+   "pref": "新潟県",
+   "yomi": "murakami"
+  },
+  {
+   "code": "0813",
+   "kind": "JCC",
+   "city": "燕市",
+   "pref": "新潟県",
+   "yomi": "tsubame"
+  },
+  {
+   "code": "0814",
+   "kind": "JCC",
+   "city": "直江津市",
+   "pref": "新潟県",
+   "yomi": "naoetsu",
+   "validUntil": "1971-04-28"
+  },
+  {
+   "code": "0815",
+   "kind": "JCC",
+   "city": "栃尾市",
+   "pref": "新潟県",
+   "yomi": "tochio",
+   "validUntil": "2005-12-31"
+  },
+  {
+   "code": "0816",
+   "kind": "JCC",
+   "city": "糸魚川市",
+   "pref": "新潟県",
+   "yomi": "itoigawa"
+  },
+  {
+   "code": "0817",
+   "kind": "JCC",
+   "city": "新井市",
+   "pref": "新潟県",
+   "yomi": "arai",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "0818",
+   "kind": "JCC",
+   "city": "五泉市",
+   "pref": "新潟県",
+   "yomi": "gosen"
+  },
+  {
+   "code": "0819",
+   "kind": "JCC",
+   "city": "両津市",
+   "pref": "新潟県",
+   "yomi": "ryotsu",
+   "validUntil": "2004-02-29"
+  },
+  {
+   "code": "0820",
+   "kind": "JCC",
+   "city": "白根市",
+   "pref": "新潟県",
+   "yomi": "shirone",
+   "validUntil": "2005-03-20"
+  },
+  {
+   "code": "0821",
+   "kind": "JCC",
+   "city": "豊栄市",
+   "pref": "新潟県",
+   "yomi": "toyosaka",
+   "validUntil": "2005-03-20"
+  },
+  {
+   "code": "0822",
+   "kind": "JCC",
+   "city": "上越市",
+   "pref": "新潟県",
+   "yomi": "joetsu"
+  },
+  {
+   "code": "0823",
+   "kind": "JCC",
+   "city": "阿賀野市",
+   "pref": "新潟県",
+   "yomi": "agano"
+  },
+  {
+   "code": "0824",
+   "kind": "JCC",
+   "city": "佐渡市",
+   "pref": "新潟県",
+   "yomi": "sado"
+  },
+  {
+   "code": "0825",
+   "kind": "JCC",
+   "city": "魚沼市",
+   "pref": "新潟県",
+   "yomi": "uonuma"
+  },
+  {
+   "code": "0826",
+   "kind": "JCC",
+   "city": "南魚沼市",
+   "pref": "新潟県",
+   "yomi": "minamiuonuma"
+  },
+  {
+   "code": "0827",
+   "kind": "JCC",
+   "city": "妙高市",
+   "pref": "新潟県",
+   "yomi": "myoko"
+  },
+  {
+   "code": "0828",
+   "kind": "JCC",
+   "city": "胎内市",
+   "pref": "新潟県",
+   "yomi": "tainai"
+  }
+ ]
+}

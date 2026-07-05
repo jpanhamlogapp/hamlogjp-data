@@ -1,0 +1,375 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "14001",
+   "kind": "JCG",
+   "city": "稲敷郡",
+   "pref": "茨城県",
+   "yomi": "inashiki"
+  },
+  {
+   "code": "14002",
+   "kind": "JCG",
+   "city": "鹿島郡",
+   "pref": "茨城県",
+   "yomi": "kashima",
+   "validUntil": "2005-10-10"
+  },
+  {
+   "code": "14003",
+   "kind": "JCG",
+   "city": "北相馬郡",
+   "pref": "茨城県",
+   "yomi": "kitasoma"
+  },
+  {
+   "code": "14004",
+   "kind": "JCG",
+   "city": "久慈郡",
+   "pref": "茨城県",
+   "yomi": "kuji"
+  },
+  {
+   "code": "14005",
+   "kind": "JCG",
+   "city": "猿島郡",
+   "pref": "茨城県",
+   "yomi": "sashima"
+  },
+  {
+   "code": "14006",
+   "kind": "JCG",
+   "city": "多賀郡",
+   "pref": "茨城県",
+   "yomi": "taga",
+   "validUntil": "2004-10-31"
+  },
+  {
+   "code": "14007",
+   "kind": "JCG",
+   "city": "筑波郡",
+   "pref": "茨城県",
+   "yomi": "tsukuba",
+   "validUntil": "2006-03-26"
+  },
+  {
+   "code": "14008",
+   "kind": "JCG",
+   "city": "那珂郡",
+   "pref": "茨城県",
+   "yomi": "naka"
+  },
+  {
+   "code": "14009",
+   "kind": "JCG",
+   "city": "行方郡",
+   "pref": "茨城県",
+   "yomi": "namegata",
+   "validUntil": "2005-09-01"
+  },
+  {
+   "code": "1401",
+   "kind": "JCC",
+   "city": "水戸市",
+   "pref": "茨城県",
+   "yomi": "mito"
+  },
+  {
+   "code": "14010",
+   "kind": "JCG",
+   "city": "新治郡",
+   "pref": "茨城県",
+   "yomi": "niihari",
+   "validUntil": "2006-03-26"
+  },
+  {
+   "code": "14011",
+   "kind": "JCG",
+   "city": "西茨城郡",
+   "pref": "茨城県",
+   "yomi": "nishiibaraki",
+   "validUntil": "2006-03-18"
+  },
+  {
+   "code": "14012",
+   "kind": "JCG",
+   "city": "東茨城郡",
+   "pref": "茨城県",
+   "yomi": "higashiibaraki"
+  },
+  {
+   "code": "14013",
+   "kind": "JCG",
+   "city": "真壁郡",
+   "pref": "茨城県",
+   "yomi": "makabe",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "14014",
+   "kind": "JCG",
+   "city": "結城郡",
+   "pref": "茨城県",
+   "yomi": "yuki"
+  },
+  {
+   "code": "1402",
+   "kind": "JCC",
+   "city": "日立市",
+   "pref": "茨城県",
+   "yomi": "hitachi"
+  },
+  {
+   "code": "1403",
+   "kind": "JCC",
+   "city": "土浦市",
+   "pref": "茨城県",
+   "yomi": "tsuchiura"
+  },
+  {
+   "code": "1404",
+   "kind": "JCC",
+   "city": "古河市",
+   "pref": "茨城県",
+   "yomi": "koga"
+  },
+  {
+   "code": "1405",
+   "kind": "JCC",
+   "city": "石岡市",
+   "pref": "茨城県",
+   "yomi": "ishioka"
+  },
+  {
+   "code": "1406",
+   "kind": "JCC",
+   "city": "下館市",
+   "pref": "茨城県",
+   "yomi": "shimodate",
+   "validUntil": "2005-03-27"
+  },
+  {
+   "code": "1407",
+   "kind": "JCC",
+   "city": "結城市",
+   "pref": "茨城県",
+   "yomi": "yuki"
+  },
+  {
+   "code": "1408",
+   "kind": "JCC",
+   "city": "龍ケ崎市",
+   "pref": "茨城県",
+   "yomi": "ryugasaki"
+  },
+  {
+   "code": "1409",
+   "kind": "JCC",
+   "city": "那珂湊市",
+   "pref": "茨城県",
+   "yomi": "nakaminato",
+   "validUntil": "1994-10-31"
+  },
+  {
+   "code": "1410",
+   "kind": "JCC",
+   "city": "下妻市",
+   "pref": "茨城県",
+   "yomi": "shimotsuma"
+  },
+  {
+   "code": "1411",
+   "kind": "JCC",
+   "city": "水海道市",
+   "pref": "茨城県",
+   "yomi": "mitsukaido",
+   "validUntil": "2005-12-31"
+  },
+  {
+   "code": "1412",
+   "kind": "JCC",
+   "city": "常陸太田市",
+   "pref": "茨城県",
+   "yomi": "hitachiota"
+  },
+  {
+   "code": "1413",
+   "kind": "JCC",
+   "city": "勝田市",
+   "pref": "茨城県",
+   "yomi": "katsuta",
+   "validUntil": "1994-10-31"
+  },
+  {
+   "code": "1414",
+   "kind": "JCC",
+   "city": "高萩市",
+   "pref": "茨城県",
+   "yomi": "takahagi"
+  },
+  {
+   "code": "1415",
+   "kind": "JCC",
+   "city": "北茨城市",
+   "pref": "茨城県",
+   "yomi": "kitaibaraki"
+  },
+  {
+   "code": "1416",
+   "kind": "JCC",
+   "city": "笠間市",
+   "pref": "茨城県",
+   "yomi": "kasama"
+  },
+  {
+   "code": "1417",
+   "kind": "JCC",
+   "city": "取手市",
+   "pref": "茨城県",
+   "yomi": "toride"
+  },
+  {
+   "code": "1418",
+   "kind": "JCC",
+   "city": "岩井市",
+   "pref": "茨城県",
+   "yomi": "iwai",
+   "validUntil": "2005-03-21"
+  },
+  {
+   "code": "1419",
+   "kind": "JCC",
+   "city": "牛久市",
+   "pref": "茨城県",
+   "yomi": "ushiku"
+  },
+  {
+   "code": "1420",
+   "kind": "JCC",
+   "city": "つくば市",
+   "pref": "茨城県",
+   "yomi": "tsukuba"
+  },
+  {
+   "code": "1421",
+   "kind": "JCC",
+   "city": "ひたちなか市",
+   "pref": "茨城県",
+   "yomi": "hitachinaka"
+  },
+  {
+   "code": "1422",
+   "kind": "JCC",
+   "city": "鹿嶋市",
+   "pref": "茨城県",
+   "yomi": "kashima"
+  },
+  {
+   "code": "1423",
+   "kind": "JCC",
+   "city": "潮来市",
+   "pref": "茨城県",
+   "yomi": "itako"
+  },
+  {
+   "code": "1424",
+   "kind": "JCC",
+   "city": "守谷市",
+   "pref": "茨城県",
+   "yomi": "moriya"
+  },
+  {
+   "code": "1425",
+   "kind": "JCC",
+   "city": "常陸大宮市",
+   "pref": "茨城県",
+   "yomi": "hitachiomiya"
+  },
+  {
+   "code": "1426",
+   "kind": "JCC",
+   "city": "那珂市",
+   "pref": "茨城県",
+   "yomi": "naka"
+  },
+  {
+   "code": "1427",
+   "kind": "JCC",
+   "city": "筑西市",
+   "pref": "茨城県",
+   "yomi": "chikusei"
+  },
+  {
+   "code": "1428",
+   "kind": "JCC",
+   "city": "坂東市",
+   "pref": "茨城県",
+   "yomi": "bandou"
+  },
+  {
+   "code": "1429",
+   "kind": "JCC",
+   "city": "稲敷市",
+   "pref": "茨城県",
+   "yomi": "inashiki"
+  },
+  {
+   "code": "1430",
+   "kind": "JCC",
+   "city": "かすみがうら市",
+   "pref": "茨城県",
+   "yomi": "kasumigaura"
+  },
+  {
+   "code": "1431",
+   "kind": "JCC",
+   "city": "桜川市",
+   "pref": "茨城県",
+   "yomi": "sakuragwa"
+  },
+  {
+   "code": "1432",
+   "kind": "JCC",
+   "city": "神栖市",
+   "pref": "茨城県",
+   "yomi": "kamisu"
+  },
+  {
+   "code": "1433",
+   "kind": "JCC",
+   "city": "行方市",
+   "pref": "茨城県",
+   "yomi": "namegata"
+  },
+  {
+   "code": "1434",
+   "kind": "JCC",
+   "city": "鉾田市",
+   "pref": "茨城県",
+   "yomi": "hokota"
+  },
+  {
+   "code": "1435",
+   "kind": "JCC",
+   "city": "常総市",
+   "pref": "茨城県",
+   "yomi": "joso"
+  },
+  {
+   "code": "1436",
+   "kind": "JCC",
+   "city": "つくばみらい市",
+   "pref": "茨城県",
+   "yomi": "tsukubamirai"
+  },
+  {
+   "code": "1437",
+   "kind": "JCC",
+   "city": "小美玉市",
+   "pref": "茨城県",
+   "yomi": "omitama"
+  }
+ ]
+}

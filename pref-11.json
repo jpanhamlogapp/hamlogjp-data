@@ -1,34 +1,385 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
-  {
-   "code": "1101",
-   "kind": "JCC",
-   "city": "横浜市",
-   "pref": "神奈川県",
-   "yomi": "よこはま"
-  },
-  {
-   "code": "110106",
-   "kind": "JCC",
-   "city": "横浜市港北区",
-   "pref": "神奈川県",
-   "yomi": "よこはまこうほく"
-  },
-  {
-   "code": "1102",
-   "kind": "JCC",
-   "city": "川崎市",
-   "pref": "神奈川県",
-   "yomi": "かわさき"
-  },
   {
    "code": "11001",
    "kind": "JCG",
    "city": "愛甲郡",
    "pref": "神奈川県",
-   "yomi": "あいこう"
+   "yomi": "aiko"
+  },
+  {
+   "code": "11002",
+   "kind": "JCG",
+   "city": "足柄上郡",
+   "pref": "神奈川県",
+   "yomi": "ashigarakami"
+  },
+  {
+   "code": "11003",
+   "kind": "JCG",
+   "city": "足柄下郡",
+   "pref": "神奈川県",
+   "yomi": "ashigarashimo"
+  },
+  {
+   "code": "11004",
+   "kind": "JCG",
+   "city": "高座郡",
+   "pref": "神奈川県",
+   "yomi": "koza"
+  },
+  {
+   "code": "11005",
+   "kind": "JCG",
+   "city": "津久井郡",
+   "pref": "神奈川県",
+   "yomi": "tsukui",
+   "validUntil": "2007-03-10"
+  },
+  {
+   "code": "11006",
+   "kind": "JCG",
+   "city": "中郡",
+   "pref": "神奈川県",
+   "yomi": "naka"
+  },
+  {
+   "code": "11007",
+   "kind": "JCG",
+   "city": "三浦郡",
+   "pref": "神奈川県",
+   "yomi": "miura"
+  },
+  {
+   "code": "1101",
+   "kind": "JCC",
+   "city": "横浜市",
+   "pref": "神奈川県",
+   "yomi": "yokohama"
+  },
+  {
+   "code": "110101",
+   "kind": "JCC",
+   "city": "鶴見区",
+   "pref": "神奈川県",
+   "yomi": "tsurumi"
+  },
+  {
+   "code": "110102",
+   "kind": "JCC",
+   "city": "神奈川区",
+   "pref": "神奈川県",
+   "yomi": "kanagawa"
+  },
+  {
+   "code": "110103",
+   "kind": "JCC",
+   "city": "西区",
+   "pref": "神奈川県",
+   "yomi": "nishi"
+  },
+  {
+   "code": "110104",
+   "kind": "JCC",
+   "city": "中区",
+   "pref": "神奈川県",
+   "yomi": "naka"
+  },
+  {
+   "code": "110105",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "神奈川県",
+   "yomi": "minami"
+  },
+  {
+   "code": "110106",
+   "kind": "JCC",
+   "city": "保土ケ谷区",
+   "pref": "神奈川県",
+   "yomi": "hodogaya"
+  },
+  {
+   "code": "110107",
+   "kind": "JCC",
+   "city": "磯子区",
+   "pref": "神奈川県",
+   "yomi": "isogo"
+  },
+  {
+   "code": "110108",
+   "kind": "JCC",
+   "city": "金沢区",
+   "pref": "神奈川県",
+   "yomi": "kanazawa"
+  },
+  {
+   "code": "110109",
+   "kind": "JCC",
+   "city": "港北区",
+   "pref": "神奈川県",
+   "yomi": "kohoku"
+  },
+  {
+   "code": "110110",
+   "kind": "JCC",
+   "city": "戸塚区",
+   "pref": "神奈川県",
+   "yomi": "totsuka"
+  },
+  {
+   "code": "110111",
+   "kind": "JCC",
+   "city": "港南区",
+   "pref": "神奈川県",
+   "yomi": "konan"
+  },
+  {
+   "code": "110112",
+   "kind": "JCC",
+   "city": "旭区",
+   "pref": "神奈川県",
+   "yomi": "asahi"
+  },
+  {
+   "code": "110113",
+   "kind": "JCC",
+   "city": "緑区",
+   "pref": "神奈川県",
+   "yomi": "midori"
+  },
+  {
+   "code": "110114",
+   "kind": "JCC",
+   "city": "瀬谷区",
+   "pref": "神奈川県",
+   "yomi": "seya"
+  },
+  {
+   "code": "110115",
+   "kind": "JCC",
+   "city": "栄区",
+   "pref": "神奈川県",
+   "yomi": "sakae"
+  },
+  {
+   "code": "110116",
+   "kind": "JCC",
+   "city": "泉区",
+   "pref": "神奈川県",
+   "yomi": "izumi"
+  },
+  {
+   "code": "110117",
+   "kind": "JCC",
+   "city": "青葉区",
+   "pref": "神奈川県",
+   "yomi": "aoba"
+  },
+  {
+   "code": "110118",
+   "kind": "JCC",
+   "city": "都筑区",
+   "pref": "神奈川県",
+   "yomi": "tsuzuki"
+  },
+  {
+   "code": "1102",
+   "kind": "JCC",
+   "city": "横須賀市",
+   "pref": "神奈川県",
+   "yomi": "yokosuka"
+  },
+  {
+   "code": "1103",
+   "kind": "JCC",
+   "city": "川崎市",
+   "pref": "神奈川県",
+   "yomi": "kawasaki"
+  },
+  {
+   "code": "110301",
+   "kind": "JCC",
+   "city": "川崎区",
+   "pref": "神奈川県",
+   "yomi": "kawasaki"
+  },
+  {
+   "code": "110302",
+   "kind": "JCC",
+   "city": "幸区",
+   "pref": "神奈川県",
+   "yomi": "saiwai"
+  },
+  {
+   "code": "110303",
+   "kind": "JCC",
+   "city": "中原区",
+   "pref": "神奈川県",
+   "yomi": "nakahara"
+  },
+  {
+   "code": "110304",
+   "kind": "JCC",
+   "city": "高津区",
+   "pref": "神奈川県",
+   "yomi": "takatsu"
+  },
+  {
+   "code": "110305",
+   "kind": "JCC",
+   "city": "多摩区",
+   "pref": "神奈川県",
+   "yomi": "tama"
+  },
+  {
+   "code": "110306",
+   "kind": "JCC",
+   "city": "宮前区",
+   "pref": "神奈川県",
+   "yomi": "miyamae"
+  },
+  {
+   "code": "110307",
+   "kind": "JCC",
+   "city": "麻生区",
+   "pref": "神奈川県",
+   "yomi": "asao"
+  },
+  {
+   "code": "1104",
+   "kind": "JCC",
+   "city": "平塚市",
+   "pref": "神奈川県",
+   "yomi": "hiratsuka"
+  },
+  {
+   "code": "1105",
+   "kind": "JCC",
+   "city": "鎌倉市",
+   "pref": "神奈川県",
+   "yomi": "kamakura"
+  },
+  {
+   "code": "1106",
+   "kind": "JCC",
+   "city": "藤沢市",
+   "pref": "神奈川県",
+   "yomi": "fujisawa"
+  },
+  {
+   "code": "1107",
+   "kind": "JCC",
+   "city": "小田原市",
+   "pref": "神奈川県",
+   "yomi": "odawara"
+  },
+  {
+   "code": "1108",
+   "kind": "JCC",
+   "city": "茅ヶ崎市",
+   "pref": "神奈川県",
+   "yomi": "chigasaki"
+  },
+  {
+   "code": "1109",
+   "kind": "JCC",
+   "city": "逗子市",
+   "pref": "神奈川県",
+   "yomi": "zushi"
+  },
+  {
+   "code": "1110",
+   "kind": "JCC",
+   "city": "相模原市",
+   "pref": "神奈川県",
+   "yomi": "sagamihara"
+  },
+  {
+   "code": "111001",
+   "kind": "JCC",
+   "city": "緑区",
+   "pref": "神奈川県",
+   "yomi": "midori"
+  },
+  {
+   "code": "111002",
+   "kind": "JCC",
+   "city": "中央区",
+   "pref": "神奈川県",
+   "yomi": "chuo"
+  },
+  {
+   "code": "111003",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "神奈川県",
+   "yomi": "minami"
+  },
+  {
+   "code": "1111",
+   "kind": "JCC",
+   "city": "三浦市",
+   "pref": "神奈川県",
+   "yomi": "miura"
+  },
+  {
+   "code": "1112",
+   "kind": "JCC",
+   "city": "秦野市",
+   "pref": "神奈川県",
+   "yomi": "hadano"
+  },
+  {
+   "code": "1113",
+   "kind": "JCC",
+   "city": "厚木市",
+   "pref": "神奈川県",
+   "yomi": "atsugi"
+  },
+  {
+   "code": "1114",
+   "kind": "JCC",
+   "city": "大和市",
+   "pref": "神奈川県",
+   "yomi": "yamato"
+  },
+  {
+   "code": "1115",
+   "kind": "JCC",
+   "city": "伊勢原市",
+   "pref": "神奈川県",
+   "yomi": "isehara"
+  },
+  {
+   "code": "1116",
+   "kind": "JCC",
+   "city": "海老名市",
+   "pref": "神奈川県",
+   "yomi": "ebina"
+  },
+  {
+   "code": "1117",
+   "kind": "JCC",
+   "city": "座間市",
+   "pref": "神奈川県",
+   "yomi": "zama"
+  },
+  {
+   "code": "1118",
+   "kind": "JCC",
+   "city": "南足柄市",
+   "pref": "神奈川県",
+   "yomi": "minamiashigara"
+  },
+  {
+   "code": "1119",
+   "kind": "JCC",
+   "city": "綾瀬市",
+   "pref": "神奈川県",
+   "yomi": "ayase"
   }
  ]
 }

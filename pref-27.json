@@ -1,13 +1,488 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
+  {
+   "code": "27001",
+   "kind": "JCG",
+   "city": "赤穂郡",
+   "pref": "兵庫県",
+   "yomi": "ako"
+  },
+  {
+   "code": "27002",
+   "kind": "JCG",
+   "city": "朝来郡",
+   "pref": "兵庫県",
+   "yomi": "asago",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "27003",
+   "kind": "JCG",
+   "city": "有馬郡",
+   "pref": "兵庫県",
+   "yomi": "arima",
+   "validUntil": "1958-05-30"
+  },
+  {
+   "code": "27004",
+   "kind": "JCG",
+   "city": "出石郡",
+   "pref": "兵庫県",
+   "yomi": "izushi",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "27005",
+   "kind": "JCG",
+   "city": "揖保郡",
+   "pref": "兵庫県",
+   "yomi": "ibo"
+  },
+  {
+   "code": "27006",
+   "kind": "JCG",
+   "city": "印南郡",
+   "pref": "兵庫県",
+   "yomi": "innami",
+   "validUntil": "1979-01-31"
+  },
+  {
+   "code": "27007",
+   "kind": "JCG",
+   "city": "加古郡",
+   "pref": "兵庫県",
+   "yomi": "kako"
+  },
+  {
+   "code": "27008",
+   "kind": "JCG",
+   "city": "加西郡",
+   "pref": "兵庫県",
+   "yomi": "kasai",
+   "validUntil": "1967-03-31"
+  },
+  {
+   "code": "27009",
+   "kind": "JCG",
+   "city": "加東郡",
+   "pref": "兵庫県",
+   "yomi": "kato",
+   "validUntil": "2006-03-19"
+  },
   {
    "code": "2701",
    "kind": "JCC",
    "city": "神戸市",
    "pref": "兵庫県",
-   "yomi": "こうべ"
+   "yomi": "kobe"
+  },
+  {
+   "code": "27010",
+   "kind": "JCG",
+   "city": "川辺郡",
+   "pref": "兵庫県",
+   "yomi": "kawabe"
+  },
+  {
+   "code": "270101",
+   "kind": "JCC",
+   "city": "東灘区",
+   "pref": "兵庫県",
+   "yomi": "higashinada"
+  },
+  {
+   "code": "270102",
+   "kind": "JCC",
+   "city": "灘区",
+   "pref": "兵庫県",
+   "yomi": "nada"
+  },
+  {
+   "code": "270103",
+   "kind": "JCC",
+   "city": "兵庫区",
+   "pref": "兵庫県",
+   "yomi": "hyogo"
+  },
+  {
+   "code": "270104",
+   "kind": "JCC",
+   "city": "長田区",
+   "pref": "兵庫県",
+   "yomi": "nagata"
+  },
+  {
+   "code": "270105",
+   "kind": "JCC",
+   "city": "須磨区",
+   "pref": "兵庫県",
+   "yomi": "suma"
+  },
+  {
+   "code": "270106",
+   "kind": "JCC",
+   "city": "垂水区",
+   "pref": "兵庫県",
+   "yomi": "tarumi"
+  },
+  {
+   "code": "270107",
+   "kind": "JCC",
+   "city": "北区",
+   "pref": "兵庫県",
+   "yomi": "kita"
+  },
+  {
+   "code": "270108",
+   "kind": "JCC",
+   "city": "中央区",
+   "pref": "兵庫県",
+   "yomi": "chuo"
+  },
+  {
+   "code": "270109",
+   "kind": "JCC",
+   "city": "西区",
+   "pref": "兵庫県",
+   "yomi": "nishi"
+  },
+  {
+   "code": "27011",
+   "kind": "JCG",
+   "city": "神崎郡",
+   "pref": "兵庫県",
+   "yomi": "kanzaki"
+  },
+  {
+   "code": "270110",
+   "kind": "JCC",
+   "city": "葺合区",
+   "pref": "兵庫県",
+   "yomi": "fukiai",
+   "validUntil": "1980-12-01"
+  },
+  {
+   "code": "270111",
+   "kind": "JCC",
+   "city": "生田区",
+   "pref": "兵庫県",
+   "yomi": "ikuta",
+   "validUntil": "1980-12-01"
+  },
+  {
+   "code": "27012",
+   "kind": "JCG",
+   "city": "城崎郡",
+   "pref": "兵庫県",
+   "yomi": "kinosaki",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "27013",
+   "kind": "JCG",
+   "city": "佐用郡",
+   "pref": "兵庫県",
+   "yomi": "sayo"
+  },
+  {
+   "code": "27014",
+   "kind": "JCG",
+   "city": "飾磨郡",
+   "pref": "兵庫県",
+   "yomi": "shikama",
+   "validUntil": "2006-03-26"
+  },
+  {
+   "code": "27015",
+   "kind": "JCG",
+   "city": "宍粟郡",
+   "pref": "兵庫県",
+   "yomi": "shiso",
+   "validUntil": "2006-03-26"
+  },
+  {
+   "code": "27016",
+   "kind": "JCG",
+   "city": "多可郡",
+   "pref": "兵庫県",
+   "yomi": "taka"
+  },
+  {
+   "code": "27017",
+   "kind": "JCG",
+   "city": "多紀郡",
+   "pref": "兵庫県",
+   "yomi": "taki",
+   "validUntil": "1999-03-31"
+  },
+  {
+   "code": "27018",
+   "kind": "JCG",
+   "city": "津名郡",
+   "pref": "兵庫県",
+   "yomi": "tsuna",
+   "validUntil": "2006-02-10"
+  },
+  {
+   "code": "27019",
+   "kind": "JCG",
+   "city": "氷上郡",
+   "pref": "兵庫県",
+   "yomi": "hikami",
+   "validUntil": "2004-10-31"
+  },
+  {
+   "code": "2702",
+   "kind": "JCC",
+   "city": "姫路市",
+   "pref": "兵庫県",
+   "yomi": "himeji"
+  },
+  {
+   "code": "27020",
+   "kind": "JCG",
+   "city": "美方郡",
+   "pref": "兵庫県",
+   "yomi": "mikata"
+  },
+  {
+   "code": "27021",
+   "kind": "JCG",
+   "city": "美嚢郡",
+   "pref": "兵庫県",
+   "yomi": "mino",
+   "validUntil": "2005-10-23"
+  },
+  {
+   "code": "27022",
+   "kind": "JCG",
+   "city": "三原郡",
+   "pref": "兵庫県",
+   "yomi": "mihara",
+   "validUntil": "2005-01-10"
+  },
+  {
+   "code": "27023",
+   "kind": "JCG",
+   "city": "武庫郡",
+   "pref": "兵庫県",
+   "yomi": "muko",
+   "validUntil": "1954-03-31"
+  },
+  {
+   "code": "27024",
+   "kind": "JCG",
+   "city": "養父郡",
+   "pref": "兵庫県",
+   "yomi": "yabu",
+   "validUntil": "2004-03-31"
+  },
+  {
+   "code": "2703",
+   "kind": "JCC",
+   "city": "尼崎市",
+   "pref": "兵庫県",
+   "yomi": "amagasaki"
+  },
+  {
+   "code": "2704",
+   "kind": "JCC",
+   "city": "明石市",
+   "pref": "兵庫県",
+   "yomi": "akashi"
+  },
+  {
+   "code": "2705",
+   "kind": "JCC",
+   "city": "西宮市",
+   "pref": "兵庫県",
+   "yomi": "nishinomiya"
+  },
+  {
+   "code": "2706",
+   "kind": "JCC",
+   "city": "洲本市",
+   "pref": "兵庫県",
+   "yomi": "sumoto"
+  },
+  {
+   "code": "2707",
+   "kind": "JCC",
+   "city": "芦屋市",
+   "pref": "兵庫県",
+   "yomi": "ashiya"
+  },
+  {
+   "code": "2708",
+   "kind": "JCC",
+   "city": "伊丹市",
+   "pref": "兵庫県",
+   "yomi": "itami"
+  },
+  {
+   "code": "2709",
+   "kind": "JCC",
+   "city": "相生市",
+   "pref": "兵庫県",
+   "yomi": "aioi"
+  },
+  {
+   "code": "2710",
+   "kind": "JCC",
+   "city": "豊岡市",
+   "pref": "兵庫県",
+   "yomi": "toyooka"
+  },
+  {
+   "code": "2711",
+   "kind": "JCC",
+   "city": "加古川市",
+   "pref": "兵庫県",
+   "yomi": "kakogawa"
+  },
+  {
+   "code": "2712",
+   "kind": "JCC",
+   "city": "龍野市",
+   "pref": "兵庫県",
+   "yomi": "tatsuno",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "2713",
+   "kind": "JCC",
+   "city": "赤穂市",
+   "pref": "兵庫県",
+   "yomi": "ako"
+  },
+  {
+   "code": "2714",
+   "kind": "JCC",
+   "city": "西脇市",
+   "pref": "兵庫県",
+   "yomi": "nishiwaki"
+  },
+  {
+   "code": "2715",
+   "kind": "JCC",
+   "city": "宝塚市",
+   "pref": "兵庫県",
+   "yomi": "takarazuka"
+  },
+  {
+   "code": "2716",
+   "kind": "JCC",
+   "city": "三木市",
+   "pref": "兵庫県",
+   "yomi": "miki"
+  },
+  {
+   "code": "2717",
+   "kind": "JCC",
+   "city": "高砂市",
+   "pref": "兵庫県",
+   "yomi": "takasago"
+  },
+  {
+   "code": "2718",
+   "kind": "JCC",
+   "city": "川西市",
+   "pref": "兵庫県",
+   "yomi": "kawanishi"
+  },
+  {
+   "code": "2719",
+   "kind": "JCC",
+   "city": "小野市",
+   "pref": "兵庫県",
+   "yomi": "ono"
+  },
+  {
+   "code": "2720",
+   "kind": "JCC",
+   "city": "三田市",
+   "pref": "兵庫県",
+   "yomi": "sanda"
+  },
+  {
+   "code": "2721",
+   "kind": "JCC",
+   "city": "加西市",
+   "pref": "兵庫県",
+   "yomi": "kasai"
+  },
+  {
+   "code": "2722",
+   "kind": "JCC",
+   "city": "篠山市",
+   "pref": "兵庫県",
+   "yomi": "sasayama",
+   "validUntil": "2019-04-30"
+  },
+  {
+   "code": "2723",
+   "kind": "JCC",
+   "city": "養父市",
+   "pref": "兵庫県",
+   "yomi": "yabu"
+  },
+  {
+   "code": "2724",
+   "kind": "JCC",
+   "city": "丹波市",
+   "pref": "兵庫県",
+   "yomi": "tanba"
+  },
+  {
+   "code": "2725",
+   "kind": "JCC",
+   "city": "南あわじ市",
+   "pref": "兵庫県",
+   "yomi": "minamiawaji"
+  },
+  {
+   "code": "2726",
+   "kind": "JCC",
+   "city": "朝来市",
+   "pref": "兵庫県",
+   "yomi": "asago"
+  },
+  {
+   "code": "2727",
+   "kind": "JCC",
+   "city": "淡路市",
+   "pref": "兵庫県",
+   "yomi": "awaji"
+  },
+  {
+   "code": "2728",
+   "kind": "JCC",
+   "city": "宍粟市",
+   "pref": "兵庫県",
+   "yomi": "shiso"
+  },
+  {
+   "code": "2729",
+   "kind": "JCC",
+   "city": "加東市",
+   "pref": "兵庫県",
+   "yomi": "kato"
+  },
+  {
+   "code": "2730",
+   "kind": "JCC",
+   "city": "たつの市",
+   "pref": "兵庫県",
+   "yomi": "tatsuno"
+  },
+  {
+   "code": "2731",
+   "kind": "JCC",
+   "city": "丹波篠山市",
+   "pref": "兵庫県",
+   "yomi": "tanbasasayama"
   }
  ]
 }

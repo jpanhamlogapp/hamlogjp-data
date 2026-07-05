@@ -1,0 +1,214 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "03001",
+   "kind": "JCG",
+   "city": "胆沢郡",
+   "pref": "岩手県",
+   "yomi": "isawa"
+  },
+  {
+   "code": "03002",
+   "kind": "JCG",
+   "city": "岩手郡",
+   "pref": "岩手県",
+   "yomi": "iwate"
+  },
+  {
+   "code": "03003",
+   "kind": "JCG",
+   "city": "江刺郡",
+   "pref": "岩手県",
+   "yomi": "esashi",
+   "validUntil": "1958-11-02"
+  },
+  {
+   "code": "03004",
+   "kind": "JCG",
+   "city": "上閉伊郡",
+   "pref": "岩手県",
+   "yomi": "kamihei"
+  },
+  {
+   "code": "03005",
+   "kind": "JCG",
+   "city": "九戸郡",
+   "pref": "岩手県",
+   "yomi": "kunohe"
+  },
+  {
+   "code": "03006",
+   "kind": "JCG",
+   "city": "気仙郡",
+   "pref": "岩手県",
+   "yomi": "kesen"
+  },
+  {
+   "code": "03007",
+   "kind": "JCG",
+   "city": "下閉伊郡",
+   "pref": "岩手県",
+   "yomi": "shimohei"
+  },
+  {
+   "code": "03008",
+   "kind": "JCG",
+   "city": "紫波郡",
+   "pref": "岩手県",
+   "yomi": "shiwa"
+  },
+  {
+   "code": "03009",
+   "kind": "JCG",
+   "city": "西磐井郡",
+   "pref": "岩手県",
+   "yomi": "nishiiwai"
+  },
+  {
+   "code": "0301",
+   "kind": "JCC",
+   "city": "盛岡市",
+   "pref": "岩手県",
+   "yomi": "morioka"
+  },
+  {
+   "code": "03010",
+   "kind": "JCG",
+   "city": "二戸郡",
+   "pref": "岩手県",
+   "yomi": "ninohe"
+  },
+  {
+   "code": "03011",
+   "kind": "JCG",
+   "city": "稗貫郡",
+   "pref": "岩手県",
+   "yomi": "hienuki",
+   "validUntil": "2005-12-31"
+  },
+  {
+   "code": "03012",
+   "kind": "JCG",
+   "city": "東磐井郡",
+   "pref": "岩手県",
+   "yomi": "higashiiwai",
+   "validUntil": "2011-09-25"
+  },
+  {
+   "code": "03013",
+   "kind": "JCG",
+   "city": "和賀郡",
+   "pref": "岩手県",
+   "yomi": "waga"
+  },
+  {
+   "code": "0302",
+   "kind": "JCC",
+   "city": "釜石市",
+   "pref": "岩手県",
+   "yomi": "kamaishi"
+  },
+  {
+   "code": "0303",
+   "kind": "JCC",
+   "city": "宮古市",
+   "pref": "岩手県",
+   "yomi": "miyako"
+  },
+  {
+   "code": "0304",
+   "kind": "JCC",
+   "city": "一関市",
+   "pref": "岩手県",
+   "yomi": "ichinoseki"
+  },
+  {
+   "code": "0305",
+   "kind": "JCC",
+   "city": "大船渡市",
+   "pref": "岩手県",
+   "yomi": "ofunato"
+  },
+  {
+   "code": "0306",
+   "kind": "JCC",
+   "city": "水沢市",
+   "pref": "岩手県",
+   "yomi": "mizusawa",
+   "validUntil": "2006-02-19"
+  },
+  {
+   "code": "0307",
+   "kind": "JCC",
+   "city": "花巻市",
+   "pref": "岩手県",
+   "yomi": "hanamaki"
+  },
+  {
+   "code": "0308",
+   "kind": "JCC",
+   "city": "北上市",
+   "pref": "岩手県",
+   "yomi": "kitakami"
+  },
+  {
+   "code": "0309",
+   "kind": "JCC",
+   "city": "久慈市",
+   "pref": "岩手県",
+   "yomi": "kuji"
+  },
+  {
+   "code": "0310",
+   "kind": "JCC",
+   "city": "遠野市",
+   "pref": "岩手県",
+   "yomi": "tono"
+  },
+  {
+   "code": "0311",
+   "kind": "JCC",
+   "city": "陸前高田市",
+   "pref": "岩手県",
+   "yomi": "rikuzentakata"
+  },
+  {
+   "code": "0312",
+   "kind": "JCC",
+   "city": "江刺市",
+   "pref": "岩手県",
+   "yomi": "esashi",
+   "validUntil": "2006-02-19"
+  },
+  {
+   "code": "0313",
+   "kind": "JCC",
+   "city": "二戸市",
+   "pref": "岩手県",
+   "yomi": "ninohe"
+  },
+  {
+   "code": "0314",
+   "kind": "JCC",
+   "city": "八幡平市",
+   "pref": "岩手県",
+   "yomi": "hachimantai"
+  },
+  {
+   "code": "0315",
+   "kind": "JCC",
+   "city": "奥州市",
+   "pref": "岩手県",
+   "yomi": "oshu"
+  },
+  {
+   "code": "0316",
+   "kind": "JCC",
+   "city": "滝沢市",
+   "pref": "岩手県",
+   "yomi": "takizawa"
+  }
+ ]
+}

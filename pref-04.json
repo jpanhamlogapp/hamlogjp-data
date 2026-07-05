@@ -1,0 +1,179 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "04001",
+   "kind": "JCG",
+   "city": "雄勝郡",
+   "pref": "秋田県",
+   "yomi": "ogachi"
+  },
+  {
+   "code": "04002",
+   "kind": "JCG",
+   "city": "鹿角郡",
+   "pref": "秋田県",
+   "yomi": "kazuno"
+  },
+  {
+   "code": "04003",
+   "kind": "JCG",
+   "city": "河辺郡",
+   "pref": "秋田県",
+   "yomi": "kawabe",
+   "validUntil": "2005-01-10"
+  },
+  {
+   "code": "04004",
+   "kind": "JCG",
+   "city": "北秋田郡",
+   "pref": "秋田県",
+   "yomi": "kitaakita"
+  },
+  {
+   "code": "04005",
+   "kind": "JCG",
+   "city": "仙北郡",
+   "pref": "秋田県",
+   "yomi": "senboku"
+  },
+  {
+   "code": "04006",
+   "kind": "JCG",
+   "city": "平鹿郡",
+   "pref": "秋田県",
+   "yomi": "hiraka",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "04007",
+   "kind": "JCG",
+   "city": "南秋田郡",
+   "pref": "秋田県",
+   "yomi": "minamiakita"
+  },
+  {
+   "code": "04008",
+   "kind": "JCG",
+   "city": "山本郡",
+   "pref": "秋田県",
+   "yomi": "yamamoto"
+  },
+  {
+   "code": "04009",
+   "kind": "JCG",
+   "city": "由利郡",
+   "pref": "秋田県",
+   "yomi": "yuri",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "0401",
+   "kind": "JCC",
+   "city": "秋田市",
+   "pref": "秋田県",
+   "yomi": "akita"
+  },
+  {
+   "code": "0402",
+   "kind": "JCC",
+   "city": "能代市",
+   "pref": "秋田県",
+   "yomi": "noshiro"
+  },
+  {
+   "code": "0403",
+   "kind": "JCC",
+   "city": "大館市",
+   "pref": "秋田県",
+   "yomi": "odate"
+  },
+  {
+   "code": "0404",
+   "kind": "JCC",
+   "city": "横手市",
+   "pref": "秋田県",
+   "yomi": "yokote"
+  },
+  {
+   "code": "0405",
+   "kind": "JCC",
+   "city": "本荘市",
+   "pref": "秋田県",
+   "yomi": "honjo",
+   "validUntil": "2005-03-21"
+  },
+  {
+   "code": "0406",
+   "kind": "JCC",
+   "city": "男鹿市",
+   "pref": "秋田県",
+   "yomi": "oga"
+  },
+  {
+   "code": "0407",
+   "kind": "JCC",
+   "city": "湯沢市",
+   "pref": "秋田県",
+   "yomi": "yuzawa"
+  },
+  {
+   "code": "0408",
+   "kind": "JCC",
+   "city": "大曲市",
+   "pref": "秋田県",
+   "yomi": "omagari",
+   "validUntil": "2005-03-21"
+  },
+  {
+   "code": "0409",
+   "kind": "JCC",
+   "city": "鹿角市",
+   "pref": "秋田県",
+   "yomi": "kazuno"
+  },
+  {
+   "code": "0410",
+   "kind": "JCC",
+   "city": "由利本荘市",
+   "pref": "秋田県",
+   "yomi": "yurihonjo"
+  },
+  {
+   "code": "0411",
+   "kind": "JCC",
+   "city": "潟上市",
+   "pref": "秋田県",
+   "yomi": "katagami"
+  },
+  {
+   "code": "0412",
+   "kind": "JCC",
+   "city": "大仙市",
+   "pref": "秋田県",
+   "yomi": "daisen"
+  },
+  {
+   "code": "0413",
+   "kind": "JCC",
+   "city": "北秋田市",
+   "pref": "秋田県",
+   "yomi": "kitaakita"
+  },
+  {
+   "code": "0414",
+   "kind": "JCC",
+   "city": "にかほ市",
+   "pref": "秋田県",
+   "yomi": "nikaho"
+  },
+  {
+   "code": "0415",
+   "kind": "JCC",
+   "city": "仙北市",
+   "pref": "秋田県",
+   "yomi": "senboku"
+  }
+ ]
+}

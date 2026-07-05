@@ -1,20 +1,413 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
+  {
+   "code": "12001",
+   "kind": "JCG",
+   "city": "安房郡",
+   "pref": "千葉県",
+   "yomi": "awa"
+  },
+  {
+   "code": "12002",
+   "kind": "JCG",
+   "city": "夷隅郡",
+   "pref": "千葉県",
+   "yomi": "isumi"
+  },
+  {
+   "code": "12003",
+   "kind": "JCG",
+   "city": "市原郡",
+   "pref": "千葉県",
+   "yomi": "ichihara",
+   "validUntil": "1967-09-30"
+  },
+  {
+   "code": "12004",
+   "kind": "JCG",
+   "city": "印旛郡",
+   "pref": "千葉県",
+   "yomi": "inba"
+  },
+  {
+   "code": "12005",
+   "kind": "JCG",
+   "city": "海上郡",
+   "pref": "千葉県",
+   "yomi": "kaijo",
+   "validUntil": "2005-06-30"
+  },
+  {
+   "code": "12006",
+   "kind": "JCG",
+   "city": "香取郡",
+   "pref": "千葉県",
+   "yomi": "katori"
+  },
+  {
+   "code": "12007",
+   "kind": "JCG",
+   "city": "君津郡",
+   "pref": "千葉県",
+   "yomi": "kimitsu",
+   "validUntil": "1991-03-31"
+  },
+  {
+   "code": "12008",
+   "kind": "JCG",
+   "city": "山武郡",
+   "pref": "千葉県",
+   "yomi": "sanbu"
+  },
+  {
+   "code": "12009",
+   "kind": "JCG",
+   "city": "匝瑳郡",
+   "pref": "千葉県",
+   "yomi": "sosa",
+   "validUntil": "2006-03-26"
+  },
   {
    "code": "1201",
    "kind": "JCC",
    "city": "千葉市",
    "pref": "千葉県",
-   "yomi": "ちば"
+   "yomi": "chiba"
   },
   {
-   "code": "12002",
+   "code": "12010",
    "kind": "JCG",
-   "city": "印旛郡",
+   "city": "千葉郡",
    "pref": "千葉県",
-   "yomi": "いんば"
+   "yomi": "chiba",
+   "validUntil": "1966-12-31"
+  },
+  {
+   "code": "120101",
+   "kind": "JCC",
+   "city": "中央区",
+   "pref": "千葉県",
+   "yomi": "chuo"
+  },
+  {
+   "code": "120102",
+   "kind": "JCC",
+   "city": "花見川区",
+   "pref": "千葉県",
+   "yomi": "hanamigawa"
+  },
+  {
+   "code": "120103",
+   "kind": "JCC",
+   "city": "稲毛区",
+   "pref": "千葉県",
+   "yomi": "inage"
+  },
+  {
+   "code": "120104",
+   "kind": "JCC",
+   "city": "若葉区",
+   "pref": "千葉県",
+   "yomi": "wakaba"
+  },
+  {
+   "code": "120105",
+   "kind": "JCC",
+   "city": "緑区",
+   "pref": "千葉県",
+   "yomi": "midori"
+  },
+  {
+   "code": "120106",
+   "kind": "JCC",
+   "city": "美浜区",
+   "pref": "千葉県",
+   "yomi": "mihama"
+  },
+  {
+   "code": "12011",
+   "kind": "JCG",
+   "city": "長生郡",
+   "pref": "千葉県",
+   "yomi": "chosei"
+  },
+  {
+   "code": "12012",
+   "kind": "JCG",
+   "city": "東葛飾郡",
+   "pref": "千葉県",
+   "yomi": "higashikatsushika",
+   "validUntil": "2005-03-27"
+  },
+  {
+   "code": "1202",
+   "kind": "JCC",
+   "city": "銚子市",
+   "pref": "千葉県",
+   "yomi": "choshi"
+  },
+  {
+   "code": "1203",
+   "kind": "JCC",
+   "city": "市川市",
+   "pref": "千葉県",
+   "yomi": "ichikawa"
+  },
+  {
+   "code": "1204",
+   "kind": "JCC",
+   "city": "船橋市",
+   "pref": "千葉県",
+   "yomi": "funabashi"
+  },
+  {
+   "code": "1205",
+   "kind": "JCC",
+   "city": "館山市",
+   "pref": "千葉県",
+   "yomi": "tateyama"
+  },
+  {
+   "code": "1206",
+   "kind": "JCC",
+   "city": "木更津市",
+   "pref": "千葉県",
+   "yomi": "kisarazu"
+  },
+  {
+   "code": "1207",
+   "kind": "JCC",
+   "city": "松戸市",
+   "pref": "千葉県",
+   "yomi": "matsudo"
+  },
+  {
+   "code": "1208",
+   "kind": "JCC",
+   "city": "野田市",
+   "pref": "千葉県",
+   "yomi": "noda"
+  },
+  {
+   "code": "1209",
+   "kind": "JCC",
+   "city": "佐原市",
+   "pref": "千葉県",
+   "yomi": "sawara",
+   "validUntil": "2006-03-26"
+  },
+  {
+   "code": "1210",
+   "kind": "JCC",
+   "city": "茂原市",
+   "pref": "千葉県",
+   "yomi": "mobara"
+  },
+  {
+   "code": "1211",
+   "kind": "JCC",
+   "city": "成田市",
+   "pref": "千葉県",
+   "yomi": "narita"
+  },
+  {
+   "code": "1212",
+   "kind": "JCC",
+   "city": "佐倉市",
+   "pref": "千葉県",
+   "yomi": "sakura"
+  },
+  {
+   "code": "1213",
+   "kind": "JCC",
+   "city": "東金市",
+   "pref": "千葉県",
+   "yomi": "togane"
+  },
+  {
+   "code": "1214",
+   "kind": "JCC",
+   "city": "八日市場市",
+   "pref": "千葉県",
+   "yomi": "yokaichiba",
+   "validUntil": "2006-01-22"
+  },
+  {
+   "code": "1215",
+   "kind": "JCC",
+   "city": "旭市",
+   "pref": "千葉県",
+   "yomi": "asahi"
+  },
+  {
+   "code": "1216",
+   "kind": "JCC",
+   "city": "習志野市",
+   "pref": "千葉県",
+   "yomi": "narashino"
+  },
+  {
+   "code": "1217",
+   "kind": "JCC",
+   "city": "柏市",
+   "pref": "千葉県",
+   "yomi": "kashiwa"
+  },
+  {
+   "code": "1218",
+   "kind": "JCC",
+   "city": "勝浦市",
+   "pref": "千葉県",
+   "yomi": "katsuura"
+  },
+  {
+   "code": "1219",
+   "kind": "JCC",
+   "city": "市原市",
+   "pref": "千葉県",
+   "yomi": "ichihara"
+  },
+  {
+   "code": "1220",
+   "kind": "JCC",
+   "city": "流山市",
+   "pref": "千葉県",
+   "yomi": "nagareyama"
+  },
+  {
+   "code": "1221",
+   "kind": "JCC",
+   "city": "八千代市",
+   "pref": "千葉県",
+   "yomi": "yachiyo"
+  },
+  {
+   "code": "1222",
+   "kind": "JCC",
+   "city": "我孫子市",
+   "pref": "千葉県",
+   "yomi": "abiko"
+  },
+  {
+   "code": "1223",
+   "kind": "JCC",
+   "city": "鴨川市",
+   "pref": "千葉県",
+   "yomi": "kamogawa"
+  },
+  {
+   "code": "1224",
+   "kind": "JCC",
+   "city": "君津市",
+   "pref": "千葉県",
+   "yomi": "kimitsu"
+  },
+  {
+   "code": "1225",
+   "kind": "JCC",
+   "city": "鎌ケ谷市",
+   "pref": "千葉県",
+   "yomi": "kamagaya"
+  },
+  {
+   "code": "1226",
+   "kind": "JCC",
+   "city": "富津市",
+   "pref": "千葉県",
+   "yomi": "futtu"
+  },
+  {
+   "code": "1227",
+   "kind": "JCC",
+   "city": "浦安市",
+   "pref": "千葉県",
+   "yomi": "urayasu"
+  },
+  {
+   "code": "1228",
+   "kind": "JCC",
+   "city": "四街道市",
+   "pref": "千葉県",
+   "yomi": "yotsukaido"
+  },
+  {
+   "code": "1229",
+   "kind": "JCC",
+   "city": "袖ケ浦市",
+   "pref": "千葉県",
+   "yomi": "sodegaura"
+  },
+  {
+   "code": "1230",
+   "kind": "JCC",
+   "city": "八街市",
+   "pref": "千葉県",
+   "yomi": "yachimata"
+  },
+  {
+   "code": "1231",
+   "kind": "JCC",
+   "city": "印西市",
+   "pref": "千葉県",
+   "yomi": "inzai"
+  },
+  {
+   "code": "1232",
+   "kind": "JCC",
+   "city": "白井市",
+   "pref": "千葉県",
+   "yomi": "shiroi"
+  },
+  {
+   "code": "1233",
+   "kind": "JCC",
+   "city": "富里市",
+   "pref": "千葉県",
+   "yomi": "tomisato"
+  },
+  {
+   "code": "1234",
+   "kind": "JCC",
+   "city": "南房総市",
+   "pref": "千葉県",
+   "yomi": "minamiboso"
+  },
+  {
+   "code": "1235",
+   "kind": "JCC",
+   "city": "匝瑳市",
+   "pref": "千葉県",
+   "yomi": "sosa"
+  },
+  {
+   "code": "1236",
+   "kind": "JCC",
+   "city": "香取市",
+   "pref": "千葉県",
+   "yomi": "katori"
+  },
+  {
+   "code": "1237",
+   "kind": "JCC",
+   "city": "山武市",
+   "pref": "千葉県",
+   "yomi": "sanmu"
+  },
+  {
+   "code": "1238",
+   "kind": "JCC",
+   "city": "いすみ市",
+   "pref": "千葉県",
+   "yomi": "isumi"
+  },
+  {
+   "code": "1239",
+   "kind": "JCC",
+   "city": "大網白里市",
+   "pref": "千葉県",
+   "yomi": "oamishirasato"
   }
  ]
 }

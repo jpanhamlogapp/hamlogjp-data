@@ -1,0 +1,277 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "09001",
+   "kind": "JCG",
+   "city": "上伊那郡",
+   "pref": "長野県",
+   "yomi": "kamiina"
+  },
+  {
+   "code": "09002",
+   "kind": "JCG",
+   "city": "上高井郡",
+   "pref": "長野県",
+   "yomi": "kamitakai"
+  },
+  {
+   "code": "09003",
+   "kind": "JCG",
+   "city": "上水内郡",
+   "pref": "長野県",
+   "yomi": "kamiminochi"
+  },
+  {
+   "code": "09004",
+   "kind": "JCG",
+   "city": "木曽郡",
+   "pref": "長野県",
+   "yomi": "kiso"
+  },
+  {
+   "code": "09005",
+   "kind": "JCG",
+   "city": "北安曇郡",
+   "pref": "長野県",
+   "yomi": "kitaazumi"
+  },
+  {
+   "code": "09006",
+   "kind": "JCG",
+   "city": "北佐久郡",
+   "pref": "長野県",
+   "yomi": "kitasaku"
+  },
+  {
+   "code": "09007",
+   "kind": "JCG",
+   "city": "更級郡",
+   "pref": "長野県",
+   "yomi": "sarashina",
+   "validUntil": "2004-12-31"
+  },
+  {
+   "code": "09008",
+   "kind": "JCG",
+   "city": "下伊那郡",
+   "pref": "長野県",
+   "yomi": "shimoina"
+  },
+  {
+   "code": "09009",
+   "kind": "JCG",
+   "city": "下高井郡",
+   "pref": "長野県",
+   "yomi": "shimotakai"
+  },
+  {
+   "code": "0901",
+   "kind": "JCC",
+   "city": "長野市",
+   "pref": "長野県",
+   "yomi": "nagano"
+  },
+  {
+   "code": "09010",
+   "kind": "JCG",
+   "city": "下水内郡",
+   "pref": "長野県",
+   "yomi": "shimominochi"
+  },
+  {
+   "code": "09011",
+   "kind": "JCG",
+   "city": "諏訪郡",
+   "pref": "長野県",
+   "yomi": "suwa"
+  },
+  {
+   "code": "09012",
+   "kind": "JCG",
+   "city": "小県郡",
+   "pref": "長野県",
+   "yomi": "chiisagata"
+  },
+  {
+   "code": "09013",
+   "kind": "JCG",
+   "city": "(欠番）郡",
+   "pref": "長野県",
+   "yomi": "reserved",
+   "validUntil": "1900-01-01"
+  },
+  {
+   "code": "09014",
+   "kind": "JCG",
+   "city": "埴科郡",
+   "pref": "長野県",
+   "yomi": "hanishina"
+  },
+  {
+   "code": "09015",
+   "kind": "JCG",
+   "city": "東筑摩郡",
+   "pref": "長野県",
+   "yomi": "higashichikuma"
+  },
+  {
+   "code": "09016",
+   "kind": "JCG",
+   "city": "南安曇郡",
+   "pref": "長野県",
+   "yomi": "minamiazumi",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "09017",
+   "kind": "JCG",
+   "city": "南佐久郡",
+   "pref": "長野県",
+   "yomi": "minamisaku"
+  },
+  {
+   "code": "0902",
+   "kind": "JCC",
+   "city": "松本市",
+   "pref": "長野県",
+   "yomi": "matsumoto"
+  },
+  {
+   "code": "0903",
+   "kind": "JCC",
+   "city": "上田市",
+   "pref": "長野県",
+   "yomi": "ueda"
+  },
+  {
+   "code": "0904",
+   "kind": "JCC",
+   "city": "岡谷市",
+   "pref": "長野県",
+   "yomi": "okaya"
+  },
+  {
+   "code": "0905",
+   "kind": "JCC",
+   "city": "飯田市",
+   "pref": "長野県",
+   "yomi": "iida"
+  },
+  {
+   "code": "0906",
+   "kind": "JCC",
+   "city": "諏訪市",
+   "pref": "長野県",
+   "yomi": "suwa"
+  },
+  {
+   "code": "0907",
+   "kind": "JCC",
+   "city": "須坂市",
+   "pref": "長野県",
+   "yomi": "suzaka"
+  },
+  {
+   "code": "0908",
+   "kind": "JCC",
+   "city": "小諸市",
+   "pref": "長野県",
+   "yomi": "komoro"
+  },
+  {
+   "code": "0909",
+   "kind": "JCC",
+   "city": "伊那市",
+   "pref": "長野県",
+   "yomi": "ina"
+  },
+  {
+   "code": "0910",
+   "kind": "JCC",
+   "city": "駒ヶ根市",
+   "pref": "長野県",
+   "yomi": "komagane"
+  },
+  {
+   "code": "0911",
+   "kind": "JCC",
+   "city": "中野市",
+   "pref": "長野県",
+   "yomi": "nakano"
+  },
+  {
+   "code": "0912",
+   "kind": "JCC",
+   "city": "大町市",
+   "pref": "長野県",
+   "yomi": "omachi"
+  },
+  {
+   "code": "0913",
+   "kind": "JCC",
+   "city": "飯山市",
+   "pref": "長野県",
+   "yomi": "iiyama"
+  },
+  {
+   "code": "0914",
+   "kind": "JCC",
+   "city": "茅野市",
+   "pref": "長野県",
+   "yomi": "chino"
+  },
+  {
+   "code": "0915",
+   "kind": "JCC",
+   "city": "塩尻市",
+   "pref": "長野県",
+   "yomi": "shiojiri"
+  },
+  {
+   "code": "0916",
+   "kind": "JCC",
+   "city": "篠ノ井市",
+   "pref": "長野県",
+   "yomi": "shinonoi",
+   "validUntil": "1966-10-15"
+  },
+  {
+   "code": "0917",
+   "kind": "JCC",
+   "city": "更埴市",
+   "pref": "長野県",
+   "yomi": "koshoku",
+   "validUntil": "2003-08-31"
+  },
+  {
+   "code": "0918",
+   "kind": "JCC",
+   "city": "佐久市",
+   "pref": "長野県",
+   "yomi": "saku"
+  },
+  {
+   "code": "0919",
+   "kind": "JCC",
+   "city": "千曲市",
+   "pref": "長野県",
+   "yomi": "chikuma"
+  },
+  {
+   "code": "0920",
+   "kind": "JCC",
+   "city": "東御市",
+   "pref": "長野県",
+   "yomi": "toumi"
+  },
+  {
+   "code": "0921",
+   "kind": "JCC",
+   "city": "安曇野市",
+   "pref": "長野県",
+   "yomi": "azumino"
+  }
+ ]
+}

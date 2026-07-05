@@ -1,0 +1,177 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "05001",
+   "kind": "JCG",
+   "city": "飽海郡",
+   "pref": "山形県",
+   "yomi": "akumi"
+  },
+  {
+   "code": "05002",
+   "kind": "JCG",
+   "city": "北村山郡",
+   "pref": "山形県",
+   "yomi": "kitamurayama"
+  },
+  {
+   "code": "05003",
+   "kind": "JCG",
+   "city": "西置賜郡",
+   "pref": "山形県",
+   "yomi": "nishiokitama"
+  },
+  {
+   "code": "05004",
+   "kind": "JCG",
+   "city": "西田川郡",
+   "pref": "山形県",
+   "yomi": "nishitagawa",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "05005",
+   "kind": "JCG",
+   "city": "西村山郡",
+   "pref": "山形県",
+   "yomi": "nishimurayama"
+  },
+  {
+   "code": "05006",
+   "kind": "JCG",
+   "city": "東置賜郡",
+   "pref": "山形県",
+   "yomi": "higashiokitama"
+  },
+  {
+   "code": "05007",
+   "kind": "JCG",
+   "city": "東田川郡",
+   "pref": "山形県",
+   "yomi": "higashitagawa"
+  },
+  {
+   "code": "05008",
+   "kind": "JCG",
+   "city": "東村山郡",
+   "pref": "山形県",
+   "yomi": "higashimurayama"
+  },
+  {
+   "code": "05009",
+   "kind": "JCG",
+   "city": "南置賜郡",
+   "pref": "山形県",
+   "yomi": "minamiokitama",
+   "validUntil": "1958-03-31"
+  },
+  {
+   "code": "0501",
+   "kind": "JCC",
+   "city": "山形市",
+   "pref": "山形県",
+   "yomi": "yamagata"
+  },
+  {
+   "code": "05010",
+   "kind": "JCG",
+   "city": "南村山郡",
+   "pref": "山形県",
+   "yomi": "minamimurayama",
+   "validUntil": "1957-03-20"
+  },
+  {
+   "code": "05011",
+   "kind": "JCG",
+   "city": "最上郡",
+   "pref": "山形県",
+   "yomi": "mogami"
+  },
+  {
+   "code": "0502",
+   "kind": "JCC",
+   "city": "米沢市",
+   "pref": "山形県",
+   "yomi": "yonezawa"
+  },
+  {
+   "code": "0503",
+   "kind": "JCC",
+   "city": "鶴岡市",
+   "pref": "山形県",
+   "yomi": "tsuruoka"
+  },
+  {
+   "code": "0504",
+   "kind": "JCC",
+   "city": "酒田市",
+   "pref": "山形県",
+   "yomi": "sakata"
+  },
+  {
+   "code": "0505",
+   "kind": "JCC",
+   "city": "新庄市",
+   "pref": "山形県",
+   "yomi": "shinjo"
+  },
+  {
+   "code": "0506",
+   "kind": "JCC",
+   "city": "寒河江市",
+   "pref": "山形県",
+   "yomi": "sagae"
+  },
+  {
+   "code": "0507",
+   "kind": "JCC",
+   "city": "上山市",
+   "pref": "山形県",
+   "yomi": "kaminoyama"
+  },
+  {
+   "code": "0508",
+   "kind": "JCC",
+   "city": "村山市",
+   "pref": "山形県",
+   "yomi": "murayama"
+  },
+  {
+   "code": "0509",
+   "kind": "JCC",
+   "city": "長井市",
+   "pref": "山形県",
+   "yomi": "nagai"
+  },
+  {
+   "code": "0510",
+   "kind": "JCC",
+   "city": "天童市",
+   "pref": "山形県",
+   "yomi": "tendo"
+  },
+  {
+   "code": "0511",
+   "kind": "JCC",
+   "city": "東根市",
+   "pref": "山形県",
+   "yomi": "higashine"
+  },
+  {
+   "code": "0512",
+   "kind": "JCC",
+   "city": "尾花沢市",
+   "pref": "山形県",
+   "yomi": "obanazawa"
+  },
+  {
+   "code": "0513",
+   "kind": "JCC",
+   "city": "南陽市",
+   "pref": "山形県",
+   "yomi": "nanyo"
+  }
+ ]
+}

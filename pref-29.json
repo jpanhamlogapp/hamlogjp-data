@@ -1,0 +1,166 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "29001",
+   "kind": "JCG",
+   "city": "足羽郡",
+   "pref": "福井県",
+   "yomi": "asuwa",
+   "validUntil": "2006-01-30"
+  },
+  {
+   "code": "29002",
+   "kind": "JCG",
+   "city": "今立郡",
+   "pref": "福井県",
+   "yomi": "imadate"
+  },
+  {
+   "code": "29003",
+   "kind": "JCG",
+   "city": "大飯郡",
+   "pref": "福井県",
+   "yomi": "oi"
+  },
+  {
+   "code": "29004",
+   "kind": "JCG",
+   "city": "大野郡",
+   "pref": "福井県",
+   "yomi": "ono",
+   "validUntil": "2005-11-06"
+  },
+  {
+   "code": "29005",
+   "kind": "JCG",
+   "city": "遠敷郡",
+   "pref": "福井県",
+   "yomi": "onyu",
+   "validUntil": "2006-03-02"
+  },
+  {
+   "code": "29006",
+   "kind": "JCG",
+   "city": "坂井郡",
+   "pref": "福井県",
+   "yomi": "sakai",
+   "validUntil": "2006-03-19"
+  },
+  {
+   "code": "29007",
+   "kind": "JCG",
+   "city": "敦賀郡",
+   "pref": "福井県",
+   "yomi": "tsuruga",
+   "validUntil": "1955-01-14"
+  },
+  {
+   "code": "29008",
+   "kind": "JCG",
+   "city": "南条郡",
+   "pref": "福井県",
+   "yomi": "nanjo"
+  },
+  {
+   "code": "29009",
+   "kind": "JCG",
+   "city": "丹生郡",
+   "pref": "福井県",
+   "yomi": "nyu"
+  },
+  {
+   "code": "2901",
+   "kind": "JCC",
+   "city": "福井市",
+   "pref": "福井県",
+   "yomi": "fukui"
+  },
+  {
+   "code": "29010",
+   "kind": "JCG",
+   "city": "三方郡",
+   "pref": "福井県",
+   "yomi": "mikata"
+  },
+  {
+   "code": "29011",
+   "kind": "JCG",
+   "city": "吉田郡",
+   "pref": "福井県",
+   "yomi": "yoshida"
+  },
+  {
+   "code": "29012",
+   "kind": "JCG",
+   "city": "三方上中郡",
+   "pref": "福井県",
+   "yomi": "mikatakaminaka"
+  },
+  {
+   "code": "2902",
+   "kind": "JCC",
+   "city": "敦賀市",
+   "pref": "福井県",
+   "yomi": "tsuruga"
+  },
+  {
+   "code": "2903",
+   "kind": "JCC",
+   "city": "武生市",
+   "pref": "福井県",
+   "yomi": "takefu",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "2904",
+   "kind": "JCC",
+   "city": "小浜市",
+   "pref": "福井県",
+   "yomi": "obama"
+  },
+  {
+   "code": "2905",
+   "kind": "JCC",
+   "city": "大野市",
+   "pref": "福井県",
+   "yomi": "ono"
+  },
+  {
+   "code": "2906",
+   "kind": "JCC",
+   "city": "勝山市",
+   "pref": "福井県",
+   "yomi": "katsuyama"
+  },
+  {
+   "code": "2907",
+   "kind": "JCC",
+   "city": "鯖江市",
+   "pref": "福井県",
+   "yomi": "sabae"
+  },
+  {
+   "code": "2908",
+   "kind": "JCC",
+   "city": "あわら市",
+   "pref": "福井県",
+   "yomi": "awara"
+  },
+  {
+   "code": "2909",
+   "kind": "JCC",
+   "city": "越前市",
+   "pref": "福井県",
+   "yomi": "echizen"
+  },
+  {
+   "code": "2910",
+   "kind": "JCC",
+   "city": "坂井市",
+   "pref": "福井県",
+   "yomi": "sakai"
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "42001",
+   "kind": "JCG",
+   "city": "壱岐郡",
+   "pref": "長崎県",
+   "yomi": "iki",
+   "validUntil": "2004-02-29"
+  },
+  {
+   "code": "42002",
+   "kind": "JCG",
+   "city": "上県郡",
+   "pref": "長崎県",
+   "yomi": "kamiagata",
+   "validUntil": "2004-02-29"
+  },
+  {
+   "code": "42003",
+   "kind": "JCG",
+   "city": "北高来郡",
+   "pref": "長崎県",
+   "yomi": "kitatakaki",
+   "validUntil": "2005-02-28"
+  },
+  {
+   "code": "42004",
+   "kind": "JCG",
+   "city": "北松浦郡",
+   "pref": "長崎県",
+   "yomi": "kitamatsuura"
+  },
+  {
+   "code": "42005",
+   "kind": "JCG",
+   "city": "下県郡",
+   "pref": "長崎県",
+   "yomi": "shimoagata",
+   "validUntil": "2004-02-29"
+  },
+  {
+   "code": "42006",
+   "kind": "JCG",
+   "city": "西彼杵郡",
+   "pref": "長崎県",
+   "yomi": "nishisonogi"
+  },
+  {
+   "code": "42007",
+   "kind": "JCG",
+   "city": "東彼杵郡",
+   "pref": "長崎県",
+   "yomi": "higashisonogi"
+  },
+  {
+   "code": "42008",
+   "kind": "JCG",
+   "city": "南高来郡",
+   "pref": "長崎県",
+   "yomi": "minamitakaki",
+   "validUntil": "2006-03-30"
+  },
+  {
+   "code": "42009",
+   "kind": "JCG",
+   "city": "南松浦郡",
+   "pref": "長崎県",
+   "yomi": "minamimatsuura"
+  },
+  {
+   "code": "4201",
+   "kind": "JCC",
+   "city": "長崎市",
+   "pref": "長崎県",
+   "yomi": "nagasaki"
+  },
+  {
+   "code": "4202",
+   "kind": "JCC",
+   "city": "佐世保市",
+   "pref": "長崎県",
+   "yomi": "sasebo"
+  },
+  {
+   "code": "4203",
+   "kind": "JCC",
+   "city": "島原市",
+   "pref": "長崎県",
+   "yomi": "shimabara"
+  },
+  {
+   "code": "4204",
+   "kind": "JCC",
+   "city": "諫早市",
+   "pref": "長崎県",
+   "yomi": "isahaya"
+  },
+  {
+   "code": "4205",
+   "kind": "JCC",
+   "city": "大村市",
+   "pref": "長崎県",
+   "yomi": "omura"
+  },
+  {
+   "code": "4206",
+   "kind": "JCC",
+   "city": "福江市",
+   "pref": "長崎県",
+   "yomi": "fukue",
+   "validUntil": "2004-07-31"
+  },
+  {
+   "code": "4207",
+   "kind": "JCC",
+   "city": "平戸市",
+   "pref": "長崎県",
+   "yomi": "hirado"
+  },
+  {
+   "code": "4208",
+   "kind": "JCC",
+   "city": "松浦市",
+   "pref": "長崎県",
+   "yomi": "matsuura"
+  },
+  {
+   "code": "4209",
+   "kind": "JCC",
+   "city": "対馬市",
+   "pref": "長崎県",
+   "yomi": "tsushima"
+  },
+  {
+   "code": "4210",
+   "kind": "JCC",
+   "city": "壱岐市",
+   "pref": "長崎県",
+   "yomi": "iki"
+  },
+  {
+   "code": "4211",
+   "kind": "JCC",
+   "city": "五島市",
+   "pref": "長崎県",
+   "yomi": "goto"
+  },
+  {
+   "code": "4212",
+   "kind": "JCC",
+   "city": "西海市",
+   "pref": "長崎県",
+   "yomi": "saikai"
+  },
+  {
+   "code": "4213",
+   "kind": "JCC",
+   "city": "雲仙市",
+   "pref": "長崎県",
+   "yomi": "unzen"
+  },
+  {
+   "code": "4214",
+   "kind": "JCC",
+   "city": "南島原市",
+   "pref": "長崎県",
+   "yomi": "minamishimabara"
+  }
+ ]
+}

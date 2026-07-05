@@ -1,13 +1,273 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
+  {
+   "code": "06001",
+   "kind": "JCG",
+   "city": "伊具郡",
+   "pref": "宮城県",
+   "yomi": "igu"
+  },
+  {
+   "code": "06002",
+   "kind": "JCG",
+   "city": "牡鹿郡",
+   "pref": "宮城県",
+   "yomi": "oshika"
+  },
+  {
+   "code": "06003",
+   "kind": "JCG",
+   "city": "刈田郡",
+   "pref": "宮城県",
+   "yomi": "katta"
+  },
+  {
+   "code": "06004",
+   "kind": "JCG",
+   "city": "加美郡",
+   "pref": "宮城県",
+   "yomi": "kami"
+  },
+  {
+   "code": "06005",
+   "kind": "JCG",
+   "city": "栗原郡",
+   "pref": "宮城県",
+   "yomi": "kurihara",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "06006",
+   "kind": "JCG",
+   "city": "黒川郡",
+   "pref": "宮城県",
+   "yomi": "kurokawa"
+  },
+  {
+   "code": "06007",
+   "kind": "JCG",
+   "city": "志田郡",
+   "pref": "宮城県",
+   "yomi": "shida",
+   "validUntil": "2006-03-30"
+  },
+  {
+   "code": "06008",
+   "kind": "JCG",
+   "city": "柴田郡",
+   "pref": "宮城県",
+   "yomi": "shibata"
+  },
+  {
+   "code": "06009",
+   "kind": "JCG",
+   "city": "玉造郡",
+   "pref": "宮城県",
+   "yomi": "tamatsukuri",
+   "validUntil": "2006-03-30"
+  },
   {
    "code": "0601",
    "kind": "JCC",
    "city": "仙台市",
    "pref": "宮城県",
-   "yomi": "せんだい"
+   "yomi": "sendai"
+  },
+  {
+   "code": "06010",
+   "kind": "JCG",
+   "city": "遠田郡",
+   "pref": "宮城県",
+   "yomi": "toda"
+  },
+  {
+   "code": "060101",
+   "kind": "JCC",
+   "city": "青葉区",
+   "pref": "宮城県",
+   "yomi": "aoba"
+  },
+  {
+   "code": "060102",
+   "kind": "JCC",
+   "city": "宮城野区",
+   "pref": "宮城県",
+   "yomi": "miyagino"
+  },
+  {
+   "code": "060103",
+   "kind": "JCC",
+   "city": "若林区",
+   "pref": "宮城県",
+   "yomi": "wakabayashi"
+  },
+  {
+   "code": "060104",
+   "kind": "JCC",
+   "city": "太白区",
+   "pref": "宮城県",
+   "yomi": "taihaku"
+  },
+  {
+   "code": "060105",
+   "kind": "JCC",
+   "city": "泉区",
+   "pref": "宮城県",
+   "yomi": "izumi"
+  },
+  {
+   "code": "06011",
+   "kind": "JCG",
+   "city": "登米郡",
+   "pref": "宮城県",
+   "yomi": "tome",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "06012",
+   "kind": "JCG",
+   "city": "名取郡",
+   "pref": "宮城県",
+   "yomi": "natori",
+   "validUntil": "1988-02-29"
+  },
+  {
+   "code": "06013",
+   "kind": "JCG",
+   "city": "宮城郡",
+   "pref": "宮城県",
+   "yomi": "miyagi"
+  },
+  {
+   "code": "06014",
+   "kind": "JCG",
+   "city": "本吉郡",
+   "pref": "宮城県",
+   "yomi": "motoyoshi"
+  },
+  {
+   "code": "06015",
+   "kind": "JCG",
+   "city": "桃生郡",
+   "pref": "宮城県",
+   "yomi": "monou",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "06016",
+   "kind": "JCG",
+   "city": "亘理郡",
+   "pref": "宮城県",
+   "yomi": "watari"
+  },
+  {
+   "code": "0602",
+   "kind": "JCC",
+   "city": "石巻市",
+   "pref": "宮城県",
+   "yomi": "ishinomaki"
+  },
+  {
+   "code": "0603",
+   "kind": "JCC",
+   "city": "塩竈市",
+   "pref": "宮城県",
+   "yomi": "shiogama"
+  },
+  {
+   "code": "0604",
+   "kind": "JCC",
+   "city": "古川市",
+   "pref": "宮城県",
+   "yomi": "furukawa",
+   "validUntil": "2006-03-30"
+  },
+  {
+   "code": "0605",
+   "kind": "JCC",
+   "city": "気仙沼市",
+   "pref": "宮城県",
+   "yomi": "kesennuma"
+  },
+  {
+   "code": "0606",
+   "kind": "JCC",
+   "city": "白石市",
+   "pref": "宮城県",
+   "yomi": "shiroishi"
+  },
+  {
+   "code": "0607",
+   "kind": "JCC",
+   "city": "名取市",
+   "pref": "宮城県",
+   "yomi": "natori"
+  },
+  {
+   "code": "0608",
+   "kind": "JCC",
+   "city": "角田市",
+   "pref": "宮城県",
+   "yomi": "kakuda"
+  },
+  {
+   "code": "0609",
+   "kind": "JCC",
+   "city": "多賀城市",
+   "pref": "宮城県",
+   "yomi": "tagajo"
+  },
+  {
+   "code": "0610",
+   "kind": "JCC",
+   "city": "泉市",
+   "pref": "宮城県",
+   "yomi": "izumi",
+   "validUntil": "1988-02-29"
+  },
+  {
+   "code": "0611",
+   "kind": "JCC",
+   "city": "岩沼市",
+   "pref": "宮城県",
+   "yomi": "iwanuma"
+  },
+  {
+   "code": "0612",
+   "kind": "JCC",
+   "city": "登米市",
+   "pref": "宮城県",
+   "yomi": "tome"
+  },
+  {
+   "code": "0613",
+   "kind": "JCC",
+   "city": "栗原市",
+   "pref": "宮城県",
+   "yomi": "kurihara"
+  },
+  {
+   "code": "0614",
+   "kind": "JCC",
+   "city": "東松島市",
+   "pref": "宮城県",
+   "yomi": "higashimatsushima"
+  },
+  {
+   "code": "0615",
+   "kind": "JCC",
+   "city": "大崎市",
+   "pref": "宮城県",
+   "yomi": "osaki"
+  },
+  {
+   "code": "0616",
+   "kind": "JCC",
+   "city": "富谷市",
+   "pref": "宮城県",
+   "yomi": "tomiya"
   }
  ]
 }

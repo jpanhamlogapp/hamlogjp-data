@@ -1,0 +1,150 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "47001",
+   "kind": "JCG",
+   "city": "国頭郡",
+   "pref": "沖縄県",
+   "yomi": "kunigami"
+  },
+  {
+   "code": "47002",
+   "kind": "JCG",
+   "city": "島尻郡",
+   "pref": "沖縄県",
+   "yomi": "shimajiri"
+  },
+  {
+   "code": "47003",
+   "kind": "JCG",
+   "city": "中頭郡",
+   "pref": "沖縄県",
+   "yomi": "nakagami"
+  },
+  {
+   "code": "47004",
+   "kind": "JCG",
+   "city": "宮古郡",
+   "pref": "沖縄県",
+   "yomi": "miyako"
+  },
+  {
+   "code": "47005",
+   "kind": "JCG",
+   "city": "八重山郡",
+   "pref": "沖縄県",
+   "yomi": "yaeyama"
+  },
+  {
+   "code": "4701",
+   "kind": "JCC",
+   "city": "那覇市",
+   "pref": "沖縄県",
+   "yomi": "naha"
+  },
+  {
+   "code": "4702",
+   "kind": "JCC",
+   "city": "石川市",
+   "pref": "沖縄県",
+   "yomi": "ishikawa",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "4703",
+   "kind": "JCC",
+   "city": "平良市",
+   "pref": "沖縄県",
+   "yomi": "hirara",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "4704",
+   "kind": "JCC",
+   "city": "石垣市",
+   "pref": "沖縄県",
+   "yomi": "ishigaki"
+  },
+  {
+   "code": "4705",
+   "kind": "JCC",
+   "city": "コザ市",
+   "pref": "沖縄県",
+   "yomi": "koza",
+   "validUntil": "1900-01-01"
+  },
+  {
+   "code": "4706",
+   "kind": "JCC",
+   "city": "宜野湾市",
+   "pref": "沖縄県",
+   "yomi": "ginowan"
+  },
+  {
+   "code": "4707",
+   "kind": "JCC",
+   "city": "具志川市",
+   "pref": "沖縄県",
+   "yomi": "gushikawa",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "4708",
+   "kind": "JCC",
+   "city": "名護市",
+   "pref": "沖縄県",
+   "yomi": "nago"
+  },
+  {
+   "code": "4709",
+   "kind": "JCC",
+   "city": "浦添市",
+   "pref": "沖縄県",
+   "yomi": "urasoe"
+  },
+  {
+   "code": "4710",
+   "kind": "JCC",
+   "city": "糸満市",
+   "pref": "沖縄県",
+   "yomi": "itoman"
+  },
+  {
+   "code": "4711",
+   "kind": "JCC",
+   "city": "沖縄市",
+   "pref": "沖縄県",
+   "yomi": "okinawa"
+  },
+  {
+   "code": "4712",
+   "kind": "JCC",
+   "city": "豊見城市",
+   "pref": "沖縄県",
+   "yomi": "tomigusuku"
+  },
+  {
+   "code": "4713",
+   "kind": "JCC",
+   "city": "うるま市",
+   "pref": "沖縄県",
+   "yomi": "uruma"
+  },
+  {
+   "code": "4714",
+   "kind": "JCC",
+   "city": "宮古島市",
+   "pref": "沖縄県",
+   "yomi": "miyakojima"
+  },
+  {
+   "code": "4715",
+   "kind": "JCC",
+   "city": "南城市",
+   "pref": "沖縄県",
+   "yomi": "nanjo"
+  }
+ ]
+}

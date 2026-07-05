@@ -1,0 +1,201 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "32001",
+   "kind": "JCG",
+   "city": "安濃郡",
+   "pref": "島根県",
+   "yomi": "ano",
+   "validUntil": "1954-03-31"
+  },
+  {
+   "code": "32002",
+   "kind": "JCG",
+   "city": "海士郡",
+   "pref": "島根県",
+   "yomi": "ama",
+   "validUntil": "1969-03-31"
+  },
+  {
+   "code": "32003",
+   "kind": "JCG",
+   "city": "飯石郡",
+   "pref": "島根県",
+   "yomi": "iishi"
+  },
+  {
+   "code": "32004",
+   "kind": "JCG",
+   "city": "邑智郡",
+   "pref": "島根県",
+   "yomi": "ochi"
+  },
+  {
+   "code": "32005",
+   "kind": "JCG",
+   "city": "大原郡",
+   "pref": "島根県",
+   "yomi": "ohara",
+   "validUntil": "2004-10-31"
+  },
+  {
+   "code": "32006",
+   "kind": "JCG",
+   "city": "隠岐郡",
+   "pref": "島根県",
+   "yomi": "oki"
+  },
+  {
+   "code": "32007",
+   "kind": "JCG",
+   "city": "隠地郡",
+   "pref": "島根県",
+   "yomi": "ochi",
+   "validUntil": "1969-03-31"
+  },
+  {
+   "code": "32008",
+   "kind": "JCG",
+   "city": "鹿足郡",
+   "pref": "島根県",
+   "yomi": "kanoashi"
+  },
+  {
+   "code": "32009",
+   "kind": "JCG",
+   "city": "周吉郡",
+   "pref": "島根県",
+   "yomi": "suki",
+   "validUntil": "1969-03-31"
+  },
+  {
+   "code": "3201",
+   "kind": "JCC",
+   "city": "松江市",
+   "pref": "島根県",
+   "yomi": "matsue"
+  },
+  {
+   "code": "32010",
+   "kind": "JCG",
+   "city": "知夫郡",
+   "pref": "島根県",
+   "yomi": "chibu",
+   "validUntil": "1969-03-31"
+  },
+  {
+   "code": "32011",
+   "kind": "JCG",
+   "city": "那賀郡",
+   "pref": "島根県",
+   "yomi": "naka",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "32012",
+   "kind": "JCG",
+   "city": "仁多郡",
+   "pref": "島根県",
+   "yomi": "nita"
+  },
+  {
+   "code": "32013",
+   "kind": "JCG",
+   "city": "迩摩郡",
+   "pref": "島根県",
+   "yomi": "nima",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "32014",
+   "kind": "JCG",
+   "city": "能義郡",
+   "pref": "島根県",
+   "yomi": "nogi",
+   "validUntil": "2004-09-30"
+  },
+  {
+   "code": "32015",
+   "kind": "JCG",
+   "city": "簸川郡",
+   "pref": "島根県",
+   "yomi": "hikawa",
+   "validUntil": "2011-09-30"
+  },
+  {
+   "code": "32016",
+   "kind": "JCG",
+   "city": "美濃郡",
+   "pref": "島根県",
+   "yomi": "mino",
+   "validUntil": "2004-10-31"
+  },
+  {
+   "code": "32017",
+   "kind": "JCG",
+   "city": "八束郡",
+   "pref": "島根県",
+   "yomi": "yatsuka",
+   "validUntil": "2011-07-31"
+  },
+  {
+   "code": "3202",
+   "kind": "JCC",
+   "city": "浜田市",
+   "pref": "島根県",
+   "yomi": "hamada"
+  },
+  {
+   "code": "3203",
+   "kind": "JCC",
+   "city": "出雲市",
+   "pref": "島根県",
+   "yomi": "izumo"
+  },
+  {
+   "code": "3204",
+   "kind": "JCC",
+   "city": "益田市",
+   "pref": "島根県",
+   "yomi": "masuda"
+  },
+  {
+   "code": "3205",
+   "kind": "JCC",
+   "city": "大田市",
+   "pref": "島根県",
+   "yomi": "oda"
+  },
+  {
+   "code": "3206",
+   "kind": "JCC",
+   "city": "安来市",
+   "pref": "島根県",
+   "yomi": "yasugi"
+  },
+  {
+   "code": "3207",
+   "kind": "JCC",
+   "city": "江津市",
+   "pref": "島根県",
+   "yomi": "gotsu"
+  },
+  {
+   "code": "3208",
+   "kind": "JCC",
+   "city": "平田市",
+   "pref": "島根県",
+   "yomi": "hirata",
+   "validUntil": "2005-03-21"
+  },
+  {
+   "code": "3209",
+   "kind": "JCC",
+   "city": "雲南市",
+   "pref": "島根県",
+   "yomi": "unnan"
+  }
+ ]
+}

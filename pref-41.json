@@ -1,0 +1,134 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "41001",
+   "kind": "JCG",
+   "city": "小城郡",
+   "pref": "佐賀県",
+   "yomi": "ogi",
+   "validUntil": "2005-02-28"
+  },
+  {
+   "code": "41002",
+   "kind": "JCG",
+   "city": "神埼郡",
+   "pref": "佐賀県",
+   "yomi": "kanzaki"
+  },
+  {
+   "code": "41003",
+   "kind": "JCG",
+   "city": "杵島郡",
+   "pref": "佐賀県",
+   "yomi": "kishima"
+  },
+  {
+   "code": "41004",
+   "kind": "JCG",
+   "city": "佐賀郡",
+   "pref": "佐賀県",
+   "yomi": "saga",
+   "validUntil": "2007-09-30"
+  },
+  {
+   "code": "41005",
+   "kind": "JCG",
+   "city": "西松浦郡",
+   "pref": "佐賀県",
+   "yomi": "nishimatsuura"
+  },
+  {
+   "code": "41006",
+   "kind": "JCG",
+   "city": "東松浦郡",
+   "pref": "佐賀県",
+   "yomi": "higashimatsuura"
+  },
+  {
+   "code": "41007",
+   "kind": "JCG",
+   "city": "藤津郡",
+   "pref": "佐賀県",
+   "yomi": "fujitsu"
+  },
+  {
+   "code": "41008",
+   "kind": "JCG",
+   "city": "三養基郡",
+   "pref": "佐賀県",
+   "yomi": "miyaki"
+  },
+  {
+   "code": "4101",
+   "kind": "JCC",
+   "city": "佐賀市",
+   "pref": "佐賀県",
+   "yomi": "saga"
+  },
+  {
+   "code": "4102",
+   "kind": "JCC",
+   "city": "唐津市",
+   "pref": "佐賀県",
+   "yomi": "karatsu"
+  },
+  {
+   "code": "4103",
+   "kind": "JCC",
+   "city": "鳥栖市",
+   "pref": "佐賀県",
+   "yomi": "tosu"
+  },
+  {
+   "code": "4104",
+   "kind": "JCC",
+   "city": "多久市",
+   "pref": "佐賀県",
+   "yomi": "taku"
+  },
+  {
+   "code": "4105",
+   "kind": "JCC",
+   "city": "伊万里市",
+   "pref": "佐賀県",
+   "yomi": "imari"
+  },
+  {
+   "code": "4106",
+   "kind": "JCC",
+   "city": "武雄市",
+   "pref": "佐賀県",
+   "yomi": "takeo"
+  },
+  {
+   "code": "4107",
+   "kind": "JCC",
+   "city": "鹿島市",
+   "pref": "佐賀県",
+   "yomi": "kashima"
+  },
+  {
+   "code": "4108",
+   "kind": "JCC",
+   "city": "小城市",
+   "pref": "佐賀県",
+   "yomi": "ogi"
+  },
+  {
+   "code": "4109",
+   "kind": "JCC",
+   "city": "嬉野市",
+   "pref": "佐賀県",
+   "yomi": "ureshino"
+  },
+  {
+   "code": "4110",
+   "kind": "JCC",
+   "city": "神埼市",
+   "pref": "佐賀県",
+   "yomi": "kanzaki"
+  }
+ ]
+}

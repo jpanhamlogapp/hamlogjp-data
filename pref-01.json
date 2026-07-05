@@ -1,34 +1,909 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
+  {
+   "code": "01001",
+   "kind": "JCG",
+   "city": "阿寒郡",
+   "pref": "北海道",
+   "yomi": "akan"
+  },
+  {
+   "code": "01002",
+   "kind": "JCG",
+   "city": "足寄郡",
+   "pref": "北海道",
+   "yomi": "ashoro"
+  },
+  {
+   "code": "01003",
+   "kind": "JCG",
+   "city": "厚岸郡",
+   "pref": "北海道",
+   "yomi": "akkeshi"
+  },
+  {
+   "code": "01004",
+   "kind": "JCG",
+   "city": "厚田郡",
+   "pref": "北海道",
+   "yomi": "atsuta",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "01005",
+   "kind": "JCG",
+   "city": "網走郡",
+   "pref": "北海道",
+   "yomi": "abashiri"
+  },
+  {
+   "code": "01006",
+   "kind": "JCG",
+   "city": "虻田(後志支庁)郡",
+   "pref": "北海道",
+   "yomi": "abutashiribeshi"
+  },
+  {
+   "code": "01007",
+   "kind": "JCG",
+   "city": "虻田(胆振支庁)郡",
+   "pref": "北海道",
+   "yomi": "abutaiburi"
+  },
+  {
+   "code": "01008",
+   "kind": "JCG",
+   "city": "石狩郡",
+   "pref": "北海道",
+   "yomi": "ishikari"
+  },
+  {
+   "code": "01009",
+   "kind": "JCG",
+   "city": "磯谷郡",
+   "pref": "北海道",
+   "yomi": "isoya"
+  },
   {
    "code": "0101",
    "kind": "JCC",
    "city": "札幌市",
    "pref": "北海道",
-   "yomi": "さっぽろ"
+   "yomi": "sapporo"
+  },
+  {
+   "code": "01010",
+   "kind": "JCG",
+   "city": "岩内郡",
+   "pref": "北海道",
+   "yomi": "iwanai"
   },
   {
    "code": "010101",
    "kind": "JCC",
-   "city": "札幌市中央区",
+   "city": "中央区",
    "pref": "北海道",
-   "yomi": "さっぽろちゅうおう"
+   "yomi": "chuo"
+  },
+  {
+   "code": "010102",
+   "kind": "JCC",
+   "city": "北区",
+   "pref": "北海道",
+   "yomi": "kita"
+  },
+  {
+   "code": "010103",
+   "kind": "JCC",
+   "city": "東区",
+   "pref": "北海道",
+   "yomi": "higashi"
+  },
+  {
+   "code": "010104",
+   "kind": "JCC",
+   "city": "白石区",
+   "pref": "北海道",
+   "yomi": "shiroishi"
+  },
+  {
+   "code": "010105",
+   "kind": "JCC",
+   "city": "豊平区",
+   "pref": "北海道",
+   "yomi": "toyohira"
+  },
+  {
+   "code": "010106",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "北海道",
+   "yomi": "minami"
+  },
+  {
+   "code": "010107",
+   "kind": "JCC",
+   "city": "西区",
+   "pref": "北海道",
+   "yomi": "nishi"
+  },
+  {
+   "code": "010108",
+   "kind": "JCC",
+   "city": "厚別区",
+   "pref": "北海道",
+   "yomi": "atsubetsu"
+  },
+  {
+   "code": "010109",
+   "kind": "JCC",
+   "city": "手稲区",
+   "pref": "北海道",
+   "yomi": "teine"
+  },
+  {
+   "code": "01011",
+   "kind": "JCG",
+   "city": "有珠郡",
+   "pref": "北海道",
+   "yomi": "usu"
+  },
+  {
+   "code": "010110",
+   "kind": "JCC",
+   "city": "清田区",
+   "pref": "北海道",
+   "yomi": "kiyota"
+  },
+  {
+   "code": "01012",
+   "kind": "JCG",
+   "city": "歌棄郡",
+   "pref": "北海道",
+   "yomi": "utasutsu",
+   "validUntil": "1955-01-14"
+  },
+  {
+   "code": "01013",
+   "kind": "JCG",
+   "city": "浦河郡",
+   "pref": "北海道",
+   "yomi": "urakawa"
+  },
+  {
+   "code": "01014",
+   "kind": "JCG",
+   "city": "雨竜（空知支庁）郡",
+   "pref": "北海道",
+   "yomi": "uryusorachi"
+  },
+  {
+   "code": "01015",
+   "kind": "JCG",
+   "city": "枝幸郡",
+   "pref": "北海道",
+   "yomi": "esashi"
+  },
+  {
+   "code": "01016",
+   "kind": "JCG",
+   "city": "奥尻郡",
+   "pref": "北海道",
+   "yomi": "okushiri"
+  },
+  {
+   "code": "01017",
+   "kind": "JCG",
+   "city": "忍路郡",
+   "pref": "北海道",
+   "yomi": "oshoro",
+   "validUntil": "1958-03-31"
+  },
+  {
+   "code": "01018",
+   "kind": "JCG",
+   "city": "河西郡",
+   "pref": "北海道",
+   "yomi": "kasai"
+  },
+  {
+   "code": "01019",
+   "kind": "JCG",
+   "city": "河東郡",
+   "pref": "北海道",
+   "yomi": "kato"
   },
   {
    "code": "0102",
    "kind": "JCC",
-   "city": "函館市",
+   "city": "旭川市",
    "pref": "北海道",
-   "yomi": "はこだて"
+   "yomi": "asahikawa"
   },
   {
-   "code": "01004",
+   "code": "01020",
    "kind": "JCG",
-   "city": "石狩郡",
+   "city": "樺戸郡",
    "pref": "北海道",
-   "yomi": "いしかり"
+   "yomi": "kabato"
+  },
+  {
+   "code": "01021",
+   "kind": "JCG",
+   "city": "上磯郡",
+   "pref": "北海道",
+   "yomi": "kamiiso"
+  },
+  {
+   "code": "01022",
+   "kind": "JCG",
+   "city": "上川(十勝支庁)郡",
+   "pref": "北海道",
+   "yomi": "kamikawatokachi"
+  },
+  {
+   "code": "01023",
+   "kind": "JCG",
+   "city": "上川(上川支庁)郡",
+   "pref": "北海道",
+   "yomi": "kamikawakamikawa"
+  },
+  {
+   "code": "01024",
+   "kind": "JCG",
+   "city": "亀田郡",
+   "pref": "北海道",
+   "yomi": "kameda"
+  },
+  {
+   "code": "01025",
+   "kind": "JCG",
+   "city": "茅部郡",
+   "pref": "北海道",
+   "yomi": "kayabe"
+  },
+  {
+   "code": "01026",
+   "kind": "JCG",
+   "city": "川上郡",
+   "pref": "北海道",
+   "yomi": "kawakami"
+  },
+  {
+   "code": "01027",
+   "kind": "JCG",
+   "city": "釧路郡",
+   "pref": "北海道",
+   "yomi": "kushiro"
+  },
+  {
+   "code": "01028",
+   "kind": "JCG",
+   "city": "久遠郡",
+   "pref": "北海道",
+   "yomi": "kudo"
+  },
+  {
+   "code": "01029",
+   "kind": "JCG",
+   "city": "札幌郡",
+   "pref": "北海道",
+   "yomi": "sapporo",
+   "validUntil": "1996-08-31"
+  },
+  {
+   "code": "0103",
+   "kind": "JCC",
+   "city": "小樽市",
+   "pref": "北海道",
+   "yomi": "otaru"
+  },
+  {
+   "code": "01030",
+   "kind": "JCG",
+   "city": "様似郡",
+   "pref": "北海道",
+   "yomi": "samani"
+  },
+  {
+   "code": "01031",
+   "kind": "JCG",
+   "city": "沙流郡",
+   "pref": "北海道",
+   "yomi": "saru"
+  },
+  {
+   "code": "01032",
+   "kind": "JCG",
+   "city": "静内郡",
+   "pref": "北海道",
+   "yomi": "shizunai",
+   "validUntil": "2006-03-30"
+  },
+  {
+   "code": "01033",
+   "kind": "JCG",
+   "city": "標津郡",
+   "pref": "北海道",
+   "yomi": "shibetsu"
+  },
+  {
+   "code": "01034",
+   "kind": "JCG",
+   "city": "島牧郡",
+   "pref": "北海道",
+   "yomi": "shimamaki"
+  },
+  {
+   "code": "01035",
+   "kind": "JCG",
+   "city": "積丹郡",
+   "pref": "北海道",
+   "yomi": "shakotan"
+  },
+  {
+   "code": "01036",
+   "kind": "JCG",
+   "city": "斜里郡",
+   "pref": "北海道",
+   "yomi": "shari"
+  },
+  {
+   "code": "01037",
+   "kind": "JCG",
+   "city": "白老郡",
+   "pref": "北海道",
+   "yomi": "shiraoi"
+  },
+  {
+   "code": "01038",
+   "kind": "JCG",
+   "city": "白糠郡",
+   "pref": "北海道",
+   "yomi": "shiranuka"
+  },
+  {
+   "code": "01039",
+   "kind": "JCG",
+   "city": "寿都郡",
+   "pref": "北海道",
+   "yomi": "suttsu"
+  },
+  {
+   "code": "0104",
+   "kind": "JCC",
+   "city": "函館市",
+   "pref": "北海道",
+   "yomi": "hakodate"
+  },
+  {
+   "code": "01040",
+   "kind": "JCG",
+   "city": "瀬棚郡",
+   "pref": "北海道",
+   "yomi": "setana"
+  },
+  {
+   "code": "01041",
+   "kind": "JCG",
+   "city": "宗谷郡",
+   "pref": "北海道",
+   "yomi": "soya"
+  },
+  {
+   "code": "01042",
+   "kind": "JCG",
+   "city": "空知(空知支庁)郡",
+   "pref": "北海道",
+   "yomi": "sorachisorachi"
+  },
+  {
+   "code": "01043",
+   "kind": "JCG",
+   "city": "空知(上川支庁)郡",
+   "pref": "北海道",
+   "yomi": "sorachikamikawa"
+  },
+  {
+   "code": "01044",
+   "kind": "JCG",
+   "city": "千歳郡",
+   "pref": "北海道",
+   "yomi": "chitose",
+   "validUntil": "1970-10-31"
+  },
+  {
+   "code": "01045",
+   "kind": "JCG",
+   "city": "天塩(留萌支庁)郡",
+   "pref": "北海道",
+   "yomi": "teshiorumoi"
+  },
+  {
+   "code": "01046",
+   "kind": "JCG",
+   "city": "天塩(宗谷支庁)郡",
+   "pref": "北海道",
+   "yomi": "teshiosoya"
+  },
+  {
+   "code": "01047",
+   "kind": "JCG",
+   "city": "十勝郡",
+   "pref": "北海道",
+   "yomi": "tokachi"
+  },
+  {
+   "code": "01048",
+   "kind": "JCG",
+   "city": "常呂郡",
+   "pref": "北海道",
+   "yomi": "tokoro"
+  },
+  {
+   "code": "01049",
+   "kind": "JCG",
+   "city": "苫前郡",
+   "pref": "北海道",
+   "yomi": "tomamae"
+  },
+  {
+   "code": "0105",
+   "kind": "JCC",
+   "city": "室蘭市",
+   "pref": "北海道",
+   "yomi": "muroran"
+  },
+  {
+   "code": "01050",
+   "kind": "JCG",
+   "city": "中川(上川支庁)郡",
+   "pref": "北海道",
+   "yomi": "nakagawakamikawa"
+  },
+  {
+   "code": "01051",
+   "kind": "JCG",
+   "city": "中川(十勝支庁)郡",
+   "pref": "北海道",
+   "yomi": "nakagawatokachi"
+  },
+  {
+   "code": "01052",
+   "kind": "JCG",
+   "city": "新冠郡",
+   "pref": "北海道",
+   "yomi": "niikappu"
+  },
+  {
+   "code": "01053",
+   "kind": "JCG",
+   "city": "爾志郡",
+   "pref": "北海道",
+   "yomi": "nishi"
+  },
+  {
+   "code": "01054",
+   "kind": "JCG",
+   "city": "根室郡",
+   "pref": "北海道",
+   "yomi": "nemuro",
+   "validUntil": "1957-07-31"
+  },
+  {
+   "code": "01055",
+   "kind": "JCG",
+   "city": "野付郡",
+   "pref": "北海道",
+   "yomi": "notsuke"
+  },
+  {
+   "code": "01056",
+   "kind": "JCG",
+   "city": "花咲郡",
+   "pref": "北海道",
+   "yomi": "hanasaki",
+   "validUntil": "1959-03-31"
+  },
+  {
+   "code": "01057",
+   "kind": "JCG",
+   "city": "浜益郡",
+   "pref": "北海道",
+   "yomi": "hamamasu",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "01058",
+   "kind": "JCG",
+   "city": "美国郡",
+   "pref": "北海道",
+   "yomi": "bikuni",
+   "validUntil": "1956-09-29"
+  },
+  {
+   "code": "01059",
+   "kind": "JCG",
+   "city": "檜山郡",
+   "pref": "北海道",
+   "yomi": "hiyama"
+  },
+  {
+   "code": "0106",
+   "kind": "JCC",
+   "city": "釧路市",
+   "pref": "北海道",
+   "yomi": "kushiro"
+  },
+  {
+   "code": "01060",
+   "kind": "JCG",
+   "city": "広尾郡",
+   "pref": "北海道",
+   "yomi": "hiroo"
+  },
+  {
+   "code": "01061",
+   "kind": "JCG",
+   "city": "太櫓郡",
+   "pref": "北海道",
+   "yomi": "futoro",
+   "validUntil": "1955-03-31"
+  },
+  {
+   "code": "01062",
+   "kind": "JCG",
+   "city": "古宇郡",
+   "pref": "北海道",
+   "yomi": "furuu"
+  },
+  {
+   "code": "01063",
+   "kind": "JCG",
+   "city": "古平郡",
+   "pref": "北海道",
+   "yomi": "furubira"
+  },
+  {
+   "code": "01064",
+   "kind": "JCG",
+   "city": "幌泉郡",
+   "pref": "北海道",
+   "yomi": "horoizumi"
+  },
+  {
+   "code": "01065",
+   "kind": "JCG",
+   "city": "幌別郡",
+   "pref": "北海道",
+   "yomi": "horobetsu",
+   "validUntil": "1970-07-31"
+  },
+  {
+   "code": "01066",
+   "kind": "JCG",
+   "city": "増毛郡",
+   "pref": "北海道",
+   "yomi": "mashike"
+  },
+  {
+   "code": "01067",
+   "kind": "JCG",
+   "city": "松前郡",
+   "pref": "北海道",
+   "yomi": "matsumae"
+  },
+  {
+   "code": "01068",
+   "kind": "JCG",
+   "city": "三石郡",
+   "pref": "北海道",
+   "yomi": "mitsuishi",
+   "validUntil": "2006-03-30"
+  },
+  {
+   "code": "01069",
+   "kind": "JCG",
+   "city": "目梨郡",
+   "pref": "北海道",
+   "yomi": "menashi"
+  },
+  {
+   "code": "0107",
+   "kind": "JCC",
+   "city": "帯広市",
+   "pref": "北海道",
+   "yomi": "obihiro"
+  },
+  {
+   "code": "01070",
+   "kind": "JCG",
+   "city": "紋別郡",
+   "pref": "北海道",
+   "yomi": "monbetsu"
+  },
+  {
+   "code": "01071",
+   "kind": "JCG",
+   "city": "山越郡",
+   "pref": "北海道",
+   "yomi": "yamakoshi"
+  },
+  {
+   "code": "01072",
+   "kind": "JCG",
+   "city": "夕張郡",
+   "pref": "北海道",
+   "yomi": "yubari"
+  },
+  {
+   "code": "01073",
+   "kind": "JCG",
+   "city": "勇払(胆振支庁)郡",
+   "pref": "北海道",
+   "yomi": "yufutsuiburi"
+  },
+  {
+   "code": "01074",
+   "kind": "JCG",
+   "city": "勇払(上川)郡",
+   "pref": "北海道",
+   "yomi": "yufutsukamikawa"
+  },
+  {
+   "code": "01075",
+   "kind": "JCG",
+   "city": "余市郡",
+   "pref": "北海道",
+   "yomi": "yoichi"
+  },
+  {
+   "code": "01076",
+   "kind": "JCG",
+   "city": "利尻郡",
+   "pref": "北海道",
+   "yomi": "rishiri"
+  },
+  {
+   "code": "01077",
+   "kind": "JCG",
+   "city": "留萌郡",
+   "pref": "北海道",
+   "yomi": "rumoi"
+  },
+  {
+   "code": "01078",
+   "kind": "JCG",
+   "city": "礼文郡",
+   "pref": "北海道",
+   "yomi": "rebun"
+  },
+  {
+   "code": "01079",
+   "kind": "JCG",
+   "city": "二海郡",
+   "pref": "北海道",
+   "yomi": "futami"
+  },
+  {
+   "code": "0108",
+   "kind": "JCC",
+   "city": "北見市",
+   "pref": "北海道",
+   "yomi": "kitami"
+  },
+  {
+   "code": "01080",
+   "kind": "JCG",
+   "city": "日高郡",
+   "pref": "北海道",
+   "yomi": "hidaka"
+  },
+  {
+   "code": "01081",
+   "kind": "JCG",
+   "city": "雨竜（上川支庁）郡",
+   "pref": "北海道",
+   "yomi": "uryukamikawa"
+  },
+  {
+   "code": "0109",
+   "kind": "JCC",
+   "city": "夕張市",
+   "pref": "北海道",
+   "yomi": "yubari"
+  },
+  {
+   "code": "0110",
+   "kind": "JCC",
+   "city": "岩見沢市",
+   "pref": "北海道",
+   "yomi": "iwamizawa"
+  },
+  {
+   "code": "0111",
+   "kind": "JCC",
+   "city": "網走市",
+   "pref": "北海道",
+   "yomi": "abashiri"
+  },
+  {
+   "code": "0112",
+   "kind": "JCC",
+   "city": "留萌市",
+   "pref": "北海道",
+   "yomi": "rumoi"
+  },
+  {
+   "code": "0113",
+   "kind": "JCC",
+   "city": "苫小牧市",
+   "pref": "北海道",
+   "yomi": "tomakomai"
+  },
+  {
+   "code": "0114",
+   "kind": "JCC",
+   "city": "稚内市",
+   "pref": "北海道",
+   "yomi": "wakkanai"
+  },
+  {
+   "code": "0115",
+   "kind": "JCC",
+   "city": "美唄市",
+   "pref": "北海道",
+   "yomi": "bibai"
+  },
+  {
+   "code": "0116",
+   "kind": "JCC",
+   "city": "芦別市",
+   "pref": "北海道",
+   "yomi": "ashibetsu"
+  },
+  {
+   "code": "0117",
+   "kind": "JCC",
+   "city": "江別市",
+   "pref": "北海道",
+   "yomi": "ebetsu"
+  },
+  {
+   "code": "0118",
+   "kind": "JCC",
+   "city": "赤平市",
+   "pref": "北海道",
+   "yomi": "akabira"
+  },
+  {
+   "code": "0119",
+   "kind": "JCC",
+   "city": "紋別市",
+   "pref": "北海道",
+   "yomi": "mombetsu"
+  },
+  {
+   "code": "0120",
+   "kind": "JCC",
+   "city": "士別市",
+   "pref": "北海道",
+   "yomi": "shibetsu"
+  },
+  {
+   "code": "0121",
+   "kind": "JCC",
+   "city": "名寄市",
+   "pref": "北海道",
+   "yomi": "nayoro"
+  },
+  {
+   "code": "0122",
+   "kind": "JCC",
+   "city": "三笠市",
+   "pref": "北海道",
+   "yomi": "mikasa"
+  },
+  {
+   "code": "0123",
+   "kind": "JCC",
+   "city": "根室市",
+   "pref": "北海道",
+   "yomi": "nemuro"
+  },
+  {
+   "code": "0124",
+   "kind": "JCC",
+   "city": "千歳市",
+   "pref": "北海道",
+   "yomi": "chitose"
+  },
+  {
+   "code": "0125",
+   "kind": "JCC",
+   "city": "滝川市",
+   "pref": "北海道",
+   "yomi": "takikawa"
+  },
+  {
+   "code": "0126",
+   "kind": "JCC",
+   "city": "砂川市",
+   "pref": "北海道",
+   "yomi": "sunagawa"
+  },
+  {
+   "code": "0127",
+   "kind": "JCC",
+   "city": "歌志内市",
+   "pref": "北海道",
+   "yomi": "utashinai"
+  },
+  {
+   "code": "0128",
+   "kind": "JCC",
+   "city": "深川市",
+   "pref": "北海道",
+   "yomi": "fukagawa"
+  },
+  {
+   "code": "0129",
+   "kind": "JCC",
+   "city": "富良野市",
+   "pref": "北海道",
+   "yomi": "furano"
+  },
+  {
+   "code": "0130",
+   "kind": "JCC",
+   "city": "登別市",
+   "pref": "北海道",
+   "yomi": "noboribetsu"
+  },
+  {
+   "code": "0131",
+   "kind": "JCC",
+   "city": "恵庭市",
+   "pref": "北海道",
+   "yomi": "eniwa"
+  },
+  {
+   "code": "0132",
+   "kind": "JCC",
+   "city": "亀田市",
+   "pref": "北海道",
+   "yomi": "kameda",
+   "validUntil": "1973-11-30"
+  },
+  {
+   "code": "0133",
+   "kind": "JCC",
+   "city": "伊達市",
+   "pref": "北海道",
+   "yomi": "date"
+  },
+  {
+   "code": "0134",
+   "kind": "JCC",
+   "city": "北広島市",
+   "pref": "北海道",
+   "yomi": "kitahiroshima"
+  },
+  {
+   "code": "0135",
+   "kind": "JCC",
+   "city": "石狩市",
+   "pref": "北海道",
+   "yomi": "ishikari"
+  },
+  {
+   "code": "0136",
+   "kind": "JCC",
+   "city": "北斗市",
+   "pref": "北海道",
+   "yomi": "hokuto"
   }
  ]
 }

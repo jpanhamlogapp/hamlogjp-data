@@ -1,0 +1,276 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "07001",
+   "kind": "JCG",
+   "city": "安積郡",
+   "pref": "福島県",
+   "yomi": "asaka",
+   "validUntil": "1965-04-30"
+  },
+  {
+   "code": "07002",
+   "kind": "JCG",
+   "city": "安達郡",
+   "pref": "福島県",
+   "yomi": "adachi"
+  },
+  {
+   "code": "07003",
+   "kind": "JCG",
+   "city": "石川郡",
+   "pref": "福島県",
+   "yomi": "ishikawa"
+  },
+  {
+   "code": "07004",
+   "kind": "JCG",
+   "city": "石城郡",
+   "pref": "福島県",
+   "yomi": "iwaki",
+   "validUntil": "1966-09-30"
+  },
+  {
+   "code": "07005",
+   "kind": "JCG",
+   "city": "岩瀬郡",
+   "pref": "福島県",
+   "yomi": "iwase"
+  },
+  {
+   "code": "07006",
+   "kind": "JCG",
+   "city": "大沼郡",
+   "pref": "福島県",
+   "yomi": "onuma"
+  },
+  {
+   "code": "07007",
+   "kind": "JCG",
+   "city": "河沼郡",
+   "pref": "福島県",
+   "yomi": "kawanuma"
+  },
+  {
+   "code": "07008",
+   "kind": "JCG",
+   "city": "北会津郡",
+   "pref": "福島県",
+   "yomi": "kitaaizu",
+   "validUntil": "2004-10-31"
+  },
+  {
+   "code": "07009",
+   "kind": "JCG",
+   "city": "信夫郡",
+   "pref": "福島県",
+   "yomi": "shinobu",
+   "validUntil": "1968-09-30"
+  },
+  {
+   "code": "0701",
+   "kind": "JCC",
+   "city": "福島市",
+   "pref": "福島県",
+   "yomi": "fukushima"
+  },
+  {
+   "code": "07010",
+   "kind": "JCG",
+   "city": "相馬郡",
+   "pref": "福島県",
+   "yomi": "soma"
+  },
+  {
+   "code": "07011",
+   "kind": "JCG",
+   "city": "伊達郡",
+   "pref": "福島県",
+   "yomi": "date"
+  },
+  {
+   "code": "07012",
+   "kind": "JCG",
+   "city": "田村郡",
+   "pref": "福島県",
+   "yomi": "tamura"
+  },
+  {
+   "code": "07013",
+   "kind": "JCG",
+   "city": "西白河郡",
+   "pref": "福島県",
+   "yomi": "nishishirakawa"
+  },
+  {
+   "code": "07014",
+   "kind": "JCG",
+   "city": "東白川郡",
+   "pref": "福島県",
+   "yomi": "higashishirakawa"
+  },
+  {
+   "code": "07015",
+   "kind": "JCG",
+   "city": "双葉郡",
+   "pref": "福島県",
+   "yomi": "futaba"
+  },
+  {
+   "code": "07016",
+   "kind": "JCG",
+   "city": "南会津郡",
+   "pref": "福島県",
+   "yomi": "minamiaizu"
+  },
+  {
+   "code": "07017",
+   "kind": "JCG",
+   "city": "耶麻郡",
+   "pref": "福島県",
+   "yomi": "yama"
+  },
+  {
+   "code": "0702",
+   "kind": "JCC",
+   "city": "会津若松市",
+   "pref": "福島県",
+   "yomi": "aizuwakamatsu"
+  },
+  {
+   "code": "0703",
+   "kind": "JCC",
+   "city": "郡山市",
+   "pref": "福島県",
+   "yomi": "koriyama"
+  },
+  {
+   "code": "0704",
+   "kind": "JCC",
+   "city": "平市",
+   "pref": "福島県",
+   "yomi": "taira",
+   "validUntil": "1966-09-30"
+  },
+  {
+   "code": "0705",
+   "kind": "JCC",
+   "city": "白河市",
+   "pref": "福島県",
+   "yomi": "shirakawa"
+  },
+  {
+   "code": "0706",
+   "kind": "JCC",
+   "city": "原町市",
+   "pref": "福島県",
+   "yomi": "haramachi",
+   "validUntil": "2005-12-31"
+  },
+  {
+   "code": "0707",
+   "kind": "JCC",
+   "city": "須賀川市",
+   "pref": "福島県",
+   "yomi": "sukagawa"
+  },
+  {
+   "code": "0708",
+   "kind": "JCC",
+   "city": "喜多方市",
+   "pref": "福島県",
+   "yomi": "kitakata"
+  },
+  {
+   "code": "0709",
+   "kind": "JCC",
+   "city": "常磐市",
+   "pref": "福島県",
+   "yomi": "joban",
+   "validUntil": "1966-09-30"
+  },
+  {
+   "code": "0710",
+   "kind": "JCC",
+   "city": "磐城市",
+   "pref": "福島県",
+   "yomi": "iwaki",
+   "validUntil": "1966-09-30"
+  },
+  {
+   "code": "0711",
+   "kind": "JCC",
+   "city": "相馬市",
+   "pref": "福島県",
+   "yomi": "soma"
+  },
+  {
+   "code": "0712",
+   "kind": "JCC",
+   "city": "内郷市",
+   "pref": "福島県",
+   "yomi": "uchigo",
+   "validUntil": "1966-09-30"
+  },
+  {
+   "code": "0713",
+   "kind": "JCC",
+   "city": "勿来市",
+   "pref": "福島県",
+   "yomi": "nakoso",
+   "validUntil": "1966-09-30"
+  },
+  {
+   "code": "0714",
+   "kind": "JCC",
+   "city": "二本松市",
+   "pref": "福島県",
+   "yomi": "nihonmatsu"
+  },
+  {
+   "code": "0715",
+   "kind": "JCC",
+   "city": "いわき市",
+   "pref": "福島県",
+   "yomi": "iwaki"
+  },
+  {
+   "code": "0716",
+   "kind": "JCC",
+   "city": "若松市",
+   "pref": "福島県",
+   "yomi": "wakamatsu",
+   "validUntil": "1954-12-31"
+  },
+  {
+   "code": "0717",
+   "kind": "JCC",
+   "city": "田村市",
+   "pref": "福島県",
+   "yomi": "tamura"
+  },
+  {
+   "code": "0718",
+   "kind": "JCC",
+   "city": "南相馬市",
+   "pref": "福島県",
+   "yomi": "minamisoma"
+  },
+  {
+   "code": "0719",
+   "kind": "JCC",
+   "city": "伊達市",
+   "pref": "福島県",
+   "yomi": "date"
+  },
+  {
+   "code": "0720",
+   "kind": "JCC",
+   "city": "本宮市",
+   "pref": "福島県",
+   "yomi": "motomiya"
+  }
+ ]
+}

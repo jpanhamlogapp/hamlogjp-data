@@ -1,0 +1,141 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "39001",
+   "kind": "JCG",
+   "city": "吾川郡",
+   "pref": "高知県",
+   "yomi": "agawa"
+  },
+  {
+   "code": "39002",
+   "kind": "JCG",
+   "city": "安芸郡",
+   "pref": "高知県",
+   "yomi": "aki"
+  },
+  {
+   "code": "39003",
+   "kind": "JCG",
+   "city": "香美郡",
+   "pref": "高知県",
+   "yomi": "kami",
+   "validUntil": "2006-02-28"
+  },
+  {
+   "code": "39004",
+   "kind": "JCG",
+   "city": "高岡郡",
+   "pref": "高知県",
+   "yomi": "takaoka"
+  },
+  {
+   "code": "39005",
+   "kind": "JCG",
+   "city": "土佐郡",
+   "pref": "高知県",
+   "yomi": "tosa"
+  },
+  {
+   "code": "39006",
+   "kind": "JCG",
+   "city": "長岡郡",
+   "pref": "高知県",
+   "yomi": "nagaoka"
+  },
+  {
+   "code": "39007",
+   "kind": "JCG",
+   "city": "幡多郡",
+   "pref": "高知県",
+   "yomi": "hata"
+  },
+  {
+   "code": "3901",
+   "kind": "JCC",
+   "city": "高知市",
+   "pref": "高知県",
+   "yomi": "kochi"
+  },
+  {
+   "code": "3902",
+   "kind": "JCC",
+   "city": "室戸市",
+   "pref": "高知県",
+   "yomi": "muroto"
+  },
+  {
+   "code": "3903",
+   "kind": "JCC",
+   "city": "安芸市",
+   "pref": "高知県",
+   "yomi": "aki"
+  },
+  {
+   "code": "3904",
+   "kind": "JCC",
+   "city": "土佐市",
+   "pref": "高知県",
+   "yomi": "tosa"
+  },
+  {
+   "code": "3905",
+   "kind": "JCC",
+   "city": "須崎市",
+   "pref": "高知県",
+   "yomi": "susaki"
+  },
+  {
+   "code": "3906",
+   "kind": "JCC",
+   "city": "中村市",
+   "pref": "高知県",
+   "yomi": "nakamura",
+   "validUntil": "2005-04-09"
+  },
+  {
+   "code": "3907",
+   "kind": "JCC",
+   "city": "宿毛市",
+   "pref": "高知県",
+   "yomi": "sukumo"
+  },
+  {
+   "code": "3908",
+   "kind": "JCC",
+   "city": "土佐清水市",
+   "pref": "高知県",
+   "yomi": "tosashimizu"
+  },
+  {
+   "code": "3909",
+   "kind": "JCC",
+   "city": "南国市",
+   "pref": "高知県",
+   "yomi": "nankoku"
+  },
+  {
+   "code": "3910",
+   "kind": "JCC",
+   "city": "四万十市",
+   "pref": "高知県",
+   "yomi": "shimanto"
+  },
+  {
+   "code": "3911",
+   "kind": "JCC",
+   "city": "香南市",
+   "pref": "高知県",
+   "yomi": "konan"
+  },
+  {
+   "code": "3912",
+   "kind": "JCC",
+   "city": "香美市",
+   "pref": "高知県",
+   "yomi": "kami"
+  }
+ ]
+}

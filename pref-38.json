@@ -1,0 +1,204 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "38001",
+   "kind": "JCG",
+   "city": "伊予郡",
+   "pref": "愛媛県",
+   "yomi": "iyo"
+  },
+  {
+   "code": "38002",
+   "kind": "JCG",
+   "city": "宇摩郡",
+   "pref": "愛媛県",
+   "yomi": "uma",
+   "validUntil": "2004-03-31"
+  },
+  {
+   "code": "38003",
+   "kind": "JCG",
+   "city": "越智郡",
+   "pref": "愛媛県",
+   "yomi": "ochi"
+  },
+  {
+   "code": "38004",
+   "kind": "JCG",
+   "city": "温泉郡",
+   "pref": "愛媛県",
+   "yomi": "onsen",
+   "validUntil": "2004-12-31"
+  },
+  {
+   "code": "38005",
+   "kind": "JCG",
+   "city": "上浮穴郡",
+   "pref": "愛媛県",
+   "yomi": "kamiukena"
+  },
+  {
+   "code": "38006",
+   "kind": "JCG",
+   "city": "喜多郡",
+   "pref": "愛媛県",
+   "yomi": "kita"
+  },
+  {
+   "code": "38007",
+   "kind": "JCG",
+   "city": "北宇和郡",
+   "pref": "愛媛県",
+   "yomi": "kitauwa"
+  },
+  {
+   "code": "38008",
+   "kind": "JCG",
+   "city": "周桑郡",
+   "pref": "愛媛県",
+   "yomi": "shuso",
+   "validUntil": "2004-10-31"
+  },
+  {
+   "code": "38009",
+   "kind": "JCG",
+   "city": "新居郡",
+   "pref": "愛媛県",
+   "yomi": "nii",
+   "validUntil": "1959-03-31"
+  },
+  {
+   "code": "3801",
+   "kind": "JCC",
+   "city": "松山市",
+   "pref": "愛媛県",
+   "yomi": "matsuyama"
+  },
+  {
+   "code": "38010",
+   "kind": "JCG",
+   "city": "西宇和郡",
+   "pref": "愛媛県",
+   "yomi": "nishiuwa"
+  },
+  {
+   "code": "38011",
+   "kind": "JCG",
+   "city": "東宇和郡",
+   "pref": "愛媛県",
+   "yomi": "higashiuwa",
+   "validUntil": "2004-03-31"
+  },
+  {
+   "code": "38012",
+   "kind": "JCG",
+   "city": "南宇和郡",
+   "pref": "愛媛県",
+   "yomi": "minamiuwa"
+  },
+  {
+   "code": "3802",
+   "kind": "JCC",
+   "city": "今治市",
+   "pref": "愛媛県",
+   "yomi": "imabari"
+  },
+  {
+   "code": "3803",
+   "kind": "JCC",
+   "city": "宇和島市",
+   "pref": "愛媛県",
+   "yomi": "uwajima"
+  },
+  {
+   "code": "3804",
+   "kind": "JCC",
+   "city": "八幡浜市",
+   "pref": "愛媛県",
+   "yomi": "yawatahama"
+  },
+  {
+   "code": "3805",
+   "kind": "JCC",
+   "city": "新居浜市",
+   "pref": "愛媛県",
+   "yomi": "niihama"
+  },
+  {
+   "code": "3806",
+   "kind": "JCC",
+   "city": "西条市",
+   "pref": "愛媛県",
+   "yomi": "saijo"
+  },
+  {
+   "code": "3807",
+   "kind": "JCC",
+   "city": "大洲市",
+   "pref": "愛媛県",
+   "yomi": "ozu"
+  },
+  {
+   "code": "3808",
+   "kind": "JCC",
+   "city": "伊予三島市",
+   "pref": "愛媛県",
+   "yomi": "iyomishima",
+   "validUntil": "2004-03-31"
+  },
+  {
+   "code": "3809",
+   "kind": "JCC",
+   "city": "川之江市",
+   "pref": "愛媛県",
+   "yomi": "kawanoe",
+   "validUntil": "2004-03-31"
+  },
+  {
+   "code": "3810",
+   "kind": "JCC",
+   "city": "伊予市",
+   "pref": "愛媛県",
+   "yomi": "iyo"
+  },
+  {
+   "code": "3811",
+   "kind": "JCC",
+   "city": "北条市",
+   "pref": "愛媛県",
+   "yomi": "hojo",
+   "validUntil": "2004-12-31"
+  },
+  {
+   "code": "3812",
+   "kind": "JCC",
+   "city": "東予市",
+   "pref": "愛媛県",
+   "yomi": "toyo",
+   "validUntil": "2004-10-31"
+  },
+  {
+   "code": "3813",
+   "kind": "JCC",
+   "city": "四国中央市",
+   "pref": "愛媛県",
+   "yomi": "shikokuchuo"
+  },
+  {
+   "code": "3814",
+   "kind": "JCC",
+   "city": "西予市",
+   "pref": "愛媛県",
+   "yomi": "seiyo"
+  },
+  {
+   "code": "3815",
+   "kind": "JCC",
+   "city": "東温市",
+   "pref": "愛媛県",
+   "yomi": "toon"
+  }
+ ]
+}

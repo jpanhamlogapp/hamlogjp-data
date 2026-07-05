@@ -1,13 +1,520 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
+  {
+   "code": "40001",
+   "kind": "JCG",
+   "city": "朝倉郡",
+   "pref": "福岡県",
+   "yomi": "asakura"
+  },
+  {
+   "code": "40002",
+   "kind": "JCG",
+   "city": "糸島郡",
+   "pref": "福岡県",
+   "yomi": "itoshima",
+   "validUntil": "2009-12-31"
+  },
+  {
+   "code": "40003",
+   "kind": "JCG",
+   "city": "浮羽郡",
+   "pref": "福岡県",
+   "yomi": "ukiha",
+   "validUntil": "2005-03-19"
+  },
+  {
+   "code": "40004",
+   "kind": "JCG",
+   "city": "遠賀郡",
+   "pref": "福岡県",
+   "yomi": "onga"
+  },
+  {
+   "code": "40005",
+   "kind": "JCG",
+   "city": "糟屋郡",
+   "pref": "福岡県",
+   "yomi": "kasuya"
+  },
+  {
+   "code": "40006",
+   "kind": "JCG",
+   "city": "嘉穂郡",
+   "pref": "福岡県",
+   "yomi": "kaho"
+  },
+  {
+   "code": "40007",
+   "kind": "JCG",
+   "city": "鞍手郡",
+   "pref": "福岡県",
+   "yomi": "kurate"
+  },
+  {
+   "code": "40008",
+   "kind": "JCG",
+   "city": "早良郡",
+   "pref": "福岡県",
+   "yomi": "sawara",
+   "validUntil": "1975-02-28"
+  },
+  {
+   "code": "40009",
+   "kind": "JCG",
+   "city": "田川郡",
+   "pref": "福岡県",
+   "yomi": "tagawa"
+  },
   {
    "code": "4001",
    "kind": "JCC",
    "city": "福岡市",
    "pref": "福岡県",
-   "yomi": "ふくおか"
+   "yomi": "fukuoka"
+  },
+  {
+   "code": "40010",
+   "kind": "JCG",
+   "city": "筑紫郡",
+   "pref": "福岡県",
+   "yomi": "chikushi",
+   "validUntil": "2018-09-30"
+  },
+  {
+   "code": "400101",
+   "kind": "JCC",
+   "city": "東区",
+   "pref": "福岡県",
+   "yomi": "higashi"
+  },
+  {
+   "code": "400102",
+   "kind": "JCC",
+   "city": "博多区",
+   "pref": "福岡県",
+   "yomi": "hakata"
+  },
+  {
+   "code": "400103",
+   "kind": "JCC",
+   "city": "中央区",
+   "pref": "福岡県",
+   "yomi": "chuo"
+  },
+  {
+   "code": "400104",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "福岡県",
+   "yomi": "minami"
+  },
+  {
+   "code": "400105",
+   "kind": "JCC",
+   "city": "西区",
+   "pref": "福岡県",
+   "yomi": "nishi"
+  },
+  {
+   "code": "400106",
+   "kind": "JCC",
+   "city": "城南区",
+   "pref": "福岡県",
+   "yomi": "jonan"
+  },
+  {
+   "code": "400107",
+   "kind": "JCC",
+   "city": "早良区",
+   "pref": "福岡県",
+   "yomi": "sawara"
+  },
+  {
+   "code": "40011",
+   "kind": "JCG",
+   "city": "築上郡",
+   "pref": "福岡県",
+   "yomi": "chikujo"
+  },
+  {
+   "code": "40012",
+   "kind": "JCG",
+   "city": "三井郡",
+   "pref": "福岡県",
+   "yomi": "mii"
+  },
+  {
+   "code": "40013",
+   "kind": "JCG",
+   "city": "三池郡",
+   "pref": "福岡県",
+   "yomi": "miike",
+   "validUntil": "2007-01-28"
+  },
+  {
+   "code": "40014",
+   "kind": "JCG",
+   "city": "三潴郡",
+   "pref": "福岡県",
+   "yomi": "mizuma"
+  },
+  {
+   "code": "40015",
+   "kind": "JCG",
+   "city": "京都郡",
+   "pref": "福岡県",
+   "yomi": "miyako"
+  },
+  {
+   "code": "40016",
+   "kind": "JCG",
+   "city": "宗像郡",
+   "pref": "福岡県",
+   "yomi": "munakata",
+   "validUntil": "2005-03-27"
+  },
+  {
+   "code": "40017",
+   "kind": "JCG",
+   "city": "山門郡",
+   "pref": "福岡県",
+   "yomi": "yamato",
+   "validUntil": "2007-01-28"
+  },
+  {
+   "code": "40018",
+   "kind": "JCG",
+   "city": "八女郡",
+   "pref": "福岡県",
+   "yomi": "yame"
+  },
+  {
+   "code": "4002",
+   "kind": "JCC",
+   "city": "小倉市",
+   "pref": "福岡県",
+   "yomi": "kokura",
+   "validUntil": "1963-02-09"
+  },
+  {
+   "code": "4003",
+   "kind": "JCC",
+   "city": "門司市",
+   "pref": "福岡県",
+   "yomi": "moji",
+   "validUntil": "1963-02-09"
+  },
+  {
+   "code": "4004",
+   "kind": "JCC",
+   "city": "八幡市",
+   "pref": "福岡県",
+   "yomi": "yahata",
+   "validUntil": "1963-02-09"
+  },
+  {
+   "code": "4005",
+   "kind": "JCC",
+   "city": "戸畑市",
+   "pref": "福岡県",
+   "yomi": "tobata",
+   "validUntil": "1963-02-09"
+  },
+  {
+   "code": "4006",
+   "kind": "JCC",
+   "city": "若松市",
+   "pref": "福岡県",
+   "yomi": "wakamatsu",
+   "validUntil": "1963-02-09"
+  },
+  {
+   "code": "4007",
+   "kind": "JCC",
+   "city": "久留米市",
+   "pref": "福岡県",
+   "yomi": "kurume"
+  },
+  {
+   "code": "4008",
+   "kind": "JCC",
+   "city": "大牟田市",
+   "pref": "福岡県",
+   "yomi": "omuta"
+  },
+  {
+   "code": "4009",
+   "kind": "JCC",
+   "city": "直方市",
+   "pref": "福岡県",
+   "yomi": "noogata"
+  },
+  {
+   "code": "4010",
+   "kind": "JCC",
+   "city": "飯塚市",
+   "pref": "福岡県",
+   "yomi": "iizuka"
+  },
+  {
+   "code": "4011",
+   "kind": "JCC",
+   "city": "田川市",
+   "pref": "福岡県",
+   "yomi": "tagawa"
+  },
+  {
+   "code": "4012",
+   "kind": "JCC",
+   "city": "柳川市",
+   "pref": "福岡県",
+   "yomi": "yanagawa"
+  },
+  {
+   "code": "4013",
+   "kind": "JCC",
+   "city": "甘木市",
+   "pref": "福岡県",
+   "yomi": "amagi",
+   "validUntil": "2006-03-19"
+  },
+  {
+   "code": "4014",
+   "kind": "JCC",
+   "city": "山田市",
+   "pref": "福岡県",
+   "yomi": "yamada",
+   "validUntil": "2006-03-26"
+  },
+  {
+   "code": "4015",
+   "kind": "JCC",
+   "city": "八女市",
+   "pref": "福岡県",
+   "yomi": "yame"
+  },
+  {
+   "code": "4016",
+   "kind": "JCC",
+   "city": "筑後市",
+   "pref": "福岡県",
+   "yomi": "chikugo"
+  },
+  {
+   "code": "4017",
+   "kind": "JCC",
+   "city": "大川市",
+   "pref": "福岡県",
+   "yomi": "okawa"
+  },
+  {
+   "code": "4018",
+   "kind": "JCC",
+   "city": "行橋市",
+   "pref": "福岡県",
+   "yomi": "yukuhashi"
+  },
+  {
+   "code": "4019",
+   "kind": "JCC",
+   "city": "豊前市",
+   "pref": "福岡県",
+   "yomi": "buzen"
+  },
+  {
+   "code": "4020",
+   "kind": "JCC",
+   "city": "中間市",
+   "pref": "福岡県",
+   "yomi": "nakama"
+  },
+  {
+   "code": "4021",
+   "kind": "JCC",
+   "city": "北九州市",
+   "pref": "福岡県",
+   "yomi": "kitakyushu"
+  },
+  {
+   "code": "402101",
+   "kind": "JCC",
+   "city": "門司区",
+   "pref": "福岡県",
+   "yomi": "moji"
+  },
+  {
+   "code": "402102",
+   "kind": "JCC",
+   "city": "若松区",
+   "pref": "福岡県",
+   "yomi": "wakamatsu"
+  },
+  {
+   "code": "402103",
+   "kind": "JCC",
+   "city": "戸畑区",
+   "pref": "福岡県",
+   "yomi": "tobata"
+  },
+  {
+   "code": "402104",
+   "kind": "JCC",
+   "city": "小倉北区",
+   "pref": "福岡県",
+   "yomi": "kokurakita"
+  },
+  {
+   "code": "402105",
+   "kind": "JCC",
+   "city": "小倉南区",
+   "pref": "福岡県",
+   "yomi": "kokuraminami"
+  },
+  {
+   "code": "402106",
+   "kind": "JCC",
+   "city": "八幡東区",
+   "pref": "福岡県",
+   "yomi": "yahatahigashi"
+  },
+  {
+   "code": "402107",
+   "kind": "JCC",
+   "city": "八幡西区",
+   "pref": "福岡県",
+   "yomi": "yahatanishi"
+  },
+  {
+   "code": "402108",
+   "kind": "JCC",
+   "city": "八幡区",
+   "pref": "福岡県",
+   "yomi": "yahata",
+   "validUntil": "1974-04-01"
+  },
+  {
+   "code": "402109",
+   "kind": "JCC",
+   "city": "小倉区",
+   "pref": "福岡県",
+   "yomi": "kokura",
+   "validUntil": "1974-04-01"
+  },
+  {
+   "code": "4022",
+   "kind": "JCC",
+   "city": "小郡市",
+   "pref": "福岡県",
+   "yomi": "ogoori"
+  },
+  {
+   "code": "4023",
+   "kind": "JCC",
+   "city": "春日市",
+   "pref": "福岡県",
+   "yomi": "kasuga"
+  },
+  {
+   "code": "4024",
+   "kind": "JCC",
+   "city": "筑紫野市",
+   "pref": "福岡県",
+   "yomi": "chikushino"
+  },
+  {
+   "code": "4025",
+   "kind": "JCC",
+   "city": "大野城市",
+   "pref": "福岡県",
+   "yomi": "onojo"
+  },
+  {
+   "code": "4026",
+   "kind": "JCC",
+   "city": "宗像市",
+   "pref": "福岡県",
+   "yomi": "munakata"
+  },
+  {
+   "code": "4027",
+   "kind": "JCC",
+   "city": "太宰府市",
+   "pref": "福岡県",
+   "yomi": "dazaifu"
+  },
+  {
+   "code": "4028",
+   "kind": "JCC",
+   "city": "前原市",
+   "pref": "福岡県",
+   "yomi": "maebaru",
+   "validUntil": "2009-12-31"
+  },
+  {
+   "code": "4029",
+   "kind": "JCC",
+   "city": "古賀市",
+   "pref": "福岡県",
+   "yomi": "koga"
+  },
+  {
+   "code": "4030",
+   "kind": "JCC",
+   "city": "福津市",
+   "pref": "福岡県",
+   "yomi": "fukutsu"
+  },
+  {
+   "code": "4031",
+   "kind": "JCC",
+   "city": "うきは市",
+   "pref": "福岡県",
+   "yomi": "ukiha"
+  },
+  {
+   "code": "4032",
+   "kind": "JCC",
+   "city": "宮若市",
+   "pref": "福岡県",
+   "yomi": "miyawaka"
+  },
+  {
+   "code": "4033",
+   "kind": "JCC",
+   "city": "嘉麻市",
+   "pref": "福岡県",
+   "yomi": "kama"
+  },
+  {
+   "code": "4034",
+   "kind": "JCC",
+   "city": "朝倉市",
+   "pref": "福岡県",
+   "yomi": "asakura"
+  },
+  {
+   "code": "4035",
+   "kind": "JCC",
+   "city": "みやま市",
+   "pref": "福岡県",
+   "yomi": "miyama"
+  },
+  {
+   "code": "4036",
+   "kind": "JCC",
+   "city": "糸島市",
+   "pref": "福岡県",
+   "yomi": "itoshima"
+  },
+  {
+   "code": "4037",
+   "kind": "JCC",
+   "city": "那珂川市",
+   "pref": "福岡県",
+   "yomi": "nakagawa"
   }
  ]
 }

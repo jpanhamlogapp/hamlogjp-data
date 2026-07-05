@@ -1,0 +1,249 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "21001",
+   "kind": "JCG",
+   "city": "安芸郡",
+   "pref": "三重県",
+   "yomi": "age",
+   "validUntil": "2005-12-31"
+  },
+  {
+   "code": "21002",
+   "kind": "JCG",
+   "city": "安濃郡",
+   "pref": "三重県",
+   "yomi": "ano",
+   "validUntil": "1956-09-29"
+  },
+  {
+   "code": "21003",
+   "kind": "JCG",
+   "city": "阿山郡",
+   "pref": "三重県",
+   "yomi": "ayama",
+   "validUntil": "2004-10-31"
+  },
+  {
+   "code": "21004",
+   "kind": "JCG",
+   "city": "飯南郡",
+   "pref": "三重県",
+   "yomi": "iinan",
+   "validUntil": "2004-12-31"
+  },
+  {
+   "code": "21005",
+   "kind": "JCG",
+   "city": "一志郡",
+   "pref": "三重県",
+   "yomi": "ichishi",
+   "validUntil": "2005-12-31"
+  },
+  {
+   "code": "21006",
+   "kind": "JCG",
+   "city": "員弁郡",
+   "pref": "三重県",
+   "yomi": "inabe"
+  },
+  {
+   "code": "21007",
+   "kind": "JCG",
+   "city": "河芸郡",
+   "pref": "三重県",
+   "yomi": "kawage",
+   "validUntil": "1956-09-29"
+  },
+  {
+   "code": "21008",
+   "kind": "JCG",
+   "city": "北牟婁郡",
+   "pref": "三重県",
+   "yomi": "kitamuro"
+  },
+  {
+   "code": "21009",
+   "kind": "JCG",
+   "city": "桑名郡",
+   "pref": "三重県",
+   "yomi": "kuwana"
+  },
+  {
+   "code": "2101",
+   "kind": "JCC",
+   "city": "津市",
+   "pref": "三重県",
+   "yomi": "tsu"
+  },
+  {
+   "code": "21010",
+   "kind": "JCG",
+   "city": "志摩郡",
+   "pref": "三重県",
+   "yomi": "shima",
+   "validUntil": "2004-09-30"
+  },
+  {
+   "code": "21011",
+   "kind": "JCG",
+   "city": "鈴鹿郡",
+   "pref": "三重県",
+   "yomi": "suzuka",
+   "validUntil": "2005-01-10"
+  },
+  {
+   "code": "21012",
+   "kind": "JCG",
+   "city": "多気郡",
+   "pref": "三重県",
+   "yomi": "taki"
+  },
+  {
+   "code": "21013",
+   "kind": "JCG",
+   "city": "名賀郡",
+   "pref": "三重県",
+   "yomi": "naga",
+   "validUntil": "2004-10-31"
+  },
+  {
+   "code": "21014",
+   "kind": "JCG",
+   "city": "三重郡",
+   "pref": "三重県",
+   "yomi": "mie"
+  },
+  {
+   "code": "21015",
+   "kind": "JCG",
+   "city": "南牟婁郡",
+   "pref": "三重県",
+   "yomi": "minamimuro"
+  },
+  {
+   "code": "21016",
+   "kind": "JCG",
+   "city": "度会郡",
+   "pref": "三重県",
+   "yomi": "watarai"
+  },
+  {
+   "code": "2102",
+   "kind": "JCC",
+   "city": "四日市",
+   "pref": "三重県",
+   "yomi": "yokkaichi"
+  },
+  {
+   "code": "2103",
+   "kind": "JCC",
+   "city": "伊勢市",
+   "pref": "三重県",
+   "yomi": "ise"
+  },
+  {
+   "code": "2104",
+   "kind": "JCC",
+   "city": "松阪市",
+   "pref": "三重県",
+   "yomi": "matsusaka"
+  },
+  {
+   "code": "2105",
+   "kind": "JCC",
+   "city": "桑名市",
+   "pref": "三重県",
+   "yomi": "kuwana"
+  },
+  {
+   "code": "2106",
+   "kind": "JCC",
+   "city": "上野市",
+   "pref": "三重県",
+   "yomi": "ueno",
+   "validUntil": "2004-10-31"
+  },
+  {
+   "code": "2107",
+   "kind": "JCC",
+   "city": "鈴鹿市",
+   "pref": "三重県",
+   "yomi": "suzuka"
+  },
+  {
+   "code": "2108",
+   "kind": "JCC",
+   "city": "名張市",
+   "pref": "三重県",
+   "yomi": "nabari"
+  },
+  {
+   "code": "2109",
+   "kind": "JCC",
+   "city": "尾鷲市",
+   "pref": "三重県",
+   "yomi": "owase"
+  },
+  {
+   "code": "2110",
+   "kind": "JCC",
+   "city": "亀山市",
+   "pref": "三重県",
+   "yomi": "kameyama"
+  },
+  {
+   "code": "2111",
+   "kind": "JCC",
+   "city": "鳥羽市",
+   "pref": "三重県",
+   "yomi": "toba"
+  },
+  {
+   "code": "2112",
+   "kind": "JCC",
+   "city": "熊野市",
+   "pref": "三重県",
+   "yomi": "kumano"
+  },
+  {
+   "code": "2113",
+   "kind": "JCC",
+   "city": "久居市",
+   "pref": "三重県",
+   "yomi": "hisai",
+   "validUntil": "2005-12-31"
+  },
+  {
+   "code": "2114",
+   "kind": "JCC",
+   "city": "宇治山田市",
+   "pref": "三重県",
+   "yomi": "ujiyamada",
+   "validUntil": "1954-12-31"
+  },
+  {
+   "code": "2115",
+   "kind": "JCC",
+   "city": "いなべ市",
+   "pref": "三重県",
+   "yomi": "inabe"
+  },
+  {
+   "code": "2116",
+   "kind": "JCC",
+   "city": "志摩市",
+   "pref": "三重県",
+   "yomi": "shima"
+  },
+  {
+   "code": "2117",
+   "kind": "JCC",
+   "city": "伊賀市",
+   "pref": "三重県",
+   "yomi": "iga"
+  }
+ ]
+}

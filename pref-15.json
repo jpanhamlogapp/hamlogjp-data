@@ -1,0 +1,179 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "15001",
+   "kind": "JCG",
+   "city": "足利郡",
+   "pref": "栃木県",
+   "yomi": "ashikaga",
+   "validUntil": "1962-09-30"
+  },
+  {
+   "code": "15002",
+   "kind": "JCG",
+   "city": "安蘇郡",
+   "pref": "栃木県",
+   "yomi": "aso",
+   "validUntil": "2005-02-27"
+  },
+  {
+   "code": "15003",
+   "kind": "JCG",
+   "city": "上都賀郡",
+   "pref": "栃木県",
+   "yomi": "kamitsuga",
+   "validUntil": "2011-09-30"
+  },
+  {
+   "code": "15004",
+   "kind": "JCG",
+   "city": "河内郡",
+   "pref": "栃木県",
+   "yomi": "kawachi"
+  },
+  {
+   "code": "15005",
+   "kind": "JCG",
+   "city": "塩谷郡",
+   "pref": "栃木県",
+   "yomi": "shioya"
+  },
+  {
+   "code": "15006",
+   "kind": "JCG",
+   "city": "下都賀郡",
+   "pref": "栃木県",
+   "yomi": "shimotsuga"
+  },
+  {
+   "code": "15007",
+   "kind": "JCG",
+   "city": "那須郡",
+   "pref": "栃木県",
+   "yomi": "nasu"
+  },
+  {
+   "code": "15008",
+   "kind": "JCG",
+   "city": "芳賀郡",
+   "pref": "栃木県",
+   "yomi": "haga"
+  },
+  {
+   "code": "1501",
+   "kind": "JCC",
+   "city": "宇都宮市",
+   "pref": "栃木県",
+   "yomi": "utsunomiya"
+  },
+  {
+   "code": "1502",
+   "kind": "JCC",
+   "city": "足利市",
+   "pref": "栃木県",
+   "yomi": "ashikaga"
+  },
+  {
+   "code": "1503",
+   "kind": "JCC",
+   "city": "栃木市",
+   "pref": "栃木県",
+   "yomi": "tochigi"
+  },
+  {
+   "code": "1504",
+   "kind": "JCC",
+   "city": "佐野市",
+   "pref": "栃木県",
+   "yomi": "sano"
+  },
+  {
+   "code": "1505",
+   "kind": "JCC",
+   "city": "鹿沼市",
+   "pref": "栃木県",
+   "yomi": "kanuma"
+  },
+  {
+   "code": "1506",
+   "kind": "JCC",
+   "city": "日光市",
+   "pref": "栃木県",
+   "yomi": "nikko"
+  },
+  {
+   "code": "1507",
+   "kind": "JCC",
+   "city": "今市",
+   "pref": "栃木県",
+   "yomi": "imaichi",
+   "validUntil": "2006-03-19"
+  },
+  {
+   "code": "1508",
+   "kind": "JCC",
+   "city": "小山市",
+   "pref": "栃木県",
+   "yomi": "oyama"
+  },
+  {
+   "code": "1509",
+   "kind": "JCC",
+   "city": "真岡市",
+   "pref": "栃木県",
+   "yomi": "mooka"
+  },
+  {
+   "code": "1510",
+   "kind": "JCC",
+   "city": "大田原市",
+   "pref": "栃木県",
+   "yomi": "otawara"
+  },
+  {
+   "code": "1511",
+   "kind": "JCC",
+   "city": "矢板市",
+   "pref": "栃木県",
+   "yomi": "yaita"
+  },
+  {
+   "code": "1512",
+   "kind": "JCC",
+   "city": "黒磯市",
+   "pref": "栃木県",
+   "yomi": "kuroiso",
+   "validUntil": "2004-12-31"
+  },
+  {
+   "code": "1513",
+   "kind": "JCC",
+   "city": "那須塩原市",
+   "pref": "栃木県",
+   "yomi": "nasushiobara"
+  },
+  {
+   "code": "1514",
+   "kind": "JCC",
+   "city": "さくら市",
+   "pref": "栃木県",
+   "yomi": "sakura"
+  },
+  {
+   "code": "1515",
+   "kind": "JCC",
+   "city": "那須烏山市",
+   "pref": "栃木県",
+   "yomi": "nasukarasuyama"
+  },
+  {
+   "code": "1516",
+   "kind": "JCC",
+   "city": "下野市",
+   "pref": "栃木県",
+   "yomi": "shimotsuke"
+  }
+ ]
+}

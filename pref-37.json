@@ -1,0 +1,134 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "37001",
+   "kind": "JCG",
+   "city": "阿波郡",
+   "pref": "徳島県",
+   "yomi": "awa",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "37002",
+   "kind": "JCG",
+   "city": "板野郡",
+   "pref": "徳島県",
+   "yomi": "itano"
+  },
+  {
+   "code": "37003",
+   "kind": "JCG",
+   "city": "麻植郡",
+   "pref": "徳島県",
+   "yomi": "oe",
+   "validUntil": "2004-09-30"
+  },
+  {
+   "code": "37004",
+   "kind": "JCG",
+   "city": "海部郡",
+   "pref": "徳島県",
+   "yomi": "kaifu"
+  },
+  {
+   "code": "37005",
+   "kind": "JCG",
+   "city": "勝浦郡",
+   "pref": "徳島県",
+   "yomi": "katsuura"
+  },
+  {
+   "code": "37006",
+   "kind": "JCG",
+   "city": "那賀郡",
+   "pref": "徳島県",
+   "yomi": "naka"
+  },
+  {
+   "code": "37007",
+   "kind": "JCG",
+   "city": "名西郡",
+   "pref": "徳島県",
+   "yomi": "myozai"
+  },
+  {
+   "code": "37008",
+   "kind": "JCG",
+   "city": "名東郡",
+   "pref": "徳島県",
+   "yomi": "myodo"
+  },
+  {
+   "code": "37009",
+   "kind": "JCG",
+   "city": "美馬郡",
+   "pref": "徳島県",
+   "yomi": "mima"
+  },
+  {
+   "code": "3701",
+   "kind": "JCC",
+   "city": "徳島市",
+   "pref": "徳島県",
+   "yomi": "tokushima"
+  },
+  {
+   "code": "37010",
+   "kind": "JCG",
+   "city": "三好郡",
+   "pref": "徳島県",
+   "yomi": "miyoshi"
+  },
+  {
+   "code": "3702",
+   "kind": "JCC",
+   "city": "鳴門市",
+   "pref": "徳島県",
+   "yomi": "naruto"
+  },
+  {
+   "code": "3703",
+   "kind": "JCC",
+   "city": "小松島市",
+   "pref": "徳島県",
+   "yomi": "komatsushima"
+  },
+  {
+   "code": "3704",
+   "kind": "JCC",
+   "city": "阿南市",
+   "pref": "徳島県",
+   "yomi": "anan"
+  },
+  {
+   "code": "3705",
+   "kind": "JCC",
+   "city": "吉野川市",
+   "pref": "徳島県",
+   "yomi": "yoshinogawa"
+  },
+  {
+   "code": "3706",
+   "kind": "JCC",
+   "city": "阿波市",
+   "pref": "徳島県",
+   "yomi": "awa"
+  },
+  {
+   "code": "3707",
+   "kind": "JCC",
+   "city": "美馬市",
+   "pref": "徳島県",
+   "yomi": "mima"
+  },
+  {
+   "code": "3708",
+   "kind": "JCC",
+   "city": "三好市",
+   "pref": "徳島県",
+   "yomi": "miyoshi"
+  }
+ ]
+}

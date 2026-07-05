@@ -1,0 +1,205 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "33001",
+   "kind": "JCG",
+   "city": "厚狭郡",
+   "pref": "山口県",
+   "yomi": "asa",
+   "validUntil": "2005-03-21"
+  },
+  {
+   "code": "33002",
+   "kind": "JCG",
+   "city": "阿武郡",
+   "pref": "山口県",
+   "yomi": "abu"
+  },
+  {
+   "code": "33003",
+   "kind": "JCG",
+   "city": "大島郡",
+   "pref": "山口県",
+   "yomi": "oshima"
+  },
+  {
+   "code": "33004",
+   "kind": "JCG",
+   "city": "大津郡",
+   "pref": "山口県",
+   "yomi": "otsu",
+   "validUntil": "2005-03-21"
+  },
+  {
+   "code": "33005",
+   "kind": "JCG",
+   "city": "玖珂郡",
+   "pref": "山口県",
+   "yomi": "kuga"
+  },
+  {
+   "code": "33006",
+   "kind": "JCG",
+   "city": "熊毛郡",
+   "pref": "山口県",
+   "yomi": "kumage"
+  },
+  {
+   "code": "33007",
+   "kind": "JCG",
+   "city": "佐波郡",
+   "pref": "山口県",
+   "yomi": "saba",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "33008",
+   "kind": "JCG",
+   "city": "都濃郡",
+   "pref": "山口県",
+   "yomi": "tsuno",
+   "validUntil": "2003-04-20"
+  },
+  {
+   "code": "33009",
+   "kind": "JCG",
+   "city": "豊浦郡",
+   "pref": "山口県",
+   "yomi": "toyoura",
+   "validUntil": "2005-02-12"
+  },
+  {
+   "code": "3301",
+   "kind": "JCC",
+   "city": "山口市",
+   "pref": "山口県",
+   "yomi": "yamaguchi"
+  },
+  {
+   "code": "33010",
+   "kind": "JCG",
+   "city": "美祢郡",
+   "pref": "山口県",
+   "yomi": "mine",
+   "validUntil": "2008-03-20"
+  },
+  {
+   "code": "33011",
+   "kind": "JCG",
+   "city": "吉敷郡",
+   "pref": "山口県",
+   "yomi": "yoshiki",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "3302",
+   "kind": "JCC",
+   "city": "下関市",
+   "pref": "山口県",
+   "yomi": "shimonoseki"
+  },
+  {
+   "code": "3303",
+   "kind": "JCC",
+   "city": "宇部市",
+   "pref": "山口県",
+   "yomi": "ube"
+  },
+  {
+   "code": "3304",
+   "kind": "JCC",
+   "city": "萩市",
+   "pref": "山口県",
+   "yomi": "hagi"
+  },
+  {
+   "code": "3305",
+   "kind": "JCC",
+   "city": "徳山市",
+   "pref": "山口県",
+   "yomi": "tokuyama",
+   "validUntil": "2003-04-20"
+  },
+  {
+   "code": "3306",
+   "kind": "JCC",
+   "city": "防府市",
+   "pref": "山口県",
+   "yomi": "hofu"
+  },
+  {
+   "code": "3307",
+   "kind": "JCC",
+   "city": "下松市",
+   "pref": "山口県",
+   "yomi": "kudamatsu"
+  },
+  {
+   "code": "3308",
+   "kind": "JCC",
+   "city": "岩国市",
+   "pref": "山口県",
+   "yomi": "iwakuni"
+  },
+  {
+   "code": "3309",
+   "kind": "JCC",
+   "city": "小野田市",
+   "pref": "山口県",
+   "yomi": "onoda",
+   "validUntil": "2005-03-21"
+  },
+  {
+   "code": "3310",
+   "kind": "JCC",
+   "city": "光市",
+   "pref": "山口県",
+   "yomi": "hikari"
+  },
+  {
+   "code": "3311",
+   "kind": "JCC",
+   "city": "長門市",
+   "pref": "山口県",
+   "yomi": "nagato"
+  },
+  {
+   "code": "3312",
+   "kind": "JCC",
+   "city": "柳井市",
+   "pref": "山口県",
+   "yomi": "yanai"
+  },
+  {
+   "code": "3313",
+   "kind": "JCC",
+   "city": "美祢市",
+   "pref": "山口県",
+   "yomi": "mine"
+  },
+  {
+   "code": "3314",
+   "kind": "JCC",
+   "city": "新南陽市",
+   "pref": "山口県",
+   "yomi": "shinnanyo",
+   "validUntil": "2003-04-20"
+  },
+  {
+   "code": "3315",
+   "kind": "JCC",
+   "city": "周南市",
+   "pref": "山口県",
+   "yomi": "shunan"
+  },
+  {
+   "code": "3316",
+   "kind": "JCC",
+   "city": "山陽小野田市",
+   "pref": "山口県",
+   "yomi": "sanyouonoda"
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "30001",
+   "kind": "JCG",
+   "city": "石川郡",
+   "pref": "石川県",
+   "yomi": "ishikawa",
+   "validUntil": "2011-11-10"
+  },
+  {
+   "code": "30002",
+   "kind": "JCG",
+   "city": "江沼郡",
+   "pref": "石川県",
+   "yomi": "enuma",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "30003",
+   "kind": "JCG",
+   "city": "鹿島郡",
+   "pref": "石川県",
+   "yomi": "kashima"
+  },
+  {
+   "code": "30004",
+   "kind": "JCG",
+   "city": "河北郡",
+   "pref": "石川県",
+   "yomi": "kahoku"
+  },
+  {
+   "code": "30005",
+   "kind": "JCG",
+   "city": "珠洲郡",
+   "pref": "石川県",
+   "yomi": "suzu",
+   "validUntil": "2005-02-28"
+  },
+  {
+   "code": "30006",
+   "kind": "JCG",
+   "city": "能美郡",
+   "pref": "石川県",
+   "yomi": "nomi"
+  },
+  {
+   "code": "30007",
+   "kind": "JCG",
+   "city": "羽咋郡",
+   "pref": "石川県",
+   "yomi": "hakui"
+  },
+  {
+   "code": "30008",
+   "kind": "JCG",
+   "city": "鳳至郡",
+   "pref": "石川県",
+   "yomi": "fugeshi",
+   "validUntil": "2005-02-28"
+  },
+  {
+   "code": "30009",
+   "kind": "JCG",
+   "city": "鳳珠郡",
+   "pref": "石川県",
+   "yomi": "hosu"
+  },
+  {
+   "code": "3001",
+   "kind": "JCC",
+   "city": "金沢市",
+   "pref": "石川県",
+   "yomi": "kanazawa"
+  },
+  {
+   "code": "3002",
+   "kind": "JCC",
+   "city": "七尾市",
+   "pref": "石川県",
+   "yomi": "nanao"
+  },
+  {
+   "code": "3003",
+   "kind": "JCC",
+   "city": "小松市",
+   "pref": "石川県",
+   "yomi": "komatsu"
+  },
+  {
+   "code": "3004",
+   "kind": "JCC",
+   "city": "輪島市",
+   "pref": "石川県",
+   "yomi": "wajima"
+  },
+  {
+   "code": "3005",
+   "kind": "JCC",
+   "city": "珠洲市",
+   "pref": "石川県",
+   "yomi": "suzu"
+  },
+  {
+   "code": "3006",
+   "kind": "JCC",
+   "city": "加賀市",
+   "pref": "石川県",
+   "yomi": "kaga"
+  },
+  {
+   "code": "3007",
+   "kind": "JCC",
+   "city": "羽咋市",
+   "pref": "石川県",
+   "yomi": "hakui"
+  },
+  {
+   "code": "3008",
+   "kind": "JCC",
+   "city": "松任市",
+   "pref": "石川県",
+   "yomi": "matsuto",
+   "validUntil": "2005-01-31"
+  },
+  {
+   "code": "3009",
+   "kind": "JCC",
+   "city": "かほく市",
+   "pref": "石川県",
+   "yomi": "kahoku"
+  },
+  {
+   "code": "3010",
+   "kind": "JCC",
+   "city": "白山市",
+   "pref": "石川県",
+   "yomi": "hakusan"
+  },
+  {
+   "code": "3012",
+   "kind": "JCC",
+   "city": "野々市",
+   "pref": "石川県",
+   "yomi": "nonoichi"
+  }
+ ]
+}

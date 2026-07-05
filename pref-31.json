@@ -1,0 +1,313 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "31001",
+   "kind": "JCG",
+   "city": "英田郡",
+   "pref": "岡山県",
+   "yomi": "aida"
+  },
+  {
+   "code": "31002",
+   "kind": "JCG",
+   "city": "赤磐郡",
+   "pref": "岡山県",
+   "yomi": "akaiwa",
+   "validUntil": "2007-01-21"
+  },
+  {
+   "code": "31003",
+   "kind": "JCG",
+   "city": "浅口郡",
+   "pref": "岡山県",
+   "yomi": "asakuchi"
+  },
+  {
+   "code": "31004",
+   "kind": "JCG",
+   "city": "阿哲郡",
+   "pref": "岡山県",
+   "yomi": "atetsu",
+   "validUntil": "2005-03-30"
+  },
+  {
+   "code": "31005",
+   "kind": "JCG",
+   "city": "邑久郡",
+   "pref": "岡山県",
+   "yomi": "oku",
+   "validUntil": "2004-10-31"
+  },
+  {
+   "code": "31006",
+   "kind": "JCG",
+   "city": "小田郡",
+   "pref": "岡山県",
+   "yomi": "oda"
+  },
+  {
+   "code": "31007",
+   "kind": "JCG",
+   "city": "勝田郡",
+   "pref": "岡山県",
+   "yomi": "katsuta"
+  },
+  {
+   "code": "31008",
+   "kind": "JCG",
+   "city": "川上郡",
+   "pref": "岡山県",
+   "yomi": "kawakami",
+   "validUntil": "2004-09-30"
+  },
+  {
+   "code": "31009",
+   "kind": "JCG",
+   "city": "吉備郡",
+   "pref": "岡山県",
+   "yomi": "kibi",
+   "validUntil": "2005-07-31"
+  },
+  {
+   "code": "3101",
+   "kind": "JCC",
+   "city": "岡山市",
+   "pref": "岡山県",
+   "yomi": "okayama"
+  },
+  {
+   "code": "31010",
+   "kind": "JCG",
+   "city": "久米郡",
+   "pref": "岡山県",
+   "yomi": "kume"
+  },
+  {
+   "code": "310101",
+   "kind": "JCC",
+   "city": "北区",
+   "pref": "岡山県",
+   "yomi": "kita"
+  },
+  {
+   "code": "310102",
+   "kind": "JCC",
+   "city": "中区",
+   "pref": "岡山県",
+   "yomi": "naka"
+  },
+  {
+   "code": "310103",
+   "kind": "JCC",
+   "city": "東区",
+   "pref": "岡山県",
+   "yomi": "higashi"
+  },
+  {
+   "code": "310104",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "岡山県",
+   "yomi": "minami"
+  },
+  {
+   "code": "31011",
+   "kind": "JCG",
+   "city": "児島郡",
+   "pref": "岡山県",
+   "yomi": "kojima",
+   "validUntil": "2005-03-21"
+  },
+  {
+   "code": "31012",
+   "kind": "JCG",
+   "city": "後月郡",
+   "pref": "岡山県",
+   "yomi": "shitsuki",
+   "validUntil": "2005-02-28"
+  },
+  {
+   "code": "31013",
+   "kind": "JCG",
+   "city": "上道郡",
+   "pref": "岡山県",
+   "yomi": "joto",
+   "validUntil": "1971-04-30"
+  },
+  {
+   "code": "31014",
+   "kind": "JCG",
+   "city": "上房郡",
+   "pref": "岡山県",
+   "yomi": "jobo",
+   "validUntil": "2005-03-30"
+  },
+  {
+   "code": "31015",
+   "kind": "JCG",
+   "city": "都窪郡",
+   "pref": "岡山県",
+   "yomi": "tsukubo"
+  },
+  {
+   "code": "31016",
+   "kind": "JCG",
+   "city": "苫田郡",
+   "pref": "岡山県",
+   "yomi": "tomata"
+  },
+  {
+   "code": "31017",
+   "kind": "JCG",
+   "city": "真庭郡",
+   "pref": "岡山県",
+   "yomi": "maniwa"
+  },
+  {
+   "code": "31018",
+   "kind": "JCG",
+   "city": "御津郡",
+   "pref": "岡山県",
+   "yomi": "mitsu",
+   "validUntil": "2007-01-21"
+  },
+  {
+   "code": "31019",
+   "kind": "JCG",
+   "city": "和気郡",
+   "pref": "岡山県",
+   "yomi": "wake"
+  },
+  {
+   "code": "3102",
+   "kind": "JCC",
+   "city": "倉敷市",
+   "pref": "岡山県",
+   "yomi": "kurashiki"
+  },
+  {
+   "code": "31020",
+   "kind": "JCG",
+   "city": "加賀郡",
+   "pref": "岡山県",
+   "yomi": "kaga"
+  },
+  {
+   "code": "3103",
+   "kind": "JCC",
+   "city": "津山市",
+   "pref": "岡山県",
+   "yomi": "tsuyama"
+  },
+  {
+   "code": "3104",
+   "kind": "JCC",
+   "city": "玉野市",
+   "pref": "岡山県",
+   "yomi": "tamano"
+  },
+  {
+   "code": "3105",
+   "kind": "JCC",
+   "city": "児島市",
+   "pref": "岡山県",
+   "yomi": "kojima",
+   "validUntil": "1967-01-31"
+  },
+  {
+   "code": "3106",
+   "kind": "JCC",
+   "city": "玉島市",
+   "pref": "岡山県",
+   "yomi": "tamashima",
+   "validUntil": "1967-01-31"
+  },
+  {
+   "code": "3107",
+   "kind": "JCC",
+   "city": "笠岡市",
+   "pref": "岡山県",
+   "yomi": "kasaoka"
+  },
+  {
+   "code": "3108",
+   "kind": "JCC",
+   "city": "西大寺市",
+   "pref": "岡山県",
+   "yomi": "saidaiji",
+   "validUntil": "1969-02-16"
+  },
+  {
+   "code": "3109",
+   "kind": "JCC",
+   "city": "井原市",
+   "pref": "岡山県",
+   "yomi": "ibara"
+  },
+  {
+   "code": "3110",
+   "kind": "JCC",
+   "city": "総社市",
+   "pref": "岡山県",
+   "yomi": "soja"
+  },
+  {
+   "code": "3111",
+   "kind": "JCC",
+   "city": "高梁市",
+   "pref": "岡山県",
+   "yomi": "takahashi"
+  },
+  {
+   "code": "3112",
+   "kind": "JCC",
+   "city": "新見市",
+   "pref": "岡山県",
+   "yomi": "niimi"
+  },
+  {
+   "code": "3113",
+   "kind": "JCC",
+   "city": "備前市",
+   "pref": "岡山県",
+   "yomi": "bizen"
+  },
+  {
+   "code": "3114",
+   "kind": "JCC",
+   "city": "瀬戸内市",
+   "pref": "岡山県",
+   "yomi": "setouchi"
+  },
+  {
+   "code": "3115",
+   "kind": "JCC",
+   "city": "赤磐市",
+   "pref": "岡山県",
+   "yomi": "akaiwa"
+  },
+  {
+   "code": "3116",
+   "kind": "JCC",
+   "city": "真庭市",
+   "pref": "岡山県",
+   "yomi": "maniwa"
+  },
+  {
+   "code": "3117",
+   "kind": "JCC",
+   "city": "美作市",
+   "pref": "岡山県",
+   "yomi": "mimasaka"
+  },
+  {
+   "code": "3118",
+   "kind": "JCC",
+   "city": "浅口市",
+   "pref": "岡山県",
+   "yomi": "asakuchi"
+  }
+ ]
+}

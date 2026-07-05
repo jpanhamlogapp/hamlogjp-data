@@ -1,0 +1,164 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "17001",
+   "kind": "JCG",
+   "city": "北巨摩郡",
+   "pref": "山梨県",
+   "yomi": "kitakoma",
+   "validUntil": "2006-03-14"
+  },
+  {
+   "code": "17002",
+   "kind": "JCG",
+   "city": "北都留郡",
+   "pref": "山梨県",
+   "yomi": "kitatsuru"
+  },
+  {
+   "code": "17003",
+   "kind": "JCG",
+   "city": "中巨摩郡",
+   "pref": "山梨県",
+   "yomi": "nakakoma"
+  },
+  {
+   "code": "17004",
+   "kind": "JCG",
+   "city": "西八代郡",
+   "pref": "山梨県",
+   "yomi": "nishiyatsushiro"
+  },
+  {
+   "code": "17005",
+   "kind": "JCG",
+   "city": "東八代郡",
+   "pref": "山梨県",
+   "yomi": "higashiyatsushiro",
+   "validUntil": "2006-07-31"
+  },
+  {
+   "code": "17006",
+   "kind": "JCG",
+   "city": "東山梨郡",
+   "pref": "山梨県",
+   "yomi": "higashiyamanashi",
+   "validUntil": "2005-10-31"
+  },
+  {
+   "code": "17007",
+   "kind": "JCG",
+   "city": "南巨摩郡",
+   "pref": "山梨県",
+   "yomi": "minamikoma"
+  },
+  {
+   "code": "17008",
+   "kind": "JCG",
+   "city": "南都留郡",
+   "pref": "山梨県",
+   "yomi": "minamitsuru"
+  },
+  {
+   "code": "1701",
+   "kind": "JCC",
+   "city": "甲府市",
+   "pref": "山梨県",
+   "yomi": "kofu"
+  },
+  {
+   "code": "1702",
+   "kind": "JCC",
+   "city": "富士吉田市",
+   "pref": "山梨県",
+   "yomi": "fujiyoshida"
+  },
+  {
+   "code": "1703",
+   "kind": "JCC",
+   "city": "塩山市",
+   "pref": "山梨県",
+   "yomi": "enzan",
+   "validUntil": "2005-10-31"
+  },
+  {
+   "code": "1704",
+   "kind": "JCC",
+   "city": "都留市",
+   "pref": "山梨県",
+   "yomi": "tsuru"
+  },
+  {
+   "code": "1705",
+   "kind": "JCC",
+   "city": "山梨市",
+   "pref": "山梨県",
+   "yomi": "yamanashi"
+  },
+  {
+   "code": "1706",
+   "kind": "JCC",
+   "city": "大月市",
+   "pref": "山梨県",
+   "yomi": "otsuki"
+  },
+  {
+   "code": "1707",
+   "kind": "JCC",
+   "city": "韮崎市",
+   "pref": "山梨県",
+   "yomi": "nirasaki"
+  },
+  {
+   "code": "1708",
+   "kind": "JCC",
+   "city": "南アルプス市",
+   "pref": "山梨県",
+   "yomi": "minamialps"
+  },
+  {
+   "code": "1709",
+   "kind": "JCC",
+   "city": "北杜市",
+   "pref": "山梨県",
+   "yomi": "hokuto"
+  },
+  {
+   "code": "1710",
+   "kind": "JCC",
+   "city": "甲斐市",
+   "pref": "山梨県",
+   "yomi": "kai"
+  },
+  {
+   "code": "1711",
+   "kind": "JCC",
+   "city": "笛吹市",
+   "pref": "山梨県",
+   "yomi": "fuefuki"
+  },
+  {
+   "code": "1712",
+   "kind": "JCC",
+   "city": "上野原市",
+   "pref": "山梨県",
+   "yomi": "uenohara"
+  },
+  {
+   "code": "1713",
+   "kind": "JCC",
+   "city": "甲州市",
+   "pref": "山梨県",
+   "yomi": "koshu"
+  },
+  {
+   "code": "1714",
+   "kind": "JCC",
+   "city": "中央市",
+   "pref": "山梨県",
+   "yomi": "chuo"
+  }
+ ]
+}

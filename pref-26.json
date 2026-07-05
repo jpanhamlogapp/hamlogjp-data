@@ -1,0 +1,119 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "26001",
+   "kind": "JCG",
+   "city": "有田郡",
+   "pref": "和歌山県",
+   "yomi": "arida"
+  },
+  {
+   "code": "26002",
+   "kind": "JCG",
+   "city": "伊都郡",
+   "pref": "和歌山県",
+   "yomi": "ito"
+  },
+  {
+   "code": "26003",
+   "kind": "JCG",
+   "city": "海草郡",
+   "pref": "和歌山県",
+   "yomi": "kaiso"
+  },
+  {
+   "code": "26004",
+   "kind": "JCG",
+   "city": "那賀郡",
+   "pref": "和歌山県",
+   "yomi": "naga",
+   "validUntil": "2006-03-31"
+  },
+  {
+   "code": "26005",
+   "kind": "JCG",
+   "city": "西牟婁郡",
+   "pref": "和歌山県",
+   "yomi": "nishimuro"
+  },
+  {
+   "code": "26006",
+   "kind": "JCG",
+   "city": "東牟婁郡",
+   "pref": "和歌山県",
+   "yomi": "higashimuro"
+  },
+  {
+   "code": "26007",
+   "kind": "JCG",
+   "city": "日高郡",
+   "pref": "和歌山県",
+   "yomi": "hidaka"
+  },
+  {
+   "code": "2601",
+   "kind": "JCC",
+   "city": "和歌山市",
+   "pref": "和歌山県",
+   "yomi": "wakayama"
+  },
+  {
+   "code": "2602",
+   "kind": "JCC",
+   "city": "新宮市",
+   "pref": "和歌山県",
+   "yomi": "shingu"
+  },
+  {
+   "code": "2603",
+   "kind": "JCC",
+   "city": "海南市",
+   "pref": "和歌山県",
+   "yomi": "kainan"
+  },
+  {
+   "code": "2604",
+   "kind": "JCC",
+   "city": "田辺市",
+   "pref": "和歌山県",
+   "yomi": "tanabe"
+  },
+  {
+   "code": "2605",
+   "kind": "JCC",
+   "city": "御坊市",
+   "pref": "和歌山県",
+   "yomi": "gobo"
+  },
+  {
+   "code": "2606",
+   "kind": "JCC",
+   "city": "橋本市",
+   "pref": "和歌山県",
+   "yomi": "hashimoto"
+  },
+  {
+   "code": "2607",
+   "kind": "JCC",
+   "city": "有田市",
+   "pref": "和歌山県",
+   "yomi": "arida"
+  },
+  {
+   "code": "2608",
+   "kind": "JCC",
+   "city": "紀の川市",
+   "pref": "和歌山県",
+   "yomi": "kinokawa"
+  },
+  {
+   "code": "2609",
+   "kind": "JCC",
+   "city": "岩出市",
+   "pref": "和歌山県",
+   "yomi": "iwade"
+  }
+ ]
+}

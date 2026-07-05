@@ -1,13 +1,132 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
+  {
+   "code": "02001",
+   "kind": "JCG",
+   "city": "上北郡",
+   "pref": "青森県",
+   "yomi": "kamikita"
+  },
+  {
+   "code": "02002",
+   "kind": "JCG",
+   "city": "北津軽郡",
+   "pref": "青森県",
+   "yomi": "kitatsugaru"
+  },
+  {
+   "code": "02003",
+   "kind": "JCG",
+   "city": "三戸郡",
+   "pref": "青森県",
+   "yomi": "sannohe"
+  },
+  {
+   "code": "02004",
+   "kind": "JCG",
+   "city": "下北郡",
+   "pref": "青森県",
+   "yomi": "shimokita"
+  },
+  {
+   "code": "02005",
+   "kind": "JCG",
+   "city": "中津軽郡",
+   "pref": "青森県",
+   "yomi": "nakatsugaru"
+  },
+  {
+   "code": "02006",
+   "kind": "JCG",
+   "city": "西津軽郡",
+   "pref": "青森県",
+   "yomi": "nishitsugaru"
+  },
+  {
+   "code": "02007",
+   "kind": "JCG",
+   "city": "東津軽郡",
+   "pref": "青森県",
+   "yomi": "higashitsugaru"
+  },
+  {
+   "code": "02008",
+   "kind": "JCG",
+   "city": "南津軽郡",
+   "pref": "青森県",
+   "yomi": "minamitsugaru"
+  },
   {
    "code": "0201",
    "kind": "JCC",
    "city": "青森市",
    "pref": "青森県",
-   "yomi": "あおもり"
+   "yomi": "aomori"
+  },
+  {
+   "code": "0202",
+   "kind": "JCC",
+   "city": "弘前市",
+   "pref": "青森県",
+   "yomi": "hirosaki"
+  },
+  {
+   "code": "0203",
+   "kind": "JCC",
+   "city": "八戸市",
+   "pref": "青森県",
+   "yomi": "hachinohe"
+  },
+  {
+   "code": "0204",
+   "kind": "JCC",
+   "city": "黒石市",
+   "pref": "青森県",
+   "yomi": "kuroishi"
+  },
+  {
+   "code": "0205",
+   "kind": "JCC",
+   "city": "五所川原市",
+   "pref": "青森県",
+   "yomi": "goshogawara"
+  },
+  {
+   "code": "0206",
+   "kind": "JCC",
+   "city": "十和田市",
+   "pref": "青森県",
+   "yomi": "towada"
+  },
+  {
+   "code": "0207",
+   "kind": "JCC",
+   "city": "三沢市",
+   "pref": "青森県",
+   "yomi": "misawa"
+  },
+  {
+   "code": "0208",
+   "kind": "JCC",
+   "city": "むつ市",
+   "pref": "青森県",
+   "yomi": "mutsu"
+  },
+  {
+   "code": "0209",
+   "kind": "JCC",
+   "city": "つがる市",
+   "pref": "青森県",
+   "yomi": "tsugaru"
+  },
+  {
+   "code": "0210",
+   "kind": "JCC",
+   "city": "平川市",
+   "pref": "青森県",
+   "yomi": "hirakawa"
   }
  ]
 }

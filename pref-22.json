@@ -1,13 +1,294 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
+  {
+   "code": "22001",
+   "kind": "JCG",
+   "city": "天田郡",
+   "pref": "京都府",
+   "yomi": "amata",
+   "validUntil": "2005-12-31"
+  },
+  {
+   "code": "22002",
+   "kind": "JCG",
+   "city": "何鹿郡",
+   "pref": "京都府",
+   "yomi": "ikaruga",
+   "validUntil": "1956-09-29"
+  },
+  {
+   "code": "22003",
+   "kind": "JCG",
+   "city": "乙訓郡",
+   "pref": "京都府",
+   "yomi": "otokuni"
+  },
+  {
+   "code": "22004",
+   "kind": "JCG",
+   "city": "加佐郡",
+   "pref": "京都府",
+   "yomi": "kasa",
+   "validUntil": "2005-12-31"
+  },
+  {
+   "code": "22005",
+   "kind": "JCG",
+   "city": "北桑田郡",
+   "pref": "京都府",
+   "yomi": "kitakuwada",
+   "validUntil": "2005-12-31"
+  },
+  {
+   "code": "22006",
+   "kind": "JCG",
+   "city": "久世郡",
+   "pref": "京都府",
+   "yomi": "kuse"
+  },
+  {
+   "code": "22007",
+   "kind": "JCG",
+   "city": "熊野郡",
+   "pref": "京都府",
+   "yomi": "kumano",
+   "validUntil": "2004-03-31"
+  },
+  {
+   "code": "22008",
+   "kind": "JCG",
+   "city": "相楽郡",
+   "pref": "京都府",
+   "yomi": "soraku"
+  },
+  {
+   "code": "22009",
+   "kind": "JCG",
+   "city": "竹野郡",
+   "pref": "京都府",
+   "yomi": "takeno",
+   "validUntil": "2004-03-31"
+  },
   {
    "code": "2201",
    "kind": "JCC",
    "city": "京都市",
    "pref": "京都府",
-   "yomi": "きょうと"
+   "yomi": "kyoto"
+  },
+  {
+   "code": "22010",
+   "kind": "JCG",
+   "city": "綴喜郡",
+   "pref": "京都府",
+   "yomi": "tsuzuki"
+  },
+  {
+   "code": "220101",
+   "kind": "JCC",
+   "city": "北区",
+   "pref": "京都府",
+   "yomi": "kita"
+  },
+  {
+   "code": "220102",
+   "kind": "JCC",
+   "city": "上京区",
+   "pref": "京都府",
+   "yomi": "kamigyo"
+  },
+  {
+   "code": "220103",
+   "kind": "JCC",
+   "city": "左京区",
+   "pref": "京都府",
+   "yomi": "sakyo"
+  },
+  {
+   "code": "220104",
+   "kind": "JCC",
+   "city": "中京区",
+   "pref": "京都府",
+   "yomi": "nakagyo"
+  },
+  {
+   "code": "220105",
+   "kind": "JCC",
+   "city": "東山区",
+   "pref": "京都府",
+   "yomi": "higashiyama"
+  },
+  {
+   "code": "220106",
+   "kind": "JCC",
+   "city": "下京区",
+   "pref": "京都府",
+   "yomi": "shimogyo"
+  },
+  {
+   "code": "220107",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "京都府",
+   "yomi": "minami"
+  },
+  {
+   "code": "220108",
+   "kind": "JCC",
+   "city": "右京区",
+   "pref": "京都府",
+   "yomi": "ukyo"
+  },
+  {
+   "code": "220109",
+   "kind": "JCC",
+   "city": "伏見区",
+   "pref": "京都府",
+   "yomi": "fushimi"
+  },
+  {
+   "code": "22011",
+   "kind": "JCG",
+   "city": "中郡",
+   "pref": "京都府",
+   "yomi": "naka",
+   "validUntil": "2004-03-31"
+  },
+  {
+   "code": "220110",
+   "kind": "JCC",
+   "city": "山科区",
+   "pref": "京都府",
+   "yomi": "yamashina"
+  },
+  {
+   "code": "220111",
+   "kind": "JCC",
+   "city": "西京区",
+   "pref": "京都府",
+   "yomi": "nishikyo"
+  },
+  {
+   "code": "22012",
+   "kind": "JCG",
+   "city": "船井郡",
+   "pref": "京都府",
+   "yomi": "funai"
+  },
+  {
+   "code": "22013",
+   "kind": "JCG",
+   "city": "南桑田郡",
+   "pref": "京都府",
+   "yomi": "minamikuwada",
+   "validUntil": "1959-09-29"
+  },
+  {
+   "code": "22014",
+   "kind": "JCG",
+   "city": "与謝郡",
+   "pref": "京都府",
+   "yomi": "yosa"
+  },
+  {
+   "code": "2202",
+   "kind": "JCC",
+   "city": "福知山市",
+   "pref": "京都府",
+   "yomi": "fukuchiyama"
+  },
+  {
+   "code": "2203",
+   "kind": "JCC",
+   "city": "舞鶴市",
+   "pref": "京都府",
+   "yomi": "maizuru"
+  },
+  {
+   "code": "2204",
+   "kind": "JCC",
+   "city": "綾部市",
+   "pref": "京都府",
+   "yomi": "ayabe"
+  },
+  {
+   "code": "2205",
+   "kind": "JCC",
+   "city": "宇治市",
+   "pref": "京都府",
+   "yomi": "uji"
+  },
+  {
+   "code": "2206",
+   "kind": "JCC",
+   "city": "宮津市",
+   "pref": "京都府",
+   "yomi": "miyazu"
+  },
+  {
+   "code": "2207",
+   "kind": "JCC",
+   "city": "亀岡市",
+   "pref": "京都府",
+   "yomi": "kameoka"
+  },
+  {
+   "code": "2208",
+   "kind": "JCC",
+   "city": "城陽市",
+   "pref": "京都府",
+   "yomi": "joyo"
+  },
+  {
+   "code": "2209",
+   "kind": "JCC",
+   "city": "長岡京市",
+   "pref": "京都府",
+   "yomi": "nagaokakyo"
+  },
+  {
+   "code": "2210",
+   "kind": "JCC",
+   "city": "向日市",
+   "pref": "京都府",
+   "yomi": "muko"
+  },
+  {
+   "code": "2211",
+   "kind": "JCC",
+   "city": "八幡市",
+   "pref": "京都府",
+   "yomi": "yawata"
+  },
+  {
+   "code": "2212",
+   "kind": "JCC",
+   "city": "京田辺市",
+   "pref": "京都府",
+   "yomi": "kyotanabe"
+  },
+  {
+   "code": "2213",
+   "kind": "JCC",
+   "city": "京丹後市",
+   "pref": "京都府",
+   "yomi": "kyotango"
+  },
+  {
+   "code": "2214",
+   "kind": "JCC",
+   "city": "南丹市",
+   "pref": "京都府",
+   "yomi": "nantan"
+  },
+  {
+   "code": "2215",
+   "kind": "JCC",
+   "city": "木津川市",
+   "pref": "京都府",
+   "yomi": "kizugawa"
   }
  ]
 }

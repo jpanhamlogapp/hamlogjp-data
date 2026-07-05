@@ -1,13 +1,468 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
+  {
+   "code": "13001",
+   "kind": "JCG",
+   "city": "入間郡",
+   "pref": "埼玉県",
+   "yomi": "iruma"
+  },
+  {
+   "code": "13002",
+   "kind": "JCG",
+   "city": "大里郡",
+   "pref": "埼玉県",
+   "yomi": "osato"
+  },
+  {
+   "code": "13003",
+   "kind": "JCG",
+   "city": "北足立郡",
+   "pref": "埼玉県",
+   "yomi": "kitaadachi"
+  },
+  {
+   "code": "13004",
+   "kind": "JCG",
+   "city": "北葛飾郡",
+   "pref": "埼玉県",
+   "yomi": "kitakatsushika"
+  },
+  {
+   "code": "13005",
+   "kind": "JCG",
+   "city": "北埼玉郡",
+   "pref": "埼玉県",
+   "yomi": "kitasaitama",
+   "validUntil": "2010-03-22"
+  },
+  {
+   "code": "13006",
+   "kind": "JCG",
+   "city": "児玉郡",
+   "pref": "埼玉県",
+   "yomi": "kodama"
+  },
+  {
+   "code": "13007",
+   "kind": "JCG",
+   "city": "秩父郡",
+   "pref": "埼玉県",
+   "yomi": "chichibu"
+  },
+  {
+   "code": "13008",
+   "kind": "JCG",
+   "city": "比企郡",
+   "pref": "埼玉県",
+   "yomi": "hiki"
+  },
+  {
+   "code": "13009",
+   "kind": "JCG",
+   "city": "南埼玉郡",
+   "pref": "埼玉県",
+   "yomi": "minamisaitama"
+  },
+  {
+   "code": "1301",
+   "kind": "JCC",
+   "city": "浦和市",
+   "pref": "埼玉県",
+   "yomi": "urawa",
+   "validUntil": "2001-04-30"
+  },
+  {
+   "code": "1302",
+   "kind": "JCC",
+   "city": "川越市",
+   "pref": "埼玉県",
+   "yomi": "kawagoe"
+  },
+  {
+   "code": "1303",
+   "kind": "JCC",
+   "city": "熊谷市",
+   "pref": "埼玉県",
+   "yomi": "kumagaya"
+  },
+  {
+   "code": "1304",
+   "kind": "JCC",
+   "city": "川口市",
+   "pref": "埼玉県",
+   "yomi": "kawaguchi"
+  },
+  {
+   "code": "1305",
+   "kind": "JCC",
+   "city": "大宮市",
+   "pref": "埼玉県",
+   "yomi": "omiya",
+   "validUntil": "2001-04-30"
+  },
+  {
+   "code": "1306",
+   "kind": "JCC",
+   "city": "行田市",
+   "pref": "埼玉県",
+   "yomi": "gyoda"
+  },
+  {
+   "code": "1307",
+   "kind": "JCC",
+   "city": "秩父市",
+   "pref": "埼玉県",
+   "yomi": "chichibu"
+  },
+  {
+   "code": "1308",
+   "kind": "JCC",
+   "city": "所沢市",
+   "pref": "埼玉県",
+   "yomi": "tokorozawa"
+  },
+  {
+   "code": "1309",
+   "kind": "JCC",
+   "city": "飯能市",
+   "pref": "埼玉県",
+   "yomi": "hanno"
+  },
+  {
+   "code": "1310",
+   "kind": "JCC",
+   "city": "加須市",
+   "pref": "埼玉県",
+   "yomi": "kazo"
+  },
+  {
+   "code": "1311",
+   "kind": "JCC",
+   "city": "本庄市",
+   "pref": "埼玉県",
+   "yomi": "honjo"
+  },
+  {
+   "code": "1312",
+   "kind": "JCC",
+   "city": "東松山市",
+   "pref": "埼玉県",
+   "yomi": "higashimatsuyama"
+  },
+  {
+   "code": "1313",
+   "kind": "JCC",
+   "city": "岩槻市",
+   "pref": "埼玉県",
+   "yomi": "iwatsuki",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "1314",
+   "kind": "JCC",
+   "city": "春日部市",
+   "pref": "埼玉県",
+   "yomi": "kasukabe"
+  },
+  {
+   "code": "1315",
+   "kind": "JCC",
+   "city": "狭山市",
+   "pref": "埼玉県",
+   "yomi": "sayama"
+  },
+  {
+   "code": "1316",
+   "kind": "JCC",
+   "city": "羽生市",
+   "pref": "埼玉県",
+   "yomi": "hanyu"
+  },
+  {
+   "code": "1317",
+   "kind": "JCC",
+   "city": "鴻巣市",
+   "pref": "埼玉県",
+   "yomi": "konosu"
+  },
+  {
+   "code": "1318",
+   "kind": "JCC",
+   "city": "深谷市",
+   "pref": "埼玉県",
+   "yomi": "fukaya"
+  },
+  {
+   "code": "1319",
+   "kind": "JCC",
+   "city": "上尾市",
+   "pref": "埼玉県",
+   "yomi": "ageo"
+  },
+  {
+   "code": "1320",
+   "kind": "JCC",
+   "city": "与野市",
+   "pref": "埼玉県",
+   "yomi": "yono",
+   "validUntil": "2001-04-30"
+  },
+  {
+   "code": "1321",
+   "kind": "JCC",
+   "city": "草加市",
+   "pref": "埼玉県",
+   "yomi": "soka"
+  },
+  {
+   "code": "1322",
+   "kind": "JCC",
+   "city": "越谷市",
+   "pref": "埼玉県",
+   "yomi": "koshigaya"
+  },
+  {
+   "code": "1323",
+   "kind": "JCC",
+   "city": "蕨市",
+   "pref": "埼玉県",
+   "yomi": "warabi"
+  },
+  {
+   "code": "1324",
+   "kind": "JCC",
+   "city": "戸田市",
+   "pref": "埼玉県",
+   "yomi": "toda"
+  },
+  {
+   "code": "1325",
+   "kind": "JCC",
+   "city": "入間市",
+   "pref": "埼玉県",
+   "yomi": "iruma"
+  },
+  {
+   "code": "1326",
+   "kind": "JCC",
+   "city": "鳩ヶ谷市",
+   "pref": "埼玉県",
+   "yomi": "hatogaya",
+   "validUntil": "2011-10-10"
+  },
+  {
+   "code": "1327",
+   "kind": "JCC",
+   "city": "朝霞市",
+   "pref": "埼玉県",
+   "yomi": "asaka"
+  },
+  {
+   "code": "1328",
+   "kind": "JCC",
+   "city": "志木市",
+   "pref": "埼玉県",
+   "yomi": "shiki"
+  },
+  {
+   "code": "1329",
+   "kind": "JCC",
+   "city": "和光市",
+   "pref": "埼玉県",
+   "yomi": "wako"
+  },
+  {
+   "code": "1330",
+   "kind": "JCC",
+   "city": "新座市",
+   "pref": "埼玉県",
+   "yomi": "niiza"
+  },
+  {
+   "code": "1331",
+   "kind": "JCC",
+   "city": "桶川市",
+   "pref": "埼玉県",
+   "yomi": "okegawa"
+  },
+  {
+   "code": "1332",
+   "kind": "JCC",
+   "city": "久喜市",
+   "pref": "埼玉県",
+   "yomi": "kuki"
+  },
+  {
+   "code": "1333",
+   "kind": "JCC",
+   "city": "北本市",
+   "pref": "埼玉県",
+   "yomi": "kitamoto"
+  },
+  {
+   "code": "1334",
+   "kind": "JCC",
+   "city": "八潮市",
+   "pref": "埼玉県",
+   "yomi": "yashio"
+  },
+  {
+   "code": "1335",
+   "kind": "JCC",
+   "city": "上福岡市",
+   "pref": "埼玉県",
+   "yomi": "kamifukuoka",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "1336",
+   "kind": "JCC",
+   "city": "富士見市",
+   "pref": "埼玉県",
+   "yomi": "fujimi"
+  },
+  {
+   "code": "1337",
+   "kind": "JCC",
+   "city": "三郷市",
+   "pref": "埼玉県",
+   "yomi": "misato"
+  },
+  {
+   "code": "1338",
+   "kind": "JCC",
+   "city": "蓮田市",
+   "pref": "埼玉県",
+   "yomi": "hasuda"
+  },
+  {
+   "code": "1339",
+   "kind": "JCC",
+   "city": "坂戸市",
+   "pref": "埼玉県",
+   "yomi": "sakado"
+  },
+  {
+   "code": "1340",
+   "kind": "JCC",
+   "city": "幸手市",
+   "pref": "埼玉県",
+   "yomi": "satte"
+  },
+  {
+   "code": "1341",
+   "kind": "JCC",
+   "city": "鶴ヶ島市",
+   "pref": "埼玉県",
+   "yomi": "tsurugashima"
+  },
+  {
+   "code": "1342",
+   "kind": "JCC",
+   "city": "日高市",
+   "pref": "埼玉県",
+   "yomi": "hidaka"
+  },
+  {
+   "code": "1343",
+   "kind": "JCC",
+   "city": "吉川市",
+   "pref": "埼玉県",
+   "yomi": "yoshikawa"
+  },
   {
    "code": "1344",
    "kind": "JCC",
    "city": "さいたま市",
    "pref": "埼玉県",
-   "yomi": "さいたま"
+   "yomi": "saitama"
+  },
+  {
+   "code": "134401",
+   "kind": "JCC",
+   "city": "西区",
+   "pref": "埼玉県",
+   "yomi": "nishi"
+  },
+  {
+   "code": "134402",
+   "kind": "JCC",
+   "city": "北区",
+   "pref": "埼玉県",
+   "yomi": "kita"
+  },
+  {
+   "code": "134403",
+   "kind": "JCC",
+   "city": "大宮区",
+   "pref": "埼玉県",
+   "yomi": "omiya"
+  },
+  {
+   "code": "134404",
+   "kind": "JCC",
+   "city": "見沼区",
+   "pref": "埼玉県",
+   "yomi": "minuma"
+  },
+  {
+   "code": "134405",
+   "kind": "JCC",
+   "city": "中央区",
+   "pref": "埼玉県",
+   "yomi": "chuo"
+  },
+  {
+   "code": "134406",
+   "kind": "JCC",
+   "city": "桜区",
+   "pref": "埼玉県",
+   "yomi": "sakura"
+  },
+  {
+   "code": "134407",
+   "kind": "JCC",
+   "city": "浦和区",
+   "pref": "埼玉県",
+   "yomi": "urawa"
+  },
+  {
+   "code": "134408",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "埼玉県",
+   "yomi": "minami"
+  },
+  {
+   "code": "134409",
+   "kind": "JCC",
+   "city": "緑区",
+   "pref": "埼玉県",
+   "yomi": "midori"
+  },
+  {
+   "code": "134410",
+   "kind": "JCC",
+   "city": "岩槻区",
+   "pref": "埼玉県",
+   "yomi": "iwatsuki"
+  },
+  {
+   "code": "1345",
+   "kind": "JCC",
+   "city": "ふじみ野市",
+   "pref": "埼玉県",
+   "yomi": "fujimino"
+  },
+  {
+   "code": "1346",
+   "kind": "JCC",
+   "city": "白岡市",
+   "pref": "埼玉県",
+   "yomi": "shiraoka"
   }
  ]
 }

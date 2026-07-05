@@ -1,0 +1,127 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "45001",
+   "kind": "JCG",
+   "city": "北諸県郡",
+   "pref": "宮崎県",
+   "yomi": "kitamorokata"
+  },
+  {
+   "code": "45002",
+   "kind": "JCG",
+   "city": "児湯郡",
+   "pref": "宮崎県",
+   "yomi": "koyu"
+  },
+  {
+   "code": "45003",
+   "kind": "JCG",
+   "city": "西臼杵郡",
+   "pref": "宮崎県",
+   "yomi": "nishiusuki"
+  },
+  {
+   "code": "45004",
+   "kind": "JCG",
+   "city": "西諸県郡",
+   "pref": "宮崎県",
+   "yomi": "nishimorokata"
+  },
+  {
+   "code": "45005",
+   "kind": "JCG",
+   "city": "東臼杵郡",
+   "pref": "宮崎県",
+   "yomi": "higashiusuki"
+  },
+  {
+   "code": "45006",
+   "kind": "JCG",
+   "city": "東諸県郡",
+   "pref": "宮崎県",
+   "yomi": "higashimorokata"
+  },
+  {
+   "code": "45007",
+   "kind": "JCG",
+   "city": "南那珂郡",
+   "pref": "宮崎県",
+   "yomi": "minaminaka",
+   "validUntil": "2009-03-29"
+  },
+  {
+   "code": "45008",
+   "kind": "JCG",
+   "city": "宮崎郡",
+   "pref": "宮崎県",
+   "yomi": "miyazaki",
+   "validUntil": "2010-03-22"
+  },
+  {
+   "code": "4501",
+   "kind": "JCC",
+   "city": "宮崎市",
+   "pref": "宮崎県",
+   "yomi": "miyazaki"
+  },
+  {
+   "code": "4502",
+   "kind": "JCC",
+   "city": "都城市",
+   "pref": "宮崎県",
+   "yomi": "miyakonojo"
+  },
+  {
+   "code": "4503",
+   "kind": "JCC",
+   "city": "延岡市",
+   "pref": "宮崎県",
+   "yomi": "nobeoka"
+  },
+  {
+   "code": "4504",
+   "kind": "JCC",
+   "city": "日南市",
+   "pref": "宮崎県",
+   "yomi": "nichinan"
+  },
+  {
+   "code": "4505",
+   "kind": "JCC",
+   "city": "小林市",
+   "pref": "宮崎県",
+   "yomi": "kobayashi"
+  },
+  {
+   "code": "4506",
+   "kind": "JCC",
+   "city": "日向市",
+   "pref": "宮崎県",
+   "yomi": "hyuga"
+  },
+  {
+   "code": "4507",
+   "kind": "JCC",
+   "city": "串間市",
+   "pref": "宮崎県",
+   "yomi": "kushima"
+  },
+  {
+   "code": "4508",
+   "kind": "JCC",
+   "city": "西都市",
+   "pref": "宮崎県",
+   "yomi": "saito"
+  },
+  {
+   "code": "4509",
+   "kind": "JCC",
+   "city": "えびの市",
+   "pref": "宮崎県",
+   "yomi": "ebino"
+  }
+ ]
+}

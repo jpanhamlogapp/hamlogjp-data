@@ -1,13 +1,537 @@
 {
- "dataVersion": 3,
+ "dataVersion": 20260706,
  "updated": "2026-07-06",
  "entries": [
+  {
+   "code": "20001",
+   "kind": "JCG",
+   "city": "愛知郡",
+   "pref": "愛知県",
+   "yomi": "aichi"
+  },
+  {
+   "code": "20002",
+   "kind": "JCG",
+   "city": "渥美郡",
+   "pref": "愛知県",
+   "yomi": "atsumi",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "20003",
+   "kind": "JCG",
+   "city": "海部郡",
+   "pref": "愛知県",
+   "yomi": "ama"
+  },
+  {
+   "code": "20004",
+   "kind": "JCG",
+   "city": "北設楽郡",
+   "pref": "愛知県",
+   "yomi": "kitashitara"
+  },
+  {
+   "code": "20005",
+   "kind": "JCG",
+   "city": "知多郡",
+   "pref": "愛知県",
+   "yomi": "chita"
+  },
+  {
+   "code": "20006",
+   "kind": "JCG",
+   "city": "中島郡",
+   "pref": "愛知県",
+   "yomi": "nakashima",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "20007",
+   "kind": "JCG",
+   "city": "西春日井郡",
+   "pref": "愛知県",
+   "yomi": "nishikasugai"
+  },
+  {
+   "code": "20008",
+   "kind": "JCG",
+   "city": "西加茂郡",
+   "pref": "愛知県",
+   "yomi": "nishikamo",
+   "validUntil": "2010-01-03"
+  },
+  {
+   "code": "20009",
+   "kind": "JCG",
+   "city": "丹羽郡",
+   "pref": "愛知県",
+   "yomi": "niwa"
+  },
   {
    "code": "2001",
    "kind": "JCC",
    "city": "名古屋市",
    "pref": "愛知県",
-   "yomi": "なごや"
+   "yomi": "nagoya"
+  },
+  {
+   "code": "20010",
+   "kind": "JCG",
+   "city": "額田郡",
+   "pref": "愛知県",
+   "yomi": "nukata"
+  },
+  {
+   "code": "200101",
+   "kind": "JCC",
+   "city": "千種区",
+   "pref": "愛知県",
+   "yomi": "chikusa"
+  },
+  {
+   "code": "200102",
+   "kind": "JCC",
+   "city": "東区",
+   "pref": "愛知県",
+   "yomi": "higashi"
+  },
+  {
+   "code": "200103",
+   "kind": "JCC",
+   "city": "北区",
+   "pref": "愛知県",
+   "yomi": "kita"
+  },
+  {
+   "code": "200104",
+   "kind": "JCC",
+   "city": "西区",
+   "pref": "愛知県",
+   "yomi": "nishi"
+  },
+  {
+   "code": "200105",
+   "kind": "JCC",
+   "city": "中村区",
+   "pref": "愛知県",
+   "yomi": "nakamura"
+  },
+  {
+   "code": "200106",
+   "kind": "JCC",
+   "city": "中区",
+   "pref": "愛知県",
+   "yomi": "naka"
+  },
+  {
+   "code": "200107",
+   "kind": "JCC",
+   "city": "昭和区",
+   "pref": "愛知県",
+   "yomi": "showa"
+  },
+  {
+   "code": "200108",
+   "kind": "JCC",
+   "city": "瑞穂区",
+   "pref": "愛知県",
+   "yomi": "mizuho"
+  },
+  {
+   "code": "200109",
+   "kind": "JCC",
+   "city": "熱田区",
+   "pref": "愛知県",
+   "yomi": "atsuta"
+  },
+  {
+   "code": "20011",
+   "kind": "JCG",
+   "city": "葉栗郡",
+   "pref": "愛知県",
+   "yomi": "haguri",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "200110",
+   "kind": "JCC",
+   "city": "中川区",
+   "pref": "愛知県",
+   "yomi": "nakagawa"
+  },
+  {
+   "code": "200111",
+   "kind": "JCC",
+   "city": "港区",
+   "pref": "愛知県",
+   "yomi": "minato"
+  },
+  {
+   "code": "200112",
+   "kind": "JCC",
+   "city": "南区",
+   "pref": "愛知県",
+   "yomi": "minami"
+  },
+  {
+   "code": "200113",
+   "kind": "JCC",
+   "city": "守山区",
+   "pref": "愛知県",
+   "yomi": "moriyama"
+  },
+  {
+   "code": "200114",
+   "kind": "JCC",
+   "city": "緑区",
+   "pref": "愛知県",
+   "yomi": "midori"
+  },
+  {
+   "code": "200115",
+   "kind": "JCC",
+   "city": "名東区",
+   "pref": "愛知県",
+   "yomi": "meito"
+  },
+  {
+   "code": "200116",
+   "kind": "JCC",
+   "city": "天白区",
+   "pref": "愛知県",
+   "yomi": "tenpaku"
+  },
+  {
+   "code": "20012",
+   "kind": "JCG",
+   "city": "幡豆郡",
+   "pref": "愛知県",
+   "yomi": "hazu",
+   "validUntil": "2011-03-31"
+  },
+  {
+   "code": "20013",
+   "kind": "JCG",
+   "city": "東春日井郡",
+   "pref": "愛知県",
+   "yomi": "higashikasugai",
+   "validUntil": "1970-11-30"
+  },
+  {
+   "code": "20014",
+   "kind": "JCG",
+   "city": "東加茂郡",
+   "pref": "愛知県",
+   "yomi": "higashikamo",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "20015",
+   "kind": "JCG",
+   "city": "碧海郡",
+   "pref": "愛知県",
+   "yomi": "hekikai",
+   "validUntil": "1970-11-30"
+  },
+  {
+   "code": "20016",
+   "kind": "JCG",
+   "city": "宝飯郡",
+   "pref": "愛知県",
+   "yomi": "hoi",
+   "validUntil": "2010-01-31"
+  },
+  {
+   "code": "20017",
+   "kind": "JCG",
+   "city": "南設楽郡",
+   "pref": "愛知県",
+   "yomi": "minamishitara",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "20018",
+   "kind": "JCG",
+   "city": "八名郡",
+   "pref": "愛知県",
+   "yomi": "yana",
+   "validUntil": "1956-09-29"
+  },
+  {
+   "code": "2002",
+   "kind": "JCC",
+   "city": "豊橋市",
+   "pref": "愛知県",
+   "yomi": "toyohashi"
+  },
+  {
+   "code": "2003",
+   "kind": "JCC",
+   "city": "岡崎市",
+   "pref": "愛知県",
+   "yomi": "okazaki"
+  },
+  {
+   "code": "2004",
+   "kind": "JCC",
+   "city": "一宮市",
+   "pref": "愛知県",
+   "yomi": "ichinomiya"
+  },
+  {
+   "code": "2005",
+   "kind": "JCC",
+   "city": "瀬戸市",
+   "pref": "愛知県",
+   "yomi": "seto"
+  },
+  {
+   "code": "2006",
+   "kind": "JCC",
+   "city": "半田市",
+   "pref": "愛知県",
+   "yomi": "handa"
+  },
+  {
+   "code": "2007",
+   "kind": "JCC",
+   "city": "春日井市",
+   "pref": "愛知県",
+   "yomi": "kasugai"
+  },
+  {
+   "code": "2008",
+   "kind": "JCC",
+   "city": "豊川市",
+   "pref": "愛知県",
+   "yomi": "toyokawa"
+  },
+  {
+   "code": "2009",
+   "kind": "JCC",
+   "city": "津島市",
+   "pref": "愛知県",
+   "yomi": "tsushima"
+  },
+  {
+   "code": "2010",
+   "kind": "JCC",
+   "city": "碧南市",
+   "pref": "愛知県",
+   "yomi": "hekinan"
+  },
+  {
+   "code": "2011",
+   "kind": "JCC",
+   "city": "刈谷市",
+   "pref": "愛知県",
+   "yomi": "kariya"
+  },
+  {
+   "code": "2012",
+   "kind": "JCC",
+   "city": "豊田市",
+   "pref": "愛知県",
+   "yomi": "toyota"
+  },
+  {
+   "code": "2013",
+   "kind": "JCC",
+   "city": "安城市",
+   "pref": "愛知県",
+   "yomi": "anjo"
+  },
+  {
+   "code": "2014",
+   "kind": "JCC",
+   "city": "西尾市",
+   "pref": "愛知県",
+   "yomi": "nishio"
+  },
+  {
+   "code": "2015",
+   "kind": "JCC",
+   "city": "蒲郡市",
+   "pref": "愛知県",
+   "yomi": "gamagori"
+  },
+  {
+   "code": "2016",
+   "kind": "JCC",
+   "city": "犬山市",
+   "pref": "愛知県",
+   "yomi": "inuyama"
+  },
+  {
+   "code": "2017",
+   "kind": "JCC",
+   "city": "常滑市",
+   "pref": "愛知県",
+   "yomi": "tokoname"
+  },
+  {
+   "code": "2018",
+   "kind": "JCC",
+   "city": "守山市",
+   "pref": "愛知県",
+   "yomi": "moriyama",
+   "validUntil": "1963-02-09"
+  },
+  {
+   "code": "2019",
+   "kind": "JCC",
+   "city": "江南市",
+   "pref": "愛知県",
+   "yomi": "konan"
+  },
+  {
+   "code": "2020",
+   "kind": "JCC",
+   "city": "尾西市",
+   "pref": "愛知県",
+   "yomi": "bisai",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "2021",
+   "kind": "JCC",
+   "city": "小牧市",
+   "pref": "愛知県",
+   "yomi": "komaki"
+  },
+  {
+   "code": "2022",
+   "kind": "JCC",
+   "city": "稲沢市",
+   "pref": "愛知県",
+   "yomi": "inazawa"
+  },
+  {
+   "code": "2023",
+   "kind": "JCC",
+   "city": "新城市",
+   "pref": "愛知県",
+   "yomi": "shinshiro"
+  },
+  {
+   "code": "2024",
+   "kind": "JCC",
+   "city": "東海市",
+   "pref": "愛知県",
+   "yomi": "tokai"
+  },
+  {
+   "code": "2025",
+   "kind": "JCC",
+   "city": "大府市",
+   "pref": "愛知県",
+   "yomi": "obu"
+  },
+  {
+   "code": "2026",
+   "kind": "JCC",
+   "city": "知多市",
+   "pref": "愛知県",
+   "yomi": "chita"
+  },
+  {
+   "code": "2027",
+   "kind": "JCC",
+   "city": "高浜市",
+   "pref": "愛知県",
+   "yomi": "takahama"
+  },
+  {
+   "code": "2028",
+   "kind": "JCC",
+   "city": "知立市",
+   "pref": "愛知県",
+   "yomi": "chiryu"
+  },
+  {
+   "code": "2029",
+   "kind": "JCC",
+   "city": "尾張旭市",
+   "pref": "愛知県",
+   "yomi": "owariasahi"
+  },
+  {
+   "code": "2030",
+   "kind": "JCC",
+   "city": "岩倉市",
+   "pref": "愛知県",
+   "yomi": "iwakura"
+  },
+  {
+   "code": "2031",
+   "kind": "JCC",
+   "city": "豊明市",
+   "pref": "愛知県",
+   "yomi": "toyoake"
+  },
+  {
+   "code": "2032",
+   "kind": "JCC",
+   "city": "日進市",
+   "pref": "愛知県",
+   "yomi": "nissin"
+  },
+  {
+   "code": "2033",
+   "kind": "JCC",
+   "city": "田原市",
+   "pref": "愛知県",
+   "yomi": "tahara"
+  },
+  {
+   "code": "2034",
+   "kind": "JCC",
+   "city": "愛西市",
+   "pref": "愛知県",
+   "yomi": "aisai"
+  },
+  {
+   "code": "2035",
+   "kind": "JCC",
+   "city": "清須市",
+   "pref": "愛知県",
+   "yomi": "kiyosu"
+  },
+  {
+   "code": "2036",
+   "kind": "JCC",
+   "city": "北名古屋市",
+   "pref": "愛知県",
+   "yomi": "kitanagoya"
+  },
+  {
+   "code": "2037",
+   "kind": "JCC",
+   "city": "弥富市",
+   "pref": "愛知県",
+   "yomi": "yatomi"
+  },
+  {
+   "code": "2038",
+   "kind": "JCC",
+   "city": "みよし市",
+   "pref": "愛知県",
+   "yomi": "miyoshi"
+  },
+  {
+   "code": "2039",
+   "kind": "JCC",
+   "city": "あま市",
+   "pref": "愛知県",
+   "yomi": "ama"
+  },
+  {
+   "code": "2040",
+   "kind": "JCC",
+   "city": "長久手市",
+   "pref": "愛知県",
+   "yomi": "nagakute"
   }
  ]
 }

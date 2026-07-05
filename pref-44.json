@@ -1,0 +1,205 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "44001",
+   "kind": "JCG",
+   "city": "宇佐郡",
+   "pref": "大分県",
+   "yomi": "usa",
+   "validUntil": "2005-03-30"
+  },
+  {
+   "code": "44002",
+   "kind": "JCG",
+   "city": "大分郡",
+   "pref": "大分県",
+   "yomi": "oita",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "44003",
+   "kind": "JCG",
+   "city": "大野郡",
+   "pref": "大分県",
+   "yomi": "ono",
+   "validUntil": "2005-03-30"
+  },
+  {
+   "code": "44004",
+   "kind": "JCG",
+   "city": "北海部郡",
+   "pref": "大分県",
+   "yomi": "kitaamabe",
+   "validUntil": "2004-12-31"
+  },
+  {
+   "code": "44005",
+   "kind": "JCG",
+   "city": "玖珠郡",
+   "pref": "大分県",
+   "yomi": "kusu"
+  },
+  {
+   "code": "44006",
+   "kind": "JCG",
+   "city": "下毛郡",
+   "pref": "大分県",
+   "yomi": "shimoge",
+   "validUntil": "2005-02-28"
+  },
+  {
+   "code": "44007",
+   "kind": "JCG",
+   "city": "直入郡",
+   "pref": "大分県",
+   "yomi": "naoiri",
+   "validUntil": "2005-03-31"
+  },
+  {
+   "code": "44008",
+   "kind": "JCG",
+   "city": "西国東郡",
+   "pref": "大分県",
+   "yomi": "nishikunisaki",
+   "validUntil": "2005-09-30"
+  },
+  {
+   "code": "44009",
+   "kind": "JCG",
+   "city": "速見郡",
+   "pref": "大分県",
+   "yomi": "hayami"
+  },
+  {
+   "code": "4401",
+   "kind": "JCC",
+   "city": "大分市",
+   "pref": "大分県",
+   "yomi": "oita"
+  },
+  {
+   "code": "44010",
+   "kind": "JCG",
+   "city": "東国東郡",
+   "pref": "大分県",
+   "yomi": "higashikunisaki"
+  },
+  {
+   "code": "44011",
+   "kind": "JCG",
+   "city": "日田郡",
+   "pref": "大分県",
+   "yomi": "hita",
+   "validUntil": "2005-03-21"
+  },
+  {
+   "code": "44012",
+   "kind": "JCG",
+   "city": "南海部郡",
+   "pref": "大分県",
+   "yomi": "minamiamabe",
+   "validUntil": "2005-03-02"
+  },
+  {
+   "code": "4402",
+   "kind": "JCC",
+   "city": "別府市",
+   "pref": "大分県",
+   "yomi": "beppu"
+  },
+  {
+   "code": "4403",
+   "kind": "JCC",
+   "city": "中津市",
+   "pref": "大分県",
+   "yomi": "nakatsu"
+  },
+  {
+   "code": "4404",
+   "kind": "JCC",
+   "city": "日田市",
+   "pref": "大分県",
+   "yomi": "hita"
+  },
+  {
+   "code": "4405",
+   "kind": "JCC",
+   "city": "佐伯市",
+   "pref": "大分県",
+   "yomi": "saiki"
+  },
+  {
+   "code": "4406",
+   "kind": "JCC",
+   "city": "臼杵市",
+   "pref": "大分県",
+   "yomi": "usuki"
+  },
+  {
+   "code": "4407",
+   "kind": "JCC",
+   "city": "津久見市",
+   "pref": "大分県",
+   "yomi": "tsukumi"
+  },
+  {
+   "code": "4408",
+   "kind": "JCC",
+   "city": "竹田市",
+   "pref": "大分県",
+   "yomi": "taketa"
+  },
+  {
+   "code": "4409",
+   "kind": "JCC",
+   "city": "鶴崎市",
+   "pref": "大分県",
+   "yomi": "tsurusaki",
+   "validUntil": "1963-03-09"
+  },
+  {
+   "code": "4410",
+   "kind": "JCC",
+   "city": "豊後高田市",
+   "pref": "大分県",
+   "yomi": "bungotakada"
+  },
+  {
+   "code": "4411",
+   "kind": "JCC",
+   "city": "杵築市",
+   "pref": "大分県",
+   "yomi": "kitsuki"
+  },
+  {
+   "code": "4412",
+   "kind": "JCC",
+   "city": "宇佐市",
+   "pref": "大分県",
+   "yomi": "usa"
+  },
+  {
+   "code": "4413",
+   "kind": "JCC",
+   "city": "豊後大野市",
+   "pref": "大分県",
+   "yomi": "bungoono"
+  },
+  {
+   "code": "4414",
+   "kind": "JCC",
+   "city": "由布市",
+   "pref": "大分県",
+   "yomi": "yufu"
+  },
+  {
+   "code": "4415",
+   "kind": "JCC",
+   "city": "国東市",
+   "pref": "大分県",
+   "yomi": "kunisaki"
+  }
+ ]
+}

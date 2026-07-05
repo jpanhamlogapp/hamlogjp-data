@@ -1,0 +1,113 @@
+{
+ "dataVersion": 20260706,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "36001",
+   "kind": "JCG",
+   "city": "綾歌郡",
+   "pref": "香川県",
+   "yomi": "ayauta"
+  },
+  {
+   "code": "36002",
+   "kind": "JCG",
+   "city": "大川郡",
+   "pref": "香川県",
+   "yomi": "okawa",
+   "validUntil": "2003-03-31"
+  },
+  {
+   "code": "36003",
+   "kind": "JCG",
+   "city": "香川郡",
+   "pref": "香川県",
+   "yomi": "kagawa"
+  },
+  {
+   "code": "36004",
+   "kind": "JCG",
+   "city": "木田郡",
+   "pref": "香川県",
+   "yomi": "kita"
+  },
+  {
+   "code": "36005",
+   "kind": "JCG",
+   "city": "小豆郡",
+   "pref": "香川県",
+   "yomi": "shozu"
+  },
+  {
+   "code": "36006",
+   "kind": "JCG",
+   "city": "仲多度郡",
+   "pref": "香川県",
+   "yomi": "nakatado"
+  },
+  {
+   "code": "36007",
+   "kind": "JCG",
+   "city": "三豊郡",
+   "pref": "香川県",
+   "yomi": "mitoyo",
+   "validUntil": "2005-12-31"
+  },
+  {
+   "code": "3601",
+   "kind": "JCC",
+   "city": "高松市",
+   "pref": "香川県",
+   "yomi": "takamatsu"
+  },
+  {
+   "code": "3602",
+   "kind": "JCC",
+   "city": "丸亀市",
+   "pref": "香川県",
+   "yomi": "marugame"
+  },
+  {
+   "code": "3603",
+   "kind": "JCC",
+   "city": "坂出市",
+   "pref": "香川県",
+   "yomi": "sakaide"
+  },
+  {
+   "code": "3604",
+   "kind": "JCC",
+   "city": "善通寺市",
+   "pref": "香川県",
+   "yomi": "zentsuji"
+  },
+  {
+   "code": "3605",
+   "kind": "JCC",
+   "city": "観音寺市",
+   "pref": "香川県",
+   "yomi": "kanonji"
+  },
+  {
+   "code": "3606",
+   "kind": "JCC",
+   "city": "さぬき市",
+   "pref": "香川県",
+   "yomi": "sanuki"
+  },
+  {
+   "code": "3607",
+   "kind": "JCC",
+   "city": "東かがわ市",
+   "pref": "香川県",
+   "yomi": "higashikagawa"
+  },
+  {
+   "code": "3608",
+   "kind": "JCC",
+   "city": "三豊市",
+   "pref": "香川県",
+   "yomi": "mitoyo"
+  }
+ ]
+}
