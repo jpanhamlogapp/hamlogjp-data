@@ -1,0 +1,13 @@
+{
+ "dataVersion": 3,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "0601",
+   "kind": "JCC",
+   "city": "仙台市",
+   "pref": "宮城県",
+   "yomi": "せんだい"
+  }
+ ]
+}

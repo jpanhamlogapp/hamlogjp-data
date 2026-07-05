@@ -1,0 +1,13 @@
+{
+ "dataVersion": 3,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "2501",
+   "kind": "JCC",
+   "city": "大阪市",
+   "pref": "大阪府",
+   "yomi": "おおさか"
+  }
+ ]
+}

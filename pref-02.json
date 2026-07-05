@@ -1,0 +1,13 @@
+{
+ "dataVersion": 3,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "0201",
+   "kind": "JCC",
+   "city": "青森市",
+   "pref": "青森県",
+   "yomi": "あおもり"
+  }
+ ]
+}

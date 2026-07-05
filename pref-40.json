@@ -1,0 +1,13 @@
+{
+ "dataVersion": 3,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "4001",
+   "kind": "JCC",
+   "city": "福岡市",
+   "pref": "福岡県",
+   "yomi": "ふくおか"
+  }
+ ]
+}

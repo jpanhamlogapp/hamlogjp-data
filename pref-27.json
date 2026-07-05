@@ -1,0 +1,13 @@
+{
+ "dataVersion": 3,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "2701",
+   "kind": "JCC",
+   "city": "神戸市",
+   "pref": "兵庫県",
+   "yomi": "こうべ"
+  }
+ ]
+}

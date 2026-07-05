@@ -1,0 +1,13 @@
+{
+ "dataVersion": 3,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "2001",
+   "kind": "JCC",
+   "city": "名古屋市",
+   "pref": "愛知県",
+   "yomi": "なごや"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "dataVersion": 3,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "0101",
+   "kind": "JCC",
+   "city": "札幌市",
+   "pref": "北海道",
+   "yomi": "さっぽろ"
+  },
+  {
+   "code": "010101",
+   "kind": "JCC",
+   "city": "札幌市中央区",
+   "pref": "北海道",
+   "yomi": "さっぽろちゅうおう"
+  },
+  {
+   "code": "0102",
+   "kind": "JCC",
+   "city": "函館市",
+   "pref": "北海道",
+   "yomi": "はこだて"
+  },
+  {
+   "code": "01004",
+   "kind": "JCG",
+   "city": "石狩郡",
+   "pref": "北海道",
+   "yomi": "いしかり"
+  }
+ ]
+}

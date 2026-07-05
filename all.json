@@ -1,0 +1,527 @@
+{
+ "dataVersion": 3,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "100101",
+   "kind": "JCC",
+   "city": "千代田区",
+   "pref": "東京都",
+   "yomi": "ちよだ"
+  },
+  {
+   "code": "100102",
+   "kind": "JCC",
+   "city": "中央区",
+   "pref": "東京都",
+   "yomi": "ちゅうおう"
+  },
+  {
+   "code": "100103",
+   "kind": "JCC",
+   "city": "港区",
+   "pref": "東京都",
+   "yomi": "みなと"
+  },
+  {
+   "code": "100104",
+   "kind": "JCC",
+   "city": "新宿区",
+   "pref": "東京都",
+   "yomi": "しんじゅく"
+  },
+  {
+   "code": "100105",
+   "kind": "JCC",
+   "city": "文京区",
+   "pref": "東京都",
+   "yomi": "ぶんきょう"
+  },
+  {
+   "code": "100106",
+   "kind": "JCC",
+   "city": "台東区",
+   "pref": "東京都",
+   "yomi": "たいとう"
+  },
+  {
+   "code": "100107",
+   "kind": "JCC",
+   "city": "墨田区",
+   "pref": "東京都",
+   "yomi": "すみだ"
+  },
+  {
+   "code": "100108",
+   "kind": "JCC",
+   "city": "江東区",
+   "pref": "東京都",
+   "yomi": "こうとう"
+  },
+  {
+   "code": "100109",
+   "kind": "JCC",
+   "city": "品川区",
+   "pref": "東京都",
+   "yomi": "しながわ"
+  },
+  {
+   "code": "100110",
+   "kind": "JCC",
+   "city": "目黒区",
+   "pref": "東京都",
+   "yomi": "めぐろ"
+  },
+  {
+   "code": "100111",
+   "kind": "JCC",
+   "city": "大田区",
+   "pref": "東京都",
+   "yomi": "おおた"
+  },
+  {
+   "code": "100112",
+   "kind": "JCC",
+   "city": "世田谷区",
+   "pref": "東京都",
+   "yomi": "せたがや"
+  },
+  {
+   "code": "100113",
+   "kind": "JCC",
+   "city": "渋谷区",
+   "pref": "東京都",
+   "yomi": "しぶや"
+  },
+  {
+   "code": "100114",
+   "kind": "JCC",
+   "city": "中野区",
+   "pref": "東京都",
+   "yomi": "なかの"
+  },
+  {
+   "code": "100115",
+   "kind": "JCC",
+   "city": "杉並区",
+   "pref": "東京都",
+   "yomi": "すぎなみ"
+  },
+  {
+   "code": "100116",
+   "kind": "JCC",
+   "city": "豊島区",
+   "pref": "東京都",
+   "yomi": "としま"
+  },
+  {
+   "code": "100117",
+   "kind": "JCC",
+   "city": "北区",
+   "pref": "東京都",
+   "yomi": "きた"
+  },
+  {
+   "code": "100118",
+   "kind": "JCC",
+   "city": "荒川区",
+   "pref": "東京都",
+   "yomi": "あらかわ"
+  },
+  {
+   "code": "100119",
+   "kind": "JCC",
+   "city": "板橋区",
+   "pref": "東京都",
+   "yomi": "いたばし"
+  },
+  {
+   "code": "100120",
+   "kind": "JCC",
+   "city": "練馬区",
+   "pref": "東京都",
+   "yomi": "ねりま"
+  },
+  {
+   "code": "100121",
+   "kind": "JCC",
+   "city": "足立区",
+   "pref": "東京都",
+   "yomi": "あだち"
+  },
+  {
+   "code": "100122",
+   "kind": "JCC",
+   "city": "葛飾区",
+   "pref": "東京都",
+   "yomi": "かつしか"
+  },
+  {
+   "code": "100123",
+   "kind": "JCC",
+   "city": "江戸川区",
+   "pref": "東京都",
+   "yomi": "えどがわ"
+  },
+  {
+   "code": "1002",
+   "kind": "JCC",
+   "city": "八王子市",
+   "pref": "東京都",
+   "yomi": "はちおうじ"
+  },
+  {
+   "code": "1003",
+   "kind": "JCC",
+   "city": "立川市",
+   "pref": "東京都",
+   "yomi": "たちかわ"
+  },
+  {
+   "code": "1004",
+   "kind": "JCC",
+   "city": "武蔵野市",
+   "pref": "東京都",
+   "yomi": "むさしの"
+  },
+  {
+   "code": "1005",
+   "kind": "JCC",
+   "city": "三鷹市",
+   "pref": "東京都",
+   "yomi": "みたか"
+  },
+  {
+   "code": "1006",
+   "kind": "JCC",
+   "city": "青梅市",
+   "pref": "東京都",
+   "yomi": "おうめ"
+  },
+  {
+   "code": "1007",
+   "kind": "JCC",
+   "city": "府中市",
+   "pref": "東京都",
+   "yomi": "ふちゅう"
+  },
+  {
+   "code": "1008",
+   "kind": "JCC",
+   "city": "昭島市",
+   "pref": "東京都",
+   "yomi": "あきしま"
+  },
+  {
+   "code": "1009",
+   "kind": "JCC",
+   "city": "調布市",
+   "pref": "東京都",
+   "yomi": "ちょうふ"
+  },
+  {
+   "code": "1010",
+   "kind": "JCC",
+   "city": "町田市",
+   "pref": "東京都",
+   "yomi": "まちだ"
+  },
+  {
+   "code": "1011",
+   "kind": "JCC",
+   "city": "小金井市",
+   "pref": "東京都",
+   "yomi": "こがねい"
+  },
+  {
+   "code": "1012",
+   "kind": "JCC",
+   "city": "小平市",
+   "pref": "東京都",
+   "yomi": "こだいら"
+  },
+  {
+   "code": "1013",
+   "kind": "JCC",
+   "city": "日野市",
+   "pref": "東京都",
+   "yomi": "ひの"
+  },
+  {
+   "code": "1014",
+   "kind": "JCC",
+   "city": "東村山市",
+   "pref": "東京都",
+   "yomi": "ひがしむらやま"
+  },
+  {
+   "code": "1015",
+   "kind": "JCC",
+   "city": "国分寺市",
+   "pref": "東京都",
+   "yomi": "こくぶんじ"
+  },
+  {
+   "code": "1016",
+   "kind": "JCC",
+   "city": "国立市",
+   "pref": "東京都",
+   "yomi": "くにたち"
+  },
+  {
+   "code": "1017",
+   "kind": "JCC",
+   "city": "田無市",
+   "pref": "東京都",
+   "yomi": "たなし",
+   "validUntil": "2001-01-20"
+  },
+  {
+   "code": "1018",
+   "kind": "JCC",
+   "city": "保谷市",
+   "pref": "東京都",
+   "yomi": "ほうや",
+   "validUntil": "2001-01-20"
+  },
+  {
+   "code": "1019",
+   "kind": "JCC",
+   "city": "福生市",
+   "pref": "東京都",
+   "yomi": "ふっさ"
+  },
+  {
+   "code": "1020",
+   "kind": "JCC",
+   "city": "狛江市",
+   "pref": "東京都",
+   "yomi": "こまえ"
+  },
+  {
+   "code": "1021",
+   "kind": "JCC",
+   "city": "東大和市",
+   "pref": "東京都",
+   "yomi": "ひがしやまと"
+  },
+  {
+   "code": "1022",
+   "kind": "JCC",
+   "city": "清瀬市",
+   "pref": "東京都",
+   "yomi": "きよせ"
+  },
+  {
+   "code": "1023",
+   "kind": "JCC",
+   "city": "東久留米市",
+   "pref": "東京都",
+   "yomi": "ひがしくるめ"
+  },
+  {
+   "code": "1024",
+   "kind": "JCC",
+   "city": "武蔵村山市",
+   "pref": "東京都",
+   "yomi": "むさしむらやま"
+  },
+  {
+   "code": "1025",
+   "kind": "JCC",
+   "city": "多摩市",
+   "pref": "東京都",
+   "yomi": "たま"
+  },
+  {
+   "code": "1026",
+   "kind": "JCC",
+   "city": "稲城市",
+   "pref": "東京都",
+   "yomi": "いなぎ"
+  },
+  {
+   "code": "1027",
+   "kind": "JCC",
+   "city": "秋川市",
+   "pref": "東京都",
+   "yomi": "あきがわ",
+   "validUntil": "1995-08-31"
+  },
+  {
+   "code": "1028",
+   "kind": "JCC",
+   "city": "羽村市",
+   "pref": "東京都",
+   "yomi": "はむら"
+  },
+  {
+   "code": "1029",
+   "kind": "JCC",
+   "city": "あきる野市",
+   "pref": "東京都",
+   "yomi": "あきるの"
+  },
+  {
+   "code": "1030",
+   "kind": "JCC",
+   "city": "西東京市",
+   "pref": "東京都",
+   "yomi": "にしとうきょう"
+  },
+  {
+   "code": "0101",
+   "kind": "JCC",
+   "city": "札幌市",
+   "pref": "北海道",
+   "yomi": "さっぽろ"
+  },
+  {
+   "code": "010101",
+   "kind": "JCC",
+   "city": "札幌市中央区",
+   "pref": "北海道",
+   "yomi": "さっぽろちゅうおう"
+  },
+  {
+   "code": "0102",
+   "kind": "JCC",
+   "city": "函館市",
+   "pref": "北海道",
+   "yomi": "はこだて"
+  },
+  {
+   "code": "0201",
+   "kind": "JCC",
+   "city": "青森市",
+   "pref": "青森県",
+   "yomi": "あおもり"
+  },
+  {
+   "code": "0601",
+   "kind": "JCC",
+   "city": "仙台市",
+   "pref": "宮城県",
+   "yomi": "せんだい"
+  },
+  {
+   "code": "1101",
+   "kind": "JCC",
+   "city": "横浜市",
+   "pref": "神奈川県",
+   "yomi": "よこはま"
+  },
+  {
+   "code": "110106",
+   "kind": "JCC",
+   "city": "横浜市港北区",
+   "pref": "神奈川県",
+   "yomi": "よこはまこうほく"
+  },
+  {
+   "code": "1102",
+   "kind": "JCC",
+   "city": "川崎市",
+   "pref": "神奈川県",
+   "yomi": "かわさき"
+  },
+  {
+   "code": "1201",
+   "kind": "JCC",
+   "city": "千葉市",
+   "pref": "千葉県",
+   "yomi": "ちば"
+  },
+  {
+   "code": "1344",
+   "kind": "JCC",
+   "city": "さいたま市",
+   "pref": "埼玉県",
+   "yomi": "さいたま"
+  },
+  {
+   "code": "1801",
+   "kind": "JCC",
+   "city": "静岡市",
+   "pref": "静岡県",
+   "yomi": "しずおか"
+  },
+  {
+   "code": "2001",
+   "kind": "JCC",
+   "city": "名古屋市",
+   "pref": "愛知県",
+   "yomi": "なごや"
+  },
+  {
+   "code": "2201",
+   "kind": "JCC",
+   "city": "京都市",
+   "pref": "京都府",
+   "yomi": "きょうと"
+  },
+  {
+   "code": "2501",
+   "kind": "JCC",
+   "city": "大阪市",
+   "pref": "大阪府",
+   "yomi": "おおさか"
+  },
+  {
+   "code": "2701",
+   "kind": "JCC",
+   "city": "神戸市",
+   "pref": "兵庫県",
+   "yomi": "こうべ"
+  },
+  {
+   "code": "3501",
+   "kind": "JCC",
+   "city": "広島市",
+   "pref": "広島県",
+   "yomi": "ひろしま"
+  },
+  {
+   "code": "4001",
+   "kind": "JCC",
+   "city": "福岡市",
+   "pref": "福岡県",
+   "yomi": "ふくおか"
+  },
+  {
+   "code": "4301",
+   "kind": "JCC",
+   "city": "那覇市",
+   "pref": "沖縄県",
+   "yomi": "なは"
+  },
+  {
+   "code": "10005",
+   "kind": "JCG",
+   "city": "西多摩郡",
+   "pref": "東京都",
+   "yomi": "にしたま"
+  },
+  {
+   "code": "11001",
+   "kind": "JCG",
+   "city": "愛甲郡",
+   "pref": "神奈川県",
+   "yomi": "あいこう"
+  },
+  {
+   "code": "12002",
+   "kind": "JCG",
+   "city": "印旛郡",
+   "pref": "千葉県",
+   "yomi": "いんば"
+  },
+  {
+   "code": "01004",
+   "kind": "JCG",
+   "city": "石狩郡",
+   "pref": "北海道",
+   "yomi": "いしかり"
+  }
+ ]
+}

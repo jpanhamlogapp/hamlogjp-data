@@ -1,0 +1,20 @@
+{
+ "dataVersion": 3,
+ "updated": "2026-07-06",
+ "entries": [
+  {
+   "code": "1201",
+   "kind": "JCC",
+   "city": "千葉市",
+   "pref": "千葉県",
+   "yomi": "ちば"
+  },
+  {
+   "code": "12002",
+   "kind": "JCG",
+   "city": "印旛郡",
+   "pref": "千葉県",
+   "yomi": "いんば"
+  }
+ ]
+}
