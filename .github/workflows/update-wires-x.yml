@@ -43,8 +43,8 @@ jobs:
         run: |
           git config user.name "wires-x-bot"
           git config user.email "actions@users.noreply.github.com"
-          if ! git diff --quiet -- wires_x_nodes.json; then
-            git add wires_x_nodes.json
+          git add wires_x_nodes.json
+          if ! git diff --cached --quiet; then
             git commit -m "Update WiRES-X nodes ($(date -u +%Y-%m-%dT%H:%MZ))"
             git push
           else
