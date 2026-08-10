@@ -1,0 +1,52 @@
+# WiRES-X アクティブノードを定期取得して JSON を公開する GitHub Action
+#
+# 配置先: hamlogjp-data リポジトリの .github/workflows/update-wires-x.yml
+# 出力:   リポジトリ直下（＝ GitHub Pages）の wires_x_nodes.json
+# アプリ側取得URL: https://jpanhamlogapp.github.io/hamlogjp-data/wires_x_nodes.json
+#
+# Yaesu 側は約20分ごとに更新されるため、こちらも30分間隔で取得する
+# （Yaesuサイトへの負荷を抑えるための配慮。GitHub の無料枠でも十分収まる頻度）。
+
+name: Update WiRES-X nodes
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # 30分ごと
+  workflow_dispatch:          # 手動実行も可
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-wires-x
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Fetch WiRES-X nodes
+        run: python wires-x-pipeline/fetch_wires_x.py wires_x_nodes.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name "wires-x-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if ! git diff --quiet -- wires_x_nodes.json; then
+            git add wires_x_nodes.json
+            git commit -m "Update WiRES-X nodes ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          else
+            echo "No change."
+          fi
