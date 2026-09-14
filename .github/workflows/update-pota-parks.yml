@@ -1,0 +1,51 @@
+# POTA(日本)の公園一覧を定期取得して JSON を公開する GitHub Action
+#
+# 配置先: hamlogjp-data リポジトリの .github/workflows/update-pota-parks.yml
+# 出力:   リポジトリ直下（＝ GitHub Pages）の pota-parks.json
+# アプリ側取得URL: https://jpanhamlogapp.github.io/hamlogjp-data/pota-parks.json
+#
+# 公園の追加・改廃は頻繁ではないため、週1回＋手動実行とする。
+
+name: Update POTA parks (JP)
+
+on:
+  schedule:
+    - cron: "0 15 * * 0"    # 毎週日曜 15:00 UTC（月曜 0時 JST）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-pota-parks
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Fetch POTA parks
+        run: python pota-pipeline/make_pota_parks.py pota-parks.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name "pota-parks-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add pota-parks.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update POTA parks ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          else
+            echo "No change."
+          fi
