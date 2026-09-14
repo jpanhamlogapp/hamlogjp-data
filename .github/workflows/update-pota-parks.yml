@@ -33,7 +33,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install deps
-        run: pip install requests
+        run: pip install requests pandas lxml
 
       - name: Fetch POTA parks
         run: python pota-pipeline/make_pota_parks.py pota-parks.json
