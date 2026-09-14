@@ -3,6 +3,8 @@
 """
 make_pota_parks.py — POTA公式APIから日本の公園一覧を取得し、
 HamLogJP の PotaParks.json 形式へ変換して出力する。
+あわせて、POTA日本有志会(pota-jp.com)の公園リストから日本語名を取り込み、
+コードで突き合わせて nameJa（日本語名）を付与する。
 
 配置先: hamlogjp-data リポジトリ（GitHub Action から実行）
 出力:   リポジトリ直下（= GitHub Pages）の pota-parks.json
@@ -11,29 +13,33 @@ HamLogJP の PotaParks.json 形式へ変換して出力する。
 使い方:
   python make_pota_parks.py pota-parks.json
 
-取得元: https://api.pota.app/program/parks/JP
-  各要素の主なキー: reference, name, latitude, longitude, grid, locationDesc(JP-XX)
-  ※ name はPOTA登録の英語名。locationDesc は都道府県コード(POTA独自の2文字)。
+取得元:
+  英名・座標: https://api.pota.app/program/parks/JP
+  日本語名  : https://pota-jp.com/parkslist/  （コード｜日本語名｜英名｜都道府県｜種別 の表）
 
 出力仕様（アプリが読む）:
 {
-  "dataVersion": 1,
-  "updated": "2026-09-14",
+  "dataVersion": 2,
+  "updated": "2026-09-15",
   "note": "...",
   "entries": [
-    {"ref":"JP-0001","name":"...","pref":"北海道","lat":45.1942,"lon":141.239,"grid":"QN05oe"},
+    {"ref":"JP-0001","name":"Rishiri-...","nameJa":"利尻礼文サロベツ国立公園",
+     "pref":"北海道","lat":45.1942,"lon":141.239,"grid":"QN05oe"},
     ...
   ]
 }
+※ nameJa が空の公園は、アプリ側で英名にフォールバックする。
 """
 
 import json
+import re
 import sys
 from datetime import date
 
 import requests
 
 API_URL = "https://api.pota.app/program/parks/JP"
+JA_LIST_URL = "https://pota-jp.com/parkslist/"
 
 # POTA の locationDesc(JP-XX) → 日本語の都道府県名
 # ※ 実データに現れたコードに合わせて調整済み（栃木=TC, 山形=YT, 滋賀=SH）。
@@ -54,6 +60,40 @@ PREF = {
     "JP-OG": "東京都",  # 小笠原（行政上は東京都）
 }
 
+CODE_RE = re.compile(r"^JP-\d{4}$")
+HAS_JP = re.compile(r"[぀-ヿ㐀-鿿]")  # ひらがな/カタカナ/漢字を含むか
+
+
+def load_ja_names() -> dict:
+    """pota-jp.com の公園表から {コード: 日本語名} を作る。取得失敗時は空。"""
+    try:
+        import pandas as pd
+        html = requests.get(JA_LIST_URL, timeout=60,
+                            headers={"User-Agent": "HamLogJP-parks/1.0"}).text
+        names = {}
+        for df in pd.read_html(html):
+            ncol = df.shape[1]
+            if ncol < 2:
+                continue
+            # コード列を内容から自動判定（JP-#### が多数並ぶ列）
+            code_col = None
+            for ci in range(min(ncol, 3)):
+                col = df.iloc[:, ci].astype(str).str.strip()
+                if int(col.str.match(r"JP-\d{4}$").sum()) > 30:
+                    code_col = ci
+                    break
+            if code_col is None or code_col + 1 >= ncol:
+                continue
+            for _, row in df.iterrows():
+                code = str(row.iloc[code_col]).strip()
+                ja = str(row.iloc[code_col + 1]).strip()
+                if CODE_RE.match(code) and ja and ja.lower() != "nan" and HAS_JP.search(ja):
+                    names[code] = ja
+        return names
+    except Exception as e:  # noqa: BLE001
+        print("WARNING: 日本語名の取得に失敗（英名のみで出力）:", e)
+        return {}
+
 
 def main() -> int:
     out = sys.argv[1] if len(sys.argv) > 1 else "pota-parks.json"
@@ -62,6 +102,8 @@ def main() -> int:
                      headers={"User-Agent": "HamLogJP-parks/1.0"})
     r.raise_for_status()
     data = r.json()
+
+    ja = load_ja_names()
 
     entries = []
     unknown = set()
@@ -85,6 +127,7 @@ def main() -> int:
         entries.append({
             "ref": ref,
             "name": (p.get("name") or "").strip(),
+            "nameJa": ja.get(ref, ""),
             "pref": pref,
             "lat": lat,
             "lon": lon,
@@ -92,17 +135,19 @@ def main() -> int:
         })
 
     entries.sort(key=lambda e: e["ref"])
+    ja_hit = sum(1 for e in entries if e["nameJa"])
 
     doc = {
-        "dataVersion": 1,
+        "dataVersion": 2,
         "updated": date.today().isoformat(),
-        "note": "POTA公式API(api.pota.app/program/parks/JP)から自動生成。nameはPOTA登録の英語名。",
+        "note": ("POTA公式API(api.pota.app)から自動生成。日本語名(nameJa)は"
+                 "POTA日本有志会(pota-jp.com)の公園リストより。未収録は英名にフォールバック。"),
         "entries": entries,
     }
     with open(out, "w", encoding="utf-8") as f:
         json.dump(doc, f, ensure_ascii=False, indent=1)
 
-    print(f"wrote {out}: {len(entries)} parks")
+    print(f"wrote {out}: {len(entries)} parks (日本語名 {ja_hit}件)")
     if unknown:
         print("WARNING: 未知のlocationDescコード(要PREFマップ追加):", sorted(unknown))
     return 0
