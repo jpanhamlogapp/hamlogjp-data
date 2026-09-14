@@ -1406,7 +1406,7 @@
   {
    "ref": "JP-1070",
    "name": "Shonai Kaihin Prefectural Nature Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.8513,
    "lon": 139.787,
    "grid": "PM98vu"
@@ -1414,7 +1414,7 @@
   {
    "ref": "JP-1071",
    "name": "Goshozan Prefectural Nature Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.4555,
    "lon": 140.614,
    "grid": "QM08hk"
@@ -1422,7 +1422,7 @@
   {
    "ref": "JP-1072",
    "name": "Kennan Prefectural Nature Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.0034,
    "lon": 140.205,
    "grid": "QM08ca"
@@ -1430,7 +1430,7 @@
   {
    "ref": "JP-1073",
    "name": "Kabusan Prefectural Nature Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.9905,
    "lon": 140.389,
    "grid": "QM08ex"
@@ -1438,7 +1438,7 @@
   {
    "ref": "JP-1074",
    "name": "Tendo Kogen Prefectural Nature Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.349,
    "lon": 140.452,
    "grid": "QM08fi"
@@ -1446,7 +1446,7 @@
   {
    "ref": "JP-1075",
    "name": "Mogamigawa Prefectural Nature Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.7565,
    "lon": 140.051,
    "grid": "QM08as"
@@ -1454,7 +1454,7 @@
   {
    "ref": "JP-1076",
    "name": "Yamagata Prefectural General Sports Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.3361,
    "lon": 140.377,
    "grid": "QM08ei"
@@ -1462,7 +1462,7 @@
   {
    "ref": "JP-1077",
    "name": "Nishizao Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.205,
    "lon": 140.355,
    "grid": "QM08ee"
@@ -1470,7 +1470,7 @@
   {
    "ref": "JP-1078",
    "name": "Yumiharidaira Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.4761,
    "lon": 140.003,
    "grid": "QM08al"
@@ -1478,7 +1478,7 @@
   {
    "ref": "JP-1079",
    "name": "Nakayama Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.3421,
    "lon": 140.267,
    "grid": "QM08di"
@@ -1486,7 +1486,7 @@
   {
    "ref": "JP-1080",
    "name": "Mogamigawa Furusato Sogo Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.3652,
    "lon": 140.263,
    "grid": "QM08di"
@@ -1494,7 +1494,7 @@
   {
    "ref": "JP-1081",
    "name": "Mogami Central Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.7601,
    "lon": 140.308,
    "grid": "QM08ds"
@@ -1502,7 +1502,7 @@
   {
    "ref": "JP-1082",
    "name": "Zao Miharashi no Oka Museum Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.1879,
    "lon": 140.295,
    "grid": "QM08de"
@@ -1510,7 +1510,7 @@
   {
    "ref": "JP-1083",
    "name": "Kenko no Mori Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.3003,
    "lon": 140.345,
    "grid": "QM08eh"
@@ -1518,7 +1518,7 @@
   {
    "ref": "JP-1084",
    "name": "Yuso no Oka Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.2152,
    "lon": 140.349,
    "grid": "QM08ef"
@@ -1526,7 +1526,7 @@
   {
    "ref": "JP-1085",
    "name": "Shonai Kuko Kansho Ryokuchi Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.816,
    "lon": 139.792,
    "grid": "PM98vt"
@@ -1534,7 +1534,7 @@
   {
    "ref": "JP-1086",
    "name": "Kenmin Ryokuchi Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.2395,
    "lon": 140.362,
    "grid": "QM08ef"
@@ -1542,7 +1542,7 @@
   {
    "ref": "JP-1087",
    "name": "Kenseishi Ryokuchi Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.2565,
    "lon": 140.341,
    "grid": "QM08eg"
@@ -1854,7 +1854,7 @@
   {
    "ref": "JP-1128",
    "name": "Mae Nikko Prefectural Nature Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.623,
    "lon": 139.521,
    "grid": "PM96so"
@@ -1862,7 +1862,7 @@
   {
    "ref": "JP-1129",
    "name": "Yamizo Prefectural Nature Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.7838,
    "lon": 140.144,
    "grid": "QM06bs"
@@ -1870,7 +1870,7 @@
   {
    "ref": "JP-1130",
    "name": "Nakagawa Prefectural Nature Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.5978,
    "lon": 140.188,
    "grid": "QM06co"
@@ -1878,7 +1878,7 @@
   {
    "ref": "JP-1131",
    "name": "Mashiko Prefectural Nature Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.4661,
    "lon": 140.119,
    "grid": "QM06bl"
@@ -1886,7 +1886,7 @@
   {
    "ref": "JP-1132",
    "name": "Ohirasan Prefectural Nature Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.3599,
    "lon": 139.698,
    "grid": "PM96ui"
@@ -1894,7 +1894,7 @@
   {
    "ref": "JP-1133",
    "name": "Karasawayama Prefectural Nature Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.3538,
    "lon": 139.6,
    "grid": "PM96ti"
@@ -1902,7 +1902,7 @@
   {
    "ref": "JP-1134",
    "name": "Ashikaga Prefectural Nature Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.3798,
    "lon": 139.442,
    "grid": "PM96rj"
@@ -1910,7 +1910,7 @@
   {
    "ref": "JP-1135",
    "name": "Utsunomiya Prefectural Nature Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.6059,
    "lon": 139.81,
    "grid": "PM96vo"
@@ -1918,7 +1918,7 @@
   {
    "ref": "JP-1136",
    "name": "Tochigi Sports Prefectural Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.5109,
    "lon": 139.859,
    "grid": "PM96wm"
@@ -1926,7 +1926,7 @@
   {
    "ref": "JP-1137",
    "name": "Igashira Prefectural Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.4944,
    "lon": 139.997,
    "grid": "PM96xl"
@@ -1934,7 +1934,7 @@
   {
    "ref": "JP-1138",
    "name": "Kinu Green Prefectural Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.6302,
    "lon": 139.957,
    "grid": "PM96xp"
@@ -1942,7 +1942,7 @@
   {
    "ref": "JP-1139",
    "name": "Tochigi Central Prefectural Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.5583,
    "lon": 139.863,
    "grid": "PM96wn"
@@ -1950,7 +1950,7 @@
   {
    "ref": "JP-1140",
    "name": "Nasunogahara Prefectural Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.9323,
    "lon": 139.949,
    "grid": "PM96xw"
@@ -1958,7 +1958,7 @@
   {
    "ref": "JP-1141",
    "name": "Mikamoyama Prefectural Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.3053,
    "lon": 139.627,
    "grid": "PM96th"
@@ -1966,7 +1966,7 @@
   {
    "ref": "JP-1142",
    "name": "Nikko Tamozawa Implerial Villa Memorial Prefectural Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.7524,
    "lon": 139.591,
    "grid": "PM96ts"
@@ -1974,7 +1974,7 @@
   {
    "ref": "JP-1143",
    "name": "Nikko Daiyagawa Prefectural Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.7353,
    "lon": 139.663,
    "grid": "PM96tr"
@@ -1982,7 +1982,7 @@
   {
    "ref": "JP-1144",
    "name": "Tochigi Wanpaku Prefectural Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.4587,
    "lon": 139.808,
    "grid": "PM96vl"
@@ -4638,7 +4638,7 @@
   {
    "ref": "JP-1483",
    "name": "Mikami Tanakami Shigaraki Prefectural Nature Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 35.0505,
    "lon": 136.037,
    "grid": "PM85ab"
@@ -4646,7 +4646,7 @@
   {
    "ref": "JP-1484",
    "name": "Kutsuki Katsuragawa Prefectural Nature Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 35.2466,
    "lon": 135.867,
    "grid": "PM75wf"
@@ -4654,7 +4654,7 @@
   {
    "ref": "JP-1485",
    "name": "Koto Prefectural Nature Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 35.2344,
    "lon": 136.3,
    "grid": "PM85df"
@@ -4662,7 +4662,7 @@
   {
    "ref": "JP-1486",
    "name": "Obanagawa Prefectural Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 35.0179,
    "lon": 135.861,
    "grid": "PM75wa"
@@ -4670,7 +4670,7 @@
   {
    "ref": "JP-1487",
    "name": "Biwako Bunka Prefectural Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 34.9698,
    "lon": 135.94,
    "grid": "PM74xx"
@@ -4678,7 +4678,7 @@
   {
    "ref": "JP-1488",
    "name": "Okubiwa Sports no Mori Prefectural Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 35.4118,
    "lon": 136.21,
    "grid": "PM85cj"
@@ -4686,7 +4686,7 @@
   {
    "ref": "JP-1489",
    "name": "Kogan Ryokuchi Prefectural Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 35.3864,
    "lon": 136.238,
    "grid": "PM85cj"
@@ -4694,7 +4694,7 @@
   {
    "ref": "JP-1490",
    "name": "Kasugayama Prefectural Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 35.1227,
    "lon": 135.905,
    "grid": "PM75wc"
@@ -4702,7 +4702,7 @@
   {
    "ref": "JP-1491",
    "name": "Biwako Chikyu Shimin no Mori Prefectural Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 35.1046,
    "lon": 135.963,
    "grid": "PM75xc"
@@ -7558,7 +7558,7 @@
   {
    "ref": "JP-1859",
    "name": "Tochigi Prefectual Forest Prefectural Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.8739,
    "lon": 139.841,
    "grid": "PM96wu"
@@ -7566,7 +7566,7 @@
   {
    "ref": "JP-1860",
    "name": "Italian Embassy Villa Memorial Prefectural Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.725,
    "lon": 139.486,
    "grid": "PM96rr"
@@ -7574,7 +7574,7 @@
   {
    "ref": "JP-1861",
    "name": "British Embassy Villa Memorial Prefectural Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.7266,
    "lon": 139.486,
    "grid": "PM96rr"
@@ -7590,7 +7590,7 @@
   {
    "ref": "JP-1863",
    "name": "Choukai-no-mori Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.8593,
    "lon": 139.98,
    "grid": "PM98xu"
@@ -7598,7 +7598,7 @@
   {
    "ref": "JP-1864",
    "name": "Genryu-no-mori Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 37.9256,
    "lon": 139.899,
    "grid": "PM97ww"
@@ -7606,7 +7606,7 @@
   {
    "ref": "JP-1865",
    "name": "Kenmin-no-mori Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.242,
    "lon": 140.203,
    "grid": "QM08cf"
@@ -7614,7 +7614,7 @@
   {
    "ref": "JP-1866",
    "name": "Yugaku-no-mori Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.9127,
    "lon": 140.376,
    "grid": "QM08ev"
@@ -7622,7 +7622,7 @@
   {
    "ref": "JP-1867",
    "name": "Yamagata Nature Museum Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.5044,
    "lon": 139.998,
    "grid": "PM98xm"
@@ -8814,7 +8814,7 @@
   {
    "ref": "JP-2025",
    "name": "The Shigaraki Ceramic Cultural Prefectural Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 34.8857,
    "lon": 136.059,
    "grid": "PM84av"
@@ -8822,7 +8822,7 @@
   {
    "ref": "JP-2026",
    "name": "Biwako Kodomonokuni Prefectural Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 35.3204,
    "lon": 136.075,
    "grid": "PM85ah"
@@ -8830,7 +8830,7 @@
   {
    "ref": "JP-2027",
    "name": "Shiga Prefecture Kibougaoka Cultural Prefectural Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 35.0543,
    "lon": 136.068,
    "grid": "PM85ab"
@@ -8838,7 +8838,7 @@
   {
    "ref": "JP-2028",
    "name": "Omifuji Karyoku Prefectural Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 35.0537,
    "lon": 136.044,
    "grid": "PM85ab"
@@ -9190,7 +9190,7 @@
   {
    "ref": "JP-2072",
    "name": "Marine Park Nezugaseki Prefectural Park",
-   "pref": "JP-YT",
+   "pref": "山形県",
    "lat": 38.5566,
    "lon": 139.545,
    "grid": "PM98sn"
@@ -9198,7 +9198,7 @@
   {
    "ref": "JP-2073",
    "name": "Yamizo Kenmin Recreation Prefectural Park",
-   "pref": "JP-TC",
+   "pref": "栃木県",
    "lat": 36.6993,
    "lon": 140.073,
    "grid": "QM06aq"
@@ -9678,7 +9678,7 @@
   {
    "ref": "JP-2133",
    "name": "Yabase Kihan Island Prefectural Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 35.0064,
    "lon": 135.913,
    "grid": "PM75wa"
@@ -9686,7 +9686,7 @@
   {
    "ref": "JP-2134",
    "name": "Omi Fudoki no Oka Historical Prefectural Park",
-   "pref": "JP-SH",
+   "pref": "滋賀県",
    "lat": 35.1503,
    "lon": 136.146,
    "grid": "PM85bd"
