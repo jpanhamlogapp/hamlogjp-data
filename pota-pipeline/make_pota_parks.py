@@ -16,19 +16,6 @@ HamLogJP の PotaParks.json 形式へ変換して出力する。
 取得元:
   英名・座標: https://api.pota.app/program/parks/JP
   日本語名  : https://pota-jp.com/parkslist/  （コード｜日本語名｜英名｜都道府県｜種別 の表）
-
-出力仕様（アプリが読む）:
-{
-  "dataVersion": 2,
-  "updated": "2026-09-15",
-  "note": "...",
-  "entries": [
-    {"ref":"JP-0001","name":"Rishiri-...","nameJa":"利尻礼文サロベツ国立公園",
-     "pref":"北海道","lat":45.1942,"lon":141.239,"grid":"QN05oe"},
-    ...
-  ]
-}
-※ nameJa が空の公園は、アプリ側で英名にフォールバックする。
 """
 
 import json
@@ -41,9 +28,7 @@ import requests
 API_URL = "https://api.pota.app/program/parks/JP"
 JA_LIST_URL = "https://pota-jp.com/parkslist/"
 
-# POTA の locationDesc(JP-XX) → 日本語の都道府県名
-# ※ 実データに現れたコードに合わせて調整済み（栃木=TC, 山形=YT, 滋賀=SH）。
-#   未知コードはそのまま(JP-XX)を残し、CIログで警告する。
+# POTA の locationDesc(JP-XX) → 日本語の都道府県名（栃木=TC, 山形=YT, 滋賀=SH）
 PREF = {
     "JP-HK": "北海道", "JP-AO": "青森県", "JP-IW": "岩手県", "JP-MG": "宮城県",
     "JP-AK": "秋田県", "JP-YT": "山形県", "JP-FS": "福島県", "JP-IB": "茨城県",
@@ -66,16 +51,26 @@ HAS_JP = re.compile(r"[぀-ヿ㐀-鿿]")  # ひらがな/カタカナ/漢字を�
 
 def load_ja_names() -> dict:
     """pota-jp.com の公園表から {コード: 日本語名} を作る。取得失敗時は空。"""
+    ua = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+          "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
+    try:
+        html = requests.get(JA_LIST_URL, timeout=60, headers={
+            "User-Agent": ua,
+            "Accept": "text/html,application/xhtml+xml",
+            "Accept-Language": "ja,en;q=0.8",
+        }).text
+    except Exception as e:  # noqa: BLE001
+        print("WARNING: 日本語名ページの取得に失敗:", e)
+        return {}
+
+    names = {}
+    # 1) pandas で <table> を解釈
     try:
         import pandas as pd
-        html = requests.get(JA_LIST_URL, timeout=60,
-                            headers={"User-Agent": "HamLogJP-parks/1.0"}).text
-        names = {}
         for df in pd.read_html(html):
             ncol = df.shape[1]
             if ncol < 2:
                 continue
-            # コード列を内容から自動判定（JP-#### が多数並ぶ列）
             code_col = None
             for ci in range(min(ncol, 3)):
                 col = df.iloc[:, ci].astype(str).str.strip()
@@ -89,10 +84,19 @@ def load_ja_names() -> dict:
                 ja = str(row.iloc[code_col + 1]).strip()
                 if CODE_RE.match(code) and ja and ja.lower() != "nan" and HAS_JP.search(ja):
                     names[code] = ja
-        return names
     except Exception as e:  # noqa: BLE001
-        print("WARNING: 日本語名の取得に失敗（英名のみで出力）:", e)
-        return {}
+        print("WARNING: pandasでの表解釈に失敗（HTML直接パースへ）:", e)
+
+    # 2) 取れなければ HTML を直接パース（<td>JP-0001</td><td>日本語名</td> …）
+    if not names:
+        for code, ja in re.findall(
+                r"(JP-\d{4})\s*</t[dh]>\s*<t[dh][^>]*>\s*([^<]+?)\s*</t[dh]>", html):
+            ja = ja.strip()
+            if HAS_JP.search(ja):
+                names[code] = ja
+
+    print(f"  日本語名ソース: {len(names)}件")
+    return names
 
 
 def main() -> int:
@@ -112,7 +116,6 @@ def main() -> int:
         if not ref.startswith("JP-"):
             continue
         loc = (p.get("locationDesc") or "").strip()
-        # locationDesc は稀に "JP-TK,JP-KN" のように複数入るので先頭を採用
         loc0 = loc.split(",")[0].strip() if loc else ""
         pref = PREF.get(loc0)
         if pref is None:
