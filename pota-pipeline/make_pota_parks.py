@@ -36,16 +36,16 @@ import requests
 API_URL = "https://api.pota.app/program/parks/JP"
 
 # POTA の locationDesc(JP-XX) → 日本語の都道府県名
-# ※ 実データに現れた確実なコードに加え、POTA標準の2文字コードを網羅。
+# ※ 実データに現れたコードに合わせて調整済み（栃木=TC, 山形=YT, 滋賀=SH）。
 #   未知コードはそのまま(JP-XX)を残し、CIログで警告する。
 PREF = {
     "JP-HK": "北海道", "JP-AO": "青森県", "JP-IW": "岩手県", "JP-MG": "宮城県",
-    "JP-AK": "秋田県", "JP-YM": "山形県", "JP-FS": "福島県", "JP-IB": "茨城県",
-    "JP-TG": "栃木県", "JP-GM": "群馬県", "JP-ST": "埼玉県", "JP-CH": "千葉県",
+    "JP-AK": "秋田県", "JP-YT": "山形県", "JP-FS": "福島県", "JP-IB": "茨城県",
+    "JP-TC": "栃木県", "JP-GM": "群馬県", "JP-ST": "埼玉県", "JP-CH": "千葉県",
     "JP-TK": "東京都", "JP-KN": "神奈川県", "JP-NI": "新潟県", "JP-TY": "富山県",
     "JP-IS": "石川県", "JP-FI": "福井県", "JP-YN": "山梨県", "JP-NN": "長野県",
     "JP-GF": "岐阜県", "JP-SZ": "静岡県", "JP-AI": "愛知県", "JP-ME": "三重県",
-    "JP-SI": "滋賀県", "JP-KY": "京都府", "JP-OS": "大阪府", "JP-HG": "兵庫県",
+    "JP-SH": "滋賀県", "JP-KY": "京都府", "JP-OS": "大阪府", "JP-HG": "兵庫県",
     "JP-NR": "奈良県", "JP-WK": "和歌山県", "JP-TT": "鳥取県", "JP-SM": "島根県",
     "JP-OY": "岡山県", "JP-HS": "広島県", "JP-YC": "山口県", "JP-TS": "徳島県",
     "JP-KG": "香川県", "JP-EH": "愛媛県", "JP-KC": "高知県", "JP-FO": "福岡県",
