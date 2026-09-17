@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HamLogJP 取扱説明書 - 使い方ガイド</title>
+<meta name="description" content="HamLogJP（無線交信ログ帳）の使い方ガイド。ログ入力、フリラー対応、POTA/SOTA、JARLコンテスト提出ログ、ADIF入出力、統計、設定までを画面付きで解説します。">
+<style>
+  :root{
+    --teal:#0E7490; --teal-d:#0a5568; --ink:#1E293B; --muted:#5B6B7B;
+    --bg:#F4F7F9; --card:#FFFFFF; --line:#E2E8ED; --accent:#0E7490;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;color:var(--ink);background:var(--bg);line-height:1.85;-webkit-font-smoothing:antialiased}
+  img{max-width:100%;display:block}
+  a{color:var(--teal);text-decoration:none}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px}
+
+  /* Header */
+  header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+  .navbar{display:flex;align-items:center;justify-content:space-between;height:60px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;color:var(--ink)}
+  .logo{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,#0E7490,#22a3c0);display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px}
+  .navbar .home{font-size:14px}
+
+  /* Hero */
+  .hero{padding:44px 0 20px}
+  .hero h1{font-size:30px;letter-spacing:-.01em}
+  .hero p{color:var(--muted);margin-top:12px;font-size:16px}
+  .ver{display:inline-block;margin-top:14px;background:#E6F3F6;color:var(--teal);font-weight:700;font-size:13px;padding:5px 12px;border-radius:20px}
+
+  /* TOC */
+  .toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 26px;margin:26px 0 8px}
+  .toc h2{font-size:16px;margin-bottom:12px;color:var(--ink)}
+  .toc ol{list-style:none;counter-reset:t;columns:2;column-gap:34px}
+  .toc li{counter-increment:t;padding:5px 0;font-size:15px;break-inside:avoid}
+  .toc li::before{content:counter(t) ". ";color:var(--teal);font-weight:700}
+  @media(max-width:640px){.toc ol{columns:1}}
+
+  /* Sections */
+  section{padding:34px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:23px;letter-spacing:-.01em;display:flex;align-items:center;gap:10px}
+  section h2 .n{width:34px;height:34px;flex:0 0 34px;border-radius:9px;background:#E6F3F6;color:var(--teal);display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800}
+  section h3{font-size:17px;margin:22px 0 8px}
+  section p{color:#31404f;margin:8px 0}
+  section ul,section ol{margin:8px 0 8px 4px;padding-left:22px;color:#31404f}
+  section li{margin:5px 0}
+  .lead{color:var(--muted);margin:6px 0 4px}
+  strong{color:var(--ink)}
+
+  .tip{background:#E6F3F6;border-left:4px solid var(--teal);border-radius:8px;padding:12px 16px;margin:14px 0;font-size:15px;color:#25505e}
+  .note{background:#FFF7ED;border-left:4px solid #d98a2b;border-radius:8px;padding:12px 16px;margin:14px 0;font-size:15px;color:#7a5320}
+  .pill{display:inline-block;background:#0E7490;color:#fff;font-size:12px;font-weight:700;border-radius:6px;padding:2px 8px;vertical-align:middle}
+  .pill.free{background:#5B6B7B}
+
+  /* shots */
+  figure{margin:18px 0}
+  figure img{border-radius:12px;box-shadow:0 10px 26px rgba(30,41,59,.12);border:1px solid var(--line)}
+  figure.phone img{max-width:300px;margin:0 auto}
+  figcaption{text-align:center;color:var(--muted);font-size:13px;margin-top:8px}
+  .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;align-items:start}
+  .ph{border:2px dashed #b9ccd4;border-radius:12px;background:#fff;color:#8aa2ac;display:flex;align-items:center;justify-content:center;text-align:center;font-size:13px;min-height:200px;padding:16px}
+
+  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px}
+  th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:#F0F5F7;color:var(--ink);font-weight:700}
+
+  footer{padding:30px 0;text-align:center;color:var(--muted);font-size:14px}
+  footer a{margin:0 8px}
+  .fnote{font-size:12px;color:#94a3b0;margin-top:8px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap navbar">
+    <div class="brand"><span class="logo">📻</span> HamLogJP 取扱説明書</div>
+    <a class="home" href="https://apps.apple.com/app/id6790925699">App Storeで見る</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>HamLogJP 取扱説明書</h1>
+    <p>アマチュア無線とフリラーの両方に対応した、日本語の交信ログアプリ「HamLogJP（無線交信ログ帳）」の使い方ガイドです。iPhone・iPad・Mac 共通の操作を、画面付きで順に説明します。</p>
+    <span class="ver">対応: iOS / iPadOS / macOS ・ 無料版＋プレミアム</span>
+  </div>
+</div>
+
+<div class="wrap">
+  <nav class="toc">
+    <h2>目次</h2>
+    <ol>
+      <li><a href="#start">はじめに・対応環境</a></li>
+      <li><a href="#screen">画面の構成</a></li>
+      <li><a href="#log">交信を記録する</a></li>
+      <li><a href="#freera">フリラー（無線種別）</a></li>
+      <li><a href="#assist">入力を先回り</a></li>
+      <li><a href="#pota">POTA / SOTA</a></li>
+      <li><a href="#contest">コンテスト提出ログ</a></li>
+      <li><a href="#data">データ入出力（ADIF/CSV）</a></li>
+      <li><a href="#qsl">QSL 管理</a></li>
+      <li><a href="#stats">統計・グラフ</a></li>
+      <li><a href="#tools">Es現況・宇宙天気・WiRES-X</a></li>
+      <li><a href="#settings">設定</a></li>
+      <li><a href="#price">料金・お問い合わせ</a></li>
+    </ol>
+  </nav>
+</div>
+
+<div class="wrap">
+
+<!-- 1 -->
+<section id="start">
+  <h2><span class="n">1</span>はじめに・対応環境</h2>
+  <p>HamLogJP は、<strong>アマチュア無線</strong>と<strong>フリラー（デジタル簡易無線・CB・特小・LCR ほか）</strong>の交信記録を、1つのアプリで管理できる日本語のログアプリです。iPhone・iPad・Mac でネイティブに動作します。</p>
+  <ul>
+    <li><strong>アカウント登録は不要</strong>です。すぐに使い始められます。</li>
+    <li>交信ログは<strong>端末内に保存</strong>され、外部に送信されません。iCloud 同期をオンにすると、ご自身の iPhone・iPad・Mac 間でログを共有できます（Apple ID の iCloud を利用）。</li>
+    <li>無料版で交信ログ 200 件まで、基本機能をお試しいただけます。ADIF 入出力や QSL 管理などはプレミアム版の機能です（第13章）。</li>
+  </ul>
+  <div class="tip">画面の文言は端末の言語設定に追従します（日本語／英語）。公園名なども、日本語表示のときは日本語で表示されます。</div>
+</section>
+
+<!-- 2 -->
+<section id="screen">
+  <h2><span class="n">2</span>画面の構成</h2>
+  <p>本アプリは端末に合わせて2つのレイアウトで動作します。</p>
+
+  <h3>Mac・iPad は3ペイン</h3>
+  <p>左に機能メニュー、中央に交信ログの一覧、右に入力欄が並びます。過去の交信を見ながら、そのまま次のログを入力できます。</p>
+  <figure><img src="images/mac_login.png" alt="Mac 3ペインのログ入力画面"><figcaption>Mac版：左メニュー／中央ログ一覧／右入力欄の3ペイン</figcaption></figure>
+
+  <h3>iPhone は片手で速記</h3>
+  <p>相手コール欄を大きく取り、バンドやモードはタップ（チップ）で選びます。左上のメニューから各機能に移動します。</p>
+  <div class="shots">
+    <figure class="phone"><img src="images/iphone_login.png" alt="iPhoneのログ入力画面"><figcaption>ログ入力（速記）</figcaption></figure>
+    <figure class="phone"><img src="images/iphone_menu.png" alt="iPhoneのメニュー"><figcaption>メニュー</figcaption></figure>
+    <figure class="phone"><img src="images/iphone_list.png" alt="iPhoneの検索・一覧"><figcaption>検索・交信一覧</figcaption></figure>
+  </div>
+</section>
+
+<!-- 3 -->
+<section id="log">
+  <h2><span class="n">3</span>交信を記録する</h2>
+  <p>「ログ入力」画面で1件ずつ記録します。基本の流れは <strong>①サービスを選ぶ → ②相手コール／バンド・モード → ③RSTと相手情報 → ④「保存して次へ」</strong> です。</p>
+
+  <h3>サービスの切り替え</h3>
+  <p>画面上部の「サービス」で <strong>アマチュア無線</strong> と <strong>フリラー</strong> を切り替えます。切り替えると、入力欄がそれぞれに最適化されます（アマチュアはバンド／モード、フリラーは無線種別／チャンネル）。</p>
+
+  <h3>バンドとモード</h3>
+  <p>アマチュアではバンド（MHz）とモードをタップで選びます。モードには音声（SSB/CW/FM/AM）や FT8 等に加えて、<strong>デジタル音声モード（DV・D-STAR・C4FM・DMR）</strong>を標準で用意しています。</p>
+  <div class="tip">使うモードは「設定 → 表示するモード」で追加・削除できます（全48種から選択）。デジタル音声モード（DV/D-STAR/C4FM/DMR）はアップデート後、自動で入力チップに表示されます。</div>
+  <div class="shots">
+    <figure class="phone"><img src="images/iphone_modes.png" alt="モード選択にDV/D-STAR/C4FM/DMR"><figcaption>モードに DV / D-STAR / C4FM / DMR</figcaption></figure>
+  </div>
+
+  <h3>RST と相手情報</h3>
+  <p>RST（送信＝相手へ／受信＝自分が受けた）を入力します。相手のお名前・QTH（住所）を記録でき、QTH 欄は市区町村名・都道府県・かな・ローマ字・コードのいずれでも検索できます。</p>
+
+  <h3>保存</h3>
+  <p>「保存して次へ」で1件を記録し、次の交信に備えて入力欄がリセットされます（自局の運用設定は保持されます）。</p>
+</section>
+
+<!-- 4 -->
+<section id="freera">
+  <h2><span class="n">4</span>フリラー（無線種別）</h2>
+  <p>サービスを「フリラー」にすると、無線種別とチャンネルを選べます。</p>
+  <table>
+    <tr><th>無線種別</th><th>内容</th><th>チャンネル</th></tr>
+    <tr><td>DCR</td><td>デジタル簡易無線（351MHz）</td><td>1〜82ch から選択</td></tr>
+    <tr><td>CB</td><td>市民ラジオ（27MHz）</td><td>1〜8ch から選択</td></tr>
+    <tr><td>特小</td><td>特定小電力（422MHz）</td><td>L1〜L11 / b1〜b9</td></tr>
+    <tr><td>LCR</td><td>デジタル小電力コミュニティ</td><td>1〜18ch から選択</td></tr>
+    <tr><td>Zello</td><td>アプリ無線（スマホPTT・インターネット）</td><td>ルーム名を自由入力</td></tr>
+    <tr><td>エアインカムライト</td><td>アプリ無線（IP・スマホPTT）</td><td>ルーム名を自由入力</td></tr>
+  </table>
+  <p><strong>Zello / エアインカムライト</strong>は固定チャンネルを持たないため、チャンネル欄が「チャンネル / ルーム名」の<strong>自由入力</strong>に自動で切り替わります。使ったルーム名をそのまま記録できます。</p>
+  <div class="shots">
+    <figure class="phone"><img src="images/iphone_zello.png" alt="フリラー無線種別 Zello とチャンネル自由入力"><figcaption>フリラー：Zello 選択時はチャンネルがルーム名の自由入力に</figcaption></figure>
+  </div>
+</section>
+
+<!-- 5 -->
+<section id="assist">
+  <h2><span class="n">5</span>入力を先回り</h2>
+  <ul>
+    <li><strong>過去の交信を自動表示</strong>：相手コールを入れると、その局との過去の交信が表示され、初回か何回目かも分かります。</li>
+    <li><strong>重複の警告</strong>：同じバンド・モードで既に交信済みの場合に知らせます（コンテストや移動運用で便利）。</li>
+    <li><strong>JCC/JCG 内蔵</strong>：全国の市郡区 1,700 件超を内蔵。漢字・かな・ローマ字・コードで検索できます。</li>
+    <li><strong>エリア自動補完</strong>：JA1ABC/2 のようなコールから運用エリアを判定して補います。</li>
+  </ul>
+</section>
+
+<!-- 6 -->
+<section id="pota">
+  <h2><span class="n">6</span>POTA / SOTA</h2>
+  <p>移動運用（POTA＝Parks on the Air、SOTA＝Summits on the Air）に対応しています。</p>
+  <ul>
+    <li>相手局の運用公園（ハント／P2P）や自局の運用公園を記録できます。</li>
+    <li><strong>POTA 公園コードを内蔵</strong>。番号や名前で検索して選べ、日本国内の公園は日本語名で表示されます。データは定期的に自動更新されます。</li>
+    <li>「POTA/SOTA スポット」画面で近隣の情報を確認できます。</li>
+  </ul>
+  <div class="tip">公園コードは、コード番号を入力するとその番号から候補を出して選べます（直接入力＋候補選択）。</div>
+</section>
+
+<!-- 7 -->
+<section id="contest">
+  <h2><span class="n">7</span>コンテスト提出ログ（JARL電子ログ）</h2>
+  <p>「データ」画面の「コンテスト提出ログ書き出し（JARL形式）」から、JARL 電子ログ形式（VERSION=R2.1）のサマリーシート＋ログシートを作成できます。主要8大会に対応しています。</p>
+  <table>
+    <tr><th>大会</th><th>ナンバー</th><th>時刻</th></tr>
+    <tr><td>ALL JA コンテスト</td><td>RST＋都府県・地域ナンバー＋電力記号</td><td>JST</td></tr>
+    <tr><td>6m AND DOWN</td><td>RST＋地域(or市郡区)＋電力記号</td><td>JST</td></tr>
+    <tr><td>フィールドデー</td><td>RST＋地域(or市郡区)＋電力記号</td><td>JST</td></tr>
+    <tr><td>全市全郡（ACAG）</td><td>RST＋市郡区ナンバー＋電力記号</td><td>JST</td></tr>
+    <tr><td>ALL ASIAN DX</td><td>RST＋年齢（または01）</td><td>UTC</td></tr>
+    <tr><td>QSOパーティ</td><td>RST＋オペレータ名</td><td>JST</td></tr>
+    <tr><td>JARL World Wide RTTY</td><td>RST＋年齢（または01）</td><td>UTC</td></tr>
+    <tr><td>ウェルカムパーティ</td><td>RST＋初開局年下2桁＋局種</td><td>JST</td></tr>
+  </table>
+  <p>使い方：大会と参加部門（局種コード）、対象期間を選び、提出者情報（氏名・住所・E-mail など）を入力すると、テキスト（.txt）で書き出せます。大会ごとに部門コード・ナンバー様式・時刻（JST/UTC）へ自動で合わせます。</p>
+  <ol>
+    <li>交信時に、相手からの受信ナンバー・自局の送信ナンバー（RSTを除く部分）を記録しておきます。</li>
+    <li>「データ」→「コンテスト提出ログ書き出し（JARL形式）」を開きます。</li>
+    <li>大会・部門・期間・提出者情報を入力し、「テキストで書き出し」または「共有」で保存します。</li>
+    <li>JARL のログ提出ページからアップロード、またはメールで提出します。</li>
+  </ol>
+  <div class="shots">
+    <figure class="phone"><img src="images/iphone_data.png" alt="データ画面（ADIF・CSV・コンテスト提出ログ書き出し）"><figcaption>「データ」画面から「コンテスト提出ログ書き出し（JARL形式）」へ</figcaption></figure>
+  </div>
+  <div class="note">部門コードは各大会の規約に基づいています。年度改定で変わる場合があるため、提出前に最新規約もご確認ください。</div>
+</section>
+
+<!-- 8 -->
+<section id="data">
+  <h2><span class="n">8</span>データ入出力（ADIF / CSV）<span class="pill">プレミアム</span></h2>
+  <ul>
+    <li><strong>ADIF 書き出し／読み込み</strong>：他ソフトとの交換や過去ログの移行に。</li>
+    <li><strong>Turbo HAMLOG CSV 取り込み</strong>：HAMLOG の「CSV形式で出力」ファイルに対応。文字コードは UTF-8 / Shift_JIS の両対応。</li>
+    <li><strong>AirDrop 等で共有</strong>：iPhone で書き出して Mac へ直接受け渡し（その逆も可）。</li>
+    <li>読み込み時は「コールサイン＋分単位の日時」が一致する交信を<strong>重複としてスキップ</strong>するので、同じファイルを二度読んでも増えません。</li>
+  </ul>
+</section>
+
+<!-- 9 -->
+<section id="qsl">
+  <h2><span class="n">9</span>QSL 管理</h2>
+  <p>交信ごとに QSL の扱い（ビューロー経由・ダイレクト・電子QSLのみ・不要）を設定でき、発送／受領の状況を管理できます。紙カードの発送対象を一覧で確認できます。</p>
+</section>
+
+<!-- 10 -->
+<section id="stats">
+  <h2><span class="n">10</span>統計・グラフ</h2>
+  <p>月別・バンド別・モード別に交信を振り返れます。年間の交信数やアクティブなバンドがひと目で分かります。</p>
+  <div class="shots">
+    <figure class="phone"><img src="images/iphone_stats.png" alt="統計・グラフ（iPhone）"><figcaption>統計・グラフ（iPhone）</figcaption></figure>
+    <figure><img src="images/mac_stats.png" alt="統計・グラフ（Mac）"><figcaption>統計・グラフ（Mac）</figcaption></figure>
+  </div>
+</section>
+
+<!-- 11 -->
+<section id="tools">
+  <h2><span class="n">11</span>Es現況・宇宙天気・WiRES-X</h2>
+  <ul>
+    <li><strong>6m Es リアルタイム</strong> <span class="pill">プレミアム</span>：PSK Reporter の実データから、いま日本と開けている方向を地図で表示します。</li>
+    <li><strong>宇宙天気・太陽フレア</strong>：コンディションの参考情報を確認できます。</li>
+    <li><strong>近くの WiRES-X ノード</strong>：現在地周辺のノードを地図で表示します。</li>
+  </ul>
+  <div class="shots">
+    <figure class="phone"><img src="images/iphone_es.png" alt="6m Es現況（iPhone）"><figcaption>6m Es 現況</figcaption></figure>
+    <figure><img src="images/mac_es.png" alt="6m Es現況（Mac）"><figcaption>6m Es 現況（Mac）</figcaption></figure>
+  </div>
+</section>
+
+<!-- 12 -->
+<section id="settings">
+  <h2><span class="n">12</span>設定</h2>
+  <ul>
+    <li><strong>自局情報</strong>：コールサイン・運用地・JCC/JCG などを登録。入力時に自動で使われます。</li>
+    <li><strong>表示するモード</strong>：入力チップに出すモードを選択（DV/D-STAR/C4FM/DMR も選択可）。</li>
+    <li><strong>単位</strong>：距離を km / mile で切り替え。</li>
+    <li><strong>iCloud 保管</strong>：ご自身の端末間でログを同期。</li>
+    <li><strong>高コントラスト表示</strong>：見やすい配色に切り替え。</li>
+    <li><strong>サブスクリプション管理</strong>：プレミアムの購入・復元・管理。</li>
+  </ul>
+  <figure><img src="images/paywall.png" alt="プレミアム案内" style="max-width:520px;margin:0 auto"><figcaption>プレミアム案内</figcaption></figure>
+</section>
+
+<!-- 13 -->
+<section id="price">
+  <h2><span class="n">13</span>料金・お問い合わせ</h2>
+  <p><span class="pill free">無料版</span> 交信ログ 200 件まで／アマ・フリラーの記録／過去交信・重複表示／JCC・JCG 検索／統計グラフ</p>
+  <p><span class="pill">プレミアム</span> ¥480/月・¥4,800/年：交信ログ無制限／ADIF 入出力・Turbo HAMLOG 取り込み／QSL 管理／6m Es・宇宙天気／iPhone・iPad・Mac 共通</p>
+  <p>ご質問・ご要望は下記のお問い合わせ先までお寄せください。アップデートで随時改善しています。</p>
+</section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a href="https://apps.apple.com/app/id6790925699">App Store</a>
+      <a href="mailto:genre_pincers_3d@icloud.com">お問い合わせ</a>
+    </div>
+    <p style="margin-top:10px">© 2026 Yoshikazu Hashimoto　HamLogJP - 無線交信ログ帳</p>
+    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面は開発中のものを含みます。</p>
+  </div>
+</footer>
+
+</body>
+</html>
