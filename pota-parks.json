@@ -1,6 +1,6 @@
 {
  "dataVersion": 2,
- "updated": "2026-09-14",
+ "updated": "2026-09-20",
  "note": "POTA公式API(api.pota.app)から自動生成。日本語名(nameJa)はPOTA日本有志会(pota-jp.com)の公園リストより。未収録は英名にフォールバック。",
  "entries": [
   {
