@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HamLogJP 取扱説明書 - 使い方ガイド</title>
-<meta name="description" content="HamLogJP（無線交信ログ帳）の使い方ガイド。ログ入力、フリラー対応、POTA/SOTA、JARLコンテスト提出ログ、ADIF入出力、統計、設定までを画面付きで解説します。">
+<meta name="description" content="HamLogJP（無線交信ログ帳）の使い方ガイド。バージョン1.2.0の新しいログ入力画面（プリセット・前回値の自動入力・キーボード操作）、フリラー対応、POTA/SOTA、JARLコンテスト提出ログ、ADIF入出力、QSL管理、統計、設定までを画面付きで解説します。">
 <style>
   :root{
     --teal:#0E7490; --teal-d:#0a5568; --ink:#1E293B; --muted:#5B6B7B;
@@ -58,6 +58,8 @@
   figure{margin:18px 0}
   figure img{border-radius:12px;box-shadow:0 10px 26px rgba(30,41,59,.12);border:1px solid var(--line)}
   figure.phone img{max-width:300px;margin:0 auto}
+  figure.tablet img{max-width:460px;margin:0 auto}
+  kbd{font-family:ui-monospace,Menlo,monospace;font-size:13px;background:#fff;border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;padding:1px 6px}
   figcaption{text-align:center;color:var(--muted);font-size:13px;margin-top:8px}
   .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;align-items:start}
   .ph{border:2px dashed #b9ccd4;border-radius:12px;background:#fff;color:#8aa2ac;display:flex;align-items:center;justify-content:center;text-align:center;font-size:13px;min-height:200px;padding:16px}
@@ -84,7 +86,7 @@
   <div class="wrap">
     <h1>HamLogJP 取扱説明書</h1>
     <p>アマチュア無線とフリラーの両方に対応した、日本語の交信ログアプリ「HamLogJP（無線交信ログ帳）」の使い方ガイドです。iPhone・iPad・Mac 共通の操作を、画面付きで順に説明します。</p>
-    <span class="ver">対応: iOS / iPadOS / macOS ・ 無料版＋プレミアム</span>
+    <span class="ver">バージョン 1.2.0 対応 ・ iOS / iPadOS / macOS ・ 無料版＋プレミアム</span>
   </div>
 </div>
 
@@ -96,7 +98,7 @@
       <li><a href="#screen">画面の構成</a></li>
       <li><a href="#log">交信を記録する</a></li>
       <li><a href="#freera">フリラー（無線種別）</a></li>
-      <li><a href="#assist">入力を先回り</a></li>
+      <li><a href="#assist">入力を先回り（プリセット・前回値）</a></li>
       <li><a href="#pota">POTA / SOTA</a></li>
       <li><a href="#contest">コンテスト提出ログ</a></li>
       <li><a href="#data">データ入出力（ADIF/CSV）</a></li>
@@ -120,53 +122,75 @@
     <li>交信ログは<strong>端末内に保存</strong>され、外部に送信されません。iCloud 同期をオンにすると、ご自身の iPhone・iPad・Mac 間でログを共有できます（Apple ID の iCloud を利用）。</li>
     <li>無料版で交信ログ 200 件まで、基本機能をお試しいただけます。ADIF 入出力や QSL 管理などはプレミアム版の機能です（第13章）。</li>
   </ul>
-  <div class="tip">画面の文言は端末の言語設定に追従します（日本語／英語）。公園名なども、日本語表示のときは日本語で表示されます。</div>
+  <div class="tip"><strong>1.2.0 の主な変更</strong>：よく使う項目だけをまとめた新しいログ入力画面、画面下に常に出る保存ボタン、アマチュア・フリラーそれぞれの前回条件の自動復元、運用条件のプリセット、Mac のキーボード操作（<kbd>⌘</kbd><kbd>↩</kbd> で保存して次へ など）、Mac の文字サイズ設定、.adi ファイルを「HamLogJP で開く」だけで取り込み。</div>
 </section>
 
 <!-- 2 -->
 <section id="screen">
   <h2><span class="n">2</span>画面の構成</h2>
-  <p>本アプリは端末に合わせて2つのレイアウトで動作します。</p>
+  <p>本アプリは端末と画面の幅に合わせて2つのレイアウトで動作します。</p>
 
   <h3>Mac・iPad は3ペイン</h3>
-  <p>左に機能メニュー、中央に交信ログの一覧、右に入力欄が並びます。過去の交信を見ながら、そのまま次のログを入力できます。</p>
-  <figure><img src="images/mac_login.png" alt="Mac 3ペインのログ入力画面"><figcaption>Mac版：左メニュー／中央ログ一覧／右入力欄の3ペイン</figcaption></figure>
+  <p>左に機能メニュー、中央に交信ログの一覧（検索欄つき）、右に選んだ機能の画面が並びます。過去の交信を見ながら、そのまま次のログを入力できます。一覧の交信をクリックすると右側に詳細が開き、上部の「‹ 戻る」で元の画面に戻れます。</p>
+  <figure><img src="images/v120_mac_log.png" alt="Mac版の3ペイン。左メニュー、中央の交信ログ一覧、右のログ入力"><figcaption>Mac版：左メニュー／中央ログ一覧／右ログ入力の3ペイン</figcaption></figure>
+  <figure class="tablet"><img src="images/v120_ipad_log.png" alt="iPad版の3ペインのログ入力画面"><figcaption>iPad版も同じ3ペイン。Split View などで幅が狭いときは iPhone と同じ画面に自動で切り替わります</figcaption></figure>
+  <div class="tip">Mac でウインドウを閉じてしまったときは、メニューの「新規ウインドウ」（<kbd>⇧</kbd><kbd>⌘</kbd><kbd>N</kbd>）で開き直せます。</div>
 
   <h3>iPhone は片手で速記</h3>
-  <p>相手コール欄を大きく取り、バンドやモードはタップ（チップ）で選びます。左上のメニューから各機能に移動します。</p>
+  <p>画面下のタブで <strong>ログ入力</strong>／<strong>検索・一覧</strong>／<strong>QSL管理</strong>／<strong>メニュー</strong> を切り替えます。統計・POTA/SOTA・Es現況・データ入出力・設定などは「メニュー」から開きます。</p>
   <div class="shots">
-    <figure class="phone"><img src="images/iphone_login.png" alt="iPhoneのログ入力画面"><figcaption>ログ入力（速記）</figcaption></figure>
-    <figure class="phone"><img src="images/iphone_menu.png" alt="iPhoneのメニュー"><figcaption>メニュー</figcaption></figure>
-    <figure class="phone"><img src="images/iphone_list.png" alt="iPhoneの検索・一覧"><figcaption>検索・交信一覧</figcaption></figure>
+    <figure class="phone"><img src="images/v120_iphone_log.png" alt="iPhoneのログ入力画面"><figcaption>ログ入力（アマチュア無線）</figcaption></figure>
+    <figure class="phone"><img src="images/v120_iphone_qsl.png" alt="iPhoneのQSL管理画面"><figcaption>QSL管理（下のタブから）</figcaption></figure>
   </div>
 </section>
 
 <!-- 3 -->
 <section id="log">
   <h2><span class="n">3</span>交信を記録する</h2>
-  <p>「ログ入力」画面で1件ずつ記録します。基本の流れは <strong>①サービスを選ぶ → ②相手コール／バンド・モード → ③RSTと相手情報 → ④「保存して次へ」</strong> です。</p>
+  <p>「ログ入力」画面には、ふだんの交信に必要な項目だけが並びます。通常の交信は<strong>この画面だけで保存</strong>できます。基本の流れは <strong>①サービスを選ぶ → ②相手コール → ③バンド・モード → ④RST → ⑤保存</strong> です。</p>
 
   <h3>サービスの切り替え</h3>
-  <p>画面上部の「サービス」で <strong>アマチュア無線</strong> と <strong>フリラー</strong> を切り替えます。切り替えると、入力欄がそれぞれに最適化されます（アマチュアはバンド／モード、フリラーは無線種別／チャンネル）。</p>
+  <p>画面上部で <strong>アマチュア無線</strong> と <strong>フリラー</strong> を切り替えます（Mac・iPad は「サービス」欄）。切り替えると入力欄がそれぞれに合わせて変わり（アマチュアはバンド／モード、フリラーは無線種別／チャンネル）、<strong>それぞれ前回使った条件が自動で入ります</strong>。</p>
+
+  <h3>相手コールサイン</h3>
+  <p>一番上の大きな欄に相手のコールサインを入力します。iPhone では「音声で入力」も使えます。入力すると過去の交信回数や重複が表示されます（第5章）。</p>
 
   <h3>バンドとモード</h3>
-  <p>アマチュアではバンド（MHz）とモードをタップで選びます。モードには音声（SSB/CW/FM/AM）や FT8 等に加えて、<strong>デジタル音声モード（DV・D-STAR・C4FM・DMR）</strong>を標準で用意しています。</p>
-  <div class="tip">使うモードは「設定 → 表示するモード」で追加・削除できます（全48種から選択）。デジタル音声モード（DV/D-STAR/C4FM/DMR）はアップデート後、自動で入力チップに表示されます。</div>
-  <div class="shots">
-    <figure class="phone"><img src="images/iphone_modes.png" alt="モード選択にDV/D-STAR/C4FM/DMR"><figcaption>モードに DV / D-STAR / C4FM / DMR</figcaption></figure>
-  </div>
+  <p>iPhone ではバンド（MHz）とモードをタップ（チップ）で選びます。Mac・iPad ではメニューから選びます。モードには SSB/CW/FM/AM や FT8/FT4/RTTY などに加えて、<strong>デジタル音声モード（DV・D-STAR・C4FM・DMR）</strong>も用意しています。</p>
+  <div class="tip">入力画面に出すモードは「設定 › 表示するモード」で追加・削除できます（全48種から選択）。</div>
 
-  <h3>RST と相手情報</h3>
-  <p>RST（送信＝相手へ／受信＝自分が受けた）を入力します。相手のお名前・QTH（住所）を記録でき、QTH 欄は市区町村名・都道府県・かな・ローマ字・コードのいずれでも検索できます。</p>
+  <h3>RST・交信日時・運用形態</h3>
+  <p>RST（送＝相手へ／受＝自分が受けた）、交信日時（初期値は現在時刻）、運用形態（固定局・移動など）、使用リグを入力します。</p>
+
+  <h3>詳細（折りたたみ）</h3>
+  <p>ふだん使わない項目は「詳細」にまとめて折りたたんでいます。開くと入力でき、閉じていても入力した内容の要約が表示されます。</p>
+  <table>
+    <tr><th>項目</th><th>内容</th></tr>
+    <tr><td>相手局詳細</td><td>お名前など相手局の情報</td></tr>
+    <tr><td>QTH / JCC・JCG</td><td>相手の住所。市区町村名・都道府県・かな・ローマ字・コードで検索して選べます（第5章）</td></tr>
+    <tr><td>自局・運用情報</td><td>自局の運用地など</td></tr>
+    <tr><td>POTA / SOTA</td><td>相手局・自局の公園／山岳（第6章）</td></tr>
+    <tr><td>コンテスト</td><td>送信・受信ナンバー（第7章）</td></tr>
+    <tr><td>メモ・その他</td><td>自由記入のメモなど</td></tr>
+  </table>
 
   <h3>保存</h3>
-  <p>「保存して次へ」で1件を記録し、次の交信に備えて入力欄がリセットされます（自局の運用設定は保持されます）。</p>
+  <p>保存ボタンは<strong>画面下に常に表示</strong>されます（iPhone は「QSO を保存」、Mac・iPad は「保存して次へ」）。左側に入力中の要約（例：「JA1ABC 7 SSB 59/59」）が出るので、スクロールせずに確かめて保存できます。保存すると相手コールなどがクリアされ、バンド・モードなどの運用条件はそのまま次の交信に引き継がれます。</p>
+  <p>保存に失敗したときは、入力内容を残したまま理由を表示します。</p>
+
+  <h3>Mac・iPad のキーボード操作</h3>
+  <table>
+    <tr><th>キー</th><th>動作</th></tr>
+    <tr><td><kbd>⌘</kbd><kbd>↩</kbd></td><td>保存して次へ</td></tr>
+    <tr><td><kbd>⌘</kbd><kbd>N</kbd></td><td>新規QSO（入力欄をクリア）</td></tr>
+    <tr><td><kbd>⌘</kbd><kbd>F</kbd></td><td>交信ログを検索</td></tr>
+  </table>
 </section>
 
 <!-- 4 -->
 <section id="freera">
   <h2><span class="n">4</span>フリラー（無線種別）</h2>
-  <p>サービスを「フリラー」にすると、無線種別とチャンネルを選べます。</p>
+  <p>サービスを「フリラー」にすると、相手の呼出名称（例：とうきょうAB123）、無線種別、チャンネルを入力します。</p>
   <table>
     <tr><th>無線種別</th><th>内容</th><th>チャンネル</th></tr>
     <tr><td>DCR</td><td>デジタル簡易無線（351MHz）</td><td>1〜82ch から選択</td></tr>
@@ -176,21 +200,27 @@
     <tr><td>Zello</td><td>アプリ無線（スマホPTT・インターネット）</td><td>ルーム名を自由入力</td></tr>
     <tr><td>エアインカムライト</td><td>アプリ無線（IP・スマホPTT）</td><td>ルーム名を自由入力</td></tr>
   </table>
-  <p><strong>Zello / エアインカムライト</strong>は固定チャンネルを持たないため、チャンネル欄が「チャンネル / ルーム名」の<strong>自由入力</strong>に自動で切り替わります。使ったルーム名をそのまま記録できます。</p>
+  <p><strong>Zello / エアインカムライト</strong>は固定チャンネルを持たないため、チャンネル欄が「チャンネル / ルーム名」の<strong>自由入力</strong>に自動で切り替わります。レポートは M5 などの形式で記録できます。</p>
   <div class="shots">
-    <figure class="phone"><img src="images/iphone_zello.png" alt="フリラー無線種別 Zello とチャンネル自由入力"><figcaption>フリラー：Zello 選択時はチャンネルがルーム名の自由入力に</figcaption></figure>
+    <figure class="phone"><img src="images/v120_iphone_free.png" alt="フリラーのログ入力。無線種別とチャンネルのチップ"><figcaption>フリラー：無線種別とチャンネルをタップで選択</figcaption></figure>
   </div>
 </section>
 
 <!-- 5 -->
 <section id="assist">
-  <h2><span class="n">5</span>入力を先回り</h2>
+  <h2><span class="n">5</span>入力を先回り（プリセット・前回値）</h2>
   <ul>
+    <li><strong>前回値の自動入力</strong>：アマチュア無線とフリラーそれぞれについて、前回の運用条件（バンド・モード／無線種別・チャンネル、レポート、リグ）を自動で復元します。</li>
+    <li><strong>プリセット</strong>：「430 FM 自宅」「DCR 自宅」のような運用条件（バンド・モード・無線種別・チャンネル・レポート・リグ・運用形態）を保存し、ワンタップで呼び出せます。iPhone はログ入力画面右上のアイコン、Mac・iPad は「プリセット」メニューを開き、「今の条件をプリセットに保存」で作成します。相手局の情報は保存されません。</li>
     <li><strong>過去の交信を自動表示</strong>：相手コールを入れると、その局との過去の交信が表示され、初回か何回目かも分かります。</li>
     <li><strong>重複の警告</strong>：同じバンド・モードで既に交信済みの場合に知らせます（コンテストや移動運用で便利）。</li>
-    <li><strong>JCC/JCG 内蔵</strong>：全国の市郡区 1,700 件超を内蔵。漢字・かな・ローマ字・コードで検索できます。</li>
+    <li><strong>JCC/JCG 内蔵</strong>：全国の市郡区 1,700 件超を内蔵。「QTH / JCC・JCG」で漢字・かな・ローマ字・コードの一部を入れると候補が出ます（例：「100」で東京都の市区）。</li>
     <li><strong>エリア自動補完</strong>：JA1ABC/2 のようなコールから運用エリアを判定して補います。</li>
   </ul>
+  <div class="shots">
+    <figure class="phone"><img src="images/v120_iphone_jcc.png" alt="QTHにコードを入れるとJCC候補が表示される"><figcaption>QTH：コードや地名の一部で JCC/JCG 候補を表示</figcaption></figure>
+  </div>
+  <figure><img src="images/v120_mac_jcc.png" alt="Mac版でQTH / JCC・JCGの候補を表示"><figcaption>Mac版でも同じように候補から選べます</figcaption></figure>
 </section>
 
 <!-- 6 -->
@@ -198,10 +228,15 @@
   <h2><span class="n">6</span>POTA / SOTA</h2>
   <p>移動運用（POTA＝Parks on the Air、SOTA＝Summits on the Air）に対応しています。</p>
   <ul>
-    <li>相手局の運用公園（ハント／P2P）や自局の運用公園を記録できます。</li>
+    <li>ログ入力の「POTA / SOTA」で、相手局の運用公園（ハント／P2P）や自局の運用公園を記録できます。</li>
     <li><strong>POTA 公園コードを内蔵</strong>。番号や名前で検索して選べ、日本国内の公園は日本語名で表示されます。データは定期的に自動更新されます。</li>
-    <li>「POTA/SOTA スポット」画面で近隣の情報を確認できます。</li>
+    <li>「POTA/SOTA スポット」画面では、いま運用中の局を <strong>POTA は地図</strong>、<strong>SOTA は一覧</strong>で確認できます（「日本のみ」で絞り込み）。地図の色は電話・CW・デジタルの区別です。</li>
+    <li>スポットを開くと、コールサイン・公園・周波数・モードが表示され、「ハント（交信）としてログに保存」でそのまま記録できます。公園名は日本語名で入ります。</li>
   </ul>
+  <div class="shots">
+    <figure class="phone"><img src="images/v120_iphone_pota.jpg" alt="POTAスポットの地図"><figcaption>POTA/SOTA スポット（地図）</figcaption></figure>
+    <figure class="tablet"><img src="images/v120_ipad_pota_spot.jpg" alt="スポットの詳細からハントとして保存"><figcaption>スポットの詳細から「ハント（交信）としてログに保存」</figcaption></figure>
+  </div>
   <div class="tip">公園コードは、コード番号を入力するとその番号から候補を出して選べます（直接入力＋候補選択）。</div>
 </section>
 
@@ -222,32 +257,46 @@
   </table>
   <p>使い方：大会と参加部門（局種コード）、対象期間を選び、提出者情報（氏名・住所・E-mail など）を入力すると、テキスト（.txt）で書き出せます。大会ごとに部門コード・ナンバー様式・時刻（JST/UTC）へ自動で合わせます。</p>
   <ol>
-    <li>交信時に、相手からの受信ナンバー・自局の送信ナンバー（RSTを除く部分）を記録しておきます。</li>
-    <li>「データ」→「コンテスト提出ログ書き出し（JARL形式）」を開きます。</li>
+    <li>交信時に、ログ入力の「コンテスト」で相手からの受信ナンバー・自局の送信ナンバー（RSTを除く部分）を記録しておきます。</li>
+    <li>「メニュー › データ」（Mac・iPad は左メニューの「ADIF入出力・JCC/JCG更新」）→「コンテスト提出ログ書き出し（JARL形式）」を開きます。</li>
     <li>大会・部門・期間・提出者情報を入力し、「テキストで書き出し」または「共有」で保存します。</li>
     <li>JARL のログ提出ページからアップロード、またはメールで提出します。</li>
   </ol>
-  <div class="shots">
-    <figure class="phone"><img src="images/iphone_data.png" alt="データ画面（ADIF・CSV・コンテスト提出ログ書き出し）"><figcaption>「データ」画面から「コンテスト提出ログ書き出し（JARL形式）」へ</figcaption></figure>
-  </div>
   <div class="note">部門コードは各大会の規約に基づいています。年度改定で変わる場合があるため、提出前に最新規約もご確認ください。</div>
 </section>
 
 <!-- 8 -->
 <section id="data">
   <h2><span class="n">8</span>データ入出力（ADIF / CSV）<span class="pill">プレミアム</span></h2>
+  <p>iPhone は「メニュー › データ」、Mac・iPad は左メニューの「ADIF入出力・JCC/JCG更新」から開きます。</p>
   <ul>
-    <li><strong>ADIF 書き出し／読み込み</strong>：他ソフトとの交換や過去ログの移行に。</li>
+    <li><strong>ADIF 書き出し（ファイル保存）／ADIF 読み込み</strong>：他ソフトとの交換や過去ログの移行に。</li>
+    <li><strong>ADIF を共有用に準備</strong>：AirDrop やメールで、iPhone で書き出して Mac へ直接受け渡せます（その逆も可）。</li>
+    <li><strong>「HamLogJP で開く」だけで取り込み</strong>：ファイル・メール・AirDrop・CWデコーダー「DitLog」などで受け取った <code>.adi</code> ファイルを、共有メニューなどから HamLogJP で開くと取り込めます。</li>
     <li><strong>Turbo HAMLOG CSV 取り込み</strong>：HAMLOG の「CSV形式で出力」ファイルに対応。文字コードは UTF-8 / Shift_JIS の両対応。</li>
-    <li><strong>AirDrop 等で共有</strong>：iPhone で書き出して Mac へ直接受け渡し（その逆も可）。</li>
     <li>読み込み時は「コールサイン＋分単位の日時」が一致する交信を<strong>重複としてスキップ</strong>するので、同じファイルを二度読んでも増えません。</li>
+    <li>同じ画面に交信数の統計と、<strong>JCC/JCG リストの更新</strong>があります。</li>
   </ul>
+  <div class="shots">
+    <figure class="phone"><img src="images/v120_iphone_data.png" alt="iPhoneのデータ画面"><figcaption>データ画面（iPhone）</figcaption></figure>
+  </div>
+  <figure><img src="images/v120_mac_data.png" alt="Mac版のデータ入出力画面"><figcaption>データ入出力（Mac）</figcaption></figure>
 </section>
 
 <!-- 9 -->
 <section id="qsl">
   <h2><span class="n">9</span>QSL 管理</h2>
-  <p>交信ごとに QSL の扱い（ビューロー経由・ダイレクト・電子QSLのみ・不要）を設定でき、発送／受領の状況を管理できます。紙カードの発送対象を一覧で確認できます。</p>
+  <p>交信ごとに QSL の扱い（ビューロー経由・ダイレクト・電子QSLのみ・不要）を設定でき、紙QSLの発送／受領の状況をまとめて管理できます。iPhone は下のタブ、Mac・iPad は左メニューの「QSL管理」から開きます。</p>
+  <ul>
+    <li>上部に <strong>未発送／受領待ち／CFM（受領済み）</strong> の件数を表示します。</li>
+    <li><strong>未発送</strong>：QSLの扱いが「ビューロー経由」「ダイレクト」で、まだ発送していない交信です。右の「発送」で1件ずつ、「すべて発送済みにする」でまとめて発送済みにできます。</li>
+    <li><strong>発送済・受領待ち</strong>：相手からカードが届いたら「受領」を押します。</li>
+    <li>eQSL・LoTW の状況は、検索・一覧から各交信の詳細で記録できます。</li>
+  </ul>
+  <div class="shots">
+    <figure class="phone"><img src="images/v120_iphone_qsl.png" alt="iPhoneのQSL管理"><figcaption>QSL管理（iPhone）</figcaption></figure>
+  </div>
+  <figure><img src="images/v120_mac_qsl.png" alt="Mac版のQSL管理"><figcaption>QSL管理（Mac）</figcaption></figure>
 </section>
 
 <!-- 10 -->
@@ -264,9 +313,10 @@
 <section id="tools">
   <h2><span class="n">11</span>Es現況・宇宙天気・WiRES-X</h2>
   <ul>
-    <li><strong>6m Es リアルタイム</strong> <span class="pill">プレミアム</span>：PSK Reporter の実データから、いま日本と開けている方向を地図で表示します。</li>
-    <li><strong>宇宙天気・太陽フレア</strong>：コンディションの参考情報を確認できます。</li>
+    <li><strong>6m Es リアルタイム</strong> <span class="pill">プレミアム</span>：PSK Reporter の実際の受信レポートから、いま日本と開けている方向を地図で表示します。</li>
+    <li><strong>宇宙天気・太陽フレア</strong>：太陽フレア・地磁気・黒点数とグレーラインの世界地図で、コンディションの参考情報を確認できます。</li>
     <li><strong>近くの WiRES-X ノード</strong>：現在地周辺のノードを地図で表示します。</li>
+    <li><strong>Q符号・HAM略語辞書</strong>：Q符号・HAM略語・フリラー用語を調べられます。</li>
   </ul>
   <div class="shots">
     <figure class="phone"><img src="images/iphone_es.png" alt="6m Es現況（iPhone）"><figcaption>6m Es 現況</figcaption></figure>
@@ -277,12 +327,16 @@
 <!-- 12 -->
 <section id="settings">
   <h2><span class="n">12</span>設定</h2>
+  <p>iPhone は「メニュー › 設定」、Mac・iPad は左メニューの「表示・自局・リグの設定」から開きます。</p>
   <ul>
-    <li><strong>自局情報</strong>：コールサイン・運用地・JCC/JCG などを登録。入力時に自動で使われます。</li>
-    <li><strong>表示するモード</strong>：入力チップに出すモードを選択（DV/D-STAR/C4FM/DMR も選択可）。</li>
-    <li><strong>単位</strong>：距離を km / mile で切り替え。</li>
-    <li><strong>iCloud 保管</strong>：ご自身の端末間でログを同期。</li>
-    <li><strong>高コントラスト表示</strong>：見やすい配色に切り替え。</li>
+    <li><strong>自局・運用地</strong>：コールサイン・運用地・JCC/JCG などを登録。各QSOに自動で記録されます（移動運用のときだけ変更）。</li>
+    <li><strong>既定のバンド・モード</strong>と<strong>表示するモード</strong>：入力画面に出すモードを全48種から選択（DV/D-STAR/C4FM/DMR も選択可）。</li>
+    <li><strong>リグの登録・管理</strong>：アマチュア機・フリラー機を複数登録でき、ログ入力で使用リグを選べます。</li>
+    <li><strong>ログ入力のプリセット</strong>：保存したプリセットの確認・削除（第5章）。</li>
+    <li><strong>文字サイズ</strong>：標準／大きめ／特大。Mac では画面全体に反映されます。</li>
+    <li><strong>配色・見やすさ</strong>：色だけに頼らず記号や濃淡でも区別する「ユニバーサルカラー」、文字や枠線を濃くする「高コントラスト表示」。</li>
+    <li><strong>単位</strong>：距離・気温の単位を切り替え。</li>
+    <li><strong>iCloud に保管（同期）</strong>：ご自身の端末間でログを同期。変更はアプリの再起動後に反映されます。</li>
     <li><strong>サブスクリプション管理</strong>：プレミアムの購入・復元・管理。</li>
   </ul>
   <figure><img src="images/paywall.png" alt="プレミアム案内" style="width:100%;max-width:520px;height:auto;margin:0 auto"><figcaption>プレミアム案内</figcaption></figure>
@@ -305,7 +359,7 @@
       <a href="mailto:genre_pincers_3d@icloud.com">お問い合わせ</a>
     </div>
     <p style="margin-top:10px">© 2026 JL1LCQ. HamLogJP is an independent amateur-radio utility.</p>
-    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面は開発中のものを含みます。</p>
+    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面はバージョン 1.2.0（デモ用の交信データ）です。最終更新：2026年9月28日</p>
   </div>
 </footer>
 
