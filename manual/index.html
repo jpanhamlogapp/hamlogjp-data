@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HamLogJP 取扱説明書 - 使い方ガイド</title>
-<meta name="description" content="HamLogJP（無線交信ログ帳）の使い方ガイド。バージョン1.2.0の新しいログ入力画面（プリセット・前回値の自動入力・キーボード操作）、フリラー対応、POTA/SOTA、JARLコンテスト提出ログ、ADIF入出力、QSL管理、統計、設定までを画面付きで解説します。">
+<meta name="description" content="HamLogJP（無線交信ログ帳）の使い方ガイド。バージョン1.2.1のQSL管理（紙QSL・eQSL・LoTW・QRZ・Club Log、QSLカードのPDF作成・写真からの受領記録）、ログ入力（プリセット・前回値の自動入力・キーボード操作）、フリラー対応、POTA/SOTA、JARLコンテスト提出ログ、ADIF入出力、統計、設定までを画面付きで解説します。">
 <style>
   :root{
     --teal:#0E7490; --teal-d:#0a5568; --ink:#1E293B; --muted:#5B6B7B;
@@ -86,7 +86,7 @@
   <div class="wrap">
     <h1>HamLogJP 取扱説明書</h1>
     <p>アマチュア無線とフリラーの両方に対応した、日本語の交信ログアプリ「HamLogJP（無線交信ログ帳）」の使い方ガイドです。iPhone・iPad・Mac 共通の操作を、画面付きで順に説明します。</p>
-    <span class="ver">バージョン 1.2.0 対応 ・ iOS / iPadOS / macOS ・ 無料版＋プレミアム</span>
+    <span class="ver">バージョン 1.2.1 対応 ・ iOS / iPadOS / macOS ・ 無料版＋プレミアム</span>
   </div>
 </div>
 
@@ -122,6 +122,7 @@
     <li>交信ログは<strong>端末内に保存</strong>され、外部に送信されません。iCloud 同期をオンにすると、ご自身の iPhone・iPad・Mac 間でログを共有できます（Apple ID の iCloud を利用）。</li>
     <li>無料版で交信ログ 200 件まで、基本機能をお試しいただけます。ADIF 入出力や QSL 管理などはプレミアム版の機能です（第13章）。</li>
   </ul>
+  <div class="tip"><strong>1.2.1 の主な変更</strong>：QSL管理を刷新（紙QSL・hQSL・eQSL・LoTW・QRZ・Club Log の状態と履歴を交信ごとに管理、QSLカードのPDF作成・印刷、写真からの受領記録、QRZ.com・eQSL.cc への送信、LoTW 用ファイルと確認の取り込み。第9章）、交信ログの一覧を「すべて／アマチュア／フリラー」で切り替え（第2章）、ADIF 3.1.7 のQSL項目に対応（第8章）。</div>
   <div class="tip"><strong>1.2.0 の主な変更</strong>：よく使う項目だけをまとめた新しいログ入力画面、画面下に常に出る保存ボタン、アマチュア・フリラーそれぞれの前回条件の自動復元、運用条件のプリセット、Mac のキーボード操作（<kbd>⌘</kbd><kbd>↩</kbd> で保存して次へ など）、Mac の文字サイズ設定、.adi ファイルを「HamLogJP で開く」だけで取り込み。</div>
 </section>
 
@@ -134,6 +135,9 @@
   <p>左に機能メニュー、中央に交信ログの一覧（検索欄つき）、右に選んだ機能の画面が並びます。過去の交信を見ながら、そのまま次のログを入力できます。一覧の交信をクリックすると右側に詳細が開き、上部の「‹ 戻る」で元の画面に戻れます。</p>
   <figure><img src="images/v120_mac_log.png" alt="Mac版の3ペイン。左メニュー、中央の交信ログ一覧、右のログ入力"><figcaption>Mac版：左メニュー／中央ログ一覧／右ログ入力の3ペイン</figcaption></figure>
   <figure class="tablet"><img src="images/v120_ipad_log.png" alt="iPad版の3ペインのログ入力画面"><figcaption>iPad版も同じ3ペイン。Split View などで幅が狭いときは iPhone と同じ画面に自動で切り替わります</figcaption></figure>
+  <h3>交信ログの一覧を種別で切り替え</h3>
+  <p>交信ログの一覧（Mac・iPad は中央、iPhone は「検索・一覧」）の上にある <strong>すべて／アマチュア／フリラー</strong> で、表示する交信をワンタップで切り替えられます。検索と組み合わせて使えます（例：「アマチュア」＋「JL1」）。件数は「表示中の件数 / 全件数 QSO」で表示します。画面を開き直すと「すべて」に戻ります。表示を切り替えるだけで、交信データは変わりません。</p>
+  <figure><img src="images/v121_mac_filter.png" alt="Mac版の交信ログ一覧の上に、すべて・アマチュア・フリラーの切り替え"><figcaption>一覧の上の「すべて／アマチュア／フリラー」（Mac）</figcaption></figure>
   <div class="tip">Mac でウインドウを閉じてしまったときは、メニューの「新規ウインドウ」（<kbd>⇧</kbd><kbd>⌘</kbd><kbd>N</kbd>）で開き直せます。</div>
 
   <h3>iPhone は片手で速記</h3>
@@ -153,7 +157,7 @@
   <p>画面上部で <strong>アマチュア無線</strong> と <strong>フリラー</strong> を切り替えます（Mac・iPad は「サービス」欄）。切り替えると入力欄がそれぞれに合わせて変わり（アマチュアはバンド／モード、フリラーは無線種別／チャンネル）、<strong>それぞれ前回使った条件が自動で入ります</strong>。</p>
 
   <h3>相手コールサイン</h3>
-  <p>一番上の大きな欄に相手のコールサインを入力します。iPhone では「音声で入力」も使えます。入力すると過去の交信回数や重複が表示されます（第5章）。</p>
+  <p>一番上の大きな欄に相手のコールサインを入力します。iPhone では「音声で入力」も使えます（プレミアム版で、Apple Intelligence に対応した端末のみ。Mac と iPad の横長画面では使えません）。入力すると過去の交信回数や重複が表示されます（第5章）。</p>
 
   <h3>バンドとモード</h3>
   <p>iPhone ではバンド（MHz）とモードをタップ（チップ）で選びます。Mac・iPad ではメニューから選びます。モードには SSB/CW/FM/AM や FT8/FT4/RTTY などに加えて、<strong>デジタル音声モード（DV・D-STAR・C4FM・DMR）</strong>も用意しています。</p>
@@ -275,6 +279,7 @@
     <li><strong>「HamLogJP で開く」だけで取り込み</strong>：ファイル・メール・AirDrop・CWデコーダー「DitLog」などで受け取った <code>.adi</code> ファイルを、共有メニューなどから HamLogJP で開くと取り込めます。</li>
     <li><strong>Turbo HAMLOG CSV 取り込み</strong>：HAMLOG の「CSV形式で出力」ファイルに対応。文字コードは UTF-8 / Shift_JIS の両対応。</li>
     <li>読み込み時は「コールサイン＋分単位の日時」が一致する交信を<strong>重複としてスキップ</strong>するので、同じファイルを二度読んでも増えません。</li>
+    <li><strong>ADIF 3.1.7</strong> で書き出すと、QSL の状態と日付（紙・eQSL・LoTW・QRZ・Club Log）も一緒に出力します。ほかのソフトで付いた項目も、できる範囲で保持して書き出します。</li>
     <li>同じ画面に交信数の統計と、<strong>JCC/JCG リストの更新</strong>があります。</li>
   </ul>
   <div class="shots">
@@ -285,18 +290,58 @@
 
 <!-- 9 -->
 <section id="qsl">
-  <h2><span class="n">9</span>QSL 管理</h2>
-  <p>交信ごとに QSL の扱い（ビューロー経由・ダイレクト・電子QSLのみ・不要）を設定でき、紙QSLの発送／受領の状況をまとめて管理できます。iPhone は下のタブ、Mac・iPad は左メニューの「QSL管理」から開きます。</p>
+  <h2><span class="n">9</span>QSL 管理 <span class="pill">プレミアム</span></h2>
+  <p>紙QSL・hQSL・eQSL・LoTW・QRZ.com・Club Log の状態を、<strong>交信ごとにまとめて管理</strong>できます。iPhone は下のタブ、Mac・iPad は左メニューの「QSL管理」から開きます。外部サービスへの送信や取得は、すべて<strong>ボタンを押したときだけ</strong>行い、自動では送りません。</p>
+  <figure><img src="images/v121_mac_qsl.png" alt="Mac版のQSL管理。上部に件数、絞り込み、一括操作のボタン、下に交信の一覧"><figcaption>QSL管理（Mac）：上から件数のまとめ／絞り込み／一括操作／交信の一覧</figcaption></figure>
+
+  <h3>画面の見かた</h3>
   <ul>
-    <li>上部に <strong>未発送／受領待ち／CFM（受領済み）</strong> の件数を表示します。</li>
-    <li><strong>未発送</strong>：QSLの扱いが「ビューロー経由」「ダイレクト」で、まだ発送していない交信です。右の「発送」で1件ずつ、「すべて発送済みにする」でまとめて発送済みにできます。</li>
-    <li><strong>発送済・受領待ち</strong>：相手からカードが届いたら「受領」を押します。</li>
-    <li>eQSL・LoTW の状況は、検索・一覧から各交信の詳細で記録できます。</li>
+    <li><strong>件数のまとめ</strong>：要対応・紙の発送済・紙の受領（CFM）・LoTW CFM・eQSL CFM の件数を表示します。</li>
+    <li><strong>絞り込み</strong>：「要対応／紙QSL／電子／CFM／すべて」で切り替えます。コールサインでも絞り込めます。</li>
+    <li><strong>要対応</strong>：QSLの扱いが「ビューロー経由」「ダイレクト」で、まだ発送していない交信などです。「未定」「電子QSLのみ」「QSL不要」の交信は紙の発送対象にしません。</li>
+    <li>一覧の各交信には、紙・LoTW・eQSL・QRZ・Club Log の状態が並びます。行を開くと詳細（下記）に進みます。</li>
   </ul>
   <div class="shots">
-    <figure class="phone"><img src="images/v120_iphone_qsl.png" alt="iPhoneのQSL管理"><figcaption>QSL管理（iPhone）</figcaption></figure>
+    <figure class="phone"><img src="images/v121_iphone_qsl.png" alt="iPhoneのQSL管理"><figcaption>QSL管理（iPhone）</figcaption></figure>
   </div>
-  <figure><img src="images/v120_mac_qsl.png" alt="Mac版のQSL管理"><figcaption>QSL管理（Mac）</figcaption></figure>
+  <figure class="tablet"><img src="images/v121_ipad_qsl.jpg" alt="iPadのQSL管理"><figcaption>QSL管理（iPad）。一括操作のボタンは画面の幅に合わせて折り返します</figcaption></figure>
+
+  <h3>一括操作</h3>
+  <p>絞り込んだ交信に対して、まとめて操作できます（括弧内は対象の件数）。「設定 › QSL」で、一括操作の前に確認を出すかどうかを選べます。</p>
+  <ul>
+    <li><strong>状態</strong>：状態でさらに絞り込みます。</li>
+    <li><strong>発送済みに</strong>：紙QSLをまとめて発送済みにし、発送日を記録します。</li>
+    <li><strong>カードを読み取る</strong>：届いたQSLカードの写真から受領を記録します（下記）。</li>
+    <li><strong>まとめてPDF</strong>：選んだ交信のQSLカードを1つのPDFにします。PDFの作成や印刷では、発送済みにはなりません。</li>
+    <li><strong>QRZへ／eQSLへ</strong>：QRZ.com ログブックへのアップロード、eQSL.cc への送信。</li>
+    <li><strong>LoTW用ADIF／LoTW確認を取得</strong>：LoTW への提出用ファイルの書き出しと、確認（QSL）の取り込み。</li>
+    <li><strong>Club Log用ADIF</strong>：Club Log にアップロードするファイルの書き出し。</li>
+  </ul>
+
+  <h3>交信ごとの詳細と履歴</h3>
+  <p>一覧から交信を開くと、QSLの扱い（ビューロー経由・ダイレクト・電子QSLのみ・QSL不要・未定）、QSLマネージャー（QSL via）、QSLメッセージと、紙QSLの<strong>発送／受領の状態と日付</strong>、各オンラインサービスの状態を編集できます。</p>
+  <ul>
+    <li>状態を変えても日付は自動では入りません。「今日の日付を記録」で入れます。</li>
+    <li>変更はすべて<strong>履歴</strong>に残り、いつ・何を変えたかをあとから確認できます。</li>
+  </ul>
+
+  <h3>QSLカードの作成・印刷</h3>
+  <p>148×100mm（はがきサイズ）のQSLカードをPDFで作成し、共有できます。Mac からはそのまま印刷できます。詳細画面の「QSLカードをプレビュー」から確認できます。</p>
+
+  <h3>届いたQSLカードを写真から記録</h3>
+  <p>「カードを読み取る」で、写真ライブラリまたはファイルからカードの画像を選ぶと、コールサイン・日付・時刻・バンド・モードを読み取り、<strong>合っていそうな交信の候補</strong>を表示します。候補を選んで受領日を確かめ、「記録」を押すと紙QSLの受領（CFM）になります。</p>
+  <div class="tip">文字の読み取りは端末内だけで行い、画像や読み取った文字は保存・送信しません。写真ライブラリ全体へのアクセス許可も求めません。</div>
+
+  <h3>電子QSL・オンラインログとの連携</h3>
+  <p>各サービスのアカウントは、ご自身で登録してください。パスワードや APIキーは<strong>この端末のキーチェーンにだけ</strong>保存し、iCloud には同期しません（端末ごとに登録します）。登録は「設定」の QSL の項目から行います。</p>
+  <ul>
+    <li><strong>QRZ.com</strong>：「QRZ.com ログブック連携」に、QRZ.com のログブックの APIキーを登録すると、「QRZへ」でアップロードできます（日本語の項目は送りません）。</li>
+    <li><strong>eQSL.cc</strong>：「eQSL.cc 連携」にユーザー名（コールサイン）とパスワードを登録すると、「eQSLへ」で送信できます。</li>
+    <li><strong>LoTW（送る）</strong>：LoTW へは ARRL の署名ソフト <strong>TQSL</strong> で署名して送る決まりです。「LoTW用ADIF」でファイルを書き出し、TQSL で署名・アップロードします。Mac では TQSL を起動してファイルを表示します（TQSL の証明書と Station Location は事前に TQSL で設定してください）。iPhone・iPad で書き出したファイルは、AirDrop などで TQSL の入った Mac へ送ってください。</li>
+    <li><strong>LoTW（確認を取り込む）</strong>：「LoTW 確認の取得」に LoTW の<strong>Webサイト</strong>のユーザー名（通常はコールサイン）とパスワードを登録すると、「LoTW確認を取得」で確認済みの交信を取り込みます。コールサイン・バンド・時刻（前後30分）で照合し、変わるのは LoTW の「受信・確認」だけです。通常は前回以降の確認だけを取得します。</li>
+    <li><strong>Club Log</strong>：「Club Log用ADIF」で書き出したファイルを clublog.org でアップロードし、詳細画面で状態を記録します。</li>
+  </ul>
+  <div class="tip">LoTW はアマチュア無線の交信だけが対象です（フリラーの交信は含めません）。国内の交信も登録できますが、相手局も LoTW に送っていないと確認にはなりません。</div>
 </section>
 
 <!-- 10 -->
@@ -335,6 +380,7 @@
     <li><strong>ログ入力のプリセット</strong>：保存したプリセットの確認・削除（第5章）。</li>
     <li><strong>文字サイズ</strong>：標準／大きめ／特大。Mac では画面全体に反映されます。</li>
     <li><strong>配色・見やすさ</strong>：色だけに頼らず記号や濃淡でも区別する「ユニバーサルカラー」、文字や枠線を濃くする「高コントラスト表示」。</li>
+    <li><strong>QSL</strong>：一覧に QSL 状態のバッジを出すか、一括操作の前に確認するか。QRZ.com・eQSL.cc・LoTW のアカウント登録（第9章）。</li>
     <li><strong>単位</strong>：距離・気温の単位を切り替え。</li>
     <li><strong>iCloud に保管（同期）</strong>：ご自身の端末間でログを同期。変更はアプリの再起動後に反映されます。</li>
     <li><strong>サブスクリプション管理</strong>：プレミアムの購入・復元・管理。</li>
@@ -359,7 +405,7 @@
       <a href="mailto:genre_pincers_3d@icloud.com">お問い合わせ</a>
     </div>
     <p style="margin-top:10px">© 2026 JL1LCQ. HamLogJP is an independent amateur-radio utility.</p>
-    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面はバージョン 1.2.0（デモ用の交信データ）です。最終更新：2026年9月28日</p>
+    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面はバージョン 1.2.0〜1.2.1（デモ用の交信データ）です。最終更新：2026年10月1日</p>
   </div>
 </footer>
 
