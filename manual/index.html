@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HamLogJP 取扱説明書 - 使い方ガイド</title>
-<meta name="description" content="HamLogJP（無線交信ログ帳）の使い方ガイド。バージョン1.2.1のQSL管理（紙QSL・eQSL・LoTW・QRZ・Club Log、QSLカードのPDF作成・写真からの受領記録）、ログ入力（プリセット・前回値の自動入力・キーボード操作）、フリラー対応、POTA/SOTA、JARLコンテスト提出ログ、ADIF入出力、統計、設定までを画面付きで解説します。">
+<meta name="description" content="HamLogJP（無線交信ログ帳）の使い方ガイド。バージョン1.2.1のQSL管理（紙QSL・eQSL・LoTW・QRZ・Club Log、QSLカードのPDF作成・写真からの受領記録）、ログ入力（プリセット・前回値の自動入力・キーボード操作）、フリラー対応、POTA/SOTA、JARL電子ログ R1.0/R2.1・Cabrillo のコンテスト提出ログ（大会ごとに自動設定）、ADIF入出力、統計、設定までを画面付きで解説します。">
 <style>
   :root{
     --teal:#0E7490; --teal-d:#0a5568; --ink:#1E293B; --muted:#5B6B7B;
@@ -86,7 +86,7 @@
   <div class="wrap">
     <h1>HamLogJP 取扱説明書</h1>
     <p>アマチュア無線とフリラーの両方に対応した、日本語の交信ログアプリ「HamLogJP（無線交信ログ帳）」の使い方ガイドです。iPhone・iPad・Mac 共通の操作を、画面付きで順に説明します。</p>
-    <span class="ver">バージョン 1.2.1 対応 ・ iOS / iPadOS / macOS ・ 無料版＋プレミアム</span>
+    <span class="ver">バージョン 1.2.2 対応 ・ iOS / iPadOS / macOS ・ 無料版＋プレミアム</span>
   </div>
 </div>
 
@@ -122,6 +122,7 @@
     <li>交信ログは<strong>端末内に保存</strong>され、外部に送信されません。iCloud 同期をオンにすると、ご自身の iPhone・iPad・Mac 間でログを共有できます（Apple ID の iCloud を利用）。</li>
     <li>無料版で交信ログ 200 件まで、基本機能をお試しいただけます。ADIF 入出力や QSL 管理などはプレミアム版の機能です（第13章）。</li>
   </ul>
+  <div class="tip"><strong>1.2.2 の主な変更</strong>：コンテスト機能を強化。大会を選ぶと期間・バンド・モード・交換ナンバー・重複判定・ログ形式・提出方法を自動で切り替え、JARL電子ログ R1.0／R2.1 と Cabrillo 3.0 に対応、JLRS・430SSB祭り・CQ WW RTTY・オール岡山・福岡・ギガヘルツ・長野県QSOパーティー・オール秋田に対応（第7章）。</div>
   <div class="tip"><strong>1.2.1 の主な変更</strong>：QSL管理を刷新（紙QSL・hQSL・eQSL・LoTW・QRZ・Club Log の状態と履歴を交信ごとに管理、QSLカードのPDF作成・印刷、写真からの受領記録、QRZ.com・eQSL.cc への送信、LoTW 用ファイルと確認の取り込み。第9章）、交信ログの一覧を「すべて／アマチュア／フリラー」で切り替え（第2章）、ADIF 3.1.7 のQSL項目に対応（第8章）。</div>
   <div class="tip"><strong>1.2.0 の主な変更</strong>：よく使う項目だけをまとめた新しいログ入力画面、画面下に常に出る保存ボタン、アマチュア・フリラーそれぞれの前回条件の自動復元、運用条件のプリセット、Mac のキーボード操作（<kbd>⌘</kbd><kbd>↩</kbd> で保存して次へ など）、Mac の文字サイズ設定、.adi ファイルを「HamLogJP で開く」だけで取り込み。</div>
 </section>
@@ -246,27 +247,43 @@
 
 <!-- 7 -->
 <section id="contest">
-  <h2><span class="n">7</span>コンテスト提出ログ（JARL電子ログ）</h2>
-  <p>「データ」画面の「コンテスト提出ログ書き出し（JARL形式）」から、JARL 電子ログ形式（VERSION=R2.1）のサマリーシート＋ログシートを作成できます。主要8大会に対応しています。</p>
+  <h2><span class="n">7</span>コンテスト提出ログ</h2>
+  <p>大会を選ぶと、その大会の規約に合わせて<strong>対象期間・バンド・モード・交換ナンバーの説明・重複の判定・部門・ログ形式・提出方法</strong>が自動で切り替わります。「メニュー › データ」（Mac・iPad は左メニューの「ADIF入出力・JCC/JCG更新」）→「コンテスト提出ログ書き出し」から開きます。</p>
+  <figure class="tablet"><img src="images/v122_mac_contest.png" alt="Mac版のコンテスト提出ログ画面。大会・部門の選択、規約の要点、チェック"><figcaption>コンテスト提出ログ（Mac・CQ WW RTTY を選んだところ。一部省略）</figcaption></figure>
+
+  <h3>対応している大会</h3>
   <table>
-    <tr><th>大会</th><th>ナンバー</th><th>時刻</th></tr>
-    <tr><td>ALL JA コンテスト</td><td>RST＋都府県・地域ナンバー＋電力記号</td><td>JST</td></tr>
-    <tr><td>6m AND DOWN</td><td>RST＋地域(or市郡区)＋電力記号</td><td>JST</td></tr>
-    <tr><td>フィールドデー</td><td>RST＋地域(or市郡区)＋電力記号</td><td>JST</td></tr>
-    <tr><td>全市全郡（ACAG）</td><td>RST＋市郡区ナンバー＋電力記号</td><td>JST</td></tr>
-    <tr><td>ALL ASIAN DX</td><td>RST＋年齢（または01）</td><td>UTC</td></tr>
-    <tr><td>QSOパーティ</td><td>RST＋オペレータ名</td><td>JST</td></tr>
-    <tr><td>JARL World Wide RTTY</td><td>RST＋年齢（または01）</td><td>UTC</td></tr>
-    <tr><td>ウェルカムパーティ</td><td>RST＋初開局年下2桁＋局種</td><td>JST</td></tr>
+    <tr><th>大会</th><th>ログ形式</th><th>提出方法</th></tr>
+    <tr><td>ALL JA／6m AND DOWN／フィールドデー／全市全郡／ALL ASIAN DX／QSOパーティ／JARL World Wide RTTY／ウエルカムパーティ</td><td>JARL電子ログ R2.1</td><td>各大会の規約による（期間は自分で選択）</td></tr>
+    <tr><td>JLRS パーティーコンテスト</td><td>JARL電子ログ R1.0</td><td>メール本文に貼り付け</td></tr>
+    <tr><td>430SSB.NET 430SSB祭り</td><td>JARL電子ログ R2.1</td><td>Webアップロード</td></tr>
+    <tr><td>オール岡山コンテスト</td><td>JARL電子ログ R2.1</td><td>Webアップロード</td></tr>
+    <tr><td>福岡コンテスト</td><td>JARL電子ログ R1.0</td><td>メール本文に貼り付け</td></tr>
+    <tr><td>ギガヘルツコンテスト</td><td>JARL電子ログ R1.0</td><td>メールまたは郵送</td></tr>
+    <tr><td>長野県QSOパーティー（後期）</td><td>印刷・郵送用の一覧</td><td>郵送</td></tr>
+    <tr><td>オール秋田コンテスト</td><td>JARL電子ログ R2.1</td><td>メールまたは郵送</td></tr>
+    <tr><td>CQ World Wide RTTY DX Contest</td><td>Cabrillo 3.0</td><td>Webアップロード</td></tr>
   </table>
-  <p>使い方：大会と参加部門（局種コード）、対象期間を選び、提出者情報（氏名・住所・E-mail など）を入力すると、テキスト（.txt）で書き出せます。大会ごとに部門コード・ナンバー様式・時刻（JST/UTC）へ自動で合わせます。</p>
+  <div class="note">年によって日時・部門・提出先が変わる大会があります。画面の「公式規約を確認」から、提出前に必ず最新の規約を確認してください。</div>
+
+  <h3>交信中の入力</h3>
+  <p>ログ入力の「コンテスト」欄で大会を選ぶと、交換ナンバーの説明と、受信ナンバーに付ける記号のボタン（JLRS の M・Y、430SSB祭りの P など）が表示されます。送信・受信ナンバーには <strong>RST を除いた部分</strong>を入力します（RST は上の欄）。</p>
+
+  <h3>提出ログの作り方</h3>
   <ol>
-    <li>交信時に、ログ入力の「コンテスト」で相手からの受信ナンバー・自局の送信ナンバー（RSTを除く部分）を記録しておきます。</li>
-    <li>「メニュー › データ」（Mac・iPad は左メニューの「ADIF入出力・JCC/JCG更新」）→「コンテスト提出ログ書き出し（JARL形式）」を開きます。</li>
-    <li>大会・部門・期間・提出者情報を入力し、「テキストで書き出し」または「共有」で保存します。</li>
-    <li>JARL のログ提出ページからアップロード、またはメールで提出します。</li>
+    <li>「コンテスト提出ログ」で大会と参加部門を選びます。期間は規約の運用時間が自動で使われます（既存の8大会は開始日・終了日を選びます。430SSB祭りの 9D 部門は連続9日間の開始日を選びます）。</li>
+    <li>「規約の要点」でログ形式・提出方法・交換ナンバー・注意事項を確認します。</li>
+    <li>「チェック」で、<strong>確認が必要な交信</strong>（重複の可能性・受信ナンバーの空欄など）と、<strong>対象外の交信</strong>（時間外・休止時間・対象外のバンドやモード・フリラー）を理由つきで確認できます。重複や規約外の候補は削除されず、確認のための表示です。</li>
+    <li>「得点」には、規約どおりに確実に計算できる大会だけ自動計算の値が出ます（「総得点の欄に反映」で入力欄に入ります）。相手が県内か県外か、大陸・国の判定などが必要な大会は自動計算しないので、総得点を手入力してください。</li>
+    <li>提出者情報（氏名・住所・E-mail など）を入力し、提出方法に合わせたボタンを使います。
+      <ul>
+        <li><strong>メール本文に貼り付け</strong>：「ログ本文をコピー」してメールに貼り付けます（JLRS・福岡など、添付ファイル不可の大会）。</li>
+        <li><strong>Webアップロード</strong>：「提出用ファイルを書き出す」で保存し、「提出ページを開く」からアップロードします。</li>
+        <li><strong>郵送</strong>：「提出用ログを保存（印刷用）」や「印刷・共有」で印刷し、主催者の様式に従って郵送します（電子提出ではありません）。</li>
+      </ul>
+    </li>
   </ol>
-  <div class="note">部門コードは各大会の規約に基づいています。年度改定で変わる場合があるため、提出前に最新規約もご確認ください。</div>
+  <div class="tip">HamLogJP がログを自動で送信することはありません。提出はご自身の操作で行います。</div>
 </section>
 
 <!-- 8 -->
@@ -405,7 +422,7 @@
       <a href="mailto:genre_pincers_3d@icloud.com">お問い合わせ</a>
     </div>
     <p style="margin-top:10px">© 2026 JL1LCQ. HamLogJP is an independent amateur-radio utility.</p>
-    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面はバージョン 1.2.0〜1.2.1（デモ用の交信データ）です。最終更新：2026年10月1日</p>
+    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面はバージョン 1.2.0〜1.2.2（デモ用の交信データ）です。最終更新：2026年10月1日</p>
   </div>
 </footer>
 
