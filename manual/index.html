@@ -86,7 +86,7 @@
   <div class="wrap">
     <h1>HamLogJP 取扱説明書</h1>
     <p>アマチュア無線とフリラーの両方に対応した、日本語の交信ログアプリ「HamLogJP（無線交信ログ帳）」の使い方ガイドです。iPhone・iPad・Mac 共通の操作を、画面付きで順に説明します。</p>
-    <span class="ver">バージョン 1.2.2 対応 ・ iOS / iPadOS / macOS ・ 無料版＋プレミアム</span>
+    <span class="ver">バージョン 1.2.3 対応 ・ iOS / iPadOS / macOS ・ 無料版＋プレミアム</span>
   </div>
 </div>
 
@@ -104,6 +104,7 @@
       <li><a href="#data">データ入出力（ADIF/CSV）</a></li>
       <li><a href="#qsl">QSL 管理</a></li>
       <li><a href="#stats">統計・グラフ</a></li>
+      <li><a href="#hf">HF運用・DX Cluster</a></li>
       <li><a href="#tools">Es現況・宇宙天気・WiRES-X</a></li>
       <li><a href="#settings">設定</a></li>
       <li><a href="#price">料金・お問い合わせ</a></li>
@@ -120,8 +121,9 @@
   <ul>
     <li><strong>アカウント登録は不要</strong>です。すぐに使い始められます。</li>
     <li>交信ログは<strong>端末内に保存</strong>され、外部に送信されません。iCloud 同期をオンにすると、ご自身の iPhone・iPad・Mac 間でログを共有できます（Apple ID の iCloud を利用）。</li>
-    <li>無料版で交信ログ 200 件まで、基本機能をお試しいただけます。ADIF 入出力や QSL 管理などはプレミアム版の機能です（第13章）。</li>
+    <li>無料版で交信ログ 200 件まで、基本機能をお試しいただけます。ADIF 入出力や QSL 管理などはプレミアム版の機能です（第14章）。</li>
   </ul>
+  <div class="tip"><strong>1.2.3 の主な変更</strong>：HF〜50MHz の運用に役立つ情報と自分の運用実績をまとめた「HF運用」画面を追加。DX Cluster のスポット一覧（交信状況の表示と絞り込み、スポットからログ入力へ）、自分のログのバンド実績（バンド別・時間帯別）に対応（第11章）。ログ入力に SOTA の自局・相手局の山岳と山岳検索を追加（第6章）。12m バンドの ADIF 出力を改善（第8章）。</div>
   <div class="tip"><strong>1.2.2 の主な変更</strong>：コンテスト機能を強化。大会を選ぶと期間・バンド・モード・交換ナンバー・重複判定・ログ形式・提出方法を自動で切り替え、JARL電子ログ R1.0／R2.1 と Cabrillo 3.0 に対応、JLRS・430SSB祭り・CQ WW RTTY・オール岡山・福岡・ギガヘルツ・長野県QSOパーティー・オール秋田に対応（第7章）。</div>
   <div class="tip"><strong>1.2.1 の主な変更</strong>：QSL管理を刷新（紙QSL・hQSL・eQSL・LoTW・QRZ・Club Log の状態と履歴を交信ごとに管理、QSLカードのPDF作成・印刷、写真からの受領記録、QRZ.com・eQSL.cc への送信、LoTW 用ファイルと確認の取り込み。第9章）、交信ログの一覧を「すべて／アマチュア／フリラー」で切り替え（第2章）、ADIF 3.1.7 のQSL項目に対応（第8章）。</div>
   <div class="tip"><strong>1.2.0 の主な変更</strong>：よく使う項目だけをまとめた新しいログ入力画面、画面下に常に出る保存ボタン、アマチュア・フリラーそれぞれの前回条件の自動復元、運用条件のプリセット、Mac のキーボード操作（<kbd>⌘</kbd><kbd>↩</kbd> で保存して次へ など）、Mac の文字サイズ設定、.adi ファイルを「HamLogJP で開く」だけで取り込み。</div>
@@ -234,15 +236,21 @@
   <p>移動運用（POTA＝Parks on the Air、SOTA＝Summits on the Air）に対応しています。</p>
   <ul>
     <li>ログ入力の「POTA / SOTA」で、相手局の運用公園（ハント／P2P）や自局の運用公園を記録できます。</li>
+    <li><strong>SOTA の山岳</strong>は「自局のSOTA山岳」「相手局のSOTA山岳」に Reference（例 JA/TK-008・W6/CT-001）を入力します。山頂から運用するとき（アクティベーター）は自局の欄だけ、山頂の局と交信したとき（チェイス）は相手局の欄だけ、山頂どうし（S2S）は両方に入れます。自局の山岳は次の交信にも残り、相手局の山岳は保存のたびに消えます。</li>
+    <li>Reference が分からなくても、「山岳を検索」で山名や Reference（JA/TK-008・TK-008・Honitayama）から探して選べます。選ぶと Reference・山名・標高・ポイントが表示され、「変更」「クリア」で直せます。Reference が分かる場合は欄に直接入力できます。</li>
+    <li>初めて「山岳を検索」を使うときは、SOTA 公式の山岳一覧（約18万件・約24MB）を取得します。取得後は端末内に保存され、オフラインでも検索できます。更新は検索画面右上のメニューから行えます。一覧の山名は公式データの表記で、日本の山はローマ字（例 Honitayama）です。</li>
+    <li>ADIF では、自局の山岳を <code>MY_SOTA_REF</code>、相手局の山岳を <code>SOTA_REF</code> として書き出し・読み込みします。交信の詳細画面でも確認・修正できます。</li>
     <li><strong>POTA 公園コードを内蔵</strong>。番号や名前で検索して選べ、日本国内の公園は日本語名で表示されます。データは定期的に自動更新されます。</li>
     <li>「POTA/SOTA スポット」画面では、いま運用中の局を <strong>POTA は地図</strong>、<strong>SOTA は一覧</strong>で確認できます（「日本のみ」で絞り込み）。地図の色は電話・CW・デジタルの区別です。</li>
     <li>スポットを開くと、コールサイン・公園・周波数・モードが表示され、「ハント（交信）としてログに保存」でそのまま記録できます。公園名は日本語名で入ります。</li>
+    <li>スポットの「QSO入力へ」では、コールサイン・バンド・モード（スポットに書かれている場合）と、相手局の公園または山岳をログ入力に入れます。自局の山岳は変わりません。保存はログ入力画面で行います。</li>
   </ul>
   <div class="shots">
     <figure class="phone"><img src="images/v120_iphone_pota.jpg" alt="POTAスポットの地図"><figcaption>POTA/SOTA スポット（地図）</figcaption></figure>
     <figure class="tablet"><img src="images/v120_ipad_pota_spot.jpg" alt="スポットの詳細からハントとして保存"><figcaption>スポットの詳細から「ハント（交信）としてログに保存」</figcaption></figure>
   </div>
   <div class="tip">公園コードは、コード番号を入力するとその番号から候補を出して選べます（直接入力＋候補選択）。</div>
+  <div class="tip">SOTA の山岳一覧のデータ元は SOTA（sotadata.org.uk）です。一覧に載っていることは、その山に立ち入れること・運用が許可されていること・安全であることを示すものではありません。山岳一覧の取得では、交信ログや自局のコールサインは送信しません。</div>
 </section>
 
 <!-- 7 -->
@@ -298,7 +306,9 @@
     <li>読み込み時は「コールサイン＋分単位の日時」が一致する交信を<strong>重複としてスキップ</strong>するので、同じファイルを二度読んでも増えません。</li>
     <li><strong>ADIF 3.1.7</strong> で書き出すと、QSL の状態と日付（紙・eQSL・LoTW・QRZ・Club Log）も一緒に出力します。ほかのソフトで付いた項目も、できる範囲で保持して書き出します。</li>
     <li>同じ画面に交信数の統計と、<strong>JCC/JCG リストの更新</strong>があります。</li>
+    <li><strong>12m バンド（1.2.3 で改善）</strong>：ログ入力でバンド「24」として記録した交信は、ADIF では <code>BAND=12m</code> として出力します。実際の周波数が記録されていない場合、帯の代表値を実周波数として FREQ には出力しません（17m・23cm も同様）。LoTW・eQSL・QRZ 用の出力も同じです。</li>
   </ul>
+  <div class="note">1.2.2 以前のバージョンで LoTW 用 ADIF に書き出した 12m の交信は、BAND が入っていませんでした。対象の交信を QSL 管理などで確認のうえ、必要に応じて LoTW 用 ADIF を書き出し直してください（HamLogJP が自動で再送することはありません）。</div>
   <div class="shots">
     <figure class="phone"><img src="images/v120_iphone_data.png" alt="iPhoneのデータ画面"><figcaption>データ画面（iPhone）</figcaption></figure>
   </div>
@@ -372,8 +382,79 @@
 </section>
 
 <!-- 11 -->
+<section id="hf">
+  <h2><span class="n">11</span>HF運用・DX Cluster</h2>
+  <p>HF〜50MHz の運用に役立つ情報と、自分の運用実績を1つの画面にまとめました。iPhone は「メニュー › HF運用」、Mac・iPad は左メニューの「HF運用」から開きます。HF運用の画面とバンド実績は無料版でも使えます。DX Cluster・宇宙天気・グレイライン・6m Es・POTA/SOTA はプレミアム版の機能です。</p>
+  <figure><img src="images/v123_mac_hf.jpg" alt="Mac版のHF運用画面。宇宙天気、DX Cluster のスポット件数、50MHz、POTA/SOTA、自分の運用実績"><figcaption>HF運用（Mac）</figcaption></figure>
+
+  <h3>画面の見かた</h3>
+  <ul>
+    <li><strong>宇宙天気から見た目安</strong> <span class="pill">プレミアム</span>：SFI・Kp・黒点数・X線と、バンドごとの昼・夜の目安（NOAA のデータ）。「宇宙天気の詳細」「グレイライン（昼夜の境界）」に進めます。</li>
+    <li><strong>DX Cluster</strong> <span class="pill">プレミアム</span>：直近15分のスポット件数をバンドごとに表示します。続けて取得したデータがそろうと、直前15分と比べた増減を <strong>↑↑ / ↑</strong>（Spot増加）・<strong>→</strong>（変化小）・<strong>↓</strong>（Spot減少）で示します。最終更新から時間がたつと「データが古い可能性」と表示します。</li>
+    <li><strong>50MHz</strong> <span class="pill">プレミアム</span>：PSK Reporter に届いた 6m の受信レポートの件数と、日本が絡むパスの数。「Es(6m)リアルタイム」に進めます。</li>
+    <li><strong>POTA/SOTA</strong> <span class="pill">プレミアム</span>：スポットの画面（第6章）に進めます。</li>
+    <li><strong>自分の運用実績</strong>：この端末の HamLogJP のログから、過去90日の HF・50MHz（160m〜6m）のバンド別交信数を表示します。「バンド実績を表示」で詳しく見られます（下記）。</li>
+  </ul>
+  <div class="note">宇宙天気・スポット件数・PSK Reporter の受信レポートは、それぞれ別の情報源です。スポットの増減は DX Cluster に寄せられた報告の数の変化で、伝搬の予報ではありません。どれも「このバンドで必ず交信できる」ことを示すものではありません。</div>
+
+  <h3>DX Cluster のスポットを見る</h3>
+  <ol>
+    <li>「HF運用」を開きます。</li>
+    <li>「DX Clusterを開く」を選びます。</li>
+    <li>上の「状態・バンド・モード・時間・大陸」で絞り込みます（すべての条件を組み合わせて絞り込みます）。</li>
+    <li>スポットを選ぶと詳細が開きます。</li>
+    <li>詳細で、スポットの内容と自分のログ上の交信状況を確かめます。</li>
+    <li>交信するときは「QSO入力へ」を押すと、ログ入力の画面に切り替わります。</li>
+  </ol>
+  <figure><img src="images/v123_mac_dxcluster.jpg" style="width:100%;max-width:720px;height:auto;margin:0 auto" alt="DX Cluster のスポット一覧。周波数、コールサイン、経過時間、バンド、モード、国、交信状況"><figcaption>DX Cluster のスポット一覧（Mac）</figcaption></figure>
+  <figure><img src="images/v123_mac_dxdetail.jpg" style="width:100%;max-width:720px;height:auto;margin:0 auto" alt="スポットの詳細。スポットの内容、データ元の情報、HamLogJPのログ上の交信状況"><figcaption>スポットの詳細（Mac）</figcaption></figure>
+  <div class="shots">
+    <figure class="phone"><img src="images/v123_iphone_dxcluster.jpg" alt="iPhoneのDX Clusterスポット一覧"><figcaption>DX Cluster（iPhone）</figcaption></figure>
+    <figure class="phone"><img src="images/v123_iphone_dxdetail.jpg" alt="iPhoneのスポット詳細と「QSO入力へ」"><figcaption>スポットの詳細（iPhone）</figcaption></figure>
+  </div>
+  <p>一覧は1スポット2行です。1行目に<strong>周波数・コールサイン・経過時間</strong>、2行目にバンド・モード・国と交信状況を表示します（Mac・iPad の広い画面ではスポットのコメントも表示）。表示中は約90秒ごとに自動で更新し、「更新」ボタンや下に引っぱる操作でも更新できます（60秒に1回まで）。画面を閉じると更新は止まります。</p>
+
+  <h3>交信状況（NEW / WKD）と絞り込み</h3>
+  <p>スポットされた局を、この端末の HamLogJP のログ（アマチュア無線の交信。削除した交信は除く）と照合して表示します。コールサインは /P や KH0/ などの移動表記を除いた基本のコールサインで照合します。</p>
+  <table>
+    <tr><th>表示</th><th>意味</th></tr>
+    <tr><td>NEW</td><td>同じコールサインとの交信記録がない</td></tr>
+    <tr><td>WKD</td><td>過去に交信記録がある</td></tr>
+    <tr><td>未交信バンド</td><td>そのバンドでは交信記録がない（コールサイン自体が未交信の場合も含む）</td></tr>
+    <tr><td>未交信モード</td><td>そのバンドで、スポットに書かれたモードでは交信記録がない</td></tr>
+    <tr><td>LoTW CFM／Paper CFM／eQSL CFM</td><td>HamLogJP の QSL 管理に記録された確認状況（第9章）</td></tr>
+  </table>
+  <p>「状態」の絞り込みでは「すべて／NEW／未交信バンド／WKD」を選べます。バンド・モードの組み合わせは、スポットにモードが<strong>書かれている場合だけ</strong>判定します。モードが周波数からの推定や不明の場合は「不明」とし、NEW として扱いません。照合が終わるまでは「照合中」と表示します。</p>
+  <div class="note">「未交信」は HamLogJP のログに記録がないという意味で、DXCC などアワードの正式なクレジット状態とは異なります。</div>
+
+  <h3>モードの表示</h3>
+  <ul>
+    <li><strong>Cluster報告</strong>：スポットのコメントにモード（CW・SSB・FT8 など）が書かれているもの。一覧ではそのまま「FT8」などと表示します。</li>
+    <li><strong>周波数から推定</strong>：モードが書かれていないとき、周波数から見た目安です。一覧では「推定SSB」「推定CW」「推定DIGI」と表示します。実際のモードを保証するものではなく、例えば 7.074MHz でも FT8 とは断定しません。</li>
+    <li><strong>不明</strong>：書かれておらず、推定もできないもの（一覧では「—」）。</li>
+  </ul>
+
+  <h3>QSO入力へ</h3>
+  <p>詳細の「QSO入力へ」を押すと、コールサインとバンドをログ入力の欄に入れます。スポットにモードが書かれていればモードも入れます。周波数から推定したモードは、詳細画面で「推定モード『○○』も入れる」をオンにしたときだけ入れます（Digital の推定は FT8・FT4・RTTY などを区別できないため入れません）。<strong>スポットを開いたり「QSO入力へ」を押したりしただけでは、交信は保存されません。</strong>入力画面で内容を確かめてから保存してください。</p>
+
+  <h3>LoTW利用局と LoTW CFM の違い</h3>
+  <p>詳細の「データ元の情報」にある<strong>LoTW利用局・eQSL利用局</strong>は、HamQTH の DX Cluster の情報で、相手局がそのサービスを使っているという意味です。あなたとの交信が確認済みという意味ではありません。<strong>LoTW CFM・Paper CFM・eQSL CFM</strong> は、HamLogJP の QSL 管理に記録された確認状況です。</p>
+  <p>スポットには相手局の位置（グリッドロケーター）が含まれないため、距離と方位は表示しません。</p>
+
+  <h3>バンド実績</h3>
+  <p>この端末の HamLogJP のログ（アマチュア無線の交信）から、<strong>バンド別・時間帯別・バンド×時間帯</strong>の交信数をグラフにします。期間（過去30日・過去90日・過去1年・全期間）と、時刻の JST／UTC を切り替えられます。通信はしません。HF運用の画面の要約は HF・50MHz（160m〜6m）だけですが、この画面では V/UHF を含むすべてのバンドを表示します。</p>
+  <figure><img src="images/v123_mac_activity.jpg" style="width:100%;max-width:720px;height:auto;margin:0 auto" alt="バンド実績。バンド別・時間帯別の交信数と、バンド×時間帯の表"><figcaption>バンド実績（Mac）</figcaption></figure>
+  <div class="note">ご自身の過去の交信の集計で、一般的な伝搬の統計や、いまのコンディションを示すものではありません。</div>
+
+  <h3>データ元とプライバシー</h3>
+  <p>DX Cluster のスポット情報は HamQTH のサービスから取得します（画面に「Data: HamQTH DX Cluster」と表示）。取得の際、HamLogJP の交信ログ、交信状況（NEW/WKD）の判定データ、QSL 管理の履歴を HamQTH へ送信しません。交信状況の判定はすべて端末内で行います。</p>
+  <div class="tip">DX Cluster のスポットは第三者による報告で、内容の正確さや新しさは保証されません。モードの推定は参考情報です。運用するバンド・周波数・モードは、法令・バンドプラン・各コンテストの規約をご自身で確認してください。</div>
+</section>
+
+<!-- 12 -->
 <section id="tools">
-  <h2><span class="n">11</span>Es現況・宇宙天気・WiRES-X</h2>
+  <h2><span class="n">12</span>Es現況・宇宙天気・WiRES-X</h2>
+  <p>6m Es・宇宙天気・グレイラインは、第11章の「HF運用」画面からも開けます。</p>
   <ul>
     <li><strong>6m Es リアルタイム</strong> <span class="pill">プレミアム</span>：PSK Reporter の実際の受信レポートから、いま日本と開けている方向を地図で表示します。</li>
     <li><strong>宇宙天気・太陽フレア</strong>：太陽フレア・地磁気・黒点数とグレーラインの世界地図で、コンディションの参考情報を確認できます。</li>
@@ -386,9 +467,9 @@
   </div>
 </section>
 
-<!-- 12 -->
+<!-- 13 -->
 <section id="settings">
-  <h2><span class="n">12</span>設定</h2>
+  <h2><span class="n">13</span>設定</h2>
   <p>iPhone は「メニュー › 設定」、Mac・iPad は左メニューの「表示・自局・リグの設定」から開きます。</p>
   <ul>
     <li><strong>自局・運用地</strong>：コールサイン・運用地・JCC/JCG などを登録。各QSOに自動で記録されます（移動運用のときだけ変更）。</li>
@@ -405,11 +486,11 @@
   <figure><img src="images/paywall.png" alt="プレミアム案内" style="width:100%;max-width:520px;height:auto;margin:0 auto"><figcaption>プレミアム案内</figcaption></figure>
 </section>
 
-<!-- 13 -->
+<!-- 14 -->
 <section id="price">
-  <h2><span class="n">13</span>料金・お問い合わせ</h2>
-  <p><span class="pill free">無料版</span> 交信ログ 200 件まで／アマ・フリラーの記録／過去交信・重複表示／JCC・JCG 検索／統計グラフ</p>
-  <p><span class="pill">プレミアム</span> ¥480/月・¥4,800/年：交信ログ無制限／ADIF 入出力・Turbo HAMLOG 取り込み／QSL 管理／6m Es・宇宙天気／iPhone・iPad・Mac 共通</p>
+  <h2><span class="n">14</span>料金・お問い合わせ</h2>
+  <p><span class="pill free">無料版</span> 交信ログ 200 件まで／アマ・フリラーの記録／過去交信・重複表示／JCC・JCG 検索／統計グラフ／HF運用画面・バンド実績</p>
+  <p><span class="pill">プレミアム</span> ¥480/月・¥4,800/年：交信ログ無制限／ADIF 入出力・Turbo HAMLOG 取り込み／QSL 管理／DX Cluster／6m Es・宇宙天気・グレイライン／POTA/SOTA スポット／WiRES-X ノード地図／iPhone・iPad・Mac 共通</p>
   <p>ご質問・ご要望は下記のお問い合わせ先までお寄せください。アップデートで随時改善しています。</p>
 </section>
 
@@ -420,9 +501,10 @@
     <div>
       <a href="https://apps.apple.com/app/id6790925699">App Store</a>
       <a href="mailto:genre_pincers_3d@icloud.com">お問い合わせ</a>
+      <a href="https://jpanhamlogapp.github.io/hamlogjp-data/privacy.html">プライバシーポリシー</a>
     </div>
     <p style="margin-top:10px">© 2026 JL1LCQ. HamLogJP is an independent amateur-radio utility.</p>
-    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面はバージョン 1.2.0〜1.2.2（デモ用の交信データ）です。最終更新：2026年10月1日</p>
+    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面はバージョン 1.2.0〜1.2.3（デモ用の交信データ。DX Cluster の画面は実際のスポット）です。最終更新：2026年10月4日</p>
   </div>
 </footer>
 
