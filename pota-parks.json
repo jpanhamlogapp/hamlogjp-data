@@ -1,6 +1,6 @@
 {
  "dataVersion": 2,
- "updated": "2026-09-27",
+ "updated": "2026-10-04",
  "note": "POTA公式API(api.pota.app)から自動生成。日本語名(nameJa)はPOTA日本有志会(pota-jp.com)の公園リストより。未収録は英名にフォールバック。",
  "entries": [
   {
@@ -7559,9 +7559,9 @@
    "name": "Sobo Katamuki Prefectural Nature Park",
    "nameJa": "祖母傾県立自然公園（宮崎県）",
    "pref": "宮崎県",
-   "lat": 32.8323,
-   "lon": 131.472,
-   "grid": "PM52rt"
+   "lat": 32.7445,
+   "lon": 131.43,
+   "grid": "PM52rr"
   },
   {
    "ref": "JP-1750",
