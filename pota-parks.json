@@ -1,6 +1,6 @@
 {
  "dataVersion": 2,
- "updated": "2026-10-04",
+ "updated": "2026-10-11",
  "note": "POTA公式API(api.pota.app)から自動生成。日本語名(nameJa)はPOTA日本有志会(pota-jp.com)の公園リストより。未収録は英名にフォールバック。",
  "entries": [
   {
@@ -800,8 +800,8 @@
    "name": "Okinawa Kaigan Quasi-National Park",
    "nameJa": "沖縄海岸国定公園",
    "pref": "沖縄県",
-   "lat": 26.778,
-   "lon": 128.213,
+   "lat": 26.7668,
+   "lon": 128.204,
    "grid": "PL46cs"
   },
   {
@@ -6812,9 +6812,9 @@
    "name": "Shiragayama Prefectural Nature Park",
    "nameJa": "白髪山県立自然公園",
    "pref": "高知県",
-   "lat": 33.8066,
-   "lon": 133.698,
-   "grid": "PM63ut"
+   "lat": 33.816,
+   "lon": 133.59,
+   "grid": "PM63tt"
   },
   {
    "ref": "JP-1667",
@@ -7244,8 +7244,8 @@
    "name": "Yoshinogari Historical Prefectural Park",
    "nameJa": "吉野ヶ里歴史公園",
    "pref": "佐賀県",
-   "lat": 33.3242,
-   "lon": 130.384,
+   "lat": 33.3223,
+   "lon": 130.38,
    "grid": "PM53eh"
   },
   {
@@ -7280,8 +7280,8 @@
    "name": "Nomo Hanto Prefectural Nature Park",
    "nameJa": "野母半島県立公園",
    "pref": "長崎県",
-   "lat": 32.5589,
-   "lon": 129.78,
+   "lat": 32.5729,
+   "lon": 129.782,
    "grid": "PM42vn"
   },
   {
@@ -7424,9 +7424,9 @@
    "name": "Okukuma Prefectural Nature Park",
    "nameJa": "奥球磨県立自然公園",
    "pref": "熊本県",
-   "lat": 32.3172,
-   "lon": 131.095,
-   "grid": "PM52nh"
+   "lat": 32.3203,
+   "lon": 131.031,
+   "grid": "PM52mh"
   },
   {
    "ref": "JP-1735",
@@ -7487,9 +7487,9 @@
    "name": "Kunisaki Hanto Prefectural Nature Park",
    "nameJa": "国東半島県立自然公園",
    "pref": "大分県",
-   "lat": 33.5643,
-   "lon": 131.569,
-   "grid": "PM53sn"
+   "lat": 33.5102,
+   "lon": 131.5,
+   "grid": "PM53sm"
   },
   {
    "ref": "JP-1742",
