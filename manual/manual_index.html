@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HamLogJP 取扱説明書 - 使い方ガイド</title>
+<meta name="description" content="HamLogJP（無線交信ログ帳）の使い方ガイド。バージョン1.2.1のQSL管理（紙QSL・eQSL・LoTW・QRZ・Club Log、QSLカードのPDF作成・写真からの受領記録）、ログ入力（プリセット・前回値の自動入力・キーボード操作）、フリラー対応、POTA/SOTA、JARL電子ログ R1.0/R2.1・Cabrillo のコンテスト提出ログ（大会ごとに自動設定）、ADIF入出力、統計、設定までを画面付きで解説します。">
+<style>
+  :root{
+    --teal:#0E7490; --teal-d:#0a5568; --ink:#1E293B; --muted:#5B6B7B;
+    --bg:#F4F7F9; --card:#FFFFFF; --line:#E2E8ED; --accent:#0E7490;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;color:var(--ink);background:var(--bg);line-height:1.85;-webkit-font-smoothing:antialiased}
+  img{max-width:100%;display:block}
+  a{color:var(--teal);text-decoration:none}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px}
+
+  /* Header */
+  header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+  .navbar{display:flex;align-items:center;justify-content:space-between;height:60px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;color:var(--ink)}
+  .logo{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,#0E7490,#22a3c0);display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px}
+  .navbar .home{font-size:14px}
+
+  /* Hero */
+  .hero{padding:44px 0 20px}
+  .hero h1{font-size:30px;letter-spacing:-.01em}
+  .hero p{color:var(--muted);margin-top:12px;font-size:16px}
+  .ver{display:inline-block;margin-top:14px;background:#E6F3F6;color:var(--teal);font-weight:700;font-size:13px;padding:5px 12px;border-radius:20px}
+
+  /* TOC */
+  .toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 26px;margin:26px 0 8px}
+  .toc h2{font-size:16px;margin-bottom:12px;color:var(--ink)}
+  .toc ol{list-style:none;counter-reset:t;columns:2;column-gap:34px}
+  .toc li{counter-increment:t;padding:5px 0;font-size:15px;break-inside:avoid}
+  .toc li::before{content:counter(t) ". ";color:var(--teal);font-weight:700}
+  @media(max-width:640px){.toc ol{columns:1}}
+
+  /* Sections */
+  section{padding:34px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:23px;letter-spacing:-.01em;display:flex;align-items:center;gap:10px}
+  section h2 .n{width:34px;height:34px;flex:0 0 34px;border-radius:9px;background:#E6F3F6;color:var(--teal);display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800}
+  section h3{font-size:17px;margin:22px 0 8px}
+  section p{color:#31404f;margin:8px 0}
+  section ul,section ol{margin:8px 0 8px 4px;padding-left:22px;color:#31404f}
+  section li{margin:5px 0}
+  .lead{color:var(--muted);margin:6px 0 4px}
+  strong{color:var(--ink)}
+
+  .tip{background:#E6F3F6;border-left:4px solid var(--teal);border-radius:8px;padding:12px 16px;margin:14px 0;font-size:15px;color:#25505e}
+  .note{background:#FFF7ED;border-left:4px solid #d98a2b;border-radius:8px;padding:12px 16px;margin:14px 0;font-size:15px;color:#7a5320}
+  .pill{display:inline-block;background:#0E7490;color:#fff;font-size:12px;font-weight:700;border-radius:6px;padding:2px 8px;vertical-align:middle}
+  .pill.free{background:#5B6B7B}
+
+  /* shots */
+  figure{margin:18px 0}
+  figure img{border-radius:12px;box-shadow:0 10px 26px rgba(30,41,59,.12);border:1px solid var(--line)}
+  figure.phone img{max-width:300px;margin:0 auto}
+  figure.tablet img{max-width:460px;margin:0 auto}
+  kbd{font-family:ui-monospace,Menlo,monospace;font-size:13px;background:#fff;border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;padding:1px 6px}
+  figcaption{text-align:center;color:var(--muted);font-size:13px;margin-top:8px}
+  .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;align-items:start}
+  .ph{border:2px dashed #b9ccd4;border-radius:12px;background:#fff;color:#8aa2ac;display:flex;align-items:center;justify-content:center;text-align:center;font-size:13px;min-height:200px;padding:16px}
+
+  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px}
+  th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:#F0F5F7;color:var(--ink);font-weight:700}
+
+  footer{padding:30px 0;text-align:center;color:var(--muted);font-size:14px}
+  footer a{margin:0 8px}
+  .fnote{font-size:12px;color:#94a3b0;margin-top:8px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap navbar">
+    <div class="brand"><span class="logo">📻</span> HamLogJP 取扱説明書</div>
+    <a class="home" href="https://apps.apple.com/app/id6790925699">App Storeで見る</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>HamLogJP 取扱説明書</h1>
+    <p>アマチュア無線とフリラーの両方に対応した、日本語の交信ログアプリ「HamLogJP（無線交信ログ帳）」の使い方ガイドです。iPhone・iPad・Mac 共通の操作を、画面付きで順に説明します。</p>
+    <span class="ver">バージョン 1.2.6 対応 ・ iOS / iPadOS / macOS ・ 無料版＋プレミアム</span>
+  </div>
+</div>
+
+<div class="wrap">
+  <nav class="toc">
+    <h2>目次</h2>
+    <ol>
+      <li><a href="#start">はじめに・対応環境</a></li>
+      <li><a href="#screen">画面の構成</a></li>
+      <li><a href="#log">交信を記録する</a></li>
+      <li><a href="#freera">フリラー（無線種別）</a></li>
+      <li><a href="#assist">入力を先回り（プリセット・前回値）</a></li>
+      <li><a href="#pota">POTA / SOTA</a></li>
+      <li><a href="#contest">コンテスト提出ログ</a></li>
+      <li><a href="#data">データ入出力（ADIF/CSV）</a></li>
+      <li><a href="#qsl">QSL 管理</a></li>
+      <li><a href="#stats">統計・グラフ</a></li>
+      <li><a href="#hf">HF運用・DX Cluster</a></li>
+      <li><a href="#tools">Es現況・宇宙天気・WiRES-X</a></li>
+      <li><a href="#settings">設定</a></li>
+      <li><a href="#price">料金・お問い合わせ</a></li>
+    </ol>
+  </nav>
+</div>
+
+<div class="wrap">
+
+<!-- 1 -->
+<section id="start">
+  <h2><span class="n">1</span>はじめに・対応環境</h2>
+  <p>HamLogJP は、<strong>アマチュア無線</strong>と<strong>フリラー（デジタル簡易無線・CB・特小・LCR ほか）</strong>の交信記録を、1つのアプリで管理できる日本語のログアプリです。iPhone・iPad・Mac でネイティブに動作します。</p>
+  <ul>
+    <li><strong>アカウント登録は不要</strong>です。すぐに使い始められます。</li>
+    <li>交信ログは<strong>端末内に保存</strong>され、外部に送信されません。iCloud 同期をオンにすると、ご自身の iPhone・iPad・Mac 間でログを共有できます（Apple ID の iCloud を利用）。</li>
+    <li>無料版で交信ログ 200 件まで、基本機能をお試しいただけます。ADIF 入出力や QSL 管理などはプレミアム版の機能です（第14章）。</li>
+  </ul>
+  <div class="tip"><strong>1.2.5 の主な変更</strong>：保存した交信のコンテストナンバーを、交信の詳細と QSL 管理の詳細で確認・修正できるようにしました。入力欄の表記を「自局コンテストナンバー」「相手局コンテストナンバー」に変更しました（第7章）。</div>
+  <div class="tip"><strong>1.2.4 の主な変更</strong>：DX Cluster にバンドごとの「バンドマップ」表示を追加し、スポットの詳細に DX 局の受信周波数（QSX）の目安を表示（第11章）。自分のログからエンティティ×バンドの交信・QSL 確認状況を一覧にする「DXCC Matrix」を追加（第11章）。宇宙天気の SFI・Kp・X線を色の帯（メーター）で表示（第12章）。POTA の入力欄を SOTA と同じ形（検索・直接入力・変更／クリア）にそろえ、公園名の日本語表示を iPhone・iPad・Mac で統一（第6章）。海外局のコールサインで「相手の運用エリア」を補完しないよう修正。</div>
+  <div class="tip"><strong>1.2.3 の主な変更</strong>：HF〜50MHz の運用に役立つ情報と自分の運用実績をまとめた「HF運用」画面を追加。DX Cluster のスポット一覧（交信状況の表示と絞り込み、スポットからログ入力へ）、自分のログのバンド実績（バンド別・時間帯別）に対応（第11章）。ログ入力に SOTA の自局・相手局の山岳と山岳検索を追加（第6章）。12m バンドの ADIF 出力を改善（第8章）。</div>
+  <div class="tip"><strong>1.2.2 の主な変更</strong>：コンテスト機能を強化。大会を選ぶと期間・バンド・モード・交換ナンバー・重複判定・ログ形式・提出方法を自動で切り替え、JARL電子ログ R1.0／R2.1 と Cabrillo 3.0 に対応、JLRS・430SSB祭り・CQ WW RTTY・オール岡山・福岡・ギガヘルツ・長野県QSOパーティー・オール秋田に対応（第7章）。</div>
+  <div class="tip"><strong>1.2.1 の主な変更</strong>：QSL管理を刷新（紙QSL・hQSL・eQSL・LoTW・QRZ・Club Log の状態と履歴を交信ごとに管理、QSLカードのPDF作成・印刷、写真からの受領記録、QRZ.com・eQSL.cc への送信、LoTW 用ファイルと確認の取り込み。第9章）、交信ログの一覧を「すべて／アマチュア／フリラー」で切り替え（第2章）、ADIF 3.1.7 のQSL項目に対応（第8章）。</div>
+  <div class="tip"><strong>1.2.0 の主な変更</strong>：よく使う項目だけをまとめた新しいログ入力画面、画面下に常に出る保存ボタン、アマチュア・フリラーそれぞれの前回条件の自動復元、運用条件のプリセット、Mac のキーボード操作（<kbd>⌘</kbd><kbd>↩</kbd> で保存して次へ など）、Mac の文字サイズ設定、.adi ファイルを「HamLogJP で開く」だけで取り込み。</div>
+</section>
+
+<!-- 2 -->
+<section id="screen">
+  <h2><span class="n">2</span>画面の構成</h2>
+  <p>本アプリは端末と画面の幅に合わせて2つのレイアウトで動作します。</p>
+
+  <h3>Mac・iPad は3ペイン</h3>
+  <p>左に機能メニュー、中央に交信ログの一覧（検索欄つき）、右に選んだ機能の画面が並びます。過去の交信を見ながら、そのまま次のログを入力できます。一覧の交信をクリックすると右側に詳細が開き、上部の「‹ 戻る」で元の画面に戻れます。</p>
+  <figure><img src="images/v120_mac_log.png" alt="Mac版の3ペイン。左メニュー、中央の交信ログ一覧、右のログ入力"><figcaption>Mac版：左メニュー／中央ログ一覧／右ログ入力の3ペイン</figcaption></figure>
+  <figure class="tablet"><img src="images/v120_ipad_log.png" alt="iPad版の3ペインのログ入力画面"><figcaption>iPad版も同じ3ペイン。Split View などで幅が狭いときは iPhone と同じ画面に自動で切り替わります</figcaption></figure>
+  <h3>交信ログの一覧を種別で切り替え</h3>
+  <p>交信ログの一覧（Mac・iPad は中央、iPhone は「検索・一覧」）の上にある <strong>すべて／アマチュア／フリラー</strong> で、表示する交信をワンタップで切り替えられます。検索と組み合わせて使えます（例：「アマチュア」＋「JL1」）。件数は「表示中の件数 / 全件数 QSO」で表示します。画面を開き直すと「すべて」に戻ります。表示を切り替えるだけで、交信データは変わりません。</p>
+  <figure><img src="images/v121_mac_filter.png" alt="Mac版の交信ログ一覧の上に、すべて・アマチュア・フリラーの切り替え"><figcaption>一覧の上の「すべて／アマチュア／フリラー」（Mac）</figcaption></figure>
+  <div class="tip">Mac でウインドウを閉じてしまったときは、メニューの「新規ウインドウ」（<kbd>⇧</kbd><kbd>⌘</kbd><kbd>N</kbd>）で開き直せます。</div>
+
+  <h3>iPhone は片手で速記</h3>
+  <p>画面下のタブで <strong>ログ入力</strong>／<strong>検索・一覧</strong>／<strong>QSL管理</strong>／<strong>メニュー</strong> を切り替えます。統計・POTA/SOTA・Es現況・データ入出力・設定などは「メニュー」から開きます。</p>
+  <div class="shots">
+    <figure class="phone"><img src="images/v120_iphone_log.png" alt="iPhoneのログ入力画面"><figcaption>ログ入力（アマチュア無線）</figcaption></figure>
+    <figure class="phone"><img src="images/v120_iphone_qsl.png" alt="iPhoneのQSL管理画面"><figcaption>QSL管理（下のタブから）</figcaption></figure>
+  </div>
+</section>
+
+<!-- 3 -->
+<section id="log">
+  <h2><span class="n">3</span>交信を記録する</h2>
+  <p>「ログ入力」画面には、ふだんの交信に必要な項目だけが並びます。通常の交信は<strong>この画面だけで保存</strong>できます。基本の流れは <strong>①サービスを選ぶ → ②相手コール → ③バンド・モード → ④RST → ⑤保存</strong> です。</p>
+
+  <h3>サービスの切り替え</h3>
+  <p>画面上部で <strong>アマチュア無線</strong> と <strong>フリラー</strong> を切り替えます（Mac・iPad は「サービス」欄）。切り替えると入力欄がそれぞれに合わせて変わり（アマチュアはバンド／モード、フリラーは無線種別／チャンネル）、<strong>それぞれ前回使った条件が自動で入ります</strong>。</p>
+
+  <h3>相手コールサイン</h3>
+  <p>一番上の大きな欄に相手のコールサインを入力します。iPhone では「音声で入力」も使えます（プレミアム版で、Apple Intelligence に対応した端末のみ。Mac と iPad の横長画面では使えません）。入力すると過去の交信回数や重複が表示されます（第5章）。</p>
+
+  <h3>バンドとモード</h3>
+  <p>iPhone ではバンド（MHz）とモードをタップ（チップ）で選びます。Mac・iPad ではメニューから選びます。モードには SSB/CW/FM/AM や FT8/FT4/RTTY などに加えて、<strong>デジタル音声モード（DV・D-STAR・C4FM・DMR）</strong>も用意しています。</p>
+  <div class="tip">入力画面に出すモードは「設定 › 表示するモード」で追加・削除できます（全48種から選択）。</div>
+
+  <h3>RST・交信日時・運用形態</h3>
+  <p>RST（送＝相手へ／受＝自分が受けた）、交信日時（初期値は現在時刻）、運用形態（固定局・移動など）、使用リグを入力します。</p>
+
+  <h3>詳細（折りたたみ）</h3>
+  <p>ふだん使わない項目は「詳細」にまとめて折りたたんでいます。開くと入力でき、閉じていても入力した内容の要約が表示されます。</p>
+  <table>
+    <tr><th>項目</th><th>内容</th></tr>
+    <tr><td>相手局詳細</td><td>お名前など相手局の情報</td></tr>
+    <tr><td>QTH / JCC・JCG</td><td>相手の住所。市区町村名・都道府県・かな・ローマ字・コードで検索して選べます（第5章）</td></tr>
+    <tr><td>自局・運用情報</td><td>自局の運用地など</td></tr>
+    <tr><td>POTA / SOTA</td><td>相手局・自局の公園／山岳（第6章）</td></tr>
+    <tr><td>コンテスト</td><td>自局・相手局コンテストナンバー（第7章）</td></tr>
+    <tr><td>メモ・その他</td><td>自由記入のメモなど</td></tr>
+  </table>
+
+  <h3>保存</h3>
+  <p>保存ボタンは<strong>画面下に常に表示</strong>されます（iPhone は「QSO を保存」、Mac・iPad は「保存して次へ」）。左側に入力中の要約（例：「JA1ABC 7 SSB 59/59」）が出るので、スクロールせずに確かめて保存できます。保存すると相手コールなどがクリアされ、バンド・モードなどの運用条件はそのまま次の交信に引き継がれます。</p>
+  <p>保存に失敗したときは、入力内容を残したまま理由を表示します。</p>
+
+  <h3>Mac・iPad のキーボード操作</h3>
+  <table>
+    <tr><th>キー</th><th>動作</th></tr>
+    <tr><td><kbd>⌘</kbd><kbd>↩</kbd></td><td>保存して次へ</td></tr>
+    <tr><td><kbd>⌘</kbd><kbd>N</kbd></td><td>新規QSO（入力欄をクリア）</td></tr>
+    <tr><td><kbd>⌘</kbd><kbd>F</kbd></td><td>交信ログを検索</td></tr>
+  </table>
+</section>
+
+<!-- 4 -->
+<section id="freera">
+  <h2><span class="n">4</span>フリラー（無線種別）</h2>
+  <p>サービスを「フリラー」にすると、相手の呼出名称（例：とうきょうAB123）、無線種別、チャンネルを入力します。</p>
+  <table>
+    <tr><th>無線種別</th><th>内容</th><th>チャンネル</th></tr>
+    <tr><td>DCR</td><td>デジタル簡易無線（351MHz）</td><td>1〜82ch から選択</td></tr>
+    <tr><td>CB</td><td>市民ラジオ（27MHz）</td><td>1〜8ch から選択</td></tr>
+    <tr><td>特小</td><td>特定小電力（422MHz）</td><td>L1〜L11 / b1〜b9</td></tr>
+    <tr><td>LCR</td><td>デジタル小電力コミュニティ</td><td>1〜18ch から選択</td></tr>
+    <tr><td>Zello</td><td>アプリ無線（スマホPTT・インターネット）</td><td>ルーム名を自由入力</td></tr>
+    <tr><td>エアインカムライト</td><td>アプリ無線（IP・スマホPTT）</td><td>ルーム名を自由入力</td></tr>
+  </table>
+  <p><strong>Zello / エアインカムライト</strong>は固定チャンネルを持たないため、チャンネル欄が「チャンネル / ルーム名」の<strong>自由入力</strong>に自動で切り替わります。レポートは M5 などの形式で記録できます。</p>
+  <div class="shots">
+    <figure class="phone"><img src="images/v120_iphone_free.png" alt="フリラーのログ入力。無線種別とチャンネルのチップ"><figcaption>フリラー：無線種別とチャンネルをタップで選択</figcaption></figure>
+  </div>
+
+  <h3 id="tokusho-map">特小レピーターMAP（1.2.6） <span class="pill free">無料</span></h3>
+  <p>Mac・iPad は左メニュー、iPhone は「メニュー」から開きます。特定小電力（特小）のレピーターを地図と一覧で探せます。</p>
+  <ul>
+    <li><strong>掲載するレピーター</strong>：設置者から掲載の許諾をいただいた局だけを、設置者が選んだ位置の細かさ（正確な位置／おおよその位置など）で表示します。ほかのサイトの一覧を転載することはありません。<strong>掲載が0件の間は「掲載しているレピーターはまだありません」と表示します。</strong></li>
+    <li><strong>チャンネルの表示</strong>：レピーターは周波数で管理します。チャンネル名は、取扱説明書で周波数との対応を確認できたアルインコ（DJ-R200D）の表記だけを「L14(アルインコ)」のようにメーカー名つきで添えます。ほかのメーカーのチャンネル番号は推測して表示しません。グループ番号もメーカー間で読み替えず、設置者が示した番号をそのまま表示します。</li>
+    <li><strong>これまでの交信記録</strong>：ログ入力の特小チャンネル（L1〜L11 / b1〜b9）は変わりません。すでに保存した交信のチャンネルを自動で書き換えたり、周波数に読み替えたりすることはありません。</li>
+    <li><strong>注意</strong>：電波の届く範囲は場所によって大きく変わります。地図の表示は、アクセスできることや稼働中であることを保証しません。</li>
+  </ul>
+  <h4>レピーターから交信を記録する</h4>
+  <ul>
+    <li>レピーターの詳細で「この局を使った交信を記録する」を押すと、ログ入力の画面に、サービス「フリラー」・無線種別「特小」・チャンネル（例「L14(アルインコ)」。確認できた表記がなければ周波数）が入ります。</li>
+    <li>自由メモには「レピーター名・グループ番号・周波数」を<strong>今のメモの後ろに追記</strong>します。同じ内容を二度入れることはありません。相手の呼出名称・名前・QTH など、入力済みの内容は変えません。</li>
+    <li><strong>自動では保存しません。</strong>内容を確認して「保存」を押したときだけ記録されます。保存せずに閉じれば何も記録されません。</li>
+  </ul>
+  <h4>掲載の申請・情報提供・訂正削除</h4>
+  <ul>
+    <li>画面の「掲載の申請・情報提供」（各局の詳細では「この局の情報の訂正・削除を依頼する」）を押すと、<strong>お使いのメールアプリに記入用の下書きが開きます</strong>。宛先は「料金・お問い合わせ」と同じ開発者の連絡先です。</li>
+    <li><strong>アプリから自動で送信することはありません。</strong>内容を確認して、利用者ご自身がメールアプリで送信したときだけ届きます。送らずに閉じても何も送られません。位置情報や交信記録は下書きに入りません。</li>
+    <li>いただいた内容は掲載の確認と連絡のためだけに使います。地図には設置者が同意した項目だけを載せ、メールアドレスなどの連絡先は掲載しません。掲載の可否と時期は内容を確認してからのご連絡になります。</li>
+  </ul>
+</section>
+
+<!-- 5 -->
+<section id="assist">
+  <h2><span class="n">5</span>入力を先回り（プリセット・前回値）</h2>
+  <ul>
+    <li><strong>前回値の自動入力</strong>：アマチュア無線とフリラーそれぞれについて、前回の運用条件（バンド・モード／無線種別・チャンネル、レポート、リグ）を自動で復元します。</li>
+    <li><strong>プリセット</strong>：「430 FM 自宅」「DCR 自宅」のような運用条件（バンド・モード・無線種別・チャンネル・レポート・リグ・運用形態）を保存し、ワンタップで呼び出せます。iPhone はログ入力画面右上のアイコン、Mac・iPad は「プリセット」メニューを開き、「今の条件をプリセットに保存」で作成します。相手局の情報は保存されません。</li>
+    <li><strong>過去の交信を自動表示</strong>：相手コールを入れると、その局との過去の交信が表示され、初回か何回目かも分かります。</li>
+    <li><strong>重複の警告</strong>：同じバンド・モードで既に交信済みの場合に知らせます（コンテストや移動運用で便利）。</li>
+    <li><strong>JCC/JCG 内蔵</strong>：全国の市郡区 1,700 件超を内蔵。「QTH / JCC・JCG」で漢字・かな・ローマ字・コードの一部を入れると候補が出ます（例：「100」で東京都の市区）。</li>
+    <li><strong>エリア自動補完</strong>：JA1ABC/2 のようなコールから運用エリアを判定して補います。</li>
+  </ul>
+  <div class="shots">
+    <figure class="phone"><img src="images/v120_iphone_jcc.png" alt="QTHにコードを入れるとJCC候補が表示される"><figcaption>QTH：コードや地名の一部で JCC/JCG 候補を表示</figcaption></figure>
+  </div>
+  <figure><img src="images/v120_mac_jcc.png" alt="Mac版でQTH / JCC・JCGの候補を表示"><figcaption>Mac版でも同じように候補から選べます</figcaption></figure>
+</section>
+
+<!-- 6 -->
+<section id="pota">
+  <h2><span class="n">6</span>POTA / SOTA</h2>
+  <p>移動運用（POTA＝Parks on the Air、SOTA＝Summits on the Air）に対応しています。</p>
+  <ul>
+    <li>ログ入力の「POTA / SOTA」で、相手局の運用公園（ハント／P2P）や自局の運用公園を記録できます。</li>
+    <li><strong>SOTA の山岳</strong>は「自局のSOTA山岳」「相手局のSOTA山岳」に Reference（例 JA/TK-008・W6/CT-001）を入力します。山頂から運用するとき（アクティベーター）は自局の欄だけ、山頂の局と交信したとき（チェイス）は相手局の欄だけ、山頂どうし（S2S）は両方に入れます。自局の山岳は次の交信にも残り、相手局の山岳は保存のたびに消えます。</li>
+    <li>Reference が分からなくても、「山岳を検索」で山名や Reference（JA/TK-008・TK-008・Honitayama）から探して選べます。選ぶと Reference・山名・標高・ポイントが表示され、「変更」「クリア」で直せます。Reference が分かる場合は欄に直接入力できます。</li>
+    <li>初めて「山岳を検索」を使うときは、SOTA 公式の山岳一覧（約18万件・約24MB）を取得します。取得後は端末内に保存され、オフラインでも検索できます。更新は検索画面右上のメニューから行えます。一覧の山名は公式データの表記で、日本の山はローマ字（例 Honitayama）です。</li>
+    <li>ADIF では、自局の山岳を <code>MY_SOTA_REF</code>、相手局の山岳を <code>SOTA_REF</code> として書き出し・読み込みします。交信の詳細画面でも確認・修正できます。</li>
+    <li><strong>POTA の公園</strong>は「自局のPOTA公園」「相手局のPOTA公園」に記録します（1.2.4 で SOTA と同じ形に統一）。公園から運用するとき（アクティベーター）は自局の欄、公園の局と交信したとき（ハント）は相手局の欄、公園どうし（P2P）は両方に入れます。</li>
+    <li>「公園を検索」で、公園名・都道府県・番号（例 JP-1267）から探して選べます。選ぶと番号・公園名・都道府県が表示され、「変更」「クリア」で直せます。番号が分かる場合は「POTA Referenceが分かる場合」の欄に直接入力できます。</li>
+    <li><strong>POTA 公園コードを内蔵</strong>。日本国内の公園は日本語名（例 JP-1267 → 狭山公園）で、iPhone・iPad・Mac のどれでも同じように表示されます。データは定期的に自動更新されます。</li>
+    <li>「POTA/SOTA スポット」画面では、いま運用中の局を <strong>POTA は地図</strong>、<strong>SOTA は一覧</strong>で確認できます（「日本のみ」で絞り込み）。地図の色は電話・CW・デジタルの区別です。</li>
+    <li>スポットを開くと、コールサイン・公園・周波数・モードが表示され、「ハント（交信）としてログに保存」でそのまま記録できます。公園名は日本語名で入ります。</li>
+    <li>スポットの「QSO入力へ」では、コールサイン・バンド・モード（スポットに書かれている場合）と、相手局の公園または山岳をログ入力に入れます。自局の山岳は変わりません。保存はログ入力画面で行います。</li>
+  </ul>
+  <div class="shots">
+    <figure class="phone"><img src="images/v120_iphone_pota.jpg" alt="POTAスポットの地図"><figcaption>POTA/SOTA スポット（地図）</figcaption></figure>
+    <figure class="tablet"><img src="images/v120_ipad_pota_spot.jpg" alt="スポットの詳細からハントとして保存"><figcaption>スポットの詳細から「ハント（交信）としてログに保存」</figcaption></figure>
+  </div>
+  <div class="shots">
+    <figure class="phone"><img src="images/v124_iphone_parksearch.jpg" alt="公園を検索の画面。番号と日本語の公園名、都道府県の一覧"><figcaption>公園を検索（iPhone）</figcaption></figure>
+    <figure class="phone"><img src="images/v124_iphone_pota.jpg" alt="ログ入力のPOTA/SOTA欄。相手局のPOTA公園に JP-0002 知床国立公園が選ばれ、変更・クリアのボタンがある"><figcaption>選んだ公園は「変更」「クリア」で直せます（iPhone）</figcaption></figure>
+  </div>
+  <div class="tip">公園コードは、コード番号を入力するとその番号から候補を出して選べます（直接入力＋候補選択）。</div>
+  <div class="tip">SOTA の山岳一覧のデータ元は SOTA（sotadata.org.uk）です。一覧に載っていることは、その山に立ち入れること・運用が許可されていること・安全であることを示すものではありません。山岳一覧の取得では、交信ログや自局のコールサインは送信しません。</div>
+</section>
+
+<!-- 7 -->
+<section id="contest">
+  <h2><span class="n">7</span>コンテスト提出ログ</h2>
+  <p>大会を選ぶと、その大会の規約に合わせて<strong>対象期間・バンド・モード・交換ナンバーの説明・重複の判定・部門・ログ形式・提出方法</strong>が自動で切り替わります。「メニュー › データ」（Mac・iPad は左メニューの「ADIF入出力・JCC/JCG更新」）→「コンテスト提出ログ書き出し」から開きます。</p>
+  <figure class="tablet"><img src="images/v122_mac_contest.png" alt="Mac版のコンテスト提出ログ画面。大会・部門の選択、規約の要点、チェック"><figcaption>コンテスト提出ログ（Mac・CQ WW RTTY を選んだところ。一部省略）</figcaption></figure>
+
+  <h3>対応している大会</h3>
+  <table>
+    <tr><th>大会</th><th>ログ形式</th><th>提出方法</th></tr>
+    <tr><td>ALL JA／6m AND DOWN／フィールドデー／全市全郡／ALL ASIAN DX／QSOパーティ／JARL World Wide RTTY／ウエルカムパーティ</td><td>JARL電子ログ R2.1</td><td>各大会の規約による（期間は自分で選択）</td></tr>
+    <tr><td>JLRS パーティーコンテスト</td><td>JARL電子ログ R1.0</td><td>メール本文に貼り付け</td></tr>
+    <tr><td>430SSB.NET 430SSB祭り</td><td>JARL電子ログ R2.1</td><td>Webアップロード</td></tr>
+    <tr><td>オール岡山コンテスト</td><td>JARL電子ログ R2.1</td><td>Webアップロード</td></tr>
+    <tr><td>福岡コンテスト</td><td>JARL電子ログ R1.0</td><td>メール本文に貼り付け</td></tr>
+    <tr><td>ギガヘルツコンテスト</td><td>JARL電子ログ R1.0</td><td>メールまたは郵送</td></tr>
+    <tr><td>長野県QSOパーティー（後期）</td><td>印刷・郵送用の一覧</td><td>郵送</td></tr>
+    <tr><td>オール秋田コンテスト</td><td>JARL電子ログ R2.1</td><td>メールまたは郵送</td></tr>
+    <tr><td>CQ World Wide RTTY DX Contest</td><td>Cabrillo 3.0</td><td>Webアップロード</td></tr>
+  </table>
+  <div class="note">年によって日時・部門・提出先が変わる大会があります。画面の「公式規約を確認」から、提出前に必ず最新の規約を確認してください。</div>
+
+  <h3>交信中の入力</h3>
+  <p>ログ入力の「コンテスト」欄で大会を選ぶと、交換ナンバーの説明と、相手局コンテストナンバーに付ける記号のボタン（JLRS の M・Y、430SSB祭りの P など）が表示されます。<strong>自局コンテストナンバー</strong>（自分が送ったもの）と<strong>相手局コンテストナンバー</strong>（相手から受けたもの）には <strong>RST を除いた部分</strong>を入力します（RST は上の欄）。</p>
+  <ul>
+    <li>自局コンテストナンバーは毎回同じことが多いため、保存後も次の交信に引き継ぎます。相手局コンテストナンバーは保存すると消えます。</li>
+    <li>保存した交信のナンバーは、交信の詳細や QSL 管理の詳細の「コンテスト」欄で確認・修正できます（1.2.5）。自局と相手局を入れ違えたときは、提出ログを作る前に直してください。</li>
+  </ul>
+
+  <h3>提出ログの作り方</h3>
+  <ol>
+    <li>「コンテスト提出ログ」で大会と参加部門を選びます。期間は規約の運用時間が自動で使われます（既存の8大会は開始日・終了日を選びます。430SSB祭りの 9D 部門は連続9日間の開始日を選びます）。</li>
+    <li>「規約の要点」でログ形式・提出方法・交換ナンバー・注意事項を確認します。</li>
+    <li>「チェック」で、<strong>確認が必要な交信</strong>（重複の可能性・相手局コンテストナンバーの空欄など）と、<strong>対象外の交信</strong>（時間外・休止時間・対象外のバンドやモード・フリラー）を理由つきで確認できます。重複や規約外の候補は削除されず、確認のための表示です。</li>
+    <li>「得点」には、規約どおりに確実に計算できる大会だけ自動計算の値が出ます（「総得点の欄に反映」で入力欄に入ります）。相手が県内か県外か、大陸・国の判定などが必要な大会は自動計算しないので、総得点を手入力してください。</li>
+    <li>提出者情報（氏名・住所・E-mail など）を入力し、提出方法に合わせたボタンを使います。
+      <ul>
+        <li><strong>メール本文に貼り付け</strong>：「ログ本文をコピー」してメールに貼り付けます（JLRS・福岡など、添付ファイル不可の大会）。</li>
+        <li><strong>Webアップロード</strong>：「提出用ファイルを書き出す」で保存し、「提出ページを開く」からアップロードします。</li>
+        <li><strong>郵送</strong>：「提出用ログを保存（印刷用）」や「印刷・共有」で印刷し、主催者の様式に従って郵送します（電子提出ではありません）。</li>
+      </ul>
+    </li>
+  </ol>
+  <div class="tip">HamLogJP がログを自動で送信することはありません。提出はご自身の操作で行います。</div>
+</section>
+
+<!-- 8 -->
+<section id="data">
+  <h2><span class="n">8</span>データ入出力（ADIF / CSV）<span class="pill">プレミアム</span></h2>
+  <p>iPhone は「メニュー › データ」、Mac・iPad は左メニューの「ADIF入出力・JCC/JCG更新」から開きます。</p>
+  <ul>
+    <li><strong>ADIF 書き出し（ファイル保存）／ADIF 読み込み</strong>：他ソフトとの交換や過去ログの移行に。</li>
+    <li><strong>ADIF を共有用に準備</strong>：AirDrop やメールで、iPhone で書き出して Mac へ直接受け渡せます（その逆も可）。</li>
+    <li><strong>「HamLogJP で開く」だけで取り込み</strong>：ファイル・メール・AirDrop・CWデコーダー「DitLog」などで受け取った <code>.adi</code> ファイルを、共有メニューなどから HamLogJP で開くと取り込めます。</li>
+    <li><strong>Turbo HAMLOG CSV 取り込み</strong>：HAMLOG の「CSV形式で出力」ファイルに対応。文字コードは UTF-8 / Shift_JIS の両対応。</li>
+    <li>読み込み時は「コールサイン＋分単位の日時」が一致する交信を<strong>重複としてスキップ</strong>するので、同じファイルを二度読んでも増えません。</li>
+    <li><strong>ADIF 3.1.7</strong> で書き出すと、QSL の状態と日付（紙・eQSL・LoTW・QRZ・Club Log）も一緒に出力します。ほかのソフトで付いた項目も、できる範囲で保持して書き出します。</li>
+    <li>同じ画面に交信数の統計と、<strong>JCC/JCG リストの更新</strong>があります。</li>
+    <li><strong>12m バンド（1.2.3 で改善）</strong>：ログ入力でバンド「24」として記録した交信は、ADIF では <code>BAND=12m</code> として出力します。実際の周波数が記録されていない場合、帯の代表値を実周波数として FREQ には出力しません（17m・23cm も同様）。LoTW・eQSL・QRZ 用の出力も同じです。</li>
+  </ul>
+  <div class="note">1.2.2 以前のバージョンで LoTW 用 ADIF に書き出した 12m の交信は、BAND が入っていませんでした。対象の交信を QSL 管理などで確認のうえ、必要に応じて LoTW 用 ADIF を書き出し直してください（HamLogJP が自動で再送することはありません）。</div>
+  <div class="shots">
+    <figure class="phone"><img src="images/v120_iphone_data.png" alt="iPhoneのデータ画面"><figcaption>データ画面（iPhone）</figcaption></figure>
+  </div>
+  <figure><img src="images/v120_mac_data.png" alt="Mac版のデータ入出力画面"><figcaption>データ入出力（Mac）</figcaption></figure>
+</section>
+
+<!-- 9 -->
+<section id="qsl">
+  <h2><span class="n">9</span>QSL 管理 <span class="pill">プレミアム</span></h2>
+  <p>紙QSL・hQSL・eQSL・LoTW・QRZ.com・Club Log の状態を、<strong>交信ごとにまとめて管理</strong>できます。iPhone は下のタブ、Mac・iPad は左メニューの「QSL管理」から開きます。外部サービスへの送信や取得は、すべて<strong>ボタンを押したときだけ</strong>行い、自動では送りません。</p>
+  <figure><img src="images/v121_mac_qsl.png" alt="Mac版のQSL管理。上部に件数、絞り込み、一括操作のボタン、下に交信の一覧"><figcaption>QSL管理（Mac）：上から件数のまとめ／絞り込み／一括操作／交信の一覧</figcaption></figure>
+
+  <h3>画面の見かた</h3>
+  <ul>
+    <li><strong>件数のまとめ</strong>：要対応・紙の発送済・紙の受領（CFM）・LoTW CFM・eQSL CFM の件数を表示します。</li>
+    <li><strong>絞り込み</strong>：「要対応／紙QSL／電子／CFM／すべて」で切り替えます。コールサインでも絞り込めます。</li>
+    <li><strong>要対応</strong>：QSLの扱いが「ビューロー経由」「ダイレクト」で、まだ発送していない交信などです。「未定」「電子QSLのみ」「QSL不要」の交信は紙の発送対象にしません。</li>
+    <li>一覧の各交信には、紙・LoTW・eQSL・QRZ・Club Log の状態が並びます。行を開くと詳細（下記）に進みます。</li>
+  </ul>
+  <div class="shots">
+    <figure class="phone"><img src="images/v121_iphone_qsl.png" alt="iPhoneのQSL管理"><figcaption>QSL管理（iPhone）</figcaption></figure>
+  </div>
+  <figure class="tablet"><img src="images/v121_ipad_qsl.jpg" alt="iPadのQSL管理"><figcaption>QSL管理（iPad）。一括操作のボタンは画面の幅に合わせて折り返します</figcaption></figure>
+
+  <h3>一括操作</h3>
+  <p>絞り込んだ交信に対して、まとめて操作できます（括弧内は対象の件数）。「設定 › QSL」で、一括操作の前に確認を出すかどうかを選べます。</p>
+  <ul>
+    <li><strong>状態</strong>：状態でさらに絞り込みます。</li>
+    <li><strong>発送済みに</strong>：紙QSLをまとめて発送済みにし、発送日を記録します。</li>
+    <li><strong>カードを読み取る</strong>：届いたQSLカードの写真から受領を記録します（下記）。</li>
+    <li><strong>まとめてPDF</strong>：選んだ交信のQSLカードを1つのPDFにします。PDFの作成や印刷では、発送済みにはなりません。</li>
+    <li><strong>QRZへ／eQSLへ</strong>：QRZ.com ログブックへのアップロード、eQSL.cc への送信。</li>
+    <li><strong>LoTW用ADIF／LoTW確認を取得</strong>：LoTW への提出用ファイルの書き出しと、確認（QSL）の取り込み。</li>
+    <li><strong>Club Log用ADIF</strong>：Club Log にアップロードするファイルの書き出し。</li>
+  </ul>
+
+  <h3>交信ごとの詳細と履歴</h3>
+  <p>一覧から交信を開くと、QSLの扱い（ビューロー経由・ダイレクト・電子QSLのみ・QSL不要・未定）、QSLマネージャー（QSL via）、QSLメッセージと、紙QSLの<strong>発送／受領の状態と日付</strong>、各オンラインサービスの状態を編集できます。</p>
+  <ul>
+    <li>状態を変えても日付は自動では入りません。「今日の日付を記録」で入れます。</li>
+    <li>変更はすべて<strong>履歴</strong>に残り、いつ・何を変えたかをあとから確認できます。</li>
+  </ul>
+
+  <h3>QSLカードの作成・印刷</h3>
+  <p>148×100mm（はがきサイズ）のQSLカードをPDFで作成し、共有できます。Mac からはそのまま印刷できます。詳細画面の「QSLカードをプレビュー」から確認できます。</p>
+
+  <h3>届いたQSLカードを写真から記録</h3>
+  <p>「カードを読み取る」で、写真ライブラリまたはファイルからカードの画像を選ぶと、コールサイン・日付・時刻・バンド・モードを読み取り、<strong>合っていそうな交信の候補</strong>を表示します。候補を選んで受領日を確かめ、「記録」を押すと紙QSLの受領（CFM）になります。</p>
+  <div class="tip">文字の読み取りは端末内だけで行い、画像や読み取った文字は保存・送信しません。写真ライブラリ全体へのアクセス許可も求めません。</div>
+
+  <h3>電子QSL・オンラインログとの連携</h3>
+  <p>各サービスのアカウントは、ご自身で登録してください。パスワードや APIキーは<strong>この端末のキーチェーンにだけ</strong>保存し、iCloud には同期しません（端末ごとに登録します）。登録は「設定」の QSL の項目から行います。</p>
+  <ul>
+    <li><strong>QRZ.com</strong>：「QRZ.com ログブック連携」に、QRZ.com のログブックの APIキーを登録すると、「QRZへ」でアップロードできます（日本語の項目は送りません）。</li>
+    <li><strong>eQSL.cc</strong>：「eQSL.cc 連携」にユーザー名（コールサイン）とパスワードを登録すると、「eQSLへ」で送信できます。</li>
+    <li><strong>LoTW（送る）</strong>：LoTW へは ARRL の署名ソフト <strong>TQSL</strong> で署名して送る決まりです。「LoTW用ADIF」でファイルを書き出し、TQSL で署名・アップロードします。Mac では TQSL を起動してファイルを表示します（TQSL の証明書と Station Location は事前に TQSL で設定してください）。iPhone・iPad で書き出したファイルは、AirDrop などで TQSL の入った Mac へ送ってください。</li>
+    <li><strong>LoTW（確認を取り込む）</strong>：「LoTW 確認の取得」に LoTW の<strong>Webサイト</strong>のユーザー名（通常はコールサイン）とパスワードを登録すると、「LoTW確認を取得」で確認済みの交信を取り込みます。コールサイン・バンド・時刻（前後30分）で照合し、変わるのは LoTW の「受信・確認」だけです。通常は前回以降の確認だけを取得します。</li>
+    <li><strong>Club Log</strong>：「Club Log用ADIF」で書き出したファイルを clublog.org でアップロードし、詳細画面で状態を記録します。</li>
+  </ul>
+  <div class="tip">LoTW はアマチュア無線の交信だけが対象です（フリラーの交信は含めません）。国内の交信も登録できますが、相手局も LoTW に送っていないと確認にはなりません。</div>
+</section>
+
+<!-- 10 -->
+<section id="stats">
+  <h2><span class="n">10</span>統計・グラフ</h2>
+  <p>月別・バンド別・モード別に交信を振り返れます。年間の交信数やアクティブなバンドがひと目で分かります。</p>
+  <div class="shots">
+    <figure class="phone"><img src="images/iphone_stats.png" alt="統計・グラフ（iPhone）"><figcaption>統計・グラフ（iPhone）</figcaption></figure>
+    <figure><img src="images/mac_stats.png" alt="統計・グラフ（Mac）"><figcaption>統計・グラフ（Mac）</figcaption></figure>
+  </div>
+</section>
+
+<!-- 11 -->
+<section id="hf">
+  <h2><span class="n">11</span>HF運用・DX Cluster</h2>
+  <p>HF〜50MHz の運用に役立つ情報と、自分の運用実績を1つの画面にまとめました。iPhone は「メニュー › HF運用」、Mac・iPad は左メニューの「HF運用」から開きます。HF運用の画面・バンド実績・DXCC Matrix は無料版でも使えます。DX Cluster・宇宙天気・グレイライン・6m Es・POTA/SOTA はプレミアム版の機能です。</p>
+  <figure><img src="images/v123_mac_hf.jpg" alt="Mac版のHF運用画面。宇宙天気、DX Cluster のスポット件数、50MHz、POTA/SOTA、自分の運用実績"><figcaption>HF運用（Mac）</figcaption></figure>
+
+  <h3>画面の見かた</h3>
+  <ul>
+    <li><strong>宇宙天気から見た目安</strong> <span class="pill">プレミアム</span>：SFI・Kp・黒点数・X線と、バンドごとの昼・夜の目安（NOAA のデータ）。「宇宙天気の詳細」「グレイライン（昼夜の境界）」に進めます。</li>
+    <li><strong>DX Cluster</strong> <span class="pill">プレミアム</span>：直近15分のスポット件数をバンドごとに表示します。続けて取得したデータがそろうと、直前15分と比べた増減を <strong>↑↑ / ↑</strong>（Spot増加）・<strong>→</strong>（変化小）・<strong>↓</strong>（Spot減少）で示します。最終更新から時間がたつと「データが古い可能性」と表示します。</li>
+    <li><strong>50MHz</strong> <span class="pill">プレミアム</span>：PSK Reporter に届いた 6m の受信レポートの件数と、日本が絡むパスの数。「Es(6m)リアルタイム」に進めます。</li>
+    <li><strong>POTA/SOTA</strong> <span class="pill">プレミアム</span>：スポットの画面（第6章）に進めます。</li>
+    <li><strong>自分の運用実績</strong>：この端末の HamLogJP のログから、過去90日の HF・50MHz（160m〜6m）のバンド別交信数を表示します。「バンド実績を表示」「DXCC Matrix」で詳しく見られます（下記）。</li>
+  </ul>
+  <div class="note">宇宙天気・スポット件数・PSK Reporter の受信レポートは、それぞれ別の情報源です。スポットの増減は DX Cluster に寄せられた報告の数の変化で、伝搬の予報ではありません。どれも「このバンドで必ず交信できる」ことを示すものではありません。</div>
+
+  <h3>DX Cluster のスポットを見る</h3>
+  <ol>
+    <li>「HF運用」を開きます。</li>
+    <li>「DX Clusterを開く」を選びます。</li>
+    <li>上の「状態・バンド・モード・時間・大陸」で絞り込みます（すべての条件を組み合わせて絞り込みます）。</li>
+    <li>スポットを選ぶと詳細が開きます。</li>
+    <li>詳細で、スポットの内容と自分のログ上の交信状況を確かめます。</li>
+    <li>交信するときは「QSO入力へ」を押すと、ログ入力の画面に切り替わります。</li>
+  </ol>
+  <figure><img src="images/v123_mac_dxcluster.jpg" style="width:100%;max-width:720px;height:auto;margin:0 auto" alt="DX Cluster のスポット一覧。周波数、コールサイン、経過時間、バンド、モード、国、交信状況"><figcaption>DX Cluster のスポット一覧（Mac）</figcaption></figure>
+  <figure><img src="images/v123_mac_dxdetail.jpg" style="width:100%;max-width:720px;height:auto;margin:0 auto" alt="スポットの詳細。スポットの内容、データ元の情報、HamLogJPのログ上の交信状況"><figcaption>スポットの詳細（Mac）</figcaption></figure>
+  <div class="shots">
+    <figure class="phone"><img src="images/v123_iphone_dxcluster.jpg" alt="iPhoneのDX Clusterスポット一覧"><figcaption>DX Cluster（iPhone）</figcaption></figure>
+    <figure class="phone"><img src="images/v123_iphone_dxdetail.jpg" alt="iPhoneのスポット詳細と「QSO入力へ」"><figcaption>スポットの詳細（iPhone）</figcaption></figure>
+  </div>
+  <p>一覧は1スポット2行です。1行目に<strong>周波数・コールサイン・経過時間</strong>、2行目にバンド・モード・国と交信状況を表示します（Mac・iPad の広い画面ではスポットのコメントも表示）。表示中は約90秒ごとに自動で更新し、「更新」ボタンや下に引っぱる操作でも更新できます（60秒に1回まで）。画面を閉じると更新は止まります。</p>
+
+  <h3>バンドマップ（1.2.4）</h3>
+  <p>DX Cluster の画面上部で「一覧」と「バンドマップ」を切り替えられます。バンドマップは、選んだバンドのスポットを<strong>周波数の順</strong>に並べ、周波数の区切り（例 7.000–7.025 MHz）ごとに局数を表示します。</p>
+  <ul>
+    <li>上のバンドのボタンで表示するバンドを選びます（ボタンの下の数字はそのバンドの局数）。状態・モード・時間（既定は 30 分以内）・大陸で絞り込めます。</li>
+    <li>同じ局・同じバンド・同じモード区分の重複した報告は、いちばん新しい1件にまとめます（「報告2件」のように表示）。</li>
+    <li>近い周波数（CW・デジタルは 0.5kHz、電話は 2kHz 以内）の局には左に線を付け、「近い周波数に2局」のように表示します。</li>
+    <li>NEW／WKD／CFM の表示、スポットの詳細、「QSO入力へ」は一覧と同じです。モード区分は周波数からの推定を含み、実際のモードを保証するものではありません。</li>
+  </ul>
+  <div class="shots">
+    <figure class="phone"><img src="images/v124_iphone_bandmap.jpg" alt="iPhoneのバンドマップ。40m を選び、7.000–7.025 MHz などの区切りごとにスポットが周波数順に並ぶ"><figcaption>バンドマップ（iPhone）</figcaption></figure>
+    <figure><img src="images/v124_mac_bandmap.jpg" style="width:100%;max-width:420px;height:auto;margin:0 auto" alt="Macのバンドマップ。近い周波数の局に左の線と「近い周波数に2局」の表示"><figcaption>バンドマップ（Mac）。近い周波数の局には左に線</figcaption></figure>
+  </div>
+
+  <h3>交信状況（NEW / WKD）と絞り込み</h3>
+  <p>スポットされた局を、この端末の HamLogJP のログ（アマチュア無線の交信。削除した交信は除く）と照合して表示します。コールサインは /P や KH0/ などの移動表記を除いた基本のコールサインで照合します。</p>
+  <table>
+    <tr><th>表示</th><th>意味</th></tr>
+    <tr><td>NEW</td><td>同じコールサインとの交信記録がない</td></tr>
+    <tr><td>WKD</td><td>過去に交信記録がある</td></tr>
+    <tr><td>未交信バンド</td><td>そのバンドでは交信記録がない（コールサイン自体が未交信の場合も含む）</td></tr>
+    <tr><td>未交信モード</td><td>そのバンドで、スポットに書かれたモードでは交信記録がない</td></tr>
+    <tr><td>LoTW CFM／Paper CFM／eQSL CFM</td><td>HamLogJP の QSL 管理に記録された確認状況（第9章）</td></tr>
+  </table>
+  <p>「状態」の絞り込みでは「すべて／NEW／未交信バンド／WKD」を選べます。バンド・モードの組み合わせは、スポットにモードが<strong>書かれている場合だけ</strong>判定します。モードが周波数からの推定や不明の場合は「不明」とし、NEW として扱いません。照合が終わるまでは「照合中」と表示します。</p>
+  <div class="note">「未交信」は HamLogJP のログに記録がないという意味で、DXCC などアワードの正式なクレジット状態とは異なります。</div>
+
+  <h3>モードの表示</h3>
+  <ul>
+    <li><strong>Cluster報告</strong>：スポットのコメントにモード（CW・SSB・FT8 など）が書かれているもの。一覧ではそのまま「FT8」などと表示します。</li>
+    <li><strong>周波数から推定</strong>：モードが書かれていないとき、周波数から見た目安です。一覧では「推定SSB」「推定CW」「推定DIGI」と表示します。実際のモードを保証するものではなく、例えば 7.074MHz でも FT8 とは断定しません。</li>
+    <li><strong>不明</strong>：書かれておらず、推定もできないもの（一覧では「—」）。</li>
+  </ul>
+
+  <h3>QSO入力へ</h3>
+  <p>詳細の「QSO入力へ」を押すと、コールサインとバンドをログ入力の欄に入れます。スポットにモードが書かれていればモードも入れます。周波数から推定したモードは、詳細画面で「推定モード『○○』も入れる」をオンにしたときだけ入れます（Digital の推定は FT8・FT4・RTTY などを区別できないため入れません）。<strong>スポットを開いたり「QSO入力へ」を押したりしただけでは、交信は保存されません。</strong>入力画面で内容を確かめてから保存してください。</p>
+
+  <h3>QSX（DX局の受信周波数）（1.2.4）</h3>
+  <p>DX 局がスプリット運用（送信と受信の周波数を分ける運用）をしているとき、スポットのコメントに受信周波数（QSX）が書かれていることがあります。HamLogJP はコメントから読み取れた場合だけ、スポットの詳細に次のように表示します（QSX が読み取れないスポットには表示しません）。</p>
+  <table>
+    <tr><th>表示</th><th>意味</th></tr>
+    <tr><td>DX局の送信（スポット）</td><td>スポットされた周波数（DX 局が送信している周波数）</td></tr>
+    <tr><td>DX局の受信（QSX）</td><td>コメントに書かれた受信周波数。「UP 5」のような書き方は、送信周波数からの差で計算した値（「計算値」と表示）</td></tr>
+    <tr><td>受信範囲</td><td>「UP 5-10」のように幅で書かれている場合の範囲</td></tr>
+    <tr><td>スプリット</td><td>「UP」だけなど、スプリット運用の可能性はあるが受信周波数が分からない場合</td></tr>
+  </table>
+  <figure><img src="images/v124_mac_qsx.jpg" style="width:100%;max-width:560px;height:auto;margin:0 auto" alt="スポットの詳細。DX局の送信 7.005 MHz、DX局の受信(QSX) 7.0075 MHz、差 UP 2.5 kHz、根拠 コメント「QSX 7007.50」より"><figcaption>QSX の表示例（Mac・ダーク。コメント「QSX 7007.50」から読み取り）</figcaption></figure>
+  <div class="note">QSX は第三者のコメントから読み取った<strong>参考情報</strong>です。HamLogJP は QSX をもとに送信したり、無線機の周波数を切り替えたりしません。QSX は交信ログに保存されず、「QSO入力へ」でも入力欄に入りません。送信前に、必ず DX 局自身の指示（受信周波数）を確認してください。</div>
+
+  <h3>LoTW利用局と LoTW CFM の違い</h3>
+  <p>詳細の「データ元の情報」にある<strong>LoTW利用局・eQSL利用局</strong>は、HamQTH の DX Cluster の情報で、相手局がそのサービスを使っているという意味です。あなたとの交信が確認済みという意味ではありません。<strong>LoTW CFM・Paper CFM・eQSL CFM</strong> は、HamLogJP の QSL 管理に記録された確認状況です。</p>
+  <p>スポットには相手局の位置（グリッドロケーター）が含まれないため、距離と方位は表示しません。</p>
+
+  <h3>バンド実績</h3>
+  <p>この端末の HamLogJP のログ（アマチュア無線の交信）から、<strong>バンド別・時間帯別・バンド×時間帯</strong>の交信数をグラフにします。期間（過去30日・過去90日・過去1年・全期間）と、時刻の JST／UTC を切り替えられます。通信はしません。HF運用の画面の要約は HF・50MHz（160m〜6m）だけですが、この画面では V/UHF を含むすべてのバンドを表示します。</p>
+  <figure><img src="images/v123_mac_activity.jpg" style="width:100%;max-width:720px;height:auto;margin:0 auto" alt="バンド実績。バンド別・時間帯別の交信数と、バンド×時間帯の表"><figcaption>バンド実績（Mac）</figcaption></figure>
+  <div class="note">ご自身の過去の交信の集計で、一般的な伝搬の統計や、いまのコンディションを示すものではありません。</div>
+
+  <h3>DXCC Matrix（1.2.4）</h3>
+  <p>「HF運用 › 自分の運用実績 › DXCC Matrix」で、この端末の HamLogJP のログ（アマチュア無線の交信）から、<strong>エンティティ（国・地域）× バンド</strong>の交信状況と QSL の確認状況を一覧にします。集計は端末内で行い、通信はしません。</p>
+  <table>
+    <tr><th>記号</th><th>意味</th></tr>
+    <tr><td>W</td><td>交信済み（HamLogJP のログに記録あり）</td></tr>
+    <tr><td>L</td><td>LoTW で確認済み（QSL 管理の記録）</td></tr>
+    <tr><td>E</td><td>eQSL で確認済み（QSL 管理の記録）</td></tr>
+    <tr><td>P</td><td>紙 QSL で確認済み（QSL 管理の記録）</td></tr>
+    <tr><td>空欄</td><td>そのバンドでは交信記録がない</td></tr>
+  </table>
+  <ul>
+    <li>交信のエンティティは、ADIF で取り込んだ交信などに <strong>DXCC の値がある場合はそれを優先</strong>し、ない場合は同梱の国・地域データ（AD1C Country Files）とコールサインから推定します。画面上部に「ADIFの値 ○件／コールサインから推定 ○件／不明 ○件」を表示します。</li>
+    <li>移動運用（/P、KH0/ など）や特別局では、推定が実際と異なることがあります。バンドを決められない交信は表に入れず、件数だけ表示します。</li>
+    <li>上の欄にエンティティ名やプレフィックスを入れると絞り込めます。行を選ぶとバンドごとの内訳が開きます。</li>
+  </ul>
+  <div class="shots">
+    <figure class="phone"><img src="images/v124_iphone_dxcc.jpg" alt="iPhoneのDXCC Matrix。交信したエンティティの数と、バンドごとの W・L・P の記号"><figcaption>DXCC Matrix（iPhone・デモ用データ）</figcaption></figure>
+    <figure><img src="images/v124_mac_dxcc.jpg" style="width:100%;max-width:560px;height:auto;margin:0 auto" alt="MacのDXCC Matrix。エンティティの行とバンドの列の表"><figcaption>DXCC Matrix（Mac・デモ用データ）</figcaption></figure>
+  </div>
+  <div class="note">DXCC Matrix は HamLogJP のログと QSL 管理の記録を集計したものです。<strong>ARRL DXCC の正式なクレジット状況ではありません</strong>。アワードの申請状況は ARRL（LoTW）でご確認ください。</div>
+
+  <h3>データ元とプライバシー</h3>
+  <p>DX Cluster のスポット情報は HamQTH のサービスから取得します（画面に「Data: HamQTH DX Cluster」と表示）。取得の際、HamLogJP の交信ログ、交信状況（NEW/WKD）の判定データ、QSL 管理の履歴を HamQTH へ送信しません。交信状況の判定はすべて端末内で行います。</p>
+  <div class="tip">DX Cluster のスポットは第三者による報告で、内容の正確さや新しさは保証されません。モードの推定は参考情報です。運用するバンド・周波数・モードは、法令・バンドプラン・各コンテストの規約をご自身で確認してください。</div>
+</section>
+
+<!-- 12 -->
+<section id="tools">
+  <h2><span class="n">12</span>Es現況・宇宙天気・WiRES-X</h2>
+  <p>6m Es・宇宙天気・グレイラインは、第11章の「HF運用」画面からも開けます。</p>
+  <ul>
+    <li><strong>6m Es リアルタイム</strong> <span class="pill">プレミアム</span>：PSK Reporter の実際の受信レポートから、いま日本と開けている方向を地図で表示します。</li>
+    <li><strong>宇宙天気・太陽フレア</strong>：太陽フレア・地磁気・黒点数とグレーラインの世界地図で、コンディションの参考情報を確認できます。SFI・Kp・X線は色の帯（メーター）で表示します（下記）。</li>
+    <li><strong>近くの WiRES-X ノード</strong>：現在地周辺のノードを地図で表示します。</li>
+    <li><strong>Q符号・HAM略語辞書</strong>：Q符号・HAM略語・フリラー用語を調べられます。</li>
+  </ul>
+  <div class="shots">
+    <figure class="phone"><img src="images/iphone_es.png" alt="6m Es現況（iPhone）"><figcaption>6m Es 現況</figcaption></figure>
+    <figure><img src="images/mac_es.png" alt="6m Es現況（Mac）"><figcaption>6m Es 現況（Mac）</figcaption></figure>
+  </div>
+
+  <h3>宇宙天気の色帯メーター（1.2.4）</h3>
+  <p>「宇宙天気・太陽フレア」の画面では、SFI・Kp・GOES X線を横長の色の帯で表示します。</p>
+  <ul>
+    <li><strong>色の帯</strong>：左から右へ値が大きくなります。区分の境目に細い線（区切り）があり、いまの値が入っている区分はほかの区分より濃く見えるように強調します。</li>
+    <li><strong>▼と縦線（マーカー）</strong>：いまの値の位置です。帯の範囲を超える値はマーカーを右端に置き、区分の判定は実際の値で行います。</li>
+    <li><strong>SFI</strong>（F10.7 太陽電波フラックス）：太陽活動の水準の目安です。色分けは NOAA の公式な区分ではなく HamLogJP の目安です。</li>
+    <li><strong>Kp</strong>（惑星K指数）：地磁気の乱れ。Kp 5〜9 は NOAA の磁気嵐スケール G1〜G5 に対応します。</li>
+    <li><strong>X線</strong>（GOES の X 線）：太陽フレアの強さ。M1 以上は NOAA の電波障害スケール R1〜R5 に対応します。帯は対数（桁ごと）の目盛りです。</li>
+    <li><strong>太陽黒点数（SSN・月平均）</strong>は補助の値で、良し悪しの色分けはしていません。A 指数・Ap 指数は表示していません。</li>
+  </ul>
+  <div class="shots">
+    <figure class="phone"><img src="images/v124_iphone_spaceweather.jpg" alt="iPhoneの宇宙天気。X線・SFI・Kp の色の帯と、いまの値を示すマーカー"><figcaption>宇宙天気の色帯メーター（iPhone）</figcaption></figure>
+    <figure><img src="images/v124_mac_spaceweather.jpg" style="width:100%;max-width:440px;height:auto;margin:0 auto" alt="Macの宇宙天気。色の帯とグレーライン世界地図、各バンドへの影響"><figcaption>宇宙天気（Mac）</figcaption></figure>
+  </div>
+  <div class="note">色は各指数の状態を見やすくするためのものです。緑が並んでいても「必ず DX ができる」という意味ではありません。SFI・Kp・X線はそれぞれ別の観測値として見て、実際のバンドの状況（DX Cluster・受信レポートなど）とあわせて判断してください。読み上げ（VoiceOver）では「SFI、123、高い」のように、名前・値・状態を読み上げます。</div>
+</section>
+
+<!-- 13 -->
+<section id="settings">
+  <h2><span class="n">13</span>設定</h2>
+  <p>iPhone は「メニュー › 設定」、Mac・iPad は左メニューの「表示・自局・リグの設定」から開きます。</p>
+  <ul>
+    <li><strong>自局・運用地</strong>：コールサイン・運用地・JCC/JCG などを登録。各QSOに自動で記録されます（移動運用のときだけ変更）。</li>
+    <li><strong>既定のバンド・モード</strong>と<strong>表示するモード</strong>：入力画面に出すモードを全48種から選択（DV/D-STAR/C4FM/DMR も選択可）。</li>
+    <li><strong>リグの登録・管理</strong>：アマチュア機・フリラー機を複数登録でき、ログ入力で使用リグを選べます。</li>
+    <li><strong>ログ入力のプリセット</strong>：保存したプリセットの確認・削除（第5章）。</li>
+    <li><strong>文字サイズ</strong>：標準／大きめ／特大。Mac では画面全体に反映されます。</li>
+    <li><strong>配色・見やすさ</strong>：色だけに頼らず記号や濃淡でも区別する「ユニバーサルカラー」、文字や枠線を濃くする「高コントラスト表示」。</li>
+    <li><strong>QSL</strong>：一覧に QSL 状態のバッジを出すか、一括操作の前に確認するか。QRZ.com・eQSL.cc・LoTW のアカウント登録（第9章）。</li>
+    <li><strong>単位</strong>：距離・気温の単位を切り替え。</li>
+    <li><strong>iCloud に保管（同期）</strong>：ご自身の端末間でログを同期。変更はアプリの再起動後に反映されます。</li>
+    <li><strong>サブスクリプション管理</strong>：プレミアムの購入・復元・管理。</li>
+  </ul>
+  <figure><img src="images/paywall.png" alt="プレミアム案内" style="width:100%;max-width:520px;height:auto;margin:0 auto"><figcaption>プレミアム案内</figcaption></figure>
+</section>
+
+<!-- 14 -->
+<section id="price">
+  <h2><span class="n">14</span>料金・お問い合わせ</h2>
+  <p><span class="pill free">無料版</span> 交信ログ 200 件まで／アマ・フリラーの記録／過去交信・重複表示／JCC・JCG 検索／統計グラフ／HF運用画面・バンド実績・DXCC Matrix／特小レピーターMAP（交信記録への入力を含む）</p>
+  <p><span class="pill">プレミアム</span> ¥480/月・¥4,800/年：交信ログ無制限／ADIF 入出力・Turbo HAMLOG 取り込み／QSL 管理／DX Cluster（一覧・バンドマップ）／6m Es・宇宙天気・グレイライン／POTA/SOTA スポット／WiRES-X ノード地図／iPhone・iPad・Mac 共通</p>
+  <p>ご質問・ご要望は下記のお問い合わせ先までお寄せください。アップデートで随時改善しています。</p>
+</section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a href="https://apps.apple.com/app/id6790925699">App Store</a>
+      <a href="mailto:genre_pincers_3d@icloud.com">お問い合わせ</a>
+      <a href="https://jpanhamlogapp.github.io/hamlogjp-data/privacy.html">プライバシーポリシー</a>
+    </div>
+    <p style="margin-top:10px">© 2026 JL1LCQ. HamLogJP is an independent amateur-radio utility.</p>
+    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面はバージョン 1.2.0〜1.2.4（デモ用の交信データ。DX Cluster・宇宙天気の画面は実際のデータ）です。最終更新：2026年10月14日</p>
+  </div>
+</footer>
+
+</body>
+</html>
