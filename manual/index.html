@@ -86,7 +86,7 @@
   <div class="wrap">
     <h1>HamLogJP 取扱説明書</h1>
     <p>アマチュア無線とフリラーの両方に対応した、日本語の交信ログアプリ「HamLogJP（無線交信ログ帳）」の使い方ガイドです。iPhone・iPad・Mac 共通の操作を、画面付きで順に説明します。</p>
-    <span class="ver">バージョン 1.2.6 対応 ・ iOS / iPadOS / macOS ・ 無料版＋プレミアム</span>
+    <span class="ver">バージョン 1.2.7 対応 ・ iOS / iPadOS / macOS ・ 無料版＋プレミアム</span>
   </div>
 </div>
 
@@ -123,6 +123,7 @@
     <li>交信ログは<strong>端末内に保存</strong>され、外部に送信されません。iCloud 同期をオンにすると、ご自身の iPhone・iPad・Mac 間でログを共有できます（Apple ID の iCloud を利用）。</li>
     <li>無料版で交信ログ 200 件まで、基本機能をお試しいただけます。ADIF 入出力や QSL 管理などはプレミアム版の機能です（第14章）。</li>
   </ul>
+  <div class="tip"><strong>1.2.7 の主な変更</strong>：交信の詳細で、設定した自局のグリッドロケーターから相手局までの距離・方位を表示し、地図で確認できるようにしました（第2章・第13章）。QSL 管理に「eQSL確認を取得」を追加し、eQSL で確認済み（CFM）になったカードを交信に反映できるようにしました（第9章）。プレミアム版に「電離層 TEC マップ（NOAA GloTEC・参考）」を追加しました（第12章）。交信の詳細でリマークスをメモの欄にまとめ、検索の対象にメモを加えました。ADIF の書き出し・読み込みの互換性を改善し、Turbo HAMLOG が書き出す ADIF の日本語も正しく読み込めるようにしました（第8章）。LoTW 通信のセキュリティを改善しました。自局の運用地のグリッドが相手局のグリッドとして保存される不具合と、文字サイズが大きいときの保存ボタンの表示を修正しました。</div>
   <div class="tip"><strong>1.2.5 の主な変更</strong>：保存した交信のコンテストナンバーを、交信の詳細と QSL 管理の詳細で確認・修正できるようにしました。入力欄の表記を「自局コンテストナンバー」「相手局コンテストナンバー」に変更しました（第7章）。</div>
   <div class="tip"><strong>1.2.4 の主な変更</strong>：DX Cluster にバンドごとの「バンドマップ」表示を追加し、スポットの詳細に DX 局の受信周波数（QSX）の目安を表示（第11章）。自分のログからエンティティ×バンドの交信・QSL 確認状況を一覧にする「DXCC Matrix」を追加（第11章）。宇宙天気の SFI・Kp・X線を色の帯（メーター）で表示（第12章）。POTA の入力欄を SOTA と同じ形（検索・直接入力・変更／クリア）にそろえ、公園名の日本語表示を iPhone・iPad・Mac で統一（第6章）。海外局のコールサインで「相手の運用エリア」を補完しないよう修正。</div>
   <div class="tip"><strong>1.2.3 の主な変更</strong>：HF〜50MHz の運用に役立つ情報と自分の運用実績をまとめた「HF運用」画面を追加。DX Cluster のスポット一覧（交信状況の表示と絞り込み、スポットからログ入力へ）、自分のログのバンド実績（バンド別・時間帯別）に対応（第11章）。ログ入力に SOTA の自局・相手局の山岳と山岳検索を追加（第6章）。12m バンドの ADIF 出力を改善（第8章）。</div>
@@ -144,6 +145,14 @@
   <p>交信ログの一覧（Mac・iPad は中央、iPhone は「検索・一覧」）の上にある <strong>すべて／アマチュア／フリラー</strong> で、表示する交信をワンタップで切り替えられます。検索と組み合わせて使えます（例：「アマチュア」＋「JL1」）。件数は「表示中の件数 / 全件数 QSO」で表示します。画面を開き直すと「すべて」に戻ります。表示を切り替えるだけで、交信データは変わりません。</p>
   <figure><img src="images/v121_mac_filter.png" alt="Mac版の交信ログ一覧の上に、すべて・アマチュア・フリラーの切り替え"><figcaption>一覧の上の「すべて／アマチュア／フリラー」（Mac）</figcaption></figure>
   <div class="tip">Mac でウインドウを閉じてしまったときは、メニューの「新規ウインドウ」（<kbd>⇧</kbd><kbd>⌘</kbd><kbd>N</kbd>）で開き直せます。</div>
+
+  <h3>交信の詳細（1.2.7）</h3>
+  <p>一覧の交信を開くと、内容を確認・修正できます。</p>
+  <ul>
+    <li><strong>距離・方位</strong>：相手局の欄に「相手のグリッドロケーター」が入っていると、設定の「自局のグリッドロケーター」（第13章）から相手局までの距離と方位を表示します。「地図で見る」で経路を地図で確認できます。4文字のグリッドは、その範囲の中心で計算する概算です。</li>
+    <li><strong>メモとリマークス</strong>：「メモ」の欄に、自由記入のメモと、他のソフトから取り込んだ補足（リマークス）をまとめて表示します。メモは ADIF の COMMENT、リマークスは NOTES として書き出し・取り込みます。QSL のアップロードには含めません。</li>
+    <li><strong>検索</strong>：交信ログの検索では、メモも対象になります。</li>
+  </ul>
 
   <h3>iPhone は片手で速記</h3>
   <p>画面下のタブで <strong>ログ入力</strong>／<strong>検索・一覧</strong>／<strong>QSL管理</strong>／<strong>メニュー</strong> を切り替えます。統計・POTA/SOTA・Es現況・データ入出力・設定などは「メニュー」から開きます。</p>
@@ -336,9 +345,11 @@
     <li><strong>ADIF を共有用に準備</strong>：AirDrop やメールで、iPhone で書き出して Mac へ直接受け渡せます（その逆も可）。</li>
     <li><strong>「HamLogJP で開く」だけで取り込み</strong>：ファイル・メール・AirDrop・CWデコーダー「DitLog」などで受け取った <code>.adi</code> ファイルを、共有メニューなどから HamLogJP で開くと取り込めます。</li>
     <li><strong>Turbo HAMLOG CSV 取り込み</strong>：HAMLOG の「CSV形式で出力」ファイルに対応。文字コードは UTF-8 / Shift_JIS の両対応。</li>
+    <li><strong>Turbo HAMLOG の ADIF（1.2.7）</strong>：Turbo HAMLOG/Win が書き出す Shift_JIS の ADIF ファイルも、日本語の項目（名前・QTH など）を正しく読み込めます。</li>
     <li>読み込み時は「コールサイン＋分単位の日時」が一致する交信を<strong>重複としてスキップ</strong>するので、同じファイルを二度読んでも増えません。</li>
     <li><strong>ADIF 3.1.7</strong> で書き出すと、QSL の状態と日付（紙・eQSL・LoTW・QRZ・Club Log）も一緒に出力します。ほかのソフトで付いた項目も、できる範囲で保持して書き出します。</li>
     <li>同じ画面に交信数の統計と、<strong>JCC/JCG リストの更新</strong>があります。</li>
+    <li><strong>ADIF の互換性（1.2.7 で改善）</strong>：書き出しでは、メモ（COMMENT）の改行を空白に、リマークス（NOTES）の改行を CR+LF にそろえます（アプリに保存している内容は変えません）。日本語などの文字はそのまま書き出すため、英数字だけを前提とする ADIF の厳密な規格とは異なります。読み込みでは、値の中に「&lt;EOR&gt;」などの文字があっても正しく読み、区切りの大文字・小文字の違いにも対応しました。</li>
     <li><strong>12m バンド（1.2.3 で改善）</strong>：ログ入力でバンド「24」として記録した交信は、ADIF では <code>BAND=12m</code> として出力します。実際の周波数が記録されていない場合、帯の代表値を実周波数として FREQ には出力しません（17m・23cm も同様）。LoTW・eQSL・QRZ 用の出力も同じです。</li>
   </ul>
   <div class="note">1.2.2 以前のバージョンで LoTW 用 ADIF に書き出した 12m の交信は、BAND が入っていませんでした。対象の交信を QSL 管理などで確認のうえ、必要に応じて LoTW 用 ADIF を書き出し直してください（HamLogJP が自動で再送することはありません）。</div>
@@ -375,6 +386,7 @@
     <li><strong>まとめてPDF</strong>：選んだ交信のQSLカードを1つのPDFにします。PDFの作成や印刷では、発送済みにはなりません。</li>
     <li><strong>QRZへ／eQSLへ</strong>：QRZ.com ログブックへのアップロード、eQSL.cc への送信。</li>
     <li><strong>LoTW用ADIF／LoTW確認を取得</strong>：LoTW への提出用ファイルの書き出しと、確認（QSL）の取り込み。</li>
+    <li><strong>eQSL確認を取得</strong>（1.2.7）：eQSL で確認済み（CFM）になったカードの取り込み（下記）。</li>
     <li><strong>Club Log用ADIF</strong>：Club Log にアップロードするファイルの書き出し。</li>
   </ul>
 
@@ -397,6 +409,7 @@
   <ul>
     <li><strong>QRZ.com</strong>：「QRZ.com ログブック連携」に、QRZ.com のログブックの APIキーを登録すると、「QRZへ」でアップロードできます（日本語の項目は送りません）。</li>
     <li><strong>eQSL.cc</strong>：「eQSL.cc 連携」にユーザー名（コールサイン）とパスワードを登録すると、「eQSLへ」で送信できます。</li>
+    <li><strong>eQSL.cc（確認を取り込む・1.2.7）</strong>：同じ登録で「eQSL確認を取得」を押すと、eQSL で確認済み（CFM）になった受信カードを取得します。コールサイン・バンド・モードが一致し、時刻差が30分以内の交信が1件だけの場合に限り「eQSL 受信・確認」を確認済みにします。一致しないものや候補が複数あるものは自動では反映しません。送信状態やほかのQSLは変わりません。「確認待ちの交信の範囲で取得」と「全期間を取得し直す」を選べます。続けて取得するときは1分以上あけてください。</li>
     <li><strong>LoTW（送る）</strong>：LoTW へは ARRL の署名ソフト <strong>TQSL</strong> で署名して送る決まりです。「LoTW用ADIF」でファイルを書き出し、TQSL で署名・アップロードします。Mac では TQSL を起動してファイルを表示します（TQSL の証明書と Station Location は事前に TQSL で設定してください）。iPhone・iPad で書き出したファイルは、AirDrop などで TQSL の入った Mac へ送ってください。</li>
     <li><strong>LoTW（確認を取り込む）</strong>：「LoTW 確認の取得」に LoTW の<strong>Webサイト</strong>のユーザー名（通常はコールサイン）とパスワードを登録すると、「LoTW確認を取得」で確認済みの交信を取り込みます。コールサイン・バンド・時刻（前後30分）で照合し、変わるのは LoTW の「受信・確認」だけです。通常は前回以降の確認だけを取得します。</li>
     <li><strong>Club Log</strong>：「Club Log用ADIF」で書き出したファイルを clublog.org でアップロードし、詳細画面で状態を記録します。</li>
@@ -560,6 +573,17 @@
     <figure><img src="images/v124_mac_spaceweather.jpg" style="width:100%;max-width:440px;height:auto;margin:0 auto" alt="Macの宇宙天気。色の帯とグレーライン世界地図、各バンドへの影響"><figcaption>宇宙天気（Mac）</figcaption></figure>
   </div>
   <div class="note">色は各指数の状態を見やすくするためのものです。緑が並んでいても「必ず DX ができる」という意味ではありません。SFI・Kp・X線はそれぞれ別の観測値として見て、実際のバンドの状況（DX Cluster・受信レポートなど）とあわせて判断してください。読み上げ（VoiceOver）では「SFI、123、高い」のように、名前・値・状態を読み上げます。</div>
+
+  <h3>電離層 TEC マップ（参考・1.2.7） <span class="pill">プレミアム</span></h3>
+  <p>プレミアム版の「宇宙天気・太陽フレア」の画面にある「電離層 TEC マップ（NOAA GloTEC・参考）」から開きます。米国海洋大気庁（NOAA）の宇宙天気予報センター（SWPC）が公開している <strong>GloTEC</strong>（電離層の全電子数 TEC のモデル値）を地図で表示します。GloTEC は10分ごとに作られ、公開までに約20〜30分かかります。画面には必ずデータの時刻（日本時間・UTC）を表示し、時間がたったデータは「遅れ」「古い」と表示します。</p>
+  <ul>
+    <li><strong>TEC（TECU）</strong>：電離層の電子の量です。主に衛星測位（GNSS）の誤差の見積もりに使われる値で、HF のどのバンドで交信できるかを示すものではありません。</li>
+    <li><strong>30日中央値との差</strong>：NOAA が計算している「いつもとの差」です。</li>
+    <li><strong>薄い色・斜線のマス</strong>：その場所に観測がなく、NOAA の背景モデル（IRI-2016）による推定の値です。日本付近は時刻によって半分以上がこの状態になります。</li>
+    <li><strong>HamLogJP の目安</strong>（破線の枠）：観測のある日本付近のマスだけを使って「いつもより多め／同程度／少なめ」を示す、HamLogJP 独自の目安です。NOAA の情報ではありません。観測のあるマスが少ないときは目安を出しません。</li>
+    <li><strong>取得と通信</strong>：画面を開いたときと「更新」を押したときだけ取得します（新しいデータがあるときは約3MB、ないときは一覧だけの約0.5MB。間隔は自動で10分以上・手動で1分以上）。最新のファイルが読めないときは一つ前のファイルを表示し、その旨を表示します。通信できないときは端末に保存した前回のデータを表示します。位置情報・交信記録・自局のコールサインは送信しません。</li>
+  </ul>
+  <div class="note">データ：NOAA SWPC GloTEC（パブリックドメイン）。地図の色分けと「HamLogJP の目安」は HamLogJP が作成したもので、NOAA の公式情報ではなく、NOAA が HamLogJP を推奨・提携しているものでもありません。TEC は特定のバンドで交信できるかどうかを示すものではありません。実際のバンドの状況は DX Cluster・受信レポートなどとあわせて判断してください。</div>
 </section>
 
 <!-- 13 -->
@@ -567,7 +591,7 @@
   <h2><span class="n">13</span>設定</h2>
   <p>iPhone は「メニュー › 設定」、Mac・iPad は左メニューの「表示・自局・リグの設定」から開きます。</p>
   <ul>
-    <li><strong>自局・運用地</strong>：コールサイン・運用地・JCC/JCG などを登録。各QSOに自動で記録されます（移動運用のときだけ変更）。</li>
+    <li><strong>自局・運用地</strong>：コールサイン・運用地・JCC/JCG などを登録。各QSOに自動で記録されます（移動運用のときだけ変更）。「自局のグリッドロケーター」（4・6・8文字。1.2.7）は、交信の詳細の距離・方位の表示に使います（第2章）。</li>
     <li><strong>既定のバンド・モード</strong>と<strong>表示するモード</strong>：入力画面に出すモードを全48種から選択（DV/D-STAR/C4FM/DMR も選択可）。</li>
     <li><strong>リグの登録・管理</strong>：アマチュア機・フリラー機を複数登録でき、ログ入力で使用リグを選べます。</li>
     <li><strong>ログ入力のプリセット</strong>：保存したプリセットの確認・削除（第5章）。</li>
@@ -585,7 +609,7 @@
 <section id="price">
   <h2><span class="n">14</span>料金・お問い合わせ</h2>
   <p><span class="pill free">無料版</span> 交信ログ 200 件まで／アマ・フリラーの記録／過去交信・重複表示／JCC・JCG 検索／統計グラフ／HF運用画面・バンド実績・DXCC Matrix／特小レピーターMAP（交信記録への入力を含む）</p>
-  <p><span class="pill">プレミアム</span> ¥480/月・¥4,800/年：交信ログ無制限／ADIF 入出力・Turbo HAMLOG 取り込み／QSL 管理／DX Cluster（一覧・バンドマップ）／6m Es・宇宙天気・グレイライン／POTA/SOTA スポット／WiRES-X ノード地図／iPhone・iPad・Mac 共通</p>
+  <p><span class="pill">プレミアム</span> ¥480/月・¥4,800/年：交信ログ無制限／ADIF 入出力・Turbo HAMLOG 取り込み／QSL 管理／DX Cluster（一覧・バンドマップ）／6m Es・宇宙天気・グレイライン・電離層 TEC マップ／POTA/SOTA スポット／WiRES-X ノード地図／iPhone・iPad・Mac 共通</p>
   <p>ご質問・ご要望は下記のお問い合わせ先までお寄せください。アップデートで随時改善しています。</p>
 </section>
 
@@ -599,7 +623,7 @@
       <a href="https://jpanhamlogapp.github.io/hamlogjp-data/privacy.html">プライバシーポリシー</a>
     </div>
     <p style="margin-top:10px">© 2026 JL1LCQ. HamLogJP is an independent amateur-radio utility.</p>
-    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面はバージョン 1.2.0〜1.2.4（デモ用の交信データ。DX Cluster・宇宙天気の画面は実際のデータ）です。最終更新：2026年10月14日</p>
+    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面はバージョン 1.2.0〜1.2.4（デモ用の交信データ。DX Cluster・宇宙天気の画面は実際のデータ）です。最終更新：2026年10月17日</p>
   </div>
 </footer>
 
