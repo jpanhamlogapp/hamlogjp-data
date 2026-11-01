@@ -1,6 +1,6 @@
 {
  "dataVersion": 2,
- "updated": "2026-10-25",
+ "updated": "2026-11-01",
  "note": "POTA公式API(api.pota.app)から自動生成。日本語名(nameJa)はPOTA日本有志会(pota-jp.com)の公園リストより。未収録は英名にフォールバック。",
  "entries": [
   {
@@ -10955,6 +10955,213 @@
    "lat": 34.7065,
    "lon": 136.522,
    "grid": "PM84gq"
+  },
+  {
+   "ref": "JP-2141",
+   "name": "Kokubu seaside Prefectural Park",
+   "nameJa": "",
+   "pref": "富山県",
+   "lat": 36.8046,
+   "lon": 137.053,
+   "grid": "PM86mt"
+  },
+  {
+   "ref": "JP-2142",
+   "name": "Kanazawa Minato cyuou Prefectural Park",
+   "nameJa": "",
+   "pref": "石川県",
+   "lat": 36.6077,
+   "lon": 136.615,
+   "grid": "PM86ho"
+  },
+  {
+   "ref": "JP-2143",
+   "name": "Odaira touge Prefectural Forest",
+   "nameJa": "",
+   "pref": "長野県",
+   "lat": 35.5669,
+   "lon": 137.695,
+   "grid": "PM85un"
+  },
+  {
+   "ref": "JP-2144",
+   "name": "Ookagou Prefectural Park",
+   "nameJa": "",
+   "pref": "東京都",
+   "lat": 33.1086,
+   "lon": 139.781,
+   "grid": "PM93vc"
+  },
+  {
+   "ref": "JP-2145",
+   "name": "Sokodo Campground Prefectural Park",
+   "nameJa": "",
+   "pref": "東京都",
+   "lat": 33.1266,
+   "lon": 139.814,
+   "grid": "PM93vd"
+  },
+  {
+   "ref": "JP-2146",
+   "name": "Sokodo Prefectural Park",
+   "nameJa": "",
+   "pref": "東京都",
+   "lat": 33.1235,
+   "lon": 139.816,
+   "grid": "PM93vc"
+  },
+  {
+   "ref": "JP-2147",
+   "name": "Okataura Prefectural Park",
+   "nameJa": "",
+   "pref": "東京都",
+   "lat": 33.1029,
+   "lon": 139.763,
+   "grid": "PM93vc"
+  },
+  {
+   "ref": "JP-2148",
+   "name": "Nanbara Prefectural Park",
+   "nameJa": "",
+   "pref": "東京都",
+   "lat": 33.1059,
+   "lon": 139.755,
+   "grid": "PM93vc"
+  },
+  {
+   "ref": "JP-2149",
+   "name": "Shirokokou Ryokuchi Prefectural Park",
+   "nameJa": "",
+   "pref": "三重県",
+   "lat": 34.8269,
+   "lon": 136.591,
+   "grid": "PM84ht"
+  },
+  {
+   "ref": "JP-2150",
+   "name": "Kana Garden Prefectural Park",
+   "nameJa": "",
+   "pref": "神奈川県",
+   "lat": 35.3588,
+   "lon": 139.312,
+   "grid": "PM95pi"
+  },
+  {
+   "ref": "JP-2151",
+   "name": "Flower Park Kagoshima Prefectural Park",
+   "nameJa": "",
+   "pref": "鹿児島県",
+   "lat": 31.1674,
+   "lon": 130.585,
+   "grid": "PM51he"
+  },
+  {
+   "ref": "JP-2152",
+   "name": "Shouyouju no Mori Prefectural Forest",
+   "nameJa": "",
+   "pref": "鹿児島県",
+   "lat": 31.1278,
+   "lon": 130.858,
+   "grid": "PM51kd"
+  },
+  {
+   "ref": "JP-2153",
+   "name": "Matsubara Yamate Prefectural Forest",
+   "nameJa": "",
+   "pref": "滋賀県",
+   "lat": 35.2888,
+   "lon": 136.264,
+   "grid": "PM85dg"
+  },
+  {
+   "ref": "JP-2154",
+   "name": "Nouka Prefectural Park",
+   "nameJa": "",
+   "pref": "滋賀県",
+   "lat": 35.0801,
+   "lon": 135.89,
+   "grid": "PM75wb"
+  },
+  {
+   "ref": "JP-2155",
+   "name": "Seiryu Nagaragawa Ayu Prefectural Park",
+   "nameJa": "",
+   "pref": "岐阜県",
+   "lat": 35.9223,
+   "lon": 136.832,
+   "grid": "PM85jw"
+  },
+  {
+   "ref": "JP-2156",
+   "name": "Hiroshima Kenmin no Mori Prefectural Forest",
+   "nameJa": "",
+   "pref": "広島県",
+   "lat": 35.0703,
+   "lon": 133.077,
+   "grid": "PM65mb"
+  },
+  {
+   "ref": "JP-2157",
+   "name": "Mominoki Prefectural Forest",
+   "nameJa": "",
+   "pref": "広島県",
+   "lat": 34.4825,
+   "lon": 132.176,
+   "grid": "PM64cl"
+  },
+  {
+   "ref": "JP-2158",
+   "name": "Kenmin-no-Hama Beach Prefectural Park",
+   "nameJa": "",
+   "pref": "広島県",
+   "lat": 34.165,
+   "lon": 132.745,
+   "grid": "PM64id"
+  },
+  {
+   "ref": "JP-2159",
+   "name": "Chuo Shinrin Prefectural Forest",
+   "nameJa": "",
+   "pref": "広島県",
+   "lat": 34.4386,
+   "lon": 132.927,
+   "grid": "PM64lk"
+  },
+  {
+   "ref": "JP-2160",
+   "name": "Tamba Nenrin-no-Sato Prefectural Park",
+   "nameJa": "",
+   "pref": "兵庫県",
+   "lat": 35.1427,
+   "lon": 135.054,
+   "grid": "PM75md"
+  },
+  {
+   "ref": "JP-2161",
+   "name": "Koshienhama Seaside Prefectural Park",
+   "nameJa": "",
+   "pref": "兵庫県",
+   "lat": 34.713,
+   "lon": 135.353,
+   "grid": "PM74qr"
+  },
+  {
+   "ref": "JP-2162",
+   "name": "Santokuen Prefectural Park",
+   "nameJa": "",
+   "pref": "岡山県",
+   "lat": 34.6961,
+   "lon": 134.051,
+   "grid": "PM74aq"
+  },
+  {
+   "ref": "JP-2163",
+   "name": "Shimin-no-Mori Ryokuchi Prefectural Park",
+   "nameJa": "",
+   "pref": "岡山県",
+   "lat": 34.6075,
+   "lon": 133.987,
+   "grid": "PM64xo"
   }
  ]
 }
