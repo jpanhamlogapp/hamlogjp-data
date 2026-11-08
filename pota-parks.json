@@ -1,6 +1,6 @@
 {
  "dataVersion": 2,
- "updated": "2026-11-01",
+ "updated": "2026-11-08",
  "note": "POTA公式API(api.pota.app)から自動生成。日本語名(nameJa)はPOTA日本有志会(pota-jp.com)の公園リストより。未収録は英名にフォールバック。",
  "entries": [
   {
@@ -62,13 +62,13 @@
    "name": "Towada-Hachimantai National Park",
    "nameJa": "十和田八幡平国立公園",
    "pref": "秋田県",
-   "lat": 40.2442,
-   "lon": 140.939,
-   "grid": "QN00lf"
+   "lat": 40.558,
+   "lon": 140.905,
+   "grid": "QN00kn"
   },
   {
    "ref": "JP-0008",
-   "name": "Sanriku Fukko National Park",
+   "name": "Sanriku Fukko(reconstruction) National Park",
    "nameJa": "三陸復興国立公園",
    "pref": "青森県",
    "lat": 39.0306,
@@ -104,7 +104,7 @@
   },
   {
    "ref": "JP-0012",
-   "name": "Joshinetsu Kogen National Park",
+   "name": "Joshin'etsu Kogen National Park",
    "nameJa": "上信越高原国立公園",
    "pref": "群馬県",
    "lat": 36.6919,
@@ -7199,8 +7199,8 @@
    "name": "Taradake Prefectural Nature Park",
    "nameJa": "多良岳県立自然公園（佐賀県）",
    "pref": "佐賀県",
-   "lat": 32.977,
-   "lon": 130.09,
+   "lat": 32.9983,
+   "lon": 130.092,
    "grid": "PM52bx"
   },
   {
@@ -7271,9 +7271,9 @@
    "name": "Taradake Prefectural Nature Park",
    "nameJa": "多良岳県立公園（長崎県）",
    "pref": "長崎県",
-   "lat": 32.9481,
-   "lon": 130.088,
-   "grid": "PM52bw"
+   "lat": 32.9563,
+   "lon": 130.079,
+   "grid": "PM52aw"
   },
   {
    "ref": "JP-1718",
@@ -9836,8 +9836,8 @@
    "name": "Miyajima Prefectural Park",
    "nameJa": "宮島公園",
    "pref": "広島県",
-   "lat": 34.2736,
-   "lon": 132.305,
+   "lat": 34.2884,
+   "lon": 132.32,
    "grid": "PM64dg"
   },
   {
@@ -11162,6 +11162,15 @@
    "lat": 34.6075,
    "lon": 133.987,
    "grid": "PM64xo"
+  },
+  {
+   "ref": "JP-2164",
+   "name": "Fukui Prefectural Childrens Science Museum(Angel Land Fukui） Park",
+   "nameJa": "",
+   "pref": "福井県",
+   "lat": 36.1304,
+   "lon": 136.216,
+   "grid": "PM86cd"
   }
  ]
 }
