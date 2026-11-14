@@ -105,7 +105,7 @@
       <li><a href="#qsl">QSL 管理</a></li>
       <li><a href="#stats">統計・グラフ</a></li>
       <li><a href="#hf">HF運用・DX Cluster</a></li>
-      <li><a href="#tools">Es現況・宇宙天気・WiRES-X</a></li>
+      <li><a href="#tools">Es現況・宇宙天気の案内・WiRES-X</a></li>
       <li><a href="#settings">設定</a></li>
       <li><a href="#price">料金・お問い合わせ</a></li>
     </ol>
@@ -123,6 +123,7 @@
     <li>交信ログは<strong>端末内に保存</strong>され、外部に送信されません。iCloud 同期をオンにすると、ご自身の iPhone・iPad・Mac 間でログを共有できます（Apple ID の iCloud を利用）。</li>
     <li>無料版で交信ログ 200 件まで、基本機能をお試しいただけます。ADIF 入出力や QSL 管理などはプレミアム版の機能です（第14章）。</li>
   </ul>
+  <div class="tip"><strong>1.2.10 の主な変更</strong>：宇宙天気（太陽フレア・地磁気・黒点・各バンドの目安）の表示を、同じ開発者の無料アプリ「SoraGauge JP」に移しました。「宇宙天気」の画面と「HF運用」の画面から SoraGauge JP を開けます（第11章・第12章）。グレーライン世界地図と電離層 TEC マップは、これまでどおりプレミアム版の機能です。</div>
   <div class="tip"><strong>1.2.9 の主な変更</strong>：iPhone・iPad で「ADIF読み込み」「HAM更新サポ CSV読み込み」「ADX読み込み」を押してもファイルを選ぶ画面が開かない不具合を修正しました。交信の詳細に「記録情報」（交信日時・作成日時・最終更新日時・インポート日時）を追加し、最終更新日時は内容を変えて保存したときだけ変わるようにしました（第2章）。FT8・FT4 などの信号レポート（dB）・終了時刻・送信出力・自局運用者名を、ADIF・ADX・HAM更新サポ CSV から取り込んで交信の詳細で確認でき、ADIF・ADX の書き出しにも含めます。ADIF の交信開始時刻を秒まで読み込み・書き出すようにしました（第8章）。</div>
   <div class="tip"><strong>1.2.8 の主な変更</strong>：交信ごとに「交信経路」（レピーター・ゲートウェイなどの接続先）を記録できるようにしました。D-STAR・DMR・特小（eQSO）・Peanut などで、接続先の名前・コールサイン・詳細を残せます。最近使った接続先からの入力、接続先での検索、「この接続先の交信」の表示にも対応しました（第2章・第3章）。ADIF の XML 形式「ADX」の読み込み・書き出しに対応し、日本語の相手局名なども移せるようにしました。HAM更新サポの CSV を読み込めるようにし、Turbo HAMLOG の CSV の読み込みを改善しました（第8章）。4文字のグリッドの距離表示を改善し、範囲を地図に表示、距離の単位（km / mi / nm）を選べるようにしました。現在地から自局のグリッドを設定できます（第2章・第13章）。英語表示を拡充しました。</div>
   <div class="tip"><strong>1.2.7 の主な変更</strong>：交信の詳細で、設定した自局のグリッドロケーターから相手局までの距離・方位を表示し、地図で確認できるようにしました（第2章・第13章）。QSL 管理に「eQSL確認を取得」を追加し、eQSL で確認済み（CFM）になったカードを交信に反映できるようにしました（第9章）。プレミアム版に「電離層 TEC マップ（NOAA GloTEC・参考）」を追加しました（第12章）。交信の詳細でリマークスをメモの欄にまとめ、検索の対象にメモを加えました。ADIF の書き出し・読み込みの互換性を改善し、Turbo HAMLOG が書き出す ADIF の日本語も正しく読み込めるようにしました（第8章）。LoTW 通信のセキュリティを改善しました。自局の運用地のグリッドが相手局のグリッドとして保存される不具合と、文字サイズが大きいときの保存ボタンの表示を修正しました。D-STAR QSO Party 2026 の提出ファイル（公式 Excel のログシート・サマリーシート、画像の ZIP）を作る画面を追加しました（無料・第7章）。</div>
@@ -552,18 +553,18 @@
 <!-- 11 -->
 <section id="hf">
   <h2><span class="n">11</span>HF運用・DX Cluster</h2>
-  <p>HF〜50MHz の運用に役立つ情報と、自分の運用実績を1つの画面にまとめました。iPhone は「メニュー › HF運用」、Mac・iPad は左メニューの「HF運用」から開きます。HF運用の画面・バンド実績・DXCC Matrix は無料版でも使えます。DX Cluster・宇宙天気・グレイライン・6m Es・POTA/SOTA はプレミアム版の機能です。</p>
+  <p>HF〜50MHz の運用に役立つ情報と、自分の運用実績を1つの画面にまとめました。iPhone は「メニュー › HF運用」、Mac・iPad は左メニューの「HF運用」から開きます。HF運用の画面・バンド実績・DXCC Matrix は無料版でも使えます。DX Cluster・グレイライン・6m Es・POTA/SOTA はプレミアム版の機能です。宇宙天気は、無料アプリ SoraGauge JP で見られます（下記）。</p>
   <figure><img src="images/v123_mac_hf.jpg" alt="Mac版のHF運用画面。宇宙天気、DX Cluster のスポット件数、50MHz、POTA/SOTA、自分の運用実績"><figcaption>HF運用（Mac）</figcaption></figure>
 
   <h3>画面の見かた</h3>
   <ul>
-    <li><strong>宇宙天気から見た目安</strong> <span class="pill">プレミアム</span>：SFI・Kp・黒点数・X線と、バンドごとの昼・夜の目安（NOAA のデータ）。「宇宙天気の詳細」「グレイライン（昼夜の境界）」に進めます。</li>
+    <li><strong>宇宙天気</strong>：1.2.10 から、宇宙天気は同じ開発者の無料アプリ SoraGauge JP で見られます。「SoraGauge JP を開く」で SoraGauge JP を開きます（入っていないときは App Store を開きます）。HamLogJP から SoraGauge JP へ交信データは送りません。「グレイライン（昼夜の境界）」<span class="pill">プレミアム</span> にも進めます。</li>
     <li><strong>DX Cluster</strong> <span class="pill">プレミアム</span>：直近15分のスポット件数をバンドごとに表示します。続けて取得したデータがそろうと、直前15分と比べた増減を <strong>↑↑ / ↑</strong>（Spot増加）・<strong>→</strong>（変化小）・<strong>↓</strong>（Spot減少）で示します。最終更新から時間がたつと「データが古い可能性」と表示します。</li>
     <li><strong>50MHz</strong> <span class="pill">プレミアム</span>：PSK Reporter に届いた 6m の受信レポートの件数と、日本が絡むパスの数。「Es(6m)リアルタイム」に進めます。</li>
     <li><strong>POTA/SOTA</strong> <span class="pill">プレミアム</span>：スポットの画面（第6章）に進めます。</li>
     <li><strong>自分の運用実績</strong>：この端末の HamLogJP のログから、過去90日の HF・50MHz（160m〜6m）のバンド別交信数を表示します。「バンド実績を表示」「DXCC Matrix」で詳しく見られます（下記）。</li>
   </ul>
-  <div class="note">宇宙天気・スポット件数・PSK Reporter の受信レポートは、それぞれ別の情報源です。スポットの増減は DX Cluster に寄せられた報告の数の変化で、伝搬の予報ではありません。どれも「このバンドで必ず交信できる」ことを示すものではありません。</div>
+  <div class="note">スポット件数・PSK Reporter の受信レポートは、それぞれ別の情報源です。スポットの増減は DX Cluster に寄せられた報告の数の変化で、伝搬の予報ではありません。どれも「このバンドで必ず交信できる」ことを示すものではありません。</div>
 
   <h3>DX Cluster のスポットを見る</h3>
   <ol>
@@ -667,11 +668,11 @@
 
 <!-- 12 -->
 <section id="tools">
-  <h2><span class="n">12</span>Es現況・宇宙天気・WiRES-X</h2>
-  <p>6m Es・宇宙天気・グレイラインは、第11章の「HF運用」画面からも開けます。</p>
+  <h2><span class="n">12</span>Es現況・宇宙天気の案内・WiRES-X</h2>
+  <p>6m Es・宇宙天気の案内・グレイラインは、第11章の「HF運用」画面からも開けます。</p>
   <ul>
     <li><strong>6m Es リアルタイム</strong> <span class="pill">プレミアム</span>：PSK Reporter の実際の受信レポートから、いま日本と開けている方向を地図で表示します。</li>
-    <li><strong>宇宙天気・太陽フレア</strong>：太陽フレア・地磁気・黒点数とグレーラインの世界地図で、コンディションの参考情報を確認できます。SFI・Kp・X線は色の帯（メーター）で表示します（下記）。</li>
+    <li><strong>宇宙天気</strong>：太陽フレア・地磁気・太陽風・黒点・警報と HF 各バンドの目安は、同じ開発者の無料アプリ SoraGauge JP で見られます（下記）。この画面には、プレミアム版のグレーライン世界地図と電離層 TEC マップもあります。</li>
     <li><strong>近くの WiRES-X ノード</strong>：現在地周辺のノードを地図で表示します。</li>
     <li><strong>Q符号・HAM略語辞書</strong>：Q符号・HAM略語・フリラー用語を調べられます。</li>
   </ul>
@@ -680,24 +681,17 @@
     <figure><img src="images/mac_es.png" alt="6m Es現況（Mac）"><figcaption>6m Es 現況（Mac）</figcaption></figure>
   </div>
 
-  <h3>宇宙天気の色帯メーター（1.2.4）</h3>
-  <p>「宇宙天気・太陽フレア」の画面では、SFI・Kp・GOES X線を横長の色の帯で表示します。</p>
+  <h3>宇宙天気は SoraGauge JP で（1.2.10）</h3>
+  <p>1.2.10 から、宇宙天気の表示（SFI・Kp・X線の色の帯、黒点数、各バンドへの影響など）は、同じ開発者の無料アプリ <strong>SoraGauge JP</strong>（広告・課金なし）に移しました。HamLogJP の「宇宙天気」の画面は無料で開けて、次の操作ができます。</p>
   <ul>
-    <li><strong>色の帯</strong>：左から右へ値が大きくなります。区分の境目に細い線（区切り）があり、いまの値が入っている区分はほかの区分より濃く見えるように強調します。</li>
-    <li><strong>▼と縦線（マーカー）</strong>：いまの値の位置です。帯の範囲を超える値はマーカーを右端に置き、区分の判定は実際の値で行います。</li>
-    <li><strong>SFI</strong>（F10.7 太陽電波フラックス）：太陽活動の水準の目安です。色分けは NOAA の公式な区分ではなく HamLogJP の目安です。</li>
-    <li><strong>Kp</strong>（惑星K指数）：地磁気の乱れ。Kp 5〜9 は NOAA の磁気嵐スケール G1〜G5 に対応します。</li>
-    <li><strong>X線</strong>（GOES の X 線）：太陽フレアの強さ。M1 以上は NOAA の電波障害スケール R1〜R5 に対応します。帯は対数（桁ごと）の目盛りです。</li>
-    <li><strong>太陽黒点数（SSN・月平均）</strong>は補助の値で、良し悪しの色分けはしていません。A 指数・Ap 指数は表示していません。</li>
+    <li><strong>SoraGauge JP を開く</strong>：SoraGauge JP の「宇宙天気（簡易）」を開きます。HamLogJP 1.2.9 までの宇宙天気と同じ構成の画面です。SoraGauge JP が入っていないときは App Store のページを開きます。</li>
+    <li><strong>App Store で SoraGauge JP を見る</strong>：App Store の SoraGauge JP のページを開きます。</li>
+    <li><strong>グレーライン世界地図・電離層 TEC マップ</strong> <span class="pill">プレミアム</span>：これまでどおり HamLogJP で使えます。グレーライン世界地図は端末内で計算し、通信しません。</li>
   </ul>
-  <div class="shots">
-    <figure class="phone"><img src="images/v124_iphone_spaceweather.jpg" alt="iPhoneの宇宙天気。X線・SFI・Kp の色の帯と、いまの値を示すマーカー"><figcaption>宇宙天気の色帯メーター（iPhone）</figcaption></figure>
-    <figure><img src="images/v124_mac_spaceweather.jpg" style="width:100%;max-width:440px;height:auto;margin:0 auto" alt="Macの宇宙天気。色の帯とグレーライン世界地図、各バンドへの影響"><figcaption>宇宙天気（Mac）</figcaption></figure>
-  </div>
-  <div class="note">色は各指数の状態を見やすくするためのものです。緑が並んでいても「必ず DX ができる」という意味ではありません。SFI・Kp・X線はそれぞれ別の観測値として見て、実際のバンドの状況（DX Cluster・受信レポートなど）とあわせて判断してください。読み上げ（VoiceOver）では「SFI、123、高い」のように、名前・値・状態を読み上げます。</div>
+  <div class="note">SoraGauge JP を開くとき、HamLogJP から渡すのは開く画面の指定だけです。交信ログ・設定・自局のコールサイン・位置情報は渡しません。HamLogJP は 1.2.10 から、SFI（F10.7）・Kp・X線・黒点数のデータを取得しません。</div>
 
   <h3>電離層 TEC マップ（参考・1.2.7） <span class="pill">プレミアム</span></h3>
-  <p>プレミアム版の「宇宙天気・太陽フレア」の画面にある「電離層 TEC マップ（NOAA GloTEC・参考）」から開きます。米国海洋大気庁（NOAA）の宇宙天気予報センター（SWPC）が公開している <strong>GloTEC</strong>（電離層の全電子数 TEC のモデル値）を地図で表示します。GloTEC は10分ごとに作られ、公開までに約20〜30分かかります。画面には必ずデータの時刻（日本時間・UTC）を表示し、時間がたったデータは「遅れ」「古い」と表示します。</p>
+  <p>プレミアム版の「宇宙天気」の画面にある「電離層 TEC マップ（NOAA GloTEC・参考）」から開きます。米国海洋大気庁（NOAA）の宇宙天気予報センター（SWPC）が公開している <strong>GloTEC</strong>（電離層の全電子数 TEC のモデル値）を地図で表示します。GloTEC は10分ごとに作られ、公開までに約20〜30分かかります。画面には必ずデータの時刻（日本時間・UTC）を表示し、時間がたったデータは「遅れ」「古い」と表示します。</p>
   <ul>
     <li><strong>TEC（TECU）</strong>：電離層の電子の量です。主に衛星測位（GNSS）の誤差の見積もりに使われる値で、HF のどのバンドで交信できるかを示すものではありません。</li>
     <li><strong>30日中央値との差</strong>：NOAA が計算している「いつもとの差」です。</li>
@@ -734,7 +728,7 @@
 <section id="price">
   <h2><span class="n">14</span>料金・お問い合わせ</h2>
   <p><span class="pill free">無料版</span> 交信ログ 200 件まで／アマ・フリラーの記録／過去交信・重複表示／JCC・JCG 検索／統計グラフ／HF運用画面・バンド実績・DXCC Matrix／特小レピーターMAP（交信記録への入力を含む）／D-STAR QSO Party 2026 の提出支援</p>
-  <p><span class="pill">プレミアム</span> ¥480/月・¥4,800/年：交信ログ無制限／ADIF 入出力・Turbo HAMLOG 取り込み／QSL 管理／DX Cluster（一覧・バンドマップ）／6m Es・宇宙天気・グレイライン・電離層 TEC マップ／POTA/SOTA スポット／WiRES-X ノード地図／iPhone・iPad・Mac 共通</p>
+  <p><span class="pill">プレミアム</span> ¥480/月・¥4,800/年：交信ログ無制限／ADIF 入出力・Turbo HAMLOG 取り込み／QSL 管理／DX Cluster（一覧・バンドマップ）／6m Es・グレイライン・電離層 TEC マップ／POTA/SOTA スポット／WiRES-X ノード地図／iPhone・iPad・Mac 共通</p>
   <p>ご質問・ご要望は下記のお問い合わせ先までお寄せください。アップデートで随時改善しています。</p>
 </section>
 
@@ -748,7 +742,7 @@
       <a href="https://jpanhamlogapp.github.io/hamlogjp-data/privacy.html">プライバシーポリシー</a>
     </div>
     <p style="margin-top:10px">© 2026 JL1LCQ. HamLogJP is an independent amateur-radio utility.</p>
-    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面はバージョン 1.2.0〜1.2.4（デモ用の交信データ。DX Cluster・宇宙天気の画面は実際のデータ）です。最終更新：2026年11月12日</p>
+    <p class="fnote">App Store および Apple ロゴは Apple Inc. の商標です。掲載画面はバージョン 1.2.0〜1.2.4（デモ用の交信データ。DX Cluster の画面は実際のデータ）です。HF運用の画面の画像は 1.2.9 までのもので、宇宙天気の表示は 1.2.10 で SoraGauge JP への案内に変わっています。最終更新：2026年11月15日</p>
   </div>
 </footer>
 
